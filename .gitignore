@@ -21,3 +21,11 @@ __pycache__/
 
 # Claude Code local machine settings
 .claude/settings.local.json
+
+# Temporary validation builds
+/build_*/
+/install_*/
+/log_*/
+
+# Never keep nested generated SDK builds
+/src/YDLidar-SDK/build/
