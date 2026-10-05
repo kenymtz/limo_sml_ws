@@ -1,0 +1,102 @@
+{
+ "yaml": "results/maps/arena_20260918_1900/map.yaml",
+ "ros_domain_id": "99",
+ "ros_localhost_only": "1",
+ "map": {
+  "w": 382,
+  "h": 336,
+  "res": 0.03,
+  "origin": [
+   -3.32,
+   -4.88
+  ],
+  "free_0": 126444,
+  "occupied_100": 1908,
+  "unknown_-1": 0,
+  "other": 0
+ },
+ "graph": {
+  "nodes": [
+   "/_ros2cli_daemon_99_f2b89a41c6bb4d839af8e58c5a626917",
+   "/offline_map_check",
+   "/offline_map_reader"
+  ],
+  "map_server_publishers": [
+   "/bond [bond/msg/Status]",
+   "/offline_map_check/map [nav_msgs/msg/OccupancyGrid]",
+   "/offline_map_check/transition_event [lifecycle_msgs/msg/TransitionEvent]",
+   "/parameter_events [rcl_interfaces/msg/ParameterEvent]",
+   "/rosout [rcl_interfaces/msg/Log]"
+  ],
+  "map_server_subscribers": [
+   "/bond",
+   "/parameter_events"
+  ],
+  "map_server_services": [
+   "/offline_map_check/change_state",
+   "/offline_map_check/describe_parameters",
+   "/offline_map_check/get_available_states",
+   "/offline_map_check/get_available_transitions",
+   "/offline_map_check/get_parameter_types",
+   "/offline_map_check/get_parameters",
+   "/offline_map_check/get_state",
+   "/offline_map_check/get_transition_graph",
+   "/offline_map_check/list_parameters",
+   "/offline_map_check/load_map",
+   "/offline_map_check/map",
+   "/offline_map_check/set_parameters",
+   "/offline_map_check/set_parameters_atomically"
+  ],
+  "all_topics": [
+   "ros_discovery_info",
+   "rq/offline_map_check/change_stateRequest",
+   "rq/offline_map_check/describe_parametersRequest",
+   "rq/offline_map_check/get_available_statesRequest",
+   "rq/offline_map_check/get_available_transitionsRequest",
+   "rq/offline_map_check/get_parameter_typesRequest",
+   "rq/offline_map_check/get_parametersRequest",
+   "rq/offline_map_check/get_stateRequest",
+   "rq/offline_map_check/get_transition_graphRequest",
+   "rq/offline_map_check/list_parametersRequest",
+   "rq/offline_map_check/load_mapRequest",
+   "rq/offline_map_check/mapRequest",
+   "rq/offline_map_check/set_parametersRequest",
+   "rq/offline_map_check/set_parameters_atomicallyRequest",
+   "rq/offline_map_reader/describe_parametersRequest",
+   "rq/offline_map_reader/get_parameter_typesRequest",
+   "rq/offline_map_reader/get_parametersRequest",
+   "rq/offline_map_reader/list_parametersRequest",
+   "rq/offline_map_reader/set_parametersRequest",
+   "rq/offline_map_reader/set_parameters_atomicallyRequest",
+   "rr/offline_map_check/change_stateReply",
+   "rr/offline_map_check/describe_parametersReply",
+   "rr/offline_map_check/get_available_statesReply",
+   "rr/offline_map_check/get_available_transitionsReply",
+   "rr/offline_map_check/get_parameter_typesReply",
+   "rr/offline_map_check/get_parametersReply",
+   "rr/offline_map_check/get_stateReply",
+   "rr/offline_map_check/get_transition_graphReply",
+   "rr/offline_map_check/list_parametersReply",
+   "rr/offline_map_check/load_mapReply",
+   "rr/offline_map_check/mapReply",
+   "rr/offline_map_check/set_parametersReply",
+   "rr/offline_map_check/set_parameters_atomicallyReply",
+   "rr/offline_map_reader/describe_parametersReply",
+   "rr/offline_map_reader/get_parameter_typesReply",
+   "rr/offline_map_reader/get_parametersReply",
+   "rr/offline_map_reader/list_parametersReply",
+   "rr/offline_map_reader/set_parametersReply",
+   "rr/offline_map_reader/set_parameters_atomicallyReply",
+   "rt/bond",
+   "rt/offline_map_check/map",
+   "rt/offline_map_check/transition_event",
+   "rt/parameter_events",
+   "rt/rosout"
+  ],
+  "action_topics": [],
+  "motion_related_topics": [],
+  "non_map_publishers": [
+   "/bond [bond/msg/Status]"
+  ]
+ }
+}

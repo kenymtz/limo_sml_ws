@@ -1,0 +1,233 @@
+[INFO] [launch]: All log files can be found below /home/limopro/.ros/log/2026-10-03-17-37-12-619368-ubuntu-27365
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-1]: process started with pid [27367]
+[INFO] [dwb_closed_loop_sim-2]: process started with pid [27369]
+[INFO] [lifecycle_manager-3]: process started with pid [27371]
+[lifecycle_manager-3] 1791059832.807490 [99] lifecycle_: selected interface "lo" is not multicast-capable: disabling multicast
+[dwb_closed_loop_sim-2] 1791059832.814129 [99] dwb_closed: selected interface "lo" is not multicast-capable: disabling multicast
+[lifecycle_manager-3] [INFO] [1791059832.819214681] [lifecycle_manager_offline]: Creating
+[map_server-1] 1791059832.821264 [99] map_server: selected interface "lo" is not multicast-capable: disabling multicast
+[lifecycle_manager-3] [INFO] [1791059832.823808723] [lifecycle_manager_offline]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[dwb_closed_loop_sim-2] [INFO] [1791059832.833445590] [dwb_closed_loop_sim]: 
+[dwb_closed_loop_sim-2] 	dwb_closed_loop_sim lifecycle node launched. 
+[dwb_closed_loop_sim-2] 	Waiting on external lifecycle transitions to activate
+[dwb_closed_loop_sim-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-3] [INFO] [1791059832.843532424] [lifecycle_manager_offline]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-3] [INFO] [1791059832.843654860] [lifecycle_manager_offline]: [34m[1mConfiguring map_server[0m[0m
+[map_server-1] [INFO] [1791059832.844798962] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1791059832.845005689] [map_server]: Creating
+[map_server-1] [INFO] [1791059832.845847221] [map_server]: Configuring
+[map_server-1] [INFO] [1791059832.845946809] [map_io]: Loading yaml file: /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.yaml
+[map_server-1] [INFO] [1791059832.846426217] [map_io]: resolution: 0.03
+[map_server-1] [INFO] [1791059832.846446793] [map_io]: origin[0]: -0.81
+[map_server-1] [INFO] [1791059832.846455530] [map_io]: origin[1]: -0.81
+[map_server-1] [INFO] [1791059832.846462858] [map_io]: origin[2]: 0
+[map_server-1] [INFO] [1791059832.846470378] [map_io]: free_thresh: 0.1
+[map_server-1] [INFO] [1791059832.846477610] [map_io]: occupied_thresh: 0.65
+[map_server-1] [INFO] [1791059832.846486283] [map_io]: mode: trinary
+[map_server-1] [INFO] [1791059832.846494859] [map_io]: negate: 0
+[map_server-1] [INFO] [1791059832.846816982] [map_io]: Loading image_file: /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.pgm
+[map_server-1] [INFO] [1791059832.875915108] [map_io]: Read map /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.pgm: 387 X 387 map @ 0.03 m/cell
+[dwb_closed_loop_sim-2] [INFO] [1791059832.879012812] [local_costmap.local_costmap]: 
+[dwb_closed_loop_sim-2] 	local_costmap lifecycle node launched. 
+[dwb_closed_loop_sim-2] 	Waiting on external lifecycle transitions to activate
+[dwb_closed_loop_sim-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[dwb_closed_loop_sim-2] [INFO] [1791059832.882093747] [local_costmap.local_costmap]: Creating Costmap
+[lifecycle_manager-3] [INFO] [1791059832.883002258] [lifecycle_manager_offline]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1791059832.883247930] [map_server]: Activating
+[map_server-1] [INFO] [1791059832.884438594] [map_server]: Creating bond (map_server) to lifecycle manager.
+[dwb_closed_loop_sim-2] [INFO] [1791059832.886512839] [local_costmap.local_costmap]: Configuring
+[dwb_closed_loop_sim-2] [INFO] [1791059832.891423276] [local_costmap.local_costmap]: Using plugin "static_layer"
+[dwb_closed_loop_sim-2] [INFO] [1791059832.898184782] [local_costmap.local_costmap]: Subscribing to the map topic (/map) with transient local durability
+[dwb_closed_loop_sim-2] [INFO] [1791059832.898783011] [local_costmap.local_costmap]: Initialized plugin "static_layer"
+[dwb_closed_loop_sim-2] [INFO] [1791059832.898876070] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[dwb_closed_loop_sim-2] [INFO] [1791059832.899720162] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[dwb_closed_loop_sim-2] [INFO] [1791059832.909884214] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 387 X 387 at 0.030000 m/pix
+[lifecycle_manager-3] [INFO] [1791059832.988947023] [lifecycle_manager_offline]: Server map_server connected with bond.
+[lifecycle_manager-3] [INFO] [1791059832.989114709] [lifecycle_manager_offline]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-3] [INFO] [1791059832.989163350] [lifecycle_manager_offline]: [34m[1mCreating bond timer...[0m[0m
+[dwb_closed_loop_sim-2] [INFO] [1791059834.409241002] [local_costmap.local_costmap]: Activating
+[dwb_closed_loop_sim-2] [INFO] [1791059834.409360430] [local_costmap.local_costmap]: Checking transform
+[dwb_closed_loop_sim-2] [INFO] [1791059834.409809373] [local_costmap.local_costmap]: start
+[dwb_closed_loop_sim-2] [INFO] [1791059834.460387003] [dwb_closed_loop_sim]: sanity: celdas LETHAL con robot en (0.50, 5.00): 120
+[dwb_closed_loop_sim-2] [INFO] [1791059834.467662447] [global_costmap.global_costmap]: 
+[dwb_closed_loop_sim-2] 	global_costmap lifecycle node launched. 
+[dwb_closed_loop_sim-2] 	Waiting on external lifecycle transitions to activate
+[dwb_closed_loop_sim-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[dwb_closed_loop_sim-2] [INFO] [1791059834.470726421] [global_costmap.global_costmap]: Creating Costmap
+[dwb_closed_loop_sim-2] [INFO] [1791059834.472774458] [global_costmap.global_costmap]: Configuring
+[dwb_closed_loop_sim-2] [INFO] [1791059834.476463477] [global_costmap.global_costmap]: Using plugin "static_layer"
+[dwb_closed_loop_sim-2] [INFO] [1791059834.478605341] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[dwb_closed_loop_sim-2] [INFO] [1791059834.479050764] [global_costmap.global_costmap]: Subscribing to updates
+[dwb_closed_loop_sim-2] [INFO] [1791059834.479376279] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[dwb_closed_loop_sim-2] [INFO] [1791059834.479412408] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[dwb_closed_loop_sim-2] [INFO] [1791059834.480146225] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[dwb_closed_loop_sim-2] [INFO] [1791059834.482786761] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 387 X 387 at 0.030000 m/pix
+[dwb_closed_loop_sim-2] [INFO] [1791059835.985030075] [global_costmap.global_costmap]: Activating
+[dwb_closed_loop_sim-2] [INFO] [1791059835.985142143] [global_costmap.global_costmap]: Checking transform
+[dwb_closed_loop_sim-2] [INFO] [1791059835.985290692] [global_costmap.global_costmap]: start
+[dwb_closed_loop_sim-2] [INFO] [1791059836.055558230] [dwb_closed_loop_sim]: Configuring plugin GridBased of type NavfnPlanner
+[dwb_closed_loop_sim-2] [INFO] [1791059836.056725949] [dwb_closed_loop_sim]: Activating plugin GridBased of type NavfnPlanner
+[dwb_closed_loop_sim-2] [INFO] [1791059836.056810400] [dwb_closed_loop_sim]: R4-G0 replan_1hz: global costmap 387x387 res 0.030, NavFn 'GridBased'
+[dwb_closed_loop_sim-2] [INFO] [1791059836.067114041] [dwb_closed_loop_sim]: Setting transform_tolerance to 0.200000
+[dwb_closed_loop_sim-2] [INFO] [1791059836.082807111] [dwb_closed_loop_sim]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[dwb_closed_loop_sim-2] [INFO] [1791059836.084075953] [dwb_closed_loop_sim]: Critic plugin initialized
+[dwb_closed_loop_sim-2] [INFO] [1791059836.084381179] [dwb_closed_loop_sim]: Using critic "ObstacleFootprint" (dwb_critics::ObstacleFootprintCritic)
+[dwb_closed_loop_sim-2] [INFO] [1791059836.084732103] [dwb_closed_loop_sim]: Critic plugin initialized
+[dwb_closed_loop_sim-2] [INFO] [1791059836.084985136] [dwb_closed_loop_sim]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[dwb_closed_loop_sim-2] [INFO] [1791059836.085605668] [dwb_closed_loop_sim]: Critic plugin initialized
+[dwb_closed_loop_sim-2] [INFO] [1791059836.085852461] [dwb_closed_loop_sim]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[dwb_closed_loop_sim-2] [INFO] [1791059836.086442656] [dwb_closed_loop_sim]: Critic plugin initialized
+[dwb_closed_loop_sim-2] [INFO] [1791059836.086782764] [dwb_closed_loop_sim]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[dwb_closed_loop_sim-2] [INFO] [1791059836.087238171] [dwb_closed_loop_sim]: Critic plugin initialized
+[dwb_closed_loop_sim-2] [INFO] [1791059836.087464547] [dwb_closed_loop_sim]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[dwb_closed_loop_sim-2] [INFO] [1791059836.087914898] [dwb_closed_loop_sim]: Critic plugin initialized
+[dwb_closed_loop_sim-2] [INFO] [1791059836.087993300] [dwb_closed_loop_sim]: R4B S3_ruido_yaw plugin=FollowPath runs=64 map=1 sxy=0.000 syaw=0.050 lat=0.00 kv=1.00 kw=1.00
+[dwb_closed_loop_sim-2] [INFO] [1791059839.564712508] [dwb_closed_loop_sim]: [1/64] T001 ABORT_PROGRESS t=30.4
+[dwb_closed_loop_sim-2] [INFO] [1791059840.632506800] [dwb_closed_loop_sim]: [2/64] T002 SUCCEEDED t=8.3
+[dwb_closed_loop_sim-2] [INFO] [1791059844.113377334] [dwb_closed_loop_sim]: [3/64] T003 ABORT_PROGRESS t=31.2
+[dwb_closed_loop_sim-2] [INFO] [1791059845.700933157] [dwb_closed_loop_sim]: [4/64] T004 SUCCEEDED t=13.8
+[dwb_closed_loop_sim-2] [INFO] [1791059849.559135448] [dwb_closed_loop_sim]: [5/64] T005 ABORT_PROGRESS t=31.6
+[dwb_closed_loop_sim-2] [INFO] [1791059853.005323227] [dwb_closed_loop_sim]: [6/64] T006 ABORT_PROGRESS t=31.7
+[dwb_closed_loop_sim-2] [INFO] [1791059856.395206071] [dwb_closed_loop_sim]: [7/64] T007 ABORT_PROGRESS t=30.9
+[dwb_closed_loop_sim-2] [INFO] [1791059859.590582714] [dwb_closed_loop_sim]: [8/64] T008 ABORT_PROGRESS t=30.0
+[dwb_closed_loop_sim-2] [INFO] [1791059863.352508203] [dwb_closed_loop_sim]: [9/64] T009 ABORT_PROGRESS t=33.8
+[dwb_closed_loop_sim-2] [INFO] [1791059865.758036439] [dwb_closed_loop_sim]: [10/64] T010 SUCCEEDED t=20.7
+[dwb_closed_loop_sim-2] [INFO] [1791059876.389404934] [dwb_closed_loop_sim]: [11/64] T011 ABORT_PROGRESS t=83.6
+[dwb_closed_loop_sim-2] [INFO] [1791059881.442890648] [dwb_closed_loop_sim]: [12/64] T012 SUCCEEDED t=38.1
+[dwb_closed_loop_sim-2] [INFO] [1791059885.315531714] [dwb_closed_loop_sim]: [13/64] T013 SUCCEEDED t=29.4
+[dwb_closed_loop_sim-2] [INFO] [1791059891.566573329] [dwb_closed_loop_sim]: [14/64] T014 SUCCEEDED t=48.2
+[dwb_closed_loop_sim-2] [INFO] [1791059899.412220636] [dwb_closed_loop_sim]: [15/64] T015 ABORT_PROGRESS t=63.7
+[dwb_closed_loop_sim-2] [INFO] [1791059905.775424113] [dwb_closed_loop_sim]: [16/64] T016 SUCCEEDED t=51.2
+[dwb_closed_loop_sim-2] [INFO] [1791059913.839727611] [dwb_closed_loop_sim]: [17/64] T017 ABORT_PROGRESS t=66.8
+[dwb_closed_loop_sim-2] [INFO] [1791059922.332593774] [dwb_closed_loop_sim]: [18/64] T018 ABORT_PROGRESS t=68.0
+[dwb_closed_loop_sim-2] [INFO] [1791059926.215662882] [dwb_closed_loop_sim]: [19/64] T019 SUCCEEDED t=30.4
+[dwb_closed_loop_sim-2] [INFO] [1791059931.888756355] [dwb_closed_loop_sim]: [20/64] T020 SUCCEEDED t=42.7
+[dwb_closed_loop_sim-2] [INFO] [1791059936.814850665] [dwb_closed_loop_sim]: [21/64] T021 ABORT_PROGRESS t=42.5
+[dwb_closed_loop_sim-2] [INFO] [1791059941.156225642] [dwb_closed_loop_sim]: [22/64] T022 SUCCEEDED t=35.2
+[dwb_closed_loop_sim-2] [INFO] [1791059944.291910301] [dwb_closed_loop_sim]: [23/64] T023 ABORT_PROGRESS t=25.3
+[dwb_closed_loop_sim-2] [INFO] [1791059948.891009900] [dwb_closed_loop_sim]: [24/64] T024 ABORT_PROGRESS t=40.0
+[dwb_closed_loop_sim-2] [INFO] [1791059952.546256798] [dwb_closed_loop_sim]: [25/64] T025 ABORT_PROGRESS t=27.8
+[dwb_closed_loop_sim-2] [INFO] [1791059954.532506903] [dwb_closed_loop_sim]: [26/64] T026 SUCCEEDED t=15.0
+[dwb_closed_loop_sim-2] [INFO] [1791059957.799240649] [dwb_closed_loop_sim]: [27/64] T027 ABORT_PROGRESS t=25.4
+[dwb_closed_loop_sim-2] [INFO] [1791059963.185682251] [dwb_closed_loop_sim]: [28/64] T028 ABORT_PROGRESS t=43.8
+[dwb_closed_loop_sim-2] [INFO] [1791059972.916019990] [dwb_closed_loop_sim]: [29/64] T029 ABORT_PROGRESS t=77.7
+[dwb_closed_loop_sim-2] [INFO] [1791059978.699064225] [dwb_closed_loop_sim]: [30/64] T030 ABORT_PROGRESS t=49.8
+[dwb_closed_loop_sim-2] [INFO] [1791059979.753558638] [dwb_closed_loop_sim]: [31/64] T031 SUCCEEDED t=8.6
+[dwb_closed_loop_sim-2] [INFO] [1791059980.905046434] [dwb_closed_loop_sim]: [32/64] T032 SUCCEEDED t=8.6
+[dwb_closed_loop_sim-2] [INFO] [1791059983.248786809] [dwb_closed_loop_sim]: [33/64] T033 SUCCEEDED t=19.8
+[dwb_closed_loop_sim-2] [INFO] [1791059987.454700428] [dwb_closed_loop_sim]: [34/64] T034 ABORT_PROGRESS t=36.2
+[dwb_closed_loop_sim-2] [INFO] [1791059989.560078179] [dwb_closed_loop_sim]: [35/64] T035 SUCCEEDED t=17.9
+[dwb_closed_loop_sim-2] [INFO] [1791059993.633683525] [dwb_closed_loop_sim]: [36/64] T036 ABORT_PROGRESS t=35.5
+[dwb_closed_loop_sim-2] [INFO] [1791059996.214255692] [dwb_closed_loop_sim]: [37/64] T037 SUCCEEDED t=22.4
+[dwb_closed_loop_sim-2] [INFO] [1791060000.436746056] [dwb_closed_loop_sim]: [38/64] T038 ABORT_PROGRESS t=37.7
+[dwb_closed_loop_sim-2] [INFO] [1791060001.466485901] [dwb_closed_loop_sim]: [39/64] T039 SUCCEEDED t=8.6
+[dwb_closed_loop_sim-2] [INFO] [1791060002.523239383] [dwb_closed_loop_sim]: [40/64] T040 SUCCEEDED t=8.6
+[dwb_closed_loop_sim-2] [INFO] [1791060006.722550654] [dwb_closed_loop_sim]: [41/64] T041 ABORT_PROGRESS t=35.1
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.265433381] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.265632204] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.276254223] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.277525977] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.288828114] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.289992825] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.301254801] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.302308148] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [INFO] [1791060007.303481307] [dwb_closed_loop_sim]: [42/64] T042 ABORT_CONTROLLER t=4.4
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.775179835] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.775293407] [DWBLocalPlanner]: 0.52: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.775317152] [DWBLocalPlanner]: 0.48: Oscillation/Trajectory is oscillating.
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.785086054] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.785154440] [DWBLocalPlanner]: 0.52: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.785173833] [DWBLocalPlanner]: 0.48: Oscillation/Trajectory is oscillating.
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.795028657] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.795095764] [DWBLocalPlanner]: 0.52: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.795116596] [DWBLocalPlanner]: 0.48: Oscillation/Trajectory is oscillating.
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.804826745] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.804886011] [DWBLocalPlanner]: 0.52: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [ERROR] [1791060007.804903515] [DWBLocalPlanner]: 0.48: Oscillation/Trajectory is oscillating.
+[dwb_closed_loop_sim-2] [INFO] [1791060007.805284584] [dwb_closed_loop_sim]: [43/64] T043 ABORT_CONTROLLER t=4.0
+[dwb_closed_loop_sim-2] [INFO] [1791060010.259612163] [dwb_closed_loop_sim]: [44/64] T044 SUCCEEDED t=20.1
+[dwb_closed_loop_sim-2] [ERROR] [1791060010.700254101] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060010.700383258] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [ERROR] [1791060010.857042118] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060010.857164170] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [INFO] [1791060015.011608610] [dwb_closed_loop_sim]: [45/64] T045 ABORT_PROGRESS t=39.2
+[dwb_closed_loop_sim-2] [ERROR] [1791060015.720102430] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060015.720233123] [DWBLocalPlanner]: 0.52: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [ERROR] [1791060015.720256035] [DWBLocalPlanner]: 0.48: Oscillation/Trajectory is oscillating.
+[dwb_closed_loop_sim-2] [ERROR] [1791060015.729479895] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060015.729551962] [DWBLocalPlanner]: 0.52: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [ERROR] [1791060015.729570426] [DWBLocalPlanner]: 0.48: Oscillation/Trajectory is oscillating.
+[dwb_closed_loop_sim-2] [ERROR] [1791060015.738753293] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060015.738819055] [DWBLocalPlanner]: 0.52: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [ERROR] [1791060015.738839888] [DWBLocalPlanner]: 0.48: Oscillation/Trajectory is oscillating.
+[dwb_closed_loop_sim-2] [ERROR] [1791060015.747984385] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060015.748044099] [DWBLocalPlanner]: 0.52: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [ERROR] [1791060015.748064035] [DWBLocalPlanner]: 0.48: Oscillation/Trajectory is oscillating.
+[dwb_closed_loop_sim-2] [INFO] [1791060015.748451184] [dwb_closed_loop_sim]: [46/64] T046 ABORT_CONTROLLER t=5.7
+[dwb_closed_loop_sim-2] [INFO] [1791060026.338172102] [dwb_closed_loop_sim]: [47/64] T047 ABORT_PROGRESS t=83.0
+[dwb_closed_loop_sim-2] [INFO] [1791060035.707946435] [dwb_closed_loop_sim]: [48/64] T048 SUCCEEDED t=73.2
+[dwb_closed_loop_sim-2] [INFO] [1791060046.237065084] [dwb_closed_loop_sim]: [49/64] T049 ABORT_PROGRESS t=83.1
+[dwb_closed_loop_sim-2] [INFO] [1791060053.907308042] [dwb_closed_loop_sim]: [50/64] T050 SUCCEEDED t=57.5
+[dwb_closed_loop_sim-2] [INFO] [1791060064.510512065] [dwb_closed_loop_sim]: [51/64] T051 ABORT_PROGRESS t=82.2
+[dwb_closed_loop_sim-2] [INFO] [1791060075.067848452] [dwb_closed_loop_sim]: [52/64] T052 ABORT_PROGRESS t=83.3
+[dwb_closed_loop_sim-2] [INFO] [1791060085.810845785] [dwb_closed_loop_sim]: [53/64] T053 ABORT_PROGRESS t=84.6
+[dwb_closed_loop_sim-2] [INFO] [1791060096.322286607] [dwb_closed_loop_sim]: [54/64] T054 ABORT_PROGRESS t=82.3
+[dwb_closed_loop_sim-2] [INFO] [1791060100.581507691] [dwb_closed_loop_sim]: [55/64] T055 ABORT_PROGRESS t=37.4
+[dwb_closed_loop_sim-2] [INFO] [1791060110.389328254] [dwb_closed_loop_sim]: [56/64] T056 ABORT_PROGRESS t=76.9
+[dwb_closed_loop_sim-2] [INFO] [1791060115.219865562] [dwb_closed_loop_sim]: [57/64] T057 SUCCEEDED t=37.4
+[dwb_closed_loop_sim-2] [INFO] [1791060123.126373017] [dwb_closed_loop_sim]: [58/64] T058 SUCCEEDED t=63.5
+[dwb_closed_loop_sim-2] [INFO] [1791060130.089964841] [dwb_closed_loop_sim]: [59/64] T059 ABORT_PROGRESS t=57.4
+[dwb_closed_loop_sim-2] [ERROR] [1791060135.148720073] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060135.148855245] [DWBLocalPlanner]: 0.52: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [ERROR] [1791060135.148879246] [DWBLocalPlanner]: 0.48: Oscillation/Trajectory is oscillating.
+[dwb_closed_loop_sim-2] [ERROR] [1791060135.157504270] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060135.157571120] [DWBLocalPlanner]: 0.52: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [ERROR] [1791060135.157589840] [DWBLocalPlanner]: 0.48: Oscillation/Trajectory is oscillating.
+[dwb_closed_loop_sim-2] [ERROR] [1791060135.198022803] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060135.198108022] [DWBLocalPlanner]: 0.52: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [ERROR] [1791060135.198128503] [DWBLocalPlanner]: 0.48: Oscillation/Trajectory is oscillating.
+[dwb_closed_loop_sim-2] [ERROR] [1791060135.206767703] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060135.206825848] [DWBLocalPlanner]: 0.52: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [ERROR] [1791060135.206844249] [DWBLocalPlanner]: 0.48: Oscillation/Trajectory is oscillating.
+[dwb_closed_loop_sim-2] [ERROR] [1791060135.215513082] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060135.215567772] [DWBLocalPlanner]: 0.52: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [ERROR] [1791060135.215585692] [DWBLocalPlanner]: 0.48: Oscillation/Trajectory is oscillating.
+[dwb_closed_loop_sim-2] [ERROR] [1791060135.224233564] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_closed_loop_sim-2] [ERROR] [1791060135.224287518] [DWBLocalPlanner]: 0.52: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_closed_loop_sim-2] [ERROR] [1791060135.224306975] [DWBLocalPlanner]: 0.48: Oscillation/Trajectory is oscillating.
+[dwb_closed_loop_sim-2] [INFO] [1791060135.224875442] [dwb_closed_loop_sim]: [60/64] T060 ABORT_CONTROLLER t=42.7
+[dwb_closed_loop_sim-2] [INFO] [1791060138.153751560] [dwb_closed_loop_sim]: [61/64] T061 SUCCEEDED t=24.0
+[dwb_closed_loop_sim-2] [INFO] [1791060143.593601482] [dwb_closed_loop_sim]: [62/64] T062 ABORT_PROGRESS t=46.4
+[dwb_closed_loop_sim-2] [INFO] [1791060149.410278693] [dwb_closed_loop_sim]: [63/64] T063 ABORT_PROGRESS t=50.1
+[dwb_closed_loop_sim-2] [INFO] [1791060155.827509615] [dwb_closed_loop_sim]: [64/64] T064 SUCCEEDED t=50.2
+[dwb_closed_loop_sim-2] [INFO] [1791060155.827707989] [local_costmap.local_costmap]: Deactivating
+[dwb_closed_loop_sim-2] [INFO] [1791060155.827782584] [dwb_closed_loop_sim]: Deactivating plugin GridBased of type NavfnPlanner
+[dwb_closed_loop_sim-2] [INFO] [1791060155.827822009] [global_costmap.global_costmap]: Deactivating
+[dwb_closed_loop_sim-2] [INFO] [1791060155.827919100] [local_costmap.local_costmap]: Cleaning up
+[dwb_closed_loop_sim-2] [INFO] [1791060155.854702136] [dwb_closed_loop_sim]: Running Nav2 LifecycleNode rcl preshutdown (dwb_closed_loop_sim)
+[dwb_closed_loop_sim-2] [INFO] [1791060155.854817820] [dwb_closed_loop_sim]: Destroying bond (dwb_closed_loop_sim) to lifecycle manager.
+[dwb_closed_loop_sim-2] [INFO] [1791060155.859616572] [dwb_closed_loop_sim]: Destroying plugin GridBased of type NavfnPlanner
+[dwb_closed_loop_sim-2] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[dwb_closed_loop_sim-2]          at line 127 in ./src/class_loader.cpp
+[dwb_closed_loop_sim-2] [INFO] [1791060155.875492236] [global_costmap.global_costmap]: Destroying
+[dwb_closed_loop_sim-2] [ERROR] [1791060155.876557616] [global_costmap.global_costmap]: Unable to start transition 2 from current state cleaningup: Could not publish transition: publisher's context is invalid, at ./src/rcl/publisher.c:389, at ./src/rcl_lifecycle.c:368
+[dwb_closed_loop_sim-2] [INFO] [1791060155.905046437] [local_costmap.local_costmap]: Destroying
+[dwb_closed_loop_sim-2] [INFO] [1791060155.931846465] [dwb_closed_loop_sim]: Destroying
+[INFO] [dwb_closed_loop_sim-2]: process has finished cleanly [pid 27369]
+[map_server-1] [INFO] [1791060158.244944126] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-1] [INFO] [1791060158.245106500] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[lifecycle_manager-3] [INFO] [1791060158.244952127] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-3] [INFO] [1791060158.245104036] [lifecycle_manager_offline]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_offline)
+[lifecycle_manager-3] [INFO] [1791060158.245217127] [lifecycle_manager_offline]: [34m[1mTerminating bond timer...[0m[0m
+[map_server-1] [INFO] [1791060158.245285834] [map_server]: Deactivating
+[map_server-1] [INFO] [1791060158.245333643] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[map_server-1] [INFO] [1791060158.255814952] [map_server]: Cleaning up
+[map_server-1] [INFO] [1791060158.256009550] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[map_server-1] [INFO] [1791060158.400213067] [map_server]: Destroying
+[lifecycle_manager-3] [INFO] [1791060158.401621946] [lifecycle_manager_offline]: Destroying lifecycle_manager_offline
+[INFO] [lifecycle_manager-3]: process has finished cleanly [pid 27371]
+[INFO] [map_server-1]: process has finished cleanly [pid 27367]

@@ -1,0 +1,254 @@
+{
+ "map": {
+  "yaml": {
+   "image": "map.pgm",
+   "mode": "trinary",
+   "resolution": 0.03,
+   "origin": [
+    -3.32,
+    -4.88,
+    0
+   ],
+   "negate": 0,
+   "occupied_thresh": 0.65,
+   "free_thresh": 0.25
+  },
+  "pgm_w": 382,
+  "pgm_h": 336,
+  "maxval": 255,
+  "payload_bytes": 128352,
+  "expected_payload": 128352,
+  "size_m": [
+   11.459999999999999,
+   10.08
+  ],
+  "extent_x": [
+   -3.32,
+   8.139999999999999
+  ],
+  "extent_y": [
+   -4.88,
+   5.2
+  ],
+  "unique_values": {
+   "0": 1908,
+   "205": 91768,
+   "254": 34676
+  },
+  "image_exists": true
+ },
+ "pbstream": {
+  "size": 19791278,
+  "head_hex": "db01f55b7b1f1d7b1600000000000000",
+  "magic_ok": true,
+  "first_chunk_size": 22,
+  "first_chunk_gzip": true,
+  "chunks": 172658,
+  "chain_ends_at_eof": true
+ },
+ "bag": {
+  "topics": {
+   "/cmd_vel": {
+    "type": "geometry_msgs/msg/Twist",
+    "count": 125,
+    "t0": 1789770992048633631,
+    "t1": 1789771779070462036,
+    "span_s": 787.021828405,
+    "hz_mean": 0.15755598577399282,
+    "hz_median": 27.086033218338226,
+    "dt_max_s": 631.755866757,
+    "gaps_gt_0.5s": 44,
+    "gaps_gt_1s": 36,
+    "content": {
+     "vx_range": [
+      0.0,
+      0.23914845000000007
+     ],
+     "vy_range": [
+      0.0,
+      0.0
+     ],
+     "wz_range": [
+      -0.47829690000000014,
+      0.47829690000000014
+     ],
+     "n_zero": 7
+    }
+   },
+   "/imu": {
+    "type": "sensor_msgs/msg/Imu",
+    "count": 340549,
+    "t0": 1789768881595596687,
+    "t1": 1789772290498136370,
+    "span_s": 3408.902539683,
+    "hz_mean": 99.89959995502487,
+    "hz_median": 99.94520004681434,
+    "dt_max_s": 0.071699081,
+    "gaps_gt_0.5s": 0,
+    "gaps_gt_1s": 0,
+    "content": {
+     "frames": [
+      "imu_link"
+     ],
+     "acc_norm_median": 9.980851667067295
+    }
+   },
+   "/limo_status": {
+    "type": "limo_msgs/msg/LimoStatus",
+    "count": 6811,
+    "t0": 1789768882066984669,
+    "t1": 1789772290491095535,
+    "span_s": 3408.424110866,
+    "hz_mean": 1.99799079530327,
+    "hz_median": 1.9979954990276272,
+    "dt_max_s": 0.545909484,
+    "gaps_gt_0.5s": 5728,
+    "gaps_gt_1s": 0,
+    "content": {
+     "vehicle_state": [
+      0
+     ],
+     "control_mode": [
+      1
+     ],
+     "battery_v_first_last_min_max": [
+      11.9,
+      12.0,
+      11.8,
+      12.5
+     ],
+     "error_codes": [
+      0
+     ],
+     "motion_mode": [
+      0
+     ]
+    }
+   },
+   "/odom": {
+    "type": "nav_msgs/msg/Odometry",
+    "count": 170274,
+    "t0": 1789768881606164138,
+    "t1": 1789772290497778311,
+    "span_s": 3408.891614173,
+    "hz_mean": 49.94966671632016,
+    "hz_median": 49.96635765139332,
+    "dt_max_s": 0.088912003,
+    "gaps_gt_0.5s": 0,
+    "gaps_gt_1s": 0,
+    "content": {
+     "frames": [
+      [
+       "odom",
+       "base_link"
+      ]
+     ],
+     "recv_minus_stamp_s_median": 0.0003020763397216797,
+     "recv_minus_stamp_s_max": 0.013525724411010742
+    }
+   },
+   "/scan": {
+    "type": "sensor_msgs/msg/LaserScan",
+    "count": 34233,
+    "t0": 1789768881596941119,
+    "t1": 1789772290423884788,
+    "span_s": 3408.826943669,
+    "hz_mean": 10.042164230007904,
+    "hz_median": 10.042621437725888,
+    "dt_max_s": 0.146948356,
+    "gaps_gt_0.5s": 0,
+    "gaps_gt_1s": 0,
+    "content": {
+     "frame": "laser_frame",
+     "angle_min": -1.919862151145935,
+     "angle_max": 1.919862151145935,
+     "angle_inc": 0.015362311154603958,
+     "range_min": 0.029999999329447746,
+     "range_max": 64.0,
+     "n_ranges": 250,
+     "n_intensities": 250,
+     "valid_ratio_sampled_mean": 0.6853313868613139,
+     "valid_ratio_sampled_min": 0.524
+    }
+   },
+   "/scan_filtered": {
+    "type": "sensor_msgs/msg/LaserScan",
+    "count": 34233,
+    "t0": 1789768881597363278,
+    "t1": 1789772290424460455,
+    "span_s": 3408.827097177,
+    "hz_mean": 10.042163777784163,
+    "hz_median": 10.042597837887937,
+    "dt_max_s": 0.146317548,
+    "gaps_gt_0.5s": 0,
+    "gaps_gt_1s": 0,
+    "content": {
+     "frame": "laser_frame",
+     "angle_min": -1.919862151145935,
+     "angle_max": 1.919862151145935,
+     "angle_inc": 0.015362311154603958,
+     "range_min": 0.029999999329447746,
+     "range_max": 64.0,
+     "n_ranges": 250,
+     "n_intensities": 250,
+     "valid_ratio_sampled_mean": 0.5583532846715328,
+     "valid_ratio_sampled_min": 0.368
+    }
+   },
+   "/tf": {
+    "type": "tf2_msgs/msg/TFMessage",
+    "count": 477281,
+    "t0": 1789768881593922515,
+    "t1": 1789772290494835816,
+    "span_s": 3408.900913301,
+    "hz_mean": 140.00993638088096,
+    "hz_median": 136.06930608463836,
+    "dt_max_s": 0.059673519,
+    "gaps_gt_0.5s": 0,
+    "gaps_gt_1s": 0,
+    "content": {
+     "pairs": {
+      "map->odom": 307006,
+      "odom->base_link": 170275
+     }
+    }
+   },
+   "/tf_static": {
+    "type": "tf2_msgs/msg/TFMessage",
+    "count": 2,
+    "t0": 1789768881593954484,
+    "t1": 1789768881593982005,
+    "span_s": 2.7521e-05,
+    "hz_mean": 36335.88895752335,
+    "hz_median": 36335.88895752335,
+    "dt_max_s": 2.7521e-05,
+    "gaps_gt_0.5s": 0,
+    "gaps_gt_1s": 0,
+    "content": [
+     {
+      "parent": "base_link",
+      "child": "imu_link",
+      "xyz": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "parent": "base_link",
+      "child": "laser_frame",
+      "xyz": [
+       0.18,
+       0.0,
+       -0.09
+      ]
+     }
+    ]
+   }
+  },
+  "t0": 1789768881593922515,
+  "t1": 1789772290498136370,
+  "duration_s": 3408.904213855,
+  "db_size": 574074880
+ }
+}

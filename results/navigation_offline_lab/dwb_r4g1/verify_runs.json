@@ -1,0 +1,887 @@
+{
+ "mode": "runs",
+ "checks": [
+  {
+   "check": "F010/S1_nominal: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "F010/S1_nominal: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010/S1_nominal: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010/S1_nominal: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "F010/S1_nominal: plan inicial == paths_R3 en las 64 (sin ruido, \u22641e-4 m, mismo n de poses)",
+   "PASS": true,
+   "detail": []
+  },
+  {
+   "check": "F010/S1_nominal: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010/S2_ruido_xy: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "F010/S2_ruido_xy: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010/S2_ruido_xy: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010/S2_ruido_xy: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "F010/S2_ruido_xy: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010/S3_ruido_yaw: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "F010/S3_ruido_yaw: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010/S3_ruido_yaw: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010/S3_ruido_yaw: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "F010/S3_ruido_yaw: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010/S4_latencia_0p6: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "F010/S4_latencia_0p6: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010/S4_latencia_0p6: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010/S4_latencia_0p6: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "F010/S4_latencia_0p6: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010/S5_combinado_medido: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "F010/S5_combinado_medido: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010/S5_combinado_medido: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010/S5_combinado_medido: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "F010/S5_combinado_medido: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010/S6_combinado_lat0p6: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "F010/S6_combinado_lat0p6: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010/S6_combinado_lat0p6: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010/S6_combinado_lat0p6: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {
+    "T042": 2,
+    "T044": 2,
+    "T046": 1
+   }
+  },
+  {
+   "check": "F010/S6_combinado_lat0p6: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015/S1_nominal: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "E015/S1_nominal: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015/S1_nominal: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015/S1_nominal: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "E015/S1_nominal: plan inicial == paths_R3 en las 64 (sin ruido, \u22641e-4 m, mismo n de poses)",
+   "PASS": true,
+   "detail": []
+  },
+  {
+   "check": "E015/S1_nominal: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015/S2_ruido_xy: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "E015/S2_ruido_xy: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015/S2_ruido_xy: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015/S2_ruido_xy: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "E015/S2_ruido_xy: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015/S3_ruido_yaw: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "E015/S3_ruido_yaw: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015/S3_ruido_yaw: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015/S3_ruido_yaw: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "E015/S3_ruido_yaw: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015/S4_latencia_0p6: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "E015/S4_latencia_0p6: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015/S4_latencia_0p6: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015/S4_latencia_0p6: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "E015/S4_latencia_0p6: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015/S5_combinado_medido: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "E015/S5_combinado_medido: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015/S5_combinado_medido: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015/S5_combinado_medido: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "E015/S5_combinado_medido: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015/S6_combinado_lat0p6: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "E015/S6_combinado_lat0p6: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015/S6_combinado_lat0p6: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015/S6_combinado_lat0p6: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {
+    "T042": 2,
+    "T044": 2,
+    "T046": 1
+   }
+  },
+  {
+   "check": "E015/S6_combinado_lat0p6: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D/S1_nominal: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "D/S1_nominal: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D/S1_nominal: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D/S1_nominal: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "D/S1_nominal: plan inicial == paths_R3 en las 64 (sin ruido, \u22641e-4 m, mismo n de poses)",
+   "PASS": true,
+   "detail": []
+  },
+  {
+   "check": "D/S1_nominal: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D/S2_ruido_xy: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "D/S2_ruido_xy: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D/S2_ruido_xy: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D/S2_ruido_xy: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "D/S2_ruido_xy: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D/S3_ruido_yaw: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "D/S3_ruido_yaw: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D/S3_ruido_yaw: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D/S3_ruido_yaw: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "D/S3_ruido_yaw: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D/S4_latencia_0p6: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "D/S4_latencia_0p6: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D/S4_latencia_0p6: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D/S4_latencia_0p6: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "D/S4_latencia_0p6: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D/S5_combinado_medido: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "D/S5_combinado_medido: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D/S5_combinado_medido: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D/S5_combinado_medido: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "D/S5_combinado_medido: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D/S6_combinado_lat0p6: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "D/S6_combinado_lat0p6: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D/S6_combinado_lat0p6: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D/S6_combinado_lat0p6: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {
+    "T042": 2,
+    "T044": 2,
+    "T046": 1
+   }
+  },
+  {
+   "check": "D/S6_combinado_lat0p6: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B/S1_nominal: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "B_B/S1_nominal: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B/S1_nominal: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B/S1_nominal: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "B_B/S1_nominal: plan inicial == paths_R3 en las 64 (sin ruido, \u22641e-4 m, mismo n de poses)",
+   "PASS": true,
+   "detail": []
+  },
+  {
+   "check": "B_B/S1_nominal: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B/S2_ruido_xy: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "B_B/S2_ruido_xy: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B/S2_ruido_xy: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B/S2_ruido_xy: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "B_B/S2_ruido_xy: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B/S3_ruido_yaw: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "B_B/S3_ruido_yaw: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B/S3_ruido_yaw: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B/S3_ruido_yaw: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "B_B/S3_ruido_yaw: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B/S4_latencia_0p6: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "B_B/S4_latencia_0p6: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B/S4_latencia_0p6: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B/S4_latencia_0p6: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "B_B/S4_latencia_0p6: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B/S5_combinado_medido: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "B_B/S5_combinado_medido: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B/S5_combinado_medido: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B/S5_combinado_medido: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "B_B/S5_combinado_medido: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B/S6_combinado_lat0p6: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "B_B/S6_combinado_lat0p6: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B/S6_combinado_lat0p6: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B/S6_combinado_lat0p6: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {
+    "T042": 2,
+    "T044": 2,
+    "T046": 1
+   }
+  },
+  {
+   "check": "B_B/S6_combinado_lat0p6: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A/S1_nominal: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "B_A/S1_nominal: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A/S1_nominal: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A/S1_nominal: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "B_A/S1_nominal: plan inicial == paths_R3 en las 64 (sin ruido, \u22641e-4 m, mismo n de poses)",
+   "PASS": true,
+   "detail": []
+  },
+  {
+   "check": "B_A/S1_nominal: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A/S2_ruido_xy: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "B_A/S2_ruido_xy: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A/S2_ruido_xy: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A/S2_ruido_xy: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "B_A/S2_ruido_xy: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A/S3_ruido_yaw: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "B_A/S3_ruido_yaw: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A/S3_ruido_yaw: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A/S3_ruido_yaw: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "B_A/S3_ruido_yaw: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A/S4_latencia_0p6: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "B_A/S4_latencia_0p6: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A/S4_latencia_0p6: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A/S4_latencia_0p6: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "B_A/S4_latencia_0p6: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A/S5_combinado_medido: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "B_A/S5_combinado_medido: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A/S5_combinado_medido: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A/S5_combinado_medido: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "B_A/S5_combinado_medido: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A/S6_combinado_lat0p6: meta == fixed_plan salvo plan_mode/replan_period",
+   "PASS": true,
+   "detail": [
+    "plan_mode",
+    "replan_period"
+   ]
+  },
+  {
+   "check": "B_A/S6_combinado_lat0p6: 64 runs, orden y goals",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A/S6_combinado_lat0p6: setPlan (intentos de replan) cada 1.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A/S6_combinado_lat0p6: fallos de NavFn (INFO, ver informe)",
+   "PASS": null,
+   "INFO": {}
+  },
+  {
+   "check": "B_A/S6_combinado_lat0p6: auditor\u00eda del grafo PASS (sin Twist/acciones)",
+   "PASS": true,
+   "detail": null
+  }
+ ],
+ "PASS": true
+}

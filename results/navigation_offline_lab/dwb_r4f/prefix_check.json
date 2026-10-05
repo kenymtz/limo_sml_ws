@@ -1,0 +1,26 @@
+{
+ "020": {
+  "n": 384,
+  "baseline_succeeded_prefix_identical": 337,
+  "baseline_not_succeeded_full_identical": 47,
+  "mismatches": 0,
+  "mismatch_list": [],
+  "PASS": true
+ },
+ "015": {
+  "n": 384,
+  "baseline_succeeded_prefix_identical": 337,
+  "baseline_not_succeeded_full_identical": 47,
+  "mismatches": 0,
+  "mismatch_list": [],
+  "PASS": true
+ },
+ "010": {
+  "n": 384,
+  "baseline_succeeded_prefix_identical": 337,
+  "baseline_not_succeeded_full_identical": 47,
+  "mismatches": 0,
+  "mismatch_list": [],
+  "PASS": true
+ }
+}

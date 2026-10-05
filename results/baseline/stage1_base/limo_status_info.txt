@@ -1,0 +1,3 @@
+Type: limo_msgs/msg/LimoStatus
+Publisher count: 1
+Subscription count: 0

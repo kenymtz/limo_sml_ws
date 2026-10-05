@@ -1,0 +1,34 @@
+{
+ "S1_nominal:T041": {
+  "pos": [
+   5.97922,
+   5.0133
+  ],
+  "lethal_yaw_err_intervals_at_stuck_pos": [],
+  "goal_yaw_lethal_at_stuck_pos": false,
+  "goal_pose_lethal": false
+ },
+ "S2_ruido_xy:T045": {
+  "pos": [
+   5.96033,
+   4.99795
+  ],
+  "lethal_yaw_err_intervals_at_stuck_pos": [
+   [
+    -0.2,
+    -0.14
+   ]
+  ],
+  "goal_yaw_lethal_at_stuck_pos": false,
+  "goal_pose_lethal": false
+ },
+ "S5_combinado_medido:T041": {
+  "pos": [
+   5.97453,
+   5.01071
+  ],
+  "lethal_yaw_err_intervals_at_stuck_pos": [],
+  "goal_yaw_lethal_at_stuck_pos": false,
+  "goal_pose_lethal": false
+ }
+}

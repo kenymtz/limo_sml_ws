@@ -1,0 +1,5 @@
+**Adoptar RotateToGoal como parte de la configuración candidata, pero no llevarlo a producción todavía.** Resuelve la causa dominante de R4-C (GOAL_TOLERANCE 99 → 13; +76 éxitos correctos netos) sin costo de seguridad (mismos contactos, mismos bloqueos) y elimina las oscilaciones en el goal. Su efecto secundario es real: la precisión final en posición pasa a ser la tolerancia (~0.22 m), y con ruido de localización termina en el borde.
+
+**Siguiente ajuste (R4-E, offline, mismo simulador)**: separar las dos tolerancias, bajando `FollowPath.xy_goal_tolerance` (la que usa RotateToGoal) a 0.10–0.15 m y manteniendo el goal checker en 0.25 m / 0.25 rad. Objetivo: que el robot traslade más cerca del goal antes de girar, deje margen dentro de la ventana del checker y recupere las 39 + 7 corridas rotas sin perder las 122 arregladas. Evaluarlo además con BaseObstacle + RotateToGoal para separar efectos.
+
+Los 46 bloqueos (around_obstacle, corridor_N1) necesitan un trabajo aparte sobre los pesos GoalDist/GoalAlign vs PathDist/PathAlign. RotateToGoal no los toca. Cualquier cambio a `navigation2_real.yaml` requiere tu confirmación y una prueba física supervisada.

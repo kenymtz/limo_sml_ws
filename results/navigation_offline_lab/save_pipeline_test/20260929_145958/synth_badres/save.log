@@ -1,0 +1,24 @@
+save_map_checked 2026-09-29T15:00:09-03:00
+name=synth_badres topic=/offline_test/map dest=/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_badres
+ROS_DOMAIN_ID=99 ROS_LOCALHOST_ONLY=1
+save_free=0.25 save_occ=0.65 load_free=0.10 expect_res=0.05
+1790704809.679572 [99]    python3: selected interface "lo" is not multicast-capable: disabling multicast
+{"topic": "/offline_test/map", "w": 387, "h": 387, "res": 0.029999999329447746, "frame": "map", "unknown": 34848, "min": -1, "max": 100}
+1790704810.146093 [99] map_saver_: selected interface "lo" is not multicast-capable: disabling multicast
+[INFO] [1790704810.158647459] [save_map_checked_saver]: 
+	save_map_checked_saver lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1790704810.158879598] [save_map_checked_saver]: Creating
+[INFO] [1790704810.159034581] [save_map_checked_saver]: Configuring
+[INFO] [1790704810.162591224] [save_map_checked_saver]: Saving map from '/offline_test/map' topic to '/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_badres/synth_badres' file
+[INFO] [1790704810.166547341] [map_io]: Received a 387 X 387 map @ 0.03 m/pix
+[INFO] [1790704810.243954597] [map_io]: Writing map occupancy data to /home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_badres/synth_badres.pgm
+[INFO] [1790704810.245928127] [map_io]: Writing map metadata to /home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_badres/synth_badres.yaml
+[INFO] [1790704810.246207948] [map_io]: Map saved
+[INFO] [1790704810.246236782] [save_map_checked_saver]: Map saved successfully
+[INFO] [1790704810.248100931] [save_map_checked_saver]: Destroying
+1790704811.002130 [99]    python3: selected interface "lo" is not multicast-capable: disabling multicast
+{"topic": "/offline_test/map", "w": 387, "h": 387, "res": 0.029999999329447746, "frame": "map", "unknown": 34848, "min": -1, "max": 100}
+{"raw_free_thresh": 0.25, "load_free_thresh": 0.1}
+FAIL: validación del yaml de carga: exit 2 (ver synth_badres.validation.json)

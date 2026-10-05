@@ -1,0 +1,1 @@
+R4-G0 v1: replan_same_1hz reentregaba el path COMPLETO desde el inicio -> artefacto 'Resulting plan has 0 poses' (S1:T050, S2:T050). Reemplazado por v2 (path recortado). fixed_plan y replan_1hz de v1 conservados solo como registro.

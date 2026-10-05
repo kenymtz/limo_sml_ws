@@ -1,0 +1,33 @@
+PASS produccion navigation2_real.yaml sin cambios
+PASS navigation2_R4G_PR005.yaml: diff vs R4-F 0.10 == [controller_server.ros__parameters.progress_checker.required_movement_radius]
+PASS navigation2_R4G_PR005.yaml: required_movement_radius == 0.05
+PASS navigation2_R4G_PR005.yaml: candidata R4-F intacta (yaw 0.10, checker xy 0.25, FollowPath xy 0.15, RTG+ObstacleFootprint)
+PASS dwb_offline_R4G_PR005_sim.yaml: diff vs R4-F 0.10 == [controller_server.ros__parameters.progress_checker.required_movement_radius]
+PASS dwb_offline_R4G_PR005_sim.yaml: required_movement_radius == 0.05
+PASS dwb_offline_R4G_PR005_sim.yaml: candidata R4-F intacta (yaw 0.10, checker xy 0.25, FollowPath xy 0.15, RTG+ObstacleFootprint)
+PASS R4G_PR005: controller_server(simulador) == controller_server(candidata completa)
+PASS navigation2_R4G_PR003.yaml: diff vs R4-F 0.10 == [controller_server.ros__parameters.progress_checker.required_movement_radius]
+PASS navigation2_R4G_PR003.yaml: required_movement_radius == 0.03
+PASS navigation2_R4G_PR003.yaml: candidata R4-F intacta (yaw 0.10, checker xy 0.25, FollowPath xy 0.15, RTG+ObstacleFootprint)
+PASS dwb_offline_R4G_PR003_sim.yaml: diff vs R4-F 0.10 == [controller_server.ros__parameters.progress_checker.required_movement_radius]
+PASS dwb_offline_R4G_PR003_sim.yaml: required_movement_radius == 0.03
+PASS dwb_offline_R4G_PR003_sim.yaml: candidata R4-F intacta (yaw 0.10, checker xy 0.25, FollowPath xy 0.15, RTG+ObstacleFootprint)
+PASS R4G_PR003: controller_server(simulador) == controller_server(candidata completa)
+PASS navigation2_R4G_PT35.yaml: diff vs R4-F 0.10 == [controller_server.ros__parameters.progress_checker.movement_time_allowance]
+PASS navigation2_R4G_PT35.yaml: movement_time_allowance == 35.0
+PASS navigation2_R4G_PT35.yaml: candidata R4-F intacta (yaw 0.10, checker xy 0.25, FollowPath xy 0.15, RTG+ObstacleFootprint)
+PASS dwb_offline_R4G_PT35_sim.yaml: diff vs R4-F 0.10 == [controller_server.ros__parameters.progress_checker.movement_time_allowance]
+PASS dwb_offline_R4G_PT35_sim.yaml: movement_time_allowance == 35.0
+PASS dwb_offline_R4G_PT35_sim.yaml: candidata R4-F intacta (yaw 0.10, checker xy 0.25, FollowPath xy 0.15, RTG+ObstacleFootprint)
+PASS R4G_PT35: controller_server(simulador) == controller_server(candidata completa)
+PASS navigation2_R4G_PT45.yaml: diff vs R4-F 0.10 == [controller_server.ros__parameters.progress_checker.movement_time_allowance]
+PASS navigation2_R4G_PT45.yaml: movement_time_allowance == 45.0
+PASS navigation2_R4G_PT45.yaml: candidata R4-F intacta (yaw 0.10, checker xy 0.25, FollowPath xy 0.15, RTG+ObstacleFootprint)
+PASS dwb_offline_R4G_PT45_sim.yaml: diff vs R4-F 0.10 == [controller_server.ros__parameters.progress_checker.movement_time_allowance]
+PASS dwb_offline_R4G_PT45_sim.yaml: movement_time_allowance == 45.0
+PASS dwb_offline_R4G_PT45_sim.yaml: candidata R4-F intacta (yaw 0.10, checker xy 0.25, FollowPath xy 0.15, RTG+ObstacleFootprint)
+PASS R4G_PT45: controller_server(simulador) == controller_server(candidata completa)
+TODO PASS
+PR005 S1_nominal: closedloop terminado en 221 s; líneas: 65
+PR005 S2_ruido_xy: closedloop terminado en 232 s; líneas: 65
+PR005 S3_ruido_yaw: closedloop terminado en 232 s; líneas: 65

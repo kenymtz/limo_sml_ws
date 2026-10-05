@@ -1,0 +1,19 @@
+PASS autotest: 5 corridas
+PASS autotest T005: plan inicial NavFn == paths_R3 (≤1e-5 m)
+PASS autotest T005: idéntico a R4-G0 v3 (otro orden de corridas previas) -> independencia/costmap limpio
+PASS autotest T005: setPlan cada 1.0 s y 0 fallos NavFn
+PASS autotest T039: plan inicial NavFn == paths_R3 (≤1e-5 m)
+PASS autotest T039: idéntico a R4-G0 v3 (otro orden de corridas previas) -> independencia/costmap limpio
+PASS autotest T039: setPlan cada 1.0 s y 0 fallos NavFn
+PASS autotest T041: plan inicial NavFn == paths_R3 (≤1e-5 m)
+PASS autotest T041: idéntico a R4-G0 v3 (otro orden de corridas previas) -> independencia/costmap limpio
+PASS autotest T041: setPlan cada 1.0 s y 0 fallos NavFn
+PASS autotest T043: plan inicial NavFn == paths_R3 (≤1e-5 m)
+PASS autotest T043: idéntico a R4-G0 v3 (otro orden de corridas previas) -> independencia/costmap limpio
+PASS autotest T043: setPlan cada 1.0 s y 0 fallos NavFn
+PASS autotest T045: plan inicial NavFn == paths_R3 (≤1e-5 m)
+PASS autotest T045: idéntico a R4-G0 v3 (otro orden de corridas previas) -> independencia/costmap limpio
+PASS autotest T045: setPlan cada 1.0 s y 0 fallos NavFn
+PASS autotest: celdas restauradas crecen (residuos de clearRobotCell detectados y eliminados)
+PASS autotest: auditoría audit_selftest.json
+TODO PASS

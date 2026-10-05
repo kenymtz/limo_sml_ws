@@ -1,0 +1,524 @@
+{
+"source": "results/navigation_offline_lab/planner_runs/paths_R3.json",
+"params": {
+"STEP": 0.5,
+"END_MARGIN": 0.3,
+"V_CRUISE": 0.25,
+"LAT": 0.05,
+"YAW": 0.15
+},
+"cases": [
+{
+"case": "T001_S",
+"test": "T001",
+"kind": "START",
+"category": "short",
+"path_len_m": 0.6551018092838629,
+"start_heading_err_rad": -2.085584388099532
+},
+{
+"case": "T002_S",
+"test": "T002",
+"kind": "START",
+"category": "short",
+"path_len_m": 1.4923957557863246,
+"start_heading_err_rad": -2.7421312787872867
+},
+{
+"case": "T003_S",
+"test": "T003",
+"kind": "START",
+"category": "short",
+"path_len_m": 1.1022626452999909,
+"start_heading_err_rad": -0.4799589775458755
+},
+{
+"case": "T004_S",
+"test": "T004",
+"kind": "START",
+"category": "short",
+"path_len_m": 1.0621740727935898,
+"start_heading_err_rad": -2.029995285983014
+},
+{
+"case": "T005_S",
+"test": "T005",
+"kind": "START",
+"category": "short",
+"path_len_m": 0.7114359869110616,
+"start_heading_err_rad": -2.0212693334786787
+},
+{
+"case": "T006_S",
+"test": "T006",
+"kind": "START",
+"category": "short",
+"path_len_m": 1.0714302998514111,
+"start_heading_err_rad": 0.4691330213320559
+},
+{
+"case": "T007_S",
+"test": "T007",
+"kind": "START",
+"category": "short",
+"path_len_m": 0.6448293320134073,
+"start_heading_err_rad": 0.6119228078877818
+},
+{
+"case": "T008_S",
+"test": "T008",
+"kind": "START",
+"category": "short",
+"path_len_m": 0.7324952336797398,
+"start_heading_err_rad": -0.5978178049519496
+},
+{
+"case": "T009_S",
+"test": "T009",
+"kind": "START",
+"category": "short",
+"path_len_m": 1.1848241590655308,
+"start_heading_err_rad": -1.1377508645775611
+},
+{
+"case": "T010_S",
+"test": "T010",
+"kind": "START",
+"category": "short",
+"path_len_m": 1.0306985717419916,
+"start_heading_err_rad": 1.3477544049004404
+},
+{
+"case": "T011_S",
+"test": "T011",
+"kind": "START",
+"category": "long",
+"path_len_m": 13.669376653833154,
+"start_heading_err_rad": 1.8076720484726314
+},
+{
+"case": "T012_S",
+"test": "T012",
+"kind": "START",
+"category": "long",
+"path_len_m": 9.510117730000369,
+"start_heading_err_rad": 0.5320788806081916
+},
+{
+"case": "T013_S",
+"test": "T013",
+"kind": "START",
+"category": "long",
+"path_len_m": 7.492053635818372,
+"start_heading_err_rad": -0.6635504536629813
+},
+{
+"case": "T014_S",
+"test": "T014",
+"kind": "START",
+"category": "long",
+"path_len_m": 10.579856097358833,
+"start_heading_err_rad": 2.168606718799384
+},
+{
+"case": "T015_S",
+"test": "T015",
+"kind": "START",
+"category": "long",
+"path_len_m": 8.721522965637359,
+"start_heading_err_rad": 1.4944785341130944
+},
+{
+"case": "T016_S",
+"test": "T016",
+"kind": "START",
+"category": "long",
+"path_len_m": 8.429587846676178,
+"start_heading_err_rad": 2.09544232565279
+},
+{
+"case": "T017_S",
+"test": "T017",
+"kind": "START",
+"category": "long",
+"path_len_m": 9.070676122211355,
+"start_heading_err_rad": -2.727540579381609
+},
+{
+"case": "T018_S",
+"test": "T018",
+"kind": "START",
+"category": "long",
+"path_len_m": 10.032217314494122,
+"start_heading_err_rad": -1.1323428528917245
+},
+{
+"case": "T019_S",
+"test": "T019",
+"kind": "START",
+"category": "long",
+"path_len_m": 7.395308267815766,
+"start_heading_err_rad": 1.19315275269184
+},
+{
+"case": "T020_S",
+"test": "T020",
+"kind": "START",
+"category": "long",
+"path_len_m": 10.052509791156925,
+"start_heading_err_rad": -2.7367093909743785
+},
+{
+"case": "T021_S",
+"test": "T021",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 3.5804585890701346,
+"start_heading_err_rad": 1.9929771388787132
+},
+{
+"case": "T022_S",
+"test": "T022",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 3.313943095837553,
+"start_heading_err_rad": 2.500568017933054
+},
+{
+"case": "T023_S",
+"test": "T023",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 2.2426666309638335,
+"start_heading_err_rad": -2.7436742027359777
+},
+{
+"case": "T024_S",
+"test": "T024",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 2.2808926206802984,
+"start_heading_err_rad": -0.5835035490301561
+},
+{
+"case": "T025_S",
+"test": "T025",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 3.668770153115511,
+"start_heading_err_rad": -2.375075511008357
+},
+{
+"case": "T026_S",
+"test": "T026",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 3.6671113190571596,
+"start_heading_err_rad": 2.291250681459324
+},
+{
+"case": "T027_S",
+"test": "T027",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 3.336906427200256,
+"start_heading_err_rad": 0.3899893777307213
+},
+{
+"case": "T028_S",
+"test": "T028",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 2.470795253394851,
+"start_heading_err_rad": -1.6022926535897932
+},
+{
+"case": "T029_S",
+"test": "T029",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 4.362828433833399,
+"start_heading_err_rad": -0.11278322806893137
+},
+{
+"case": "T030_S",
+"test": "T030",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 5.667939680780932,
+"start_heading_err_rad": 1.3014129057767656
+},
+{
+"case": "T031_S",
+"test": "T031",
+"kind": "START",
+"category": "corridor_WIDE",
+"path_len_m": 2.2200001176103483,
+"start_heading_err_rad": 0.0
+},
+{
+"case": "T032_S",
+"test": "T032",
+"kind": "START",
+"category": "corridor_WIDE",
+"path_len_m": 2.268560593245973,
+"start_heading_err_rad": -0.18302945815472185
+},
+{
+"case": "T033_S",
+"test": "T033",
+"kind": "START",
+"category": "corridor_WIDE",
+"path_len_m": 2.262096474324814,
+"start_heading_err_rad": -0.010178335258606574
+},
+{
+"case": "T034_S",
+"test": "T034",
+"kind": "START",
+"category": "corridor_WIDE",
+"path_len_m": 2.219999845102495,
+"start_heading_err_rad": -1.5707926535897931
+},
+{
+"case": "T035_S",
+"test": "T035",
+"kind": "START",
+"category": "corridor_WIDE",
+"path_len_m": 2.241730033813018,
+"start_heading_err_rad": -0.7687385506497053
+},
+{
+"case": "T036_S",
+"test": "T036",
+"kind": "START",
+"category": "corridor_WIDE",
+"path_len_m": 2.230000008717733,
+"start_heading_err_rad": 7.346410206832132e-06
+},
+{
+"case": "T037_S",
+"test": "T037",
+"kind": "START",
+"category": "corridor_WIDE",
+"path_len_m": 2.2200001176103483,
+"start_heading_err_rad": 2.3562
+},
+{
+"case": "T038_S",
+"test": "T038",
+"kind": "START",
+"category": "corridor_WIDE",
+"path_len_m": 2.219999845102495,
+"start_heading_err_rad": -3.141592653589793
+},
+{
+"case": "T039_S",
+"test": "T039",
+"kind": "START",
+"category": "corridor_N1",
+"path_len_m": 2.2329627425692857,
+"start_heading_err_rad": 0.2695871816942498
+},
+{
+"case": "T040_S",
+"test": "T040",
+"kind": "START",
+"category": "corridor_N1",
+"path_len_m": 2.227867786330908,
+"start_heading_err_rad": -0.2733272182311571
+},
+{
+"case": "T041_S",
+"test": "T041",
+"kind": "START",
+"category": "corridor_N1",
+"path_len_m": 2.2329627425692857,
+"start_heading_err_rad": 0.2695871816942498
+},
+{
+"case": "T042_S",
+"test": "T042",
+"kind": "START",
+"category": "corridor_N1",
+"path_len_m": 2.227867786330908,
+"start_heading_err_rad": -1.8441272182311572
+},
+{
+"case": "T043_S",
+"test": "T043",
+"kind": "START",
+"category": "corridor_N1",
+"path_len_m": 2.2329627425692857,
+"start_heading_err_rad": -0.5158128183057502
+},
+{
+"case": "T044_S",
+"test": "T044",
+"kind": "START",
+"category": "corridor_N1",
+"path_len_m": 2.227867786330908,
+"start_heading_err_rad": -0.2733272182311571
+},
+{
+"case": "T045_S",
+"test": "T045",
+"kind": "START",
+"category": "corridor_N1",
+"path_len_m": 2.2329627425692857,
+"start_heading_err_rad": 2.6257871816942497
+},
+{
+"case": "T046_S",
+"test": "T046",
+"kind": "START",
+"category": "corridor_N1",
+"path_len_m": 2.227867786330908,
+"start_heading_err_rad": 2.8682580889484295
+},
+{
+"case": "T047_S",
+"test": "T047",
+"kind": "START",
+"category": "corridor_N2",
+"path_len_m": 13.688266308929515,
+"start_heading_err_rad": 1.7561636930627693
+},
+{
+"case": "T048_S",
+"test": "T048",
+"kind": "START",
+"category": "corridor_N2",
+"path_len_m": 13.647545756228373,
+"start_heading_err_rad": -1.6366258558043791
+},
+{
+"case": "T049_S",
+"test": "T049",
+"kind": "START",
+"category": "corridor_N2",
+"path_len_m": 13.688266308929515,
+"start_heading_err_rad": 1.7561636930627693
+},
+{
+"case": "T050_S",
+"test": "T050",
+"kind": "START",
+"category": "corridor_N2",
+"path_len_m": 13.647545756228373,
+"start_heading_err_rad": 3.075759451375207
+},
+{
+"case": "T051_S",
+"test": "T051",
+"kind": "START",
+"category": "corridor_N2",
+"path_len_m": 13.688266308929515,
+"start_heading_err_rad": 0.9707636930627693
+},
+{
+"case": "T052_S",
+"test": "T052",
+"kind": "START",
+"category": "corridor_N2",
+"path_len_m": 13.647545756228373,
+"start_heading_err_rad": -1.6366258558043791
+},
+{
+"case": "T053_S",
+"test": "T053",
+"kind": "START",
+"category": "corridor_N2",
+"path_len_m": 13.688266308929515,
+"start_heading_err_rad": -2.170821614116817
+},
+{
+"case": "T054_S",
+"test": "T054",
+"kind": "START",
+"category": "corridor_N2",
+"path_len_m": 13.647545756228373,
+"start_heading_err_rad": 1.5049594513752074
+},
+{
+"case": "T055_S",
+"test": "T055",
+"kind": "START",
+"category": "random",
+"path_len_m": 1.2599885117167309,
+"start_heading_err_rad": 3.0234114094543965
+},
+{
+"case": "T056_S",
+"test": "T056",
+"kind": "START",
+"category": "random",
+"path_len_m": 12.587560538836298,
+"start_heading_err_rad": 0.12639910105571106
+},
+{
+"case": "T057_S",
+"test": "T057",
+"kind": "START",
+"category": "random",
+"path_len_m": 7.453309695700482,
+"start_heading_err_rad": -1.3365811063257347
+},
+{
+"case": "T058_S",
+"test": "T058",
+"kind": "START",
+"category": "random",
+"path_len_m": 10.862681949334256,
+"start_heading_err_rad": -0.5992990481905752
+},
+{
+"case": "T059_S",
+"test": "T059",
+"kind": "START",
+"category": "random",
+"path_len_m": 7.468313627269808,
+"start_heading_err_rad": 0.24600392395815196
+},
+{
+"case": "T060_S",
+"test": "T060",
+"kind": "START",
+"category": "random",
+"path_len_m": 6.0488168203175805,
+"start_heading_err_rad": -2.020337736057439
+},
+{
+"case": "T061_S",
+"test": "T061",
+"kind": "START",
+"category": "random",
+"path_len_m": 3.6562917852530927,
+"start_heading_err_rad": -2.019918686850937
+},
+{
+"case": "T062_S",
+"test": "T062",
+"kind": "START",
+"category": "random",
+"path_len_m": 4.689880632004088,
+"start_heading_err_rad": -2.5926347413176187
+},
+{
+"case": "T063_S",
+"test": "T063",
+"kind": "START",
+"category": "random",
+"path_len_m": 5.559669706807376,
+"start_heading_err_rad": -1.1586610980023093
+},
+{
+"case": "T064_S",
+"test": "T064",
+"kind": "START",
+"category": "random",
+"path_len_m": 9.969266945784836,
+"start_heading_err_rad": 0.9140137341728798
+}
+]
+}

@@ -1,0 +1,1 @@
+R4-G0 v2 DETENIDA: replan_1hz con artefacto NavFn clearRobotCell (celdas FREE persistentes en el global costmap estatico, tambien entre corridas). Reemplazada por v3 (costmap global restaurado antes de cada plan). NO usar.

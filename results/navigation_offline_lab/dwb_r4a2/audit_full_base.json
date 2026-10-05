@@ -1,0 +1,118 @@
+{
+ "mode": "eval",
+ "nodes": [
+  "/dwb_offline_eval",
+  "/lifecycle_manager_offline",
+  "/local_costmap/local_costmap",
+  "/map_server",
+  "/static_tf_map_odom"
+ ],
+ "actions": [],
+ "twist_topics": {},
+ "sink": null,
+ "per_node": {
+  "/static_tf_map_odom": {
+   "pub": [
+    "/parameter_events",
+    "/rosout",
+    "/tf_static"
+   ],
+   "sub": [
+    "/parameter_events"
+   ]
+  },
+  "/lifecycle_manager_offline": {
+   "pub": [
+    "/bond",
+    "/diagnostics",
+    "/parameter_events",
+    "/rosout"
+   ],
+   "sub": [
+    "/bond",
+    "/parameter_events"
+   ]
+  },
+  "/map_server": {
+   "pub": [
+    "/bond",
+    "/map",
+    "/map_server/transition_event",
+    "/parameter_events",
+    "/rosout"
+   ],
+   "sub": [
+    "/bond",
+    "/parameter_events"
+   ]
+  },
+  "/dwb_offline_eval": {
+   "pub": [
+    "/cost_cloud",
+    "/dwb_offline_eval/transition_event",
+    "/evaluation",
+    "/local_plan",
+    "/marker",
+    "/parameter_events",
+    "/received_global_plan",
+    "/rosout",
+    "/tf",
+    "/transformed_global_plan"
+   ],
+   "sub": [
+    "/parameter_events"
+   ]
+  },
+  "/local_costmap/local_costmap": {
+   "pub": [
+    "/local_costmap/costmap",
+    "/local_costmap/costmap_raw",
+    "/local_costmap/costmap_updates",
+    "/local_costmap/local_costmap/transition_event",
+    "/local_costmap/published_footprint",
+    "/parameter_events",
+    "/rosout"
+   ],
+   "sub": [
+    "/local_costmap/footprint",
+    "/map",
+    "/parameter_events"
+   ]
+  },
+  "/transform_listener_impl_aaaaedb14000": {
+   "pub": [
+    "/rosout"
+   ],
+   "sub": [
+    "/parameter_events",
+    "/tf",
+    "/tf_static"
+   ]
+  }
+ },
+ "topics": [
+  "/bond",
+  "/cost_cloud",
+  "/diagnostics",
+  "/dwb_offline_eval/transition_event",
+  "/evaluation",
+  "/local_costmap/costmap",
+  "/local_costmap/costmap_raw",
+  "/local_costmap/costmap_updates",
+  "/local_costmap/footprint",
+  "/local_costmap/local_costmap/transition_event",
+  "/local_costmap/published_footprint",
+  "/local_plan",
+  "/map",
+  "/map_server/transition_event",
+  "/marker",
+  "/parameter_events",
+  "/received_global_plan",
+  "/rosout",
+  "/tf",
+  "/tf_static",
+  "/transformed_global_plan"
+ ],
+ "problems": [],
+ "PASS": true
+}

@@ -1,0 +1,21 @@
+{
+ "scan_change_median_m_when_odom_static": 0.003000020980834961,
+ "scan_change_p95_m_when_odom_static": 0.004999995231628418,
+ "scan_change_median_m_when_odom_moving": 0.14100009202957153,
+ "scan_changed_gt_2cm_s_total": 62.6,
+ "scan_changed_gt_2cm_while_odom_static_s": 34.0,
+ "scan_changed_gt_5cm_while_odom_static_s": 27.8,
+ "map_odom_msgs": 307006,
+ "map_odom_stamp_minus_recv_median_s": -0.0003237724304199219,
+ "map_odom_stamp_minus_recv_min_max_s": [
+  -0.04248476028442383,
+  -8.320808410644531e-05
+ ],
+ "map_odom_stamp_goes_backwards_count": 0,
+ "map_odom_stamp_repeated_count": 0,
+ "map_odom_step_gt_1cm": 267,
+ "map_odom_step_gt_5cm": 16,
+ "map_odom_step_max_m": 0.22384943727574383,
+ "map_odom_step_sum_m": 52.83749792854249,
+ "intervals_scan_moving_odom_static": []
+}

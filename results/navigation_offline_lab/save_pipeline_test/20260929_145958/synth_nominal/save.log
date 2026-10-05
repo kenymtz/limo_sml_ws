@@ -1,0 +1,25 @@
+save_map_checked 2026-09-29T15:00:01-03:00
+name=synth_nominal topic=/offline_test/map dest=/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_nominal
+ROS_DOMAIN_ID=99 ROS_LOCALHOST_ONLY=1
+save_free=0.25 save_occ=0.65 load_free=0.10 expect_res=0.03
+1790704801.963751 [99]    python3: selected interface "lo" is not multicast-capable: disabling multicast
+{"topic": "/offline_test/map", "w": 387, "h": 387, "res": 0.029999999329447746, "frame": "map", "unknown": 34848, "min": -1, "max": 100}
+1790704802.429369 [99] map_saver_: selected interface "lo" is not multicast-capable: disabling multicast
+[INFO] [1790704802.441183072] [save_map_checked_saver]: 
+	save_map_checked_saver lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1790704802.441413003] [save_map_checked_saver]: Creating
+[INFO] [1790704802.441549137] [save_map_checked_saver]: Configuring
+[INFO] [1790704802.445126198] [save_map_checked_saver]: Saving map from '/offline_test/map' topic to '/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_nominal/synth_nominal' file
+[INFO] [1790704802.449560514] [map_io]: Received a 387 X 387 map @ 0.03 m/pix
+[INFO] [1790704802.527445538] [map_io]: Writing map occupancy data to /home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_nominal/synth_nominal.pgm
+[INFO] [1790704802.529173105] [map_io]: Writing map metadata to /home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_nominal/synth_nominal.yaml
+[INFO] [1790704802.529431389] [map_io]: Map saved
+[INFO] [1790704802.529455838] [save_map_checked_saver]: Map saved successfully
+[INFO] [1790704802.530281188] [save_map_checked_saver]: Destroying
+1790704803.286825 [99]    python3: selected interface "lo" is not multicast-capable: disabling multicast
+{"topic": "/offline_test/map", "w": 387, "h": 387, "res": 0.029999999329447746, "frame": "map", "unknown": 34848, "min": -1, "max": 100}
+{"raw_free_thresh": 0.25, "load_free_thresh": 0.1}
+OK: mapa guardado y verificado en /home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_nominal  (usar synth_nominal.yaml para cargar)
+FAIL: destino ya existe (no se sobrescribe): /home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_nominal

@@ -1,0 +1,23 @@
+# ROS 2 generated
+build/
+install/
+log/
+
+# Rosbags
+*.db3
+
+# Large/regenerable offline simulation traces
+results/navigation_offline_lab/**/sim_*.jsonl
+results/navigation_offline_lab/dwb_r4a/cases_R4A*.txt
+results/navigation_offline_lab/**/discarded_prefix/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor/temp
+*.swp
+*~
+
+# Claude Code local machine settings
+.claude/settings.local.json

@@ -1,0 +1,120 @@
+{
+ "n_cases": 25,
+ "fixed_identical_to_R4F": {
+  "S1_nominal:T005": true,
+  "S1_nominal:T015": true,
+  "S1_nominal:T023": true,
+  "S1_nominal:T025": true,
+  "S1_nominal:T028": true,
+  "S1_nominal:T033": true,
+  "S1_nominal:T039": true,
+  "S1_nominal:T041": true,
+  "S1_nominal:T043": true,
+  "S1_nominal:T045": true,
+  "S1_nominal:T050": true,
+  "S1_nominal:T060": true,
+  "S2_ruido_xy:T029": true,
+  "S2_ruido_xy:T041": true,
+  "S2_ruido_xy:T045": true,
+  "S2_ruido_xy:T050": true,
+  "S4_latencia_0p6:T024": true,
+  "S4_latencia_0p6:T040": true,
+  "S4_latencia_0p6:T042": true,
+  "S4_latencia_0p6:T045": true,
+  "S5_combinado_medido:T019": true,
+  "S5_combinado_medido:T023": true,
+  "S5_combinado_medido:T033": true,
+  "S5_combinado_medido:T041": true,
+  "S5_combinado_medido:T055": true
+ },
+ "fixed_identical_to_R4F_all": true,
+ "agg": {
+  "fixed": {
+   "correct": 12,
+   "abort_progress": 8,
+   "abort_progress_near_goal": 3,
+   "goal_tolerance": 3,
+   "oscilacion": 5,
+   "timeout": 1,
+   "sin_trayect": 3,
+   "false_success": 1,
+   "contacts": 2,
+   "clear_min": -0.009466009754403593,
+   "classes": {
+    "OK": 12,
+    "OSCILACION": 5,
+    "TIMEOUT": 1,
+    "GOAL_TOLERANCE[ABORT_PROGRESS]": 3,
+    "OTRO_SIN_TRAYECT": 3,
+    "FALSE_XY": 1
+   },
+   "w_flips_total_sum": 336,
+   "n_setplan_sum": 25,
+   "n_plan_fail_sum": 0
+  },
+  "replan": {
+   "correct": 15,
+   "abort_progress": 6,
+   "abort_progress_near_goal": 1,
+   "goal_tolerance": 1,
+   "oscilacion": 5,
+   "timeout": 0,
+   "sin_trayect": 2,
+   "false_success": 1,
+   "contacts": 0,
+   "clear_min": 0.010308971518710406,
+   "classes": {
+    "OK": 15,
+    "OSCILACION": 5,
+    "GOAL_TOLERANCE[ABORT_PROGRESS]": 1,
+    "OTRO_SIN_TRAYECT": 2,
+    "TRACKING": 1,
+    "FALSE_XY": 1
+   },
+   "w_flips_total_sum": 567,
+   "n_setplan_sum": 712,
+   "n_plan_fail_sum": 0
+  },
+  "same": {
+   "correct": 13,
+   "abort_progress": 6,
+   "abort_progress_near_goal": 1,
+   "goal_tolerance": 1,
+   "oscilacion": 5,
+   "timeout": 1,
+   "sin_trayect": 5,
+   "false_success": 0,
+   "contacts": 2,
+   "clear_min": -0.009466009754403593,
+   "classes": {
+    "OK": 13,
+    "OSCILACION": 5,
+    "TIMEOUT": 1,
+    "GOAL_TOLERANCE[ABORT_PROGRESS]": 1,
+    "OTRO_SIN_TRAYECT": 5
+   },
+   "w_flips_total_sum": 374,
+   "n_setplan_sum": 626,
+   "n_plan_fail_sum": 0
+  }
+ },
+ "replan_identical": 2,
+ "replan_same_class": 18,
+ "same_identical": 10,
+ "same_same_class": 21,
+ "changed_outcome_replan": [
+  "S1_nominal:T025 TIMEOUT->OSCILACION",
+  "S1_nominal:T045 OK->OTRO_SIN_TRAYECT",
+  "S2_ruido_xy:T029 OSCILACION->TRACKING",
+  "S2_ruido_xy:T045 GOAL_TOLERANCE[ABORT_PROGRESS]->OK",
+  "S4_latencia_0p6:T042 OTRO_SIN_TRAYECT->OK",
+  "S4_latencia_0p6:T045 OTRO_SIN_TRAYECT->OK",
+  "S5_combinado_medido:T041 GOAL_TOLERANCE[ABORT_PROGRESS]->OK"
+ ],
+ "changed_outcome_same": [
+  "S1_nominal:T050 OK->OTRO_SIN_TRAYECT",
+  "S2_ruido_xy:T045 GOAL_TOLERANCE[ABORT_PROGRESS]->OK",
+  "S2_ruido_xy:T050 FALSE_XY->OTRO_SIN_TRAYECT",
+  "S5_combinado_medido:T041 GOAL_TOLERANCE[ABORT_PROGRESS]->OK"
+ ]
+}

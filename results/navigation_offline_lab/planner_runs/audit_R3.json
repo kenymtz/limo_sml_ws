@@ -1,0 +1,166 @@
+{
+ "map_probe": {
+  "free_0": 106265,
+  "occupied_100": 8656,
+  "unknown_-1": 34848
+ },
+ "ros_domain_id": "99",
+ "ros_localhost_only": "1",
+ "nodes": [
+  "/global_costmap/global_costmap",
+  "/lifecycle_manager_offline",
+  "/map_server",
+  "/offline_bench_client",
+  "/planner_server",
+  "/static_tf_map_odom",
+  "/static_tf_odom_base",
+  "/transform_listener_impl_ffff90002240"
+ ],
+ "per_node": {
+  "/map_server": {
+   "pub": [
+    "/bond",
+    "/map",
+    "/map_server/transition_event",
+    "/parameter_events",
+    "/rosout"
+   ],
+   "sub": [
+    "/bond",
+    "/parameter_events"
+   ]
+  },
+  "/static_tf_odom_base": {
+   "pub": [
+    "/parameter_events",
+    "/rosout",
+    "/tf_static"
+   ],
+   "sub": [
+    "/parameter_events"
+   ]
+  },
+  "/planner_server": {
+   "pub": [
+    "/bond",
+    "/compute_path_through_poses/_action/feedback",
+    "/compute_path_through_poses/_action/status",
+    "/compute_path_to_pose/_action/feedback",
+    "/compute_path_to_pose/_action/status",
+    "/parameter_events",
+    "/plan",
+    "/planner_server/transition_event",
+    "/rosout"
+   ],
+   "sub": [
+    "/bond",
+    "/parameter_events"
+   ]
+  },
+  "/global_costmap/global_costmap": {
+   "pub": [
+    "/global_costmap/costmap",
+    "/global_costmap/costmap_raw",
+    "/global_costmap/costmap_updates",
+    "/global_costmap/global_costmap/transition_event",
+    "/global_costmap/published_footprint",
+    "/parameter_events",
+    "/rosout"
+   ],
+   "sub": [
+    "/global_costmap/footprint",
+    "/map",
+    "/map_updates",
+    "/parameter_events"
+   ]
+  },
+  "/transform_listener_impl_ffff90002240": {
+   "pub": [
+    "/rosout"
+   ],
+   "sub": [
+    "/parameter_events",
+    "/tf",
+    "/tf_static"
+   ]
+  },
+  "/lifecycle_manager_offline": {
+   "pub": [
+    "/bond",
+    "/diagnostics",
+    "/parameter_events",
+    "/rosout"
+   ],
+   "sub": [
+    "/bond",
+    "/parameter_events"
+   ]
+  },
+  "/static_tf_map_odom": {
+   "pub": [
+    "/parameter_events",
+    "/rosout",
+    "/tf_static"
+   ],
+   "sub": [
+    "/parameter_events"
+   ]
+  }
+ },
+ "topics": [
+  "/bond",
+  "/compute_path_through_poses/_action/feedback",
+  "/compute_path_through_poses/_action/status",
+  "/compute_path_to_pose/_action/feedback",
+  "/compute_path_to_pose/_action/status",
+  "/diagnostics",
+  "/global_costmap/costmap",
+  "/global_costmap/costmap_raw",
+  "/global_costmap/costmap_updates",
+  "/global_costmap/footprint",
+  "/global_costmap/global_costmap/transition_event",
+  "/global_costmap/published_footprint",
+  "/map",
+  "/map_server/transition_event",
+  "/map_updates",
+  "/parameter_events",
+  "/plan",
+  "/planner_server/transition_event",
+  "/rosout",
+  "/tf",
+  "/tf_static"
+ ],
+ "actions": [
+  "/compute_path_through_poses",
+  "/compute_path_to_pose"
+ ],
+ "motion_related": [],
+ "costmap_probe": {
+  "w": 387,
+  "h": 387,
+  "res": 0.029999999329447746,
+  "origin": [
+   -0.81,
+   -0.81
+  ],
+  "value_hist_top": {
+   "0": 70227,
+   "100": 43504,
+   "99": 18288,
+   "86": 2697,
+   "92": 2619,
+   "77": 2598,
+   "81": 2509,
+   "72": 2425
+  },
+  "n_minus1_unknown": 0,
+  "n_100_lethal": 43504,
+  "n_99_inscribed": 18288,
+  "value_at_unknown_outside_walls(-0.5,-0.5)": 100,
+  "value_at_unknown_outside_walls(10.6,5.0)": 100,
+  "value_at_open_free(3.5,5.5)": 0,
+  "value_N2_centerline(5.0,8.025)": 99,
+  "value_N1_centerline(5.0,5.025)": 86,
+  "value_WIDE_centerline(5.0,2.01)": 0
+ }
+}

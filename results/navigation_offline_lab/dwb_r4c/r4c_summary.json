@@ -1,0 +1,608 @@
+{
+ "n_runs": 768,
+ "n_ok": 340,
+ "n_fail": 428,
+ "by_cls": {
+  "GOAL_TOLERANCE": 200,
+  "OK": 340,
+  "OSCILACION": 91,
+  "TIMEOUT": 17,
+  "OTRO_SIN_TRAYECT": 14,
+  "OTRO_EXITO_APARENTE": 101,
+  "OTRO_EXITO_CONTACTO": 5
+ },
+ "by_cls_variant": {
+  "A": {
+   "GOAL_TOLERANCE": 101,
+   "OK": 147,
+   "OSCILACION": 68,
+   "TIMEOUT": 8,
+   "OTRO_EXITO_APARENTE": 55,
+   "OTRO_EXITO_CONTACTO": 5
+  },
+  "B": {
+   "GOAL_TOLERANCE": 99,
+   "OK": 193,
+   "OSCILACION": 23,
+   "TIMEOUT": 9,
+   "OTRO_SIN_TRAYECT": 14,
+   "OTRO_EXITO_APARENTE": 46
+  }
+ },
+ "by_cls_scenario": {
+  "S1_nominal": {
+   "GOAL_TOLERANCE": 77,
+   "OK": 29,
+   "OSCILACION": 18,
+   "TIMEOUT": 2,
+   "OTRO_SIN_TRAYECT": 2
+  },
+  "S2_ruido_xy": {
+   "OK": 98,
+   "GOAL_TOLERANCE": 3,
+   "OTRO_EXITO_APARENTE": 4,
+   "OSCILACION": 14,
+   "TIMEOUT": 4,
+   "OTRO_EXITO_CONTACTO": 1,
+   "OTRO_SIN_TRAYECT": 4
+  },
+  "S3_ruido_yaw": {
+   "OTRO_EXITO_APARENTE": 8,
+   "GOAL_TOLERANCE": 61,
+   "OK": 36,
+   "OSCILACION": 17,
+   "TIMEOUT": 3,
+   "OTRO_SIN_TRAYECT": 3
+  },
+  "S4_latencia_0p6": {
+   "GOAL_TOLERANCE": 56,
+   "OK": 37,
+   "OTRO_EXITO_APARENTE": 13,
+   "OSCILACION": 17,
+   "TIMEOUT": 2,
+   "OTRO_SIN_TRAYECT": 3
+  },
+  "S5_combinado_medido": {
+   "OK": 100,
+   "OTRO_EXITO_APARENTE": 8,
+   "GOAL_TOLERANCE": 3,
+   "OSCILACION": 10,
+   "TIMEOUT": 4,
+   "OTRO_EXITO_CONTACTO": 3
+  },
+  "S6_combinado_lat0p6": {
+   "OTRO_EXITO_APARENTE": 68,
+   "OK": 40,
+   "OSCILACION": 15,
+   "TIMEOUT": 2,
+   "OTRO_EXITO_CONTACTO": 1,
+   "OTRO_SIN_TRAYECT": 2
+  }
+ },
+ "by_cls_category": {
+  "around_obstacle": {
+   "GOAL_TOLERANCE": 15,
+   "OSCILACION": 51,
+   "TIMEOUT": 17,
+   "OK": 27,
+   "OTRO_SIN_TRAYECT": 3,
+   "OTRO_EXITO_APARENTE": 7
+  },
+  "corridor_N1": {
+   "OSCILACION": 40,
+   "OK": 26,
+   "GOAL_TOLERANCE": 7,
+   "OTRO_SIN_TRAYECT": 11,
+   "OTRO_EXITO_CONTACTO": 5,
+   "OTRO_EXITO_APARENTE": 7
+  },
+  "corridor_N2": {
+   "GOAL_TOLERANCE": 34,
+   "OK": 47,
+   "OTRO_EXITO_APARENTE": 15
+  },
+  "corridor_WIDE": {
+   "OK": 53,
+   "GOAL_TOLERANCE": 27,
+   "OTRO_EXITO_APARENTE": 16
+  },
+  "long": {
+   "GOAL_TOLERANCE": 28,
+   "OK": 67,
+   "OTRO_EXITO_APARENTE": 25
+  },
+  "random": {
+   "GOAL_TOLERANCE": 41,
+   "OK": 61,
+   "OTRO_EXITO_APARENTE": 18
+  },
+  "short": {
+   "GOAL_TOLERANCE": 48,
+   "OK": 59,
+   "OTRO_EXITO_APARENTE": 13
+  }
+ },
+ "attribution": {
+  "PARAMETRO (inferido): sin critic de orientaci\u00f3n final (RotateToGoal comentado); no se resuelve con yaw <= 0.785": 148,
+  "PARAMETRO: tolerancias de goal (verificado por contrafactual xy<=0.40 / yaw<=0.785)": 52,
+  "DWB: falla en ambas variantes (no atribuible al critic de obst\u00e1culos ni a tolerancias)": 105,
+  "PARAMETRO: critic de obst\u00e1culos (verificado: la variante pareada termina OK)": 22,
+  "LOCALIZACION: goal checker sobre pose estimada": 35,
+  "DINAMICA DE PARADA: dentro de tolerancia al detectar, fuera al detenerse (latencia + \u03c9 alta)": 66
+ },
+ "subcls": {
+  "ERROR_LOCALIZACION": 35,
+  "SOBREPASO_AL_FRENAR": 66
+ },
+ "attribution_by_variant": {
+  "A": {
+   "PARAMETRO (inferido): sin critic de orientaci\u00f3n final (RotateToGoal comentado); no se resuelve con yaw <= 0.785": 78,
+   "PARAMETRO: tolerancias de goal (verificado por contrafactual xy<=0.40 / yaw<=0.785)": 23,
+   "DWB: falla en ambas variantes (no atribuible al critic de obst\u00e1culos ni a tolerancias)": 59,
+   "PARAMETRO: critic de obst\u00e1culos (verificado: la variante pareada termina OK)": 22,
+   "LOCALIZACION: goal checker sobre pose estimada": 22,
+   "DINAMICA DE PARADA: dentro de tolerancia al detectar, fuera al detenerse (latencia + \u03c9 alta)": 33
+  },
+  "B": {
+   "PARAMETRO (inferido): sin critic de orientaci\u00f3n final (RotateToGoal comentado); no se resuelve con yaw <= 0.785": 70,
+   "PARAMETRO: tolerancias de goal (verificado por contrafactual xy<=0.40 / yaw<=0.785)": 29,
+   "DWB: falla en ambas variantes (no atribuible al critic de obst\u00e1culos ni a tolerancias)": 46,
+   "LOCALIZACION: goal checker sobre pose estimada": 13,
+   "DINAMICA DE PARADA: dentro de tolerancia al detectar, fuera al detenerse (latencia + \u03c9 alta)": 33
+  }
+ },
+ "attribution_by_cls": {
+  "GOAL_TOLERANCE": {
+   "PARAMETRO (inferido): sin critic de orientaci\u00f3n final (RotateToGoal comentado); no se resuelve con yaw <= 0.785": 148,
+   "PARAMETRO: tolerancias de goal (verificado por contrafactual xy<=0.40 / yaw<=0.785)": 52
+  },
+  "OSCILACION": {
+   "DWB: falla en ambas variantes (no atribuible al critic de obst\u00e1culos ni a tolerancias)": 73,
+   "PARAMETRO: critic de obst\u00e1culos (verificado: la variante pareada termina OK)": 18
+  },
+  "OTRO_EXITO_APARENTE": {
+   "LOCALIZACION: goal checker sobre pose estimada": 35,
+   "DINAMICA DE PARADA: dentro de tolerancia al detectar, fuera al detenerse (latencia + \u03c9 alta)": 66
+  },
+  "OTRO_EXITO_CONTACTO": {
+   "DWB: falla en ambas variantes (no atribuible al critic de obst\u00e1culos ni a tolerancias)": 2,
+   "PARAMETRO: critic de obst\u00e1culos (verificado: la variante pareada termina OK)": 3
+  },
+  "OTRO_SIN_TRAYECT": {
+   "DWB: falla en ambas variantes (no atribuible al critic de obst\u00e1culos ni a tolerancias)": 14
+  },
+  "TIMEOUT": {
+   "DWB: falla en ambas variantes (no atribuible al critic de obst\u00e1culos ni a tolerancias)": 16,
+   "PARAMETRO: critic de obst\u00e1culos (verificado: la variante pareada termina OK)": 1
+  }
+ },
+ "counterfactual": {
+  "0.25|0.250": {
+   "total": 66,
+   "by_cls": {
+    "OTRO_EXITO_APARENTE": 66
+   }
+  },
+  "0.25|0.350": {
+   "total": 92,
+   "by_cls": {
+    "GOAL_TOLERANCE": 17,
+    "OTRO_EXITO_APARENTE": 75
+   }
+  },
+  "0.25|0.500": {
+   "total": 91,
+   "by_cls": {
+    "GOAL_TOLERANCE": 20,
+    "OTRO_EXITO_APARENTE": 71
+   }
+  },
+  "0.25|0.785": {
+   "total": 124,
+   "by_cls": {
+    "GOAL_TOLERANCE": 51,
+    "OTRO_EXITO_APARENTE": 73
+   }
+  },
+  "0.25|1.571": {
+   "total": 186,
+   "by_cls": {
+    "GOAL_TOLERANCE": 117,
+    "OTRO_EXITO_APARENTE": 69
+   }
+  },
+  "0.25|3.152": {
+   "total": 263,
+   "by_cls": {
+    "GOAL_TOLERANCE": 196,
+    "OTRO_EXITO_APARENTE": 67
+   }
+  },
+  "0.3|0.250": {
+   "total": 73,
+   "by_cls": {
+    "GOAL_TOLERANCE": 4,
+    "OTRO_EXITO_APARENTE": 69
+   }
+  },
+  "0.3|0.350": {
+   "total": 96,
+   "by_cls": {
+    "GOAL_TOLERANCE": 17,
+    "OTRO_EXITO_APARENTE": 79
+   }
+  },
+  "0.3|0.500": {
+   "total": 95,
+   "by_cls": {
+    "GOAL_TOLERANCE": 20,
+    "OTRO_EXITO_APARENTE": 75
+   }
+  },
+  "0.3|0.785": {
+   "total": 127,
+   "by_cls": {
+    "GOAL_TOLERANCE": 52,
+    "OTRO_EXITO_APARENTE": 75
+   }
+  },
+  "0.3|1.571": {
+   "total": 189,
+   "by_cls": {
+    "GOAL_TOLERANCE": 117,
+    "OTRO_EXITO_APARENTE": 72
+   }
+  },
+  "0.3|3.152": {
+   "total": 267,
+   "by_cls": {
+    "GOAL_TOLERANCE": 196,
+    "OTRO_EXITO_APARENTE": 71
+   }
+  },
+  "0.4|0.250": {
+   "total": 75,
+   "by_cls": {
+    "GOAL_TOLERANCE": 5,
+    "OTRO_EXITO_APARENTE": 70
+   }
+  },
+  "0.4|0.350": {
+   "total": 91,
+   "by_cls": {
+    "GOAL_TOLERANCE": 17,
+    "OTRO_EXITO_APARENTE": 74
+   }
+  },
+  "0.4|0.500": {
+   "total": 90,
+   "by_cls": {
+    "GOAL_TOLERANCE": 19,
+    "OTRO_EXITO_APARENTE": 71
+   }
+  },
+  "0.4|0.785": {
+   "total": 125,
+   "by_cls": {
+    "GOAL_TOLERANCE": 51,
+    "OTRO_EXITO_APARENTE": 74
+   }
+  },
+  "0.4|1.571": {
+   "total": 185,
+   "by_cls": {
+    "GOAL_TOLERANCE": 115,
+    "OTRO_EXITO_APARENTE": 70
+   }
+  },
+  "0.4|3.152": {
+   "total": 259,
+   "by_cls": {
+    "GOAL_TOLERANCE": 196,
+    "OTRO_EXITO_APARENTE": 63
+   }
+  },
+  "0.5|0.250": {
+   "total": 75,
+   "by_cls": {
+    "GOAL_TOLERANCE": 3,
+    "OTRO_EXITO_APARENTE": 72
+   }
+  },
+  "0.5|0.350": {
+   "total": 92,
+   "by_cls": {
+    "GOAL_TOLERANCE": 17,
+    "OTRO_EXITO_APARENTE": 75
+   }
+  },
+  "0.5|0.500": {
+   "total": 98,
+   "by_cls": {
+    "GOAL_TOLERANCE": 22,
+    "OTRO_EXITO_APARENTE": 76
+   }
+  },
+  "0.5|0.785": {
+   "total": 129,
+   "by_cls": {
+    "GOAL_TOLERANCE": 51,
+    "OTRO_EXITO_APARENTE": 78
+   }
+  },
+  "0.5|1.571": {
+   "total": 195,
+   "by_cls": {
+    "GOAL_TOLERANCE": 120,
+    "OTRO_EXITO_APARENTE": 75
+   }
+  },
+  "0.5|3.152": {
+   "total": 268,
+   "by_cls": {
+    "GOAL_TOLERANCE": 198,
+    "OTRO_EXITO_APARENTE": 70
+   }
+  }
+ },
+ "hard": [
+  {
+   "path_id": "T029",
+   "category": "around_obstacle",
+   "path_len": 4.36283,
+   "n_runs": 12,
+   "n_fail": 12,
+   "n_fail_sin_aparente": 12,
+   "n_contact": 0,
+   "clear_min": 0.06657144817179052,
+   "lat_max": 0.08093212878527695,
+   "min_final_xy": 2.3171863259133914,
+   "classes": {
+    "OSCILACION": 12
+   }
+  },
+  {
+   "path_id": "T025",
+   "category": "around_obstacle",
+   "path_len": 3.66877,
+   "n_runs": 12,
+   "n_fail": 12,
+   "n_fail_sin_aparente": 12,
+   "n_contact": 0,
+   "clear_min": 0.014727614718008738,
+   "lat_max": 0.22161895532228298,
+   "min_final_xy": 1.3924693999151303,
+   "classes": {
+    "TIMEOUT": 12
+   }
+  },
+  {
+   "path_id": "T023",
+   "category": "around_obstacle",
+   "path_len": 2.24267,
+   "n_runs": 12,
+   "n_fail": 12,
+   "n_fail_sin_aparente": 12,
+   "n_contact": 0,
+   "clear_min": 0.010158558513305313,
+   "lat_max": 0.12777627519542453,
+   "min_final_xy": 1.2735303550367383,
+   "classes": {
+    "OSCILACION": 10,
+    "TIMEOUT": 1,
+    "OTRO_SIN_TRAYECT": 1
+   }
+  },
+  {
+   "path_id": "T028",
+   "category": "around_obstacle",
+   "path_len": 2.4708,
+   "n_runs": 12,
+   "n_fail": 12,
+   "n_fail_sin_aparente": 12,
+   "n_contact": 0,
+   "clear_min": 0.026712665397680344,
+   "lat_max": 0.14150077809796172,
+   "min_final_xy": 0.9685000910686592,
+   "classes": {
+    "OSCILACION": 11,
+    "OTRO_SIN_TRAYECT": 1
+   }
+  },
+  {
+   "path_id": "T027",
+   "category": "around_obstacle",
+   "path_len": 3.33691,
+   "n_runs": 12,
+   "n_fail": 12,
+   "n_fail_sin_aparente": 12,
+   "n_contact": 0,
+   "clear_min": 0.0193686917545857,
+   "lat_max": 0.11201417325854712,
+   "min_final_xy": 0.7786652212600739,
+   "classes": {
+    "OSCILACION": 10,
+    "OTRO_SIN_TRAYECT": 1,
+    "TIMEOUT": 1
+   }
+  },
+  {
+   "path_id": "T042",
+   "category": "corridor_N1",
+   "path_len": 2.22787,
+   "n_runs": 12,
+   "n_fail": 11,
+   "n_fail_sin_aparente": 11,
+   "n_contact": 2,
+   "clear_min": -0.010669735254414753,
+   "lat_max": 0.09865550778941246,
+   "min_final_xy": 0.008640196757018768,
+   "classes": {
+    "OSCILACION": 5,
+    "GOAL_TOLERANCE": 1,
+    "OTRO_SIN_TRAYECT": 4,
+    "OTRO_EXITO_CONTACTO": 1,
+    "OK": 1
+   }
+  },
+  {
+   "path_id": "T024",
+   "category": "around_obstacle",
+   "path_len": 2.28089,
+   "n_runs": 12,
+   "n_fail": 11,
+   "n_fail_sin_aparente": 11,
+   "n_contact": 0,
+   "clear_min": 0.04442610939374639,
+   "lat_max": 0.15327668883219103,
+   "min_final_xy": 0.016257736619837523,
+   "classes": {
+    "OSCILACION": 8,
+    "TIMEOUT": 3,
+    "OK": 1
+   }
+  },
+  {
+   "path_id": "T043",
+   "category": "corridor_N1",
+   "path_len": 2.23296,
+   "n_runs": 12,
+   "n_fail": 11,
+   "n_fail_sin_aparente": 10,
+   "n_contact": 3,
+   "clear_min": -0.05651926234943486,
+   "lat_max": 0.10343409470547864,
+   "min_final_xy": 0.0051389201200253256,
+   "classes": {
+    "OSCILACION": 3,
+    "OTRO_SIN_TRAYECT": 3,
+    "OTRO_EXITO_CONTACTO": 3,
+    "GOAL_TOLERANCE": 1,
+    "OK": 1,
+    "OTRO_EXITO_APARENTE": 1
+   }
+  },
+  {
+   "path_id": "T046",
+   "category": "corridor_N1",
+   "path_len": 2.22787,
+   "n_runs": 12,
+   "n_fail": 11,
+   "n_fail_sin_aparente": 10,
+   "n_contact": 1,
+   "clear_min": -0.05443780192300737,
+   "lat_max": 0.10283506765144232,
+   "min_final_xy": 0.007264186120963361,
+   "classes": {
+    "OSCILACION": 5,
+    "OTRO_SIN_TRAYECT": 3,
+    "GOAL_TOLERANCE": 1,
+    "OTRO_EXITO_CONTACTO": 1,
+    "OK": 1,
+    "OTRO_EXITO_APARENTE": 1
+   }
+  },
+  {
+   "path_id": "T060",
+   "category": "random",
+   "path_len": 6.04882,
+   "n_runs": 12,
+   "n_fail": 10,
+   "n_fail_sin_aparente": 9,
+   "n_contact": 0,
+   "clear_min": 0.013712281789532705,
+   "lat_max": 0.3740163938853338,
+   "min_final_xy": 0.001188486432400504,
+   "classes": {
+    "GOAL_TOLERANCE": 9,
+    "OK": 2,
+    "OTRO_EXITO_APARENTE": 1
+   }
+  }
+ ],
+ "cls_stats": {
+  "GOAL_TOLERANCE": {
+   "n": 200,
+   "lat_max_max": 0.3552428519557999,
+   "final_xy_med": 0.009520089728740511,
+   "final_yaw_med": 1.839787,
+   "t_end_med": 46.16,
+   "clear_min": 0.010308971518710406,
+   "end_flips_med": 14.0,
+   "end_w_amp_med": 0.473684
+  },
+  "OK": {
+   "n": 340,
+   "lat_max_max": 0.3740163938853338,
+   "final_xy_med": 0.0414999362404664,
+   "final_yaw_med": 0.11093249999999999,
+   "t_end_med": 30.744999999999997,
+   "clear_min": 0.00951346141375423,
+   "end_flips_med": 15.0,
+   "end_w_amp_med": 1.0
+  },
+  "OSCILACION": {
+   "n": 91,
+   "lat_max_max": 0.1355001542270191,
+   "final_xy_med": 2.0754700015418197,
+   "final_yaw_med": 1.3360100000000001,
+   "t_end_med": 26.41,
+   "clear_min": 0.010158558513305313,
+   "end_flips_med": 14.0,
+   "end_w_amp_med": 1.0
+  },
+  "OTRO_EXITO_APARENTE": {
+   "n": 101,
+   "lat_max_max": 0.24229434313939946,
+   "final_xy_med": 0.039078691124448034,
+   "final_yaw_med": 0.46454999999999996,
+   "t_end_med": 31.32,
+   "clear_min": 0.017845984015404454,
+   "end_flips_med": 14.0,
+   "end_w_amp_med": 1.0
+  },
+  "OTRO_EXITO_CONTACTO": {
+   "n": 5,
+   "lat_max_max": 0.10343409470547864,
+   "final_xy_med": 0.03947787861575157,
+   "final_yaw_med": 0.08943999999999996,
+   "t_end_med": 29.24,
+   "clear_min": -0.05651926234943486,
+   "end_flips_med": 17.0,
+   "end_w_amp_med": 1.0
+  },
+  "OTRO_SIN_TRAYECT": {
+   "n": 14,
+   "lat_max_max": 0.14150077809796172,
+   "final_xy_med": 1.996532929929764,
+   "final_yaw_med": 1.6301903071795867,
+   "t_end_med": 4.8100000000000005,
+   "clear_min": -0.009466009754403593,
+   "end_flips_med": 3.0,
+   "end_w_amp_med": 1.0
+  },
+  "TIMEOUT": {
+   "n": 17,
+   "lat_max_max": 0.22161895532228298,
+   "final_xy_med": 1.512634361536192,
+   "final_yaw_med": 0.86527,
+   "t_end_med": 74.35,
+   "clear_min": 0.014727614718008738,
+   "end_flips_med": 6.0,
+   "end_w_amp_med": 1.0
+  }
+ },
+ "aparente_excess": {
+  "xy_gt_tol": 8,
+  "yaw_gt_tol": 93,
+  "xy_gt_tol_plus5cm": 0,
+  "yaw_gt_tol_plus01": 62
+ },
+ "goal_tol_detail": {
+  "n": 200,
+  "final_xy_med": 0.009520089728740511,
+  "final_yaw_med": 1.839787,
+  "final_yaw_p90": 2.8877734,
+  "t_after_xy_med": 27.709999999999994
+ }
+}

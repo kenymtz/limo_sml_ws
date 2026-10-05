@@ -1,0 +1,153 @@
+{
+ "mode": "selftest",
+ "checks": [
+  {
+   "check": "autotest: 5 corridas",
+   "PASS": true,
+   "detail": [
+    "T005",
+    "T039",
+    "T041",
+    "T043",
+    "T045"
+   ]
+  },
+  {
+   "check": "autotest T005: plan inicial NavFn == paths_R3 (\u22641e-5 m)",
+   "PASS": true,
+   "detail": [
+    [
+     46,
+     2
+    ],
+    [
+     46,
+     2
+    ]
+   ]
+  },
+  {
+   "check": "autotest T005: id\u00e9ntico a R4-G0 v3 (otro orden de corridas previas) -> independencia/costmap limpio",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "autotest T005: setPlan cada 1.0 s y 0 fallos NavFn",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "autotest T039: plan inicial NavFn == paths_R3 (\u22641e-5 m)",
+   "PASS": true,
+   "detail": [
+    [
+     147,
+     2
+    ],
+    [
+     147,
+     2
+    ]
+   ]
+  },
+  {
+   "check": "autotest T039: id\u00e9ntico a R4-G0 v3 (otro orden de corridas previas) -> independencia/costmap limpio",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "autotest T039: setPlan cada 1.0 s y 0 fallos NavFn",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "autotest T041: plan inicial NavFn == paths_R3 (\u22641e-5 m)",
+   "PASS": true,
+   "detail": [
+    [
+     147,
+     2
+    ],
+    [
+     147,
+     2
+    ]
+   ]
+  },
+  {
+   "check": "autotest T041: id\u00e9ntico a R4-G0 v3 (otro orden de corridas previas) -> independencia/costmap limpio",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "autotest T041: setPlan cada 1.0 s y 0 fallos NavFn",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "autotest T043: plan inicial NavFn == paths_R3 (\u22641e-5 m)",
+   "PASS": true,
+   "detail": [
+    [
+     147,
+     2
+    ],
+    [
+     147,
+     2
+    ]
+   ]
+  },
+  {
+   "check": "autotest T043: id\u00e9ntico a R4-G0 v3 (otro orden de corridas previas) -> independencia/costmap limpio",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "autotest T043: setPlan cada 1.0 s y 0 fallos NavFn",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "autotest T045: plan inicial NavFn == paths_R3 (\u22641e-5 m)",
+   "PASS": true,
+   "detail": [
+    [
+     147,
+     2
+    ],
+    [
+     147,
+     2
+    ]
+   ]
+  },
+  {
+   "check": "autotest T045: id\u00e9ntico a R4-G0 v3 (otro orden de corridas previas) -> independencia/costmap limpio",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "autotest T045: setPlan cada 1.0 s y 0 fallos NavFn",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "autotest: celdas restauradas crecen (residuos de clearRobotCell detectados y eliminados)",
+   "PASS": true,
+   "detail": [
+    0,
+    7,
+    40,
+    44,
+    55
+   ]
+  },
+  {
+   "check": "autotest: auditor\u00eda audit_selftest.json",
+   "PASS": true,
+   "detail": null
+  }
+ ],
+ "PASS": true
+}

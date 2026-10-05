@@ -1,0 +1,120 @@
+{
+ "S1_nominal:T041": {
+  "status": "ABORT_PROGRESS",
+  "t_end": 33.91,
+  "last_progress_t": 8.8,
+  "t_without_progress_at_abort": 24.999999999999996,
+  "translation_since_last_progress": 0.04329951962781969,
+  "yaw_err_est_range_stuck": [
+   -0.4706299999999998,
+   -0.15798999999999985
+  ],
+  "min_abs_yaw_err_true_stuck": 0.15798999999999985,
+  "d_xy_true_stuck": [
+   0.1412653474847958,
+   0.18451851831184832
+  ],
+  "clearance_true_min_stuck": 0.04831509287230988,
+  "cmd_w_values_stuck": [
+   -0.158,
+   0,
+   0.158,
+   0.263,
+   0.368,
+   0.474,
+   0.579,
+   0.684,
+   0.789,
+   0.895,
+   1
+  ],
+  "cmd_w_sign_flips_stuck": 13,
+  "illegal_critics_stuck": [
+   "ObstacleFootprint",
+   "Oscillation",
+   "RotateToGoal"
+  ],
+  "cycles_with_ObstacleFootprint_illegal": 130,
+  "cycles_with_Oscillation_illegal": 99,
+  "n_cycles_stuck": 251
+ },
+ "S2_ruido_xy:T045": {
+  "status": "ABORT_PROGRESS",
+  "t_end": 36.81,
+  "last_progress_t": 11.7,
+  "t_without_progress_at_abort": 25.000000000000004,
+  "translation_since_last_progress": 0.023710210880547148,
+  "yaw_err_est_range_stuck": [
+   0.17028,
+   0.41879000000000005
+  ],
+  "min_abs_yaw_err_true_stuck": 0.17028,
+  "d_xy_true_stuck": [
+   0.1619450876068801,
+   0.18537892787477286
+  ],
+  "clearance_true_min_stuck": 0.03919640973523232,
+  "cmd_w_values_stuck": [
+   -1,
+   -0.895,
+   -0.789,
+   -0.684,
+   -0.579,
+   -0.474,
+   -0.368,
+   -0.263,
+   -0.158,
+   0,
+   0.053,
+   0.158
+  ],
+  "cmd_w_sign_flips_stuck": 15,
+  "illegal_critics_stuck": [
+   "ObstacleFootprint",
+   "Oscillation",
+   "RotateToGoal"
+  ],
+  "cycles_with_ObstacleFootprint_illegal": 141,
+  "cycles_with_Oscillation_illegal": 105,
+  "n_cycles_stuck": 251
+ },
+ "S5_combinado_medido:T041": {
+  "status": "ABORT_PROGRESS",
+  "t_end": 34.65,
+  "last_progress_t": 9.5,
+  "t_without_progress_at_abort": 25.0,
+  "translation_since_last_progress": 0.03015447064698675,
+  "yaw_err_est_range_stuck": [
+   1.6237153071795867,
+   1.9654453071795868
+  ],
+  "min_abs_yaw_err_true_stuck": 1.6731153071795861,
+  "d_xy_true_stuck": [
+   0.1461701918997171,
+   0.17553710519431526
+  ],
+  "clearance_true_min_stuck": 0.0667133915364718,
+  "cmd_w_values_stuck": [
+   -1,
+   -0.895,
+   -0.789,
+   -0.684,
+   -0.579,
+   -0.474,
+   -0.368,
+   -0.263,
+   -0.158,
+   0,
+   0.158
+  ],
+  "cmd_w_sign_flips_stuck": 13,
+  "illegal_critics_stuck": [
+   "ObstacleFootprint",
+   "Oscillation",
+   "RotateToGoal"
+  ],
+  "cycles_with_ObstacleFootprint_illegal": 141,
+  "cycles_with_Oscillation_illegal": 109,
+  "n_cycles_stuck": 251
+ }
+}

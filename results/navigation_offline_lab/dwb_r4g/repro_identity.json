@@ -1,0 +1,44 @@
+{
+ "S1_nominal:T041:nodbg": {
+  "identical_to_R4F": true,
+  "diff_keys": [],
+  "status": "ABORT_PROGRESS",
+  "t_end": 33.91,
+  "n_ctrl": 339
+ },
+ "S1_nominal:T041:dbg": {
+  "identical_to_R4F": true,
+  "diff_keys": [],
+  "status": "ABORT_PROGRESS",
+  "t_end": 33.91,
+  "n_ctrl": 339
+ },
+ "S2_ruido_xy:T045:nodbg": {
+  "identical_to_R4F": true,
+  "diff_keys": [],
+  "status": "ABORT_PROGRESS",
+  "t_end": 36.81,
+  "n_ctrl": 368
+ },
+ "S2_ruido_xy:T045:dbg": {
+  "identical_to_R4F": true,
+  "diff_keys": [],
+  "status": "ABORT_PROGRESS",
+  "t_end": 36.81,
+  "n_ctrl": 368
+ },
+ "S5_combinado_medido:T041:nodbg": {
+  "identical_to_R4F": true,
+  "diff_keys": [],
+  "status": "ABORT_PROGRESS",
+  "t_end": 34.65,
+  "n_ctrl": 346
+ },
+ "S5_combinado_medido:T041:dbg": {
+  "identical_to_R4F": true,
+  "diff_keys": [],
+  "status": "ABORT_PROGRESS",
+  "t_end": 34.65,
+  "n_ctrl": 346
+ }
+}

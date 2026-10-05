@@ -1,0 +1,36 @@
+{
+ "r3": "/home/limopro/limo_sml_ws/config/offline_lab/planner_offline_R3.yaml",
+ "r3_sha256": "10a940738b5c71622baf187766cb9772bf2d7afeb2e6de9936d708762cf340cd",
+ "variants": {
+  "B_A": {
+   "src": "dwb_offline_R4B_base.yaml",
+   "src_sha256": "59010cec646b1b5373230061de20061bfd470451565a3e242560d1ded42f487f",
+   "out": "dwb_offline_R4G1_B_A_replan_sim.yaml",
+   "out_sha256": "9ade523d7c6d9ef7ffa101117423829cc490f7fc96431dded8fbd3391471385f"
+  },
+  "B_B": {
+   "src": "dwb_offline_R4B_fp.yaml",
+   "src_sha256": "238813ee5dba90cc9a9896cd8ffdc919420502b82cf6a1097f71ea89e0653757",
+   "out": "dwb_offline_R4G1_B_B_replan_sim.yaml",
+   "out_sha256": "5b2c1938df1067a99876b90838e05ee70de3dfb04ce0de7c7c34440123ed5733"
+  },
+  "D": {
+   "src": "dwb_offline_R4D_fp_rtg.yaml",
+   "src_sha256": "133a3b9070c15a45b16607955019f2329e260b2fc304a60a1b28900825147b2b",
+   "out": "dwb_offline_R4G1_D_replan_sim.yaml",
+   "out_sha256": "4401b7578fc825d9d60bbcccce68a477c39ee0d81b8e4dbe9122b625671a2781"
+  },
+  "E015": {
+   "src": "dwb_offline_R4E_015_sim.yaml",
+   "src_sha256": "aeeb2772c0bd2f0ef5878c360e3aa8ec9946502955fbc09185e9504f2a7c67f0",
+   "out": "dwb_offline_R4G1_E015_replan_sim.yaml",
+   "out_sha256": "e85498a86f8ea6f7ebdec426f4b63a88b7efa6d1d5b91c9d174e26e39f2a217c"
+  },
+  "F010": {
+   "src": "dwb_offline_R4F_010_sim.yaml",
+   "src_sha256": "b6763b6443ec7d7916b08ef3598bb2c97953bcf585721b617fef1594bb8bcaf4",
+   "out": "dwb_offline_R4G1_F010_replan_sim.yaml",
+   "out_sha256": "045f71fe1a1e92628dba355008b7bcb53b4aeca8ad7389e1e80313b3d6d86365"
+  }
+ }
+}

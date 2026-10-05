@@ -1,0 +1,7 @@
+[1/7] instantánea previa de /offline_test/map_changing
+[2/7] map_saver_cli (umbrales de guardado explícitos)
+[3/7] instantánea posterior
+[4/7] preservar yaml bruto + yaml de carga (free_thresh=0.10)
+[5/7] validate_ros_map.py
+[6/7] PGM vs instantáneas
+FAIL: el PGM no corresponde a ninguna instantánea (ver synth_changing.snapshot_check.json)

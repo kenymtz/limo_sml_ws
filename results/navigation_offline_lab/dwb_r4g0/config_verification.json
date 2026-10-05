@@ -1,0 +1,33 @@
+{
+ "checks": [
+  {
+   "check": "produccion navigation2_real.yaml sin cambios",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "solo se agregan GridBased.* y global_costmap.* (resto id\u00e9ntico a R4-F 0.10)",
+   "PASS": true,
+   "detail": []
+  },
+  {
+   "check": "ninguna clave existente de R4-F cambia",
+   "PASS": true,
+   "detail": []
+  },
+  {
+   "check": "global_costmap == R3 salvo update/publish_frequency",
+   "PASS": true,
+   "detail": [
+    "global_costmap.global_costmap.ros__parameters.publish_frequency",
+    "global_costmap.global_costmap.ros__parameters.update_frequency"
+   ]
+  },
+  {
+   "check": "GridBased == planner_server.GridBased de R3",
+   "PASS": true,
+   "detail": null
+  }
+ ],
+ "PASS": true
+}

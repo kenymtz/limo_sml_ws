@@ -1,0 +1,26 @@
+PASS produccion navigation2_real.yaml sin cambios
+PASS B_A: solo se agregan GridBased.* / global_costmap.* a dwb_offline_R4B_base.yaml
+PASS B_A: global_costmap == R3 salvo update/publish_frequency
+PASS B_A: GridBased == R3
+PASS B_B: solo se agregan GridBased.* / global_costmap.* a dwb_offline_R4B_fp.yaml
+PASS B_B: global_costmap == R3 salvo update/publish_frequency
+PASS B_B: GridBased == R3
+PASS D: solo se agregan GridBased.* / global_costmap.* a dwb_offline_R4D_fp_rtg.yaml
+PASS D: global_costmap == R3 salvo update/publish_frequency
+PASS D: GridBased == R3
+PASS E015: solo se agregan GridBased.* / global_costmap.* a dwb_offline_R4E_015_sim.yaml
+PASS E015: global_costmap == R3 salvo update/publish_frequency
+PASS E015: GridBased == R3
+PASS F010: solo se agregan GridBased.* / global_costmap.* a dwb_offline_R4F_010_sim.yaml
+PASS F010: global_costmap == R3 salvo update/publish_frequency
+PASS F010: GridBased == R3
+PASS F010 replan == dwb_offline_R4G0_replan_sim.yaml (validada en R4-G0)
+PASS candidata R4-F: critics con ObstacleFootprint y RotateToGoal, sin BaseObstacle
+PASS candidata R4-F: FollowPath.xy_goal_tolerance 0.15
+PASS candidata R4-F: checker xy 0.25 / yaw 0.10
+PASS candidata R4-F: progress_checker 0.10 m / 25.0 s
+PASS candidata R4-F: footprint B y padding 0.02
+PASS escenarios de run_r4g1.sh == run_r4f_all.sh (6)
+PASS fuente con restauración del global costmap antes de cada plan (fix clearRobotCell)
+PASS binario más nuevo que la fuente
+TODO PASS

@@ -1,0 +1,13 @@
+S1_nominal fixed_plan: closedloop terminado en 36 s; líneas: 13
+S1_nominal replan_1hz: closedloop terminado en 31 s; líneas: 13
+S1_nominal replan_same_1hz: closedloop terminado en 31 s; líneas: 13
+S2_ruido_xy fixed_plan: closedloop terminado en 5 s; líneas: 5
+S2_ruido_xy replan_1hz: closedloop terminado en 16 s; líneas: 5
+S2_ruido_xy replan_same_1hz: closedloop terminado en 5 s; líneas: 5
+S4_latencia_0p6 fixed_plan: closedloop terminado en 0 s; líneas: 5
+S4_latencia_0p6 replan_1hz: closedloop terminado en 0 s; líneas: 5
+S4_latencia_0p6 replan_same_1hz: closedloop terminado en 0 s; líneas: 5
+S5_combinado_medido fixed_plan: closedloop terminado en 5 s; líneas: 6
+S5_combinado_medido replan_1hz: closedloop terminado en 10 s; líneas: 6
+S5_combinado_medido replan_same_1hz: closedloop terminado en 5 s; líneas: 6
+TODO_TERMINADO

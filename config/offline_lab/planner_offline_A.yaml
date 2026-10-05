@@ -1,0 +1,49 @@
+# OFFLINE LAB (NAV-OFFLINE-R2) — derivado de config/navigation/navigation2_real.yaml (NO modificado)
+# Footprint A. Cambios vs original: plugins=[static_layer, inflation_layer] (sin obstacle_layer/scan),
+#   footprint/footprint_padding = A. planner_server copiado sin cambios. track_unknown_space sin definir (igual que original).
+# Solo para ComputePathToPose en ROS_DOMAIN_ID=99 / ROS_LOCALHOST_ONLY=1. NO usar en el robot.
+map_server:
+  ros__parameters:
+    use_sim_time: false
+    yaml_filename: ''
+    topic_name: map
+    frame_id: map
+planner_server:
+  ros__parameters:
+    expected_planner_frequency: 20.0
+    use_sim_time: false
+    planner_plugins:
+    - GridBased
+    GridBased:
+      plugin: nav2_navfn_planner/NavfnPlanner
+      tolerance: 0.2
+      use_astar: false
+      allow_unknown: false
+global_costmap:
+  global_costmap:
+    ros__parameters:
+      footprint_padding: 0.03
+      update_frequency: 1.0
+      publish_frequency: 1.0
+      global_frame: map
+      robot_base_frame: base_link
+      footprint: '[[-0.16, -0.10], [-0.16, 0.10], [0.20, 0.10], [0.20, -0.10]]'
+      resolution: 0.03
+      plugins:
+      - static_layer
+      - inflation_layer
+      static_layer:
+        plugin: nav2_costmap_2d::StaticLayer
+        map_subscribe_transient_local: true
+        enabled: true
+        subscribe_to_updates: true
+        transform_tolerance: 0.1
+      inflation_layer:
+        plugin: nav2_costmap_2d::InflationLayer
+        enabled: true
+        inflation_radius: 0.35
+        cost_scaling_factor: 2.0
+        inflate_unknown: false
+        inflate_around_unknown: true
+      always_send_full_costmap: true
+      introspection_mode: disabled

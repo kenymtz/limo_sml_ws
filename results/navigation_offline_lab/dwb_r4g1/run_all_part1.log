@@ -1,0 +1,19 @@
+selftest: closedloop terminado en 0 s; líneas: 6
+F010 S1_nominal: closedloop terminado en 226 s; líneas: 65
+F010 S2_ruido_xy: closedloop terminado en 232 s; líneas: 65
+F010 S3_ruido_yaw: closedloop terminado en 221 s; líneas: 65
+F010 S4_latencia_0p6: closedloop terminado en 217 s; líneas: 65
+F010 S5_combinado_medido: closedloop terminado en 242 s; líneas: 65
+F010 S6_combinado_lat0p6: closedloop terminado en 232 s; líneas: 65
+E015 S1_nominal: closedloop terminado en 227 s; líneas: 65
+E015 S2_ruido_xy: closedloop terminado en 227 s; líneas: 65
+E015 S3_ruido_yaw: closedloop terminado en 217 s; líneas: 65
+E015 S4_latencia_0p6: closedloop terminado en 212 s; líneas: 65
+E015 S5_combinado_medido: closedloop terminado en 236 s; líneas: 65
+E015 S6_combinado_lat0p6: closedloop terminado en 232 s; líneas: 65
+D S1_nominal: closedloop terminado en 216 s; líneas: 65
+D S2_ruido_xy: closedloop terminado en 222 s; líneas: 65
+D S3_ruido_yaw: closedloop terminado en 212 s; líneas: 65
+D S4_latencia_0p6: closedloop terminado en 206 s; líneas: 65
+D S5_combinado_medido: closedloop terminado en 232 s; líneas: 65
+D S6_combinado_lat0p6: closedloop terminado en 227 s; líneas: 65

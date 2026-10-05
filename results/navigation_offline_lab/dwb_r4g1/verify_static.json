@@ -1,0 +1,195 @@
+{
+ "mode": "static",
+ "checks": [
+  {
+   "check": "produccion navigation2_real.yaml sin cambios",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_A: solo se agregan GridBased.* / global_costmap.* a dwb_offline_R4B_base.yaml",
+   "PASS": true,
+   "detail": [
+    "controller_server.ros__parameters.GridBased.allow_unknown",
+    "controller_server.ros__parameters.GridBased.plugin",
+    "controller_server.ros__parameters.GridBased.tolerance",
+    "controller_server.ros__parameters.GridBased.use_astar",
+    "global_costmap.global_costmap.ros__parameters.always_send_full_costmap"
+   ]
+  },
+  {
+   "check": "B_A: global_costmap == R3 salvo update/publish_frequency",
+   "PASS": true,
+   "detail": [
+    "global_costmap.global_costmap.ros__parameters.publish_frequency",
+    "global_costmap.global_costmap.ros__parameters.update_frequency"
+   ]
+  },
+  {
+   "check": "B_A: GridBased == R3",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "B_B: solo se agregan GridBased.* / global_costmap.* a dwb_offline_R4B_fp.yaml",
+   "PASS": true,
+   "detail": [
+    "controller_server.ros__parameters.GridBased.allow_unknown",
+    "controller_server.ros__parameters.GridBased.plugin",
+    "controller_server.ros__parameters.GridBased.tolerance",
+    "controller_server.ros__parameters.GridBased.use_astar",
+    "global_costmap.global_costmap.ros__parameters.always_send_full_costmap"
+   ]
+  },
+  {
+   "check": "B_B: global_costmap == R3 salvo update/publish_frequency",
+   "PASS": true,
+   "detail": [
+    "global_costmap.global_costmap.ros__parameters.publish_frequency",
+    "global_costmap.global_costmap.ros__parameters.update_frequency"
+   ]
+  },
+  {
+   "check": "B_B: GridBased == R3",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "D: solo se agregan GridBased.* / global_costmap.* a dwb_offline_R4D_fp_rtg.yaml",
+   "PASS": true,
+   "detail": [
+    "controller_server.ros__parameters.GridBased.allow_unknown",
+    "controller_server.ros__parameters.GridBased.plugin",
+    "controller_server.ros__parameters.GridBased.tolerance",
+    "controller_server.ros__parameters.GridBased.use_astar",
+    "global_costmap.global_costmap.ros__parameters.always_send_full_costmap"
+   ]
+  },
+  {
+   "check": "D: global_costmap == R3 salvo update/publish_frequency",
+   "PASS": true,
+   "detail": [
+    "global_costmap.global_costmap.ros__parameters.publish_frequency",
+    "global_costmap.global_costmap.ros__parameters.update_frequency"
+   ]
+  },
+  {
+   "check": "D: GridBased == R3",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "E015: solo se agregan GridBased.* / global_costmap.* a dwb_offline_R4E_015_sim.yaml",
+   "PASS": true,
+   "detail": [
+    "controller_server.ros__parameters.GridBased.allow_unknown",
+    "controller_server.ros__parameters.GridBased.plugin",
+    "controller_server.ros__parameters.GridBased.tolerance",
+    "controller_server.ros__parameters.GridBased.use_astar",
+    "global_costmap.global_costmap.ros__parameters.always_send_full_costmap"
+   ]
+  },
+  {
+   "check": "E015: global_costmap == R3 salvo update/publish_frequency",
+   "PASS": true,
+   "detail": [
+    "global_costmap.global_costmap.ros__parameters.publish_frequency",
+    "global_costmap.global_costmap.ros__parameters.update_frequency"
+   ]
+  },
+  {
+   "check": "E015: GridBased == R3",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010: solo se agregan GridBased.* / global_costmap.* a dwb_offline_R4F_010_sim.yaml",
+   "PASS": true,
+   "detail": [
+    "controller_server.ros__parameters.GridBased.allow_unknown",
+    "controller_server.ros__parameters.GridBased.plugin",
+    "controller_server.ros__parameters.GridBased.tolerance",
+    "controller_server.ros__parameters.GridBased.use_astar",
+    "global_costmap.global_costmap.ros__parameters.always_send_full_costmap"
+   ]
+  },
+  {
+   "check": "F010: global_costmap == R3 salvo update/publish_frequency",
+   "PASS": true,
+   "detail": [
+    "global_costmap.global_costmap.ros__parameters.publish_frequency",
+    "global_costmap.global_costmap.ros__parameters.update_frequency"
+   ]
+  },
+  {
+   "check": "F010: GridBased == R3",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "F010 replan == dwb_offline_R4G0_replan_sim.yaml (validada en R4-G0)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "candidata R4-F: critics con ObstacleFootprint y RotateToGoal, sin BaseObstacle",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "candidata R4-F: FollowPath.xy_goal_tolerance 0.15",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "candidata R4-F: checker xy 0.25 / yaw 0.10",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "candidata R4-F: progress_checker 0.10 m / 25.0 s",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "candidata R4-F: footprint B y padding 0.02",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "escenarios de run_r4g1.sh == run_r4f_all.sh (6)",
+   "PASS": true,
+   "detail": [
+    {
+     "S1_nominal": "{}",
+     "S2_ruido_xy": "{\"sigma_xy\":0.03,\"noise_tau\":1.0}",
+     "S3_ruido_yaw": "{\"sigma_yaw\":0.05,\"noise_tau\":1.0}",
+     "S4_latencia_0p6": "{\"latency\":0.6}",
+     "S5_combinado_medido": "{\"sigma_xy\":0.03,\"sigma_yaw\":0.05,\"noise_tau\":1.0,\"latency\":0.05,\"k_v\":0.95,\"k_w\":0.92}",
+     "S6_combinado_lat0p6": "{\"sigma_xy\":0.03,\"sigma_yaw\":0.05,\"noise_tau\":1.0,\"latency\":0.6,\"k_v\":0.95,\"k_w\":0.92}"
+    },
+    {
+     "S1_nominal": "{}",
+     "S2_ruido_xy": "{\"sigma_xy\":0.03,\"noise_tau\":1.0}",
+     "S3_ruido_yaw": "{\"sigma_yaw\":0.05,\"noise_tau\":1.0}",
+     "S4_latencia_0p6": "{\"latency\":0.6}",
+     "S5_combinado_medido": "{\"sigma_xy\":0.03,\"sigma_yaw\":0.05,\"noise_tau\":1.0,\"latency\":0.05,\"k_v\":0.95,\"k_w\":0.92}",
+     "S6_combinado_lat0p6": "{\"sigma_xy\":0.03,\"sigma_yaw\":0.05,\"noise_tau\":1.0,\"latency\":0.6,\"k_v\":0.95,\"k_w\":0.92}"
+    }
+   ]
+  },
+  {
+   "check": "fuente con restauraci\u00f3n del global costmap antes de cada plan (fix clearRobotCell)",
+   "PASS": true,
+   "detail": null
+  },
+  {
+   "check": "binario m\u00e1s nuevo que la fuente",
+   "PASS": true,
+   "detail": null
+  }
+ ],
+ "PASS": true,
+ "binary_sha256": "d7e44470cbdce0ac83640eb799352cfc19059745b587400519907edaad9a34e6",
+ "source_sha256": "ebb17205cab3f6919028e7d1e7179605811796e27562569280f589a7c43ddab5"
+}

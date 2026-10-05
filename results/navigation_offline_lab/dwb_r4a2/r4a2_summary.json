@@ -1,0 +1,580 @@
+{
+ "n_cases": 3204,
+ "map": "/home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.yaml",
+ "occupied_cells": 8656,
+ "res": 0.03,
+ "footprint_real": [
+  -0.17,
+  0.22,
+  -0.16,
+  0.16
+ ],
+ "padding": 0.02,
+ "baseline_vs_R4A": {
+  "compared": 3204,
+  "cmd_diff": 0,
+  "status_diff": 0
+ },
+ "cmd_changed_base_vs_exp": 311,
+ "baseline": {
+  "ALL": {
+   "n": 3204,
+   "accepted": 3204,
+   "rejected": 0,
+   "TN": 3180,
+   "FN_unsafe": 24,
+   "TP": 0,
+   "FP": 0,
+   "FP_within_padding": 0,
+   "FP_strict": 0,
+   "unsafe_margin": 48,
+   "unsafe_costmap_padded": 48,
+   "center_ok_robot_not": 24,
+   "center_ok_robot_margin": 48,
+   "center_geom_dist_unsafe": {
+    "n": 24,
+    "min": 0.1595378389348434,
+    "p5": 0.1595378389348434,
+    "p50": 0.15999513204776777
+   },
+   "n_legal": {
+    "n": 3204,
+    "min": 219,
+    "p5": 409.0,
+    "p50": 411.0
+   },
+   "margin_violation_lt_padding": 48,
+   "cases_with_legal_fp_collision": 1331,
+   "traj_clear": {
+    "n": 3204,
+    "min": -0.00925877673258993,
+    "p5": 0.13332283646813353,
+    "p50": 0.2506896400979891
+   },
+   "t_ms": {
+    "n": 3204,
+    "min": 4.392615,
+    "p5": 8.8238609,
+    "p50": 9.9340365
+   },
+   "reject_reasons": {},
+   "FP_pose_clear": null,
+   "TP_pose_clear": null
+  },
+  "START": {
+   "n": 64,
+   "accepted": 64,
+   "rejected": 0,
+   "TN": 64,
+   "FN_unsafe": 0,
+   "TP": 0,
+   "FP": 0,
+   "FP_within_padding": 0,
+   "FP_strict": 0,
+   "unsafe_margin": 0,
+   "unsafe_costmap_padded": 0,
+   "center_ok_robot_not": 0,
+   "center_ok_robot_margin": 0,
+   "center_geom_dist_unsafe": null,
+   "n_legal": {
+    "n": 64,
+    "min": 275,
+    "p5": 296.8,
+    "p50": 411.0
+   },
+   "margin_violation_lt_padding": 0,
+   "cases_with_legal_fp_collision": 29,
+   "traj_clear": {
+    "n": 64,
+    "min": 0.04653332981476015,
+    "p5": 0.06057939710324774,
+    "p50": 0.2330056945756691
+   },
+   "t_ms": {
+    "n": 64,
+    "min": 5.152061,
+    "p5": 8.595828449999999,
+    "p50": 9.4656835
+   },
+   "reject_reasons": {},
+   "FP_pose_clear": null,
+   "TP_pose_clear": null
+  },
+  "ALONG": {
+   "n": 628,
+   "accepted": 628,
+   "rejected": 0,
+   "TN": 628,
+   "FN_unsafe": 0,
+   "TP": 0,
+   "FP": 0,
+   "FP_within_padding": 0,
+   "FP_strict": 0,
+   "unsafe_margin": 0,
+   "unsafe_costmap_padded": 0,
+   "center_ok_robot_not": 0,
+   "center_ok_robot_margin": 0,
+   "center_geom_dist_unsafe": null,
+   "n_legal": {
+    "n": 628,
+    "min": 258,
+    "p5": 411.0,
+    "p50": 411.0
+   },
+   "margin_violation_lt_padding": 0,
+   "cases_with_legal_fp_collision": 271,
+   "traj_clear": {
+    "n": 628,
+    "min": 0.04324498026684938,
+    "p5": 0.15947074152355822,
+    "p50": 0.2515473730801174
+   },
+   "t_ms": {
+    "n": 628,
+    "min": 4.706959,
+    "p5": 8.8663469,
+    "p50": 9.9365325
+   },
+   "reject_reasons": {},
+   "FP_pose_clear": null,
+   "TP_pose_clear": null
+  },
+  "PERT_LAT": {
+   "n": 1256,
+   "accepted": 1256,
+   "rejected": 0,
+   "TN": 1232,
+   "FN_unsafe": 24,
+   "TP": 0,
+   "FP": 0,
+   "FP_within_padding": 0,
+   "FP_strict": 0,
+   "unsafe_margin": 24,
+   "unsafe_costmap_padded": 24,
+   "center_ok_robot_not": 24,
+   "center_ok_robot_margin": 24,
+   "center_geom_dist_unsafe": {
+    "n": 24,
+    "min": 0.1595378389348434,
+    "p5": 0.1595378389348434,
+    "p50": 0.15999513204776777
+   },
+   "n_legal": {
+    "n": 1256,
+    "min": 219,
+    "p5": 409.0,
+    "p50": 411.0
+   },
+   "margin_violation_lt_padding": 24,
+   "cases_with_legal_fp_collision": 518,
+   "traj_clear": {
+    "n": 1256,
+    "min": -0.00925877673258993,
+    "p5": 0.13607070259298393,
+    "p50": 0.2622879638294868
+   },
+   "t_ms": {
+    "n": 1256,
+    "min": 4.392615,
+    "p5": 8.758279250000001,
+    "p50": 9.9306455
+   },
+   "reject_reasons": {},
+   "FP_pose_clear": null,
+   "TP_pose_clear": null
+  },
+  "PERT_YAW": {
+   "n": 1256,
+   "accepted": 1256,
+   "rejected": 0,
+   "TN": 1256,
+   "FN_unsafe": 0,
+   "TP": 0,
+   "FP": 0,
+   "FP_within_padding": 0,
+   "FP_strict": 0,
+   "unsafe_margin": 24,
+   "unsafe_costmap_padded": 24,
+   "center_ok_robot_not": 0,
+   "center_ok_robot_margin": 24,
+   "center_geom_dist_unsafe": null,
+   "n_legal": {
+    "n": 1256,
+    "min": 254,
+    "p5": 409.0,
+    "p50": 411.0
+   },
+   "margin_violation_lt_padding": 24,
+   "cases_with_legal_fp_collision": 513,
+   "traj_clear": {
+    "n": 1256,
+    "min": 0.0027557651750422796,
+    "p5": 0.15251765932802125,
+    "p50": 0.24014735116483305
+   },
+   "t_ms": {
+    "n": 1256,
+    "min": 4.735152,
+    "p5": 8.907524,
+    "p50": 9.953353499999999
+   },
+   "reject_reasons": {},
+   "FP_pose_clear": null,
+   "TP_pose_clear": null
+  },
+  "by_category": {
+   "short": {
+    "n": 45,
+    "acc": 45,
+    "TN": 45,
+    "pose_contact": 0,
+    "n_legal_sum": 18495
+   },
+   "long": {
+    "n": 905,
+    "acc": 905,
+    "TN": 905,
+    "pose_contact": 0,
+    "n_legal_sum": 371782
+   },
+   "around_obstacle": {
+    "n": 300,
+    "acc": 300,
+    "TN": 300,
+    "pose_contact": 0,
+    "n_legal_sum": 123093
+   },
+   "corridor_WIDE": {
+    "n": 128,
+    "acc": 128,
+    "TN": 128,
+    "pose_contact": 0,
+    "n_legal_sum": 52583
+   },
+   "corridor_N1": {
+    "n": 128,
+    "acc": 128,
+    "TN": 104,
+    "pose_contact": 24,
+    "n_legal_sum": 32764,
+    "FN": 24
+   },
+   "corridor_N2": {
+    "n": 1048,
+    "acc": 1048,
+    "TN": 1048,
+    "pose_contact": 0,
+    "n_legal_sum": 430138
+   },
+   "random": {
+    "n": 650,
+    "acc": 650,
+    "TN": 650,
+    "pose_contact": 0,
+    "n_legal_sum": 267108
+   }
+  },
+  "routes": {
+   "n": 64,
+   "nominal_accepted": 64,
+   "with_any_pert_reject": 0,
+   "with_any_unsafe": 8
+  },
+  "routes_with_unsafe": [
+   "T039",
+   "T040",
+   "T041",
+   "T042",
+   "T043",
+   "T044",
+   "T045",
+   "T046"
+  ]
+ },
+ "experimental": {
+  "ALL": {
+   "n": 3204,
+   "accepted": 3156,
+   "rejected": 48,
+   "TN": 3156,
+   "FN_unsafe": 0,
+   "TP": 24,
+   "FP": 24,
+   "FP_within_padding": 24,
+   "FP_strict": 0,
+   "unsafe_margin": 0,
+   "unsafe_costmap_padded": 0,
+   "center_ok_robot_not": 0,
+   "center_ok_robot_margin": 0,
+   "center_geom_dist_unsafe": null,
+   "n_legal": {
+    "n": 3204,
+    "min": 0,
+    "p5": 329.0,
+    "p50": 411.0
+   },
+   "margin_violation_lt_padding": 0,
+   "cases_with_legal_fp_collision": 17,
+   "traj_clear": {
+    "n": 3156,
+    "min": 0.02606001261487566,
+    "p5": 0.15310326311792544,
+    "p50": 0.2541805927661044
+   },
+   "t_ms": {
+    "n": 3204,
+    "min": 12.39572,
+    "p5": 22.227933,
+    "p50": 26.21442
+   },
+   "reject_reasons": {
+    "No valid trajectories out of 411!": 48
+   },
+   "FP_pose_clear": {
+    "n": 24,
+    "min": 0.018930542448241904,
+    "p5": 0.018930542448241904,
+    "p50": 0.018969775613630876
+   },
+   "TP_pose_clear": {
+    "n": 24,
+    "min": -0.0008227054013021373,
+    "p5": -0.0008227054013021373,
+    "p50": -1.0597641897466814e-05
+   }
+  },
+  "START": {
+   "n": 64,
+   "accepted": 64,
+   "rejected": 0,
+   "TN": 64,
+   "FN_unsafe": 0,
+   "TP": 0,
+   "FP": 0,
+   "FP_within_padding": 0,
+   "FP_strict": 0,
+   "unsafe_margin": 0,
+   "unsafe_costmap_padded": 0,
+   "center_ok_robot_not": 0,
+   "center_ok_robot_margin": 0,
+   "center_geom_dist_unsafe": null,
+   "n_legal": {
+    "n": 64,
+    "min": 129,
+    "p5": 136.85,
+    "p50": 411.0
+   },
+   "margin_violation_lt_padding": 0,
+   "cases_with_legal_fp_collision": 0,
+   "traj_clear": {
+    "n": 64,
+    "min": 0.03122683175610357,
+    "p5": 0.043094667595649484,
+    "p50": 0.2330056945756691
+   },
+   "t_ms": {
+    "n": 64,
+    "min": 12.43982,
+    "p5": 24.721442,
+    "p50": 26.185299999999998
+   },
+   "reject_reasons": {},
+   "FP_pose_clear": null,
+   "TP_pose_clear": null
+  },
+  "ALONG": {
+   "n": 628,
+   "accepted": 628,
+   "rejected": 0,
+   "TN": 628,
+   "FN_unsafe": 0,
+   "TP": 0,
+   "FP": 0,
+   "FP_within_padding": 0,
+   "FP_strict": 0,
+   "unsafe_margin": 0,
+   "unsafe_costmap_padded": 0,
+   "center_ok_robot_not": 0,
+   "center_ok_robot_margin": 0,
+   "center_geom_dist_unsafe": null,
+   "n_legal": {
+    "n": 628,
+    "min": 43,
+    "p5": 363.0,
+    "p50": 411.0
+   },
+   "margin_violation_lt_padding": 0,
+   "cases_with_legal_fp_collision": 8,
+   "traj_clear": {
+    "n": 628,
+    "min": 0.04324498026684938,
+    "p5": 0.15192336218959687,
+    "p50": 0.2521042983651012
+   },
+   "t_ms": {
+    "n": 628,
+    "min": 13.19459,
+    "p5": 23.928527,
+    "p50": 26.235235000000003
+   },
+   "reject_reasons": {},
+   "FP_pose_clear": null,
+   "TP_pose_clear": null
+  },
+  "PERT_LAT": {
+   "n": 1256,
+   "accepted": 1232,
+   "rejected": 24,
+   "TN": 1232,
+   "FN_unsafe": 0,
+   "TP": 24,
+   "FP": 0,
+   "FP_within_padding": 0,
+   "FP_strict": 0,
+   "unsafe_margin": 0,
+   "unsafe_costmap_padded": 0,
+   "center_ok_robot_not": 0,
+   "center_ok_robot_margin": 0,
+   "center_geom_dist_unsafe": null,
+   "n_legal": {
+    "n": 1256,
+    "min": 0,
+    "p5": 325.0,
+    "p50": 411.0
+   },
+   "margin_violation_lt_padding": 0,
+   "cases_with_legal_fp_collision": 5,
+   "traj_clear": {
+    "n": 1232,
+    "min": 0.02606001261487566,
+    "p5": 0.1496324248143729,
+    "p50": 0.2667512638652014
+   },
+   "t_ms": {
+    "n": 1256,
+    "min": 12.39572,
+    "p5": 21.921802500000002,
+    "p50": 26.21495
+   },
+   "reject_reasons": {
+    "No valid trajectories out of 411!": 24
+   },
+   "FP_pose_clear": null,
+   "TP_pose_clear": {
+    "n": 24,
+    "min": -0.0008227054013021373,
+    "p5": -0.0008227054013021373,
+    "p50": -1.0597641897466814e-05
+   }
+  },
+  "PERT_YAW": {
+   "n": 1256,
+   "accepted": 1232,
+   "rejected": 24,
+   "TN": 1232,
+   "FN_unsafe": 0,
+   "TP": 0,
+   "FP": 24,
+   "FP_within_padding": 24,
+   "FP_strict": 0,
+   "unsafe_margin": 0,
+   "unsafe_costmap_padded": 0,
+   "center_ok_robot_not": 0,
+   "center_ok_robot_margin": 0,
+   "center_geom_dist_unsafe": null,
+   "n_legal": {
+    "n": 1256,
+    "min": 0,
+    "p5": 341.75,
+    "p50": 411.0
+   },
+   "margin_violation_lt_padding": 0,
+   "cases_with_legal_fp_collision": 4,
+   "traj_clear": {
+    "n": 1232,
+    "min": 0.026477207485497506,
+    "p5": 0.16823729115104724,
+    "p50": 0.244060310897005
+   },
+   "t_ms": {
+    "n": 1256,
+    "min": 12.8039,
+    "p5": 22.357934999999998,
+    "p50": 26.198675
+   },
+   "reject_reasons": {
+    "No valid trajectories out of 411!": 24
+   },
+   "FP_pose_clear": {
+    "n": 24,
+    "min": 0.018930542448241904,
+    "p5": 0.018930542448241904,
+    "p50": 0.018969775613630876
+   },
+   "TP_pose_clear": null
+  },
+  "by_category": {
+   "short": {
+    "n": 45,
+    "acc": 45,
+    "TN": 45,
+    "pose_contact": 0,
+    "n_legal_sum": 18454
+   },
+   "long": {
+    "n": 905,
+    "acc": 905,
+    "TN": 905,
+    "pose_contact": 0,
+    "n_legal_sum": 363230
+   },
+   "around_obstacle": {
+    "n": 300,
+    "acc": 300,
+    "TN": 300,
+    "pose_contact": 0,
+    "n_legal_sum": 115318
+   },
+   "corridor_WIDE": {
+    "n": 128,
+    "acc": 128,
+    "TN": 128,
+    "pose_contact": 0,
+    "n_legal_sum": 49925
+   },
+   "corridor_N1": {
+    "n": 128,
+    "acc": 80,
+    "TN": 80,
+    "pose_contact": 24,
+    "n_legal_sum": 5090,
+    "TP": 24,
+    "FP": 24
+   },
+   "corridor_N2": {
+    "n": 1048,
+    "acc": 1048,
+    "TN": 1048,
+    "pose_contact": 0,
+    "n_legal_sum": 417434
+   },
+   "random": {
+    "n": 650,
+    "acc": 650,
+    "TN": 650,
+    "pose_contact": 0,
+    "n_legal_sum": 261599
+   }
+  },
+  "routes": {
+   "n": 64,
+   "nominal_accepted": 64,
+   "with_any_pert_reject": 8,
+   "with_any_unsafe": 0
+  },
+  "routes_with_unsafe": []
+ },
+ "pose_contact_cases": 24,
+ "pose_clear_lt_padding": 48,
+ "improvement_pct": 100.0
+}

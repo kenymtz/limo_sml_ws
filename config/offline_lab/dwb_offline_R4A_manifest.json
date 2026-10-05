@@ -1,0 +1,16 @@
+{
+ "source": "/home/limopro/limo_sml_ws/config/navigation/navigation2_real.yaml",
+ "source_sha256": "dfb36e108d6872a5b500d3d6df33959203f054330aa2d74051360f41a74ddc62",
+ "outputs": {
+  "dwb_offline_R4A.yaml": {
+   "sha256": "689fb21c7e684000740bec4d89a7bd0a91ce4c46b278fc2787a115c6b820e825",
+   "local_costmap_note": "plugins [obstacle_layer, inflation_layer] -> [static_layer, inflation_layer]; obstacle/voxel eliminados (sin /scan offline). Resto igual al real.",
+   "controller_server_identical_to_real": true
+  },
+  "dwb_offline_R4A_realcm.yaml": {
+   "sha256": "29f56ddf6d1b1a040aeae5f2af4a94fb9bf86e428afcfc9b382d87b06fa12493",
+   "local_costmap_note": "ID\u00c9NTICO al real (obstacle_layer sin /scan => costmap sin obst\u00e1culos).",
+   "controller_server_identical_to_real": true
+  }
+ }
+}

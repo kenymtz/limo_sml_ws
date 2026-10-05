@@ -1,0 +1,21 @@
+{
+ "real_sha256": "dfb36e108d6872a5b500d3d6df33959203f054330aa2d74051360f41a74ddc62",
+ "diff_vs_real": [
+  "controller_server.ros__parameters.FollowPath.BaseObstacle.scale",
+  "controller_server.ros__parameters.FollowPath.ObstacleFootprint.scale",
+  "controller_server.ros__parameters.FollowPath.critics"
+ ],
+ "navigation2_R4D_sha256": "a25c4c62680cfca6f58b13d7b0f07bb0498566dcdf49f1bbd84d5494b5fd6468",
+ "sim_source": "/home/limopro/limo_sml_ws/config/offline_lab/dwb_offline_R4B_fp.yaml",
+ "sim_source_sha256": "238813ee5dba90cc9a9896cd8ffdc919420502b82cf6a1097f71ea89e0653757",
+ "sim_sha256": "133a3b9070c15a45b16607955019f2329e260b2fc304a60a1b28900825147b2b",
+ "critics": [
+  "RotateToGoal",
+  "Oscillation",
+  "ObstacleFootprint",
+  "GoalAlign",
+  "PathAlign",
+  "PathDist",
+  "GoalDist"
+ ]
+}

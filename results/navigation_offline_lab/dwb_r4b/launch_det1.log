@@ -1,0 +1,94 @@
+[INFO] [launch]: All log files can be found below /home/limopro/.ros/log/2026-09-29-17-59-04-738511-ubuntu-28720
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-1]: process started with pid [28727]
+[INFO] [dwb_closed_loop_sim-2]: process started with pid [28729]
+[INFO] [lifecycle_manager-3]: process started with pid [28731]
+[lifecycle_manager-3] 1790715544.919837 [99] lifecycle_: selected interface "lo" is not multicast-capable: disabling multicast
+[dwb_closed_loop_sim-2] 1790715544.926235 [99] dwb_closed: selected interface "lo" is not multicast-capable: disabling multicast
+[lifecycle_manager-3] [INFO] [1790715544.930107151] [lifecycle_manager_offline]: Creating
+[lifecycle_manager-3] [INFO] [1790715544.933669504] [lifecycle_manager_offline]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[map_server-1] 1790715544.935064 [99] map_server: selected interface "lo" is not multicast-capable: disabling multicast
+[lifecycle_manager-3] [INFO] [1790715544.946821891] [lifecycle_manager_offline]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-3] [INFO] [1790715544.946943239] [lifecycle_manager_offline]: [34m[1mConfiguring map_server[0m[0m
+[map_server-1] [INFO] [1790715544.947104268] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1790715544.947281105] [map_server]: Creating
+[dwb_closed_loop_sim-2] [INFO] [1790715544.951569498] [dwb_closed_loop_sim]: 
+[dwb_closed_loop_sim-2] 	dwb_closed_loop_sim lifecycle node launched. 
+[dwb_closed_loop_sim-2] 	Waiting on external lifecycle transitions to activate
+[dwb_closed_loop_sim-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1790715544.962308239] [map_server]: Configuring
+[map_server-1] [INFO] [1790715544.962477717] [map_io]: Loading yaml file: /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.yaml
+[map_server-1] [INFO] [1790715544.963368561] [map_io]: resolution: 0.03
+[map_server-1] [INFO] [1790715544.963394386] [map_io]: origin[0]: -0.81
+[map_server-1] [INFO] [1790715544.963403890] [map_io]: origin[1]: -0.81
+[map_server-1] [INFO] [1790715544.963411570] [map_io]: origin[2]: 0
+[map_server-1] [INFO] [1790715544.963418995] [map_io]: free_thresh: 0.1
+[map_server-1] [INFO] [1790715544.963426003] [map_io]: occupied_thresh: 0.65
+[map_server-1] [INFO] [1790715544.963434451] [map_io]: mode: trinary
+[map_server-1] [INFO] [1790715544.963450196] [map_io]: negate: 0
+[map_server-1] [INFO] [1790715544.963969124] [map_io]: Loading image_file: /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.pgm
+[dwb_closed_loop_sim-2] [INFO] [1790715544.968494516] [local_costmap.local_costmap]: 
+[dwb_closed_loop_sim-2] 	local_costmap lifecycle node launched. 
+[dwb_closed_loop_sim-2] 	Waiting on external lifecycle transitions to activate
+[dwb_closed_loop_sim-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[dwb_closed_loop_sim-2] [INFO] [1790715544.971277709] [local_costmap.local_costmap]: Creating Costmap
+[dwb_closed_loop_sim-2] [INFO] [1790715544.974654360] [local_costmap.local_costmap]: Configuring
+[dwb_closed_loop_sim-2] [INFO] [1790715544.979083141] [local_costmap.local_costmap]: Using plugin "static_layer"
+[dwb_closed_loop_sim-2] [INFO] [1790715544.986508017] [local_costmap.local_costmap]: Subscribing to the map topic (/map) with transient local durability
+[dwb_closed_loop_sim-2] [INFO] [1790715544.987280426] [local_costmap.local_costmap]: Initialized plugin "static_layer"
+[dwb_closed_loop_sim-2] [INFO] [1790715544.987330059] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[dwb_closed_loop_sim-2] [INFO] [1790715544.988275209] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[map_server-1] [INFO] [1790715544.996778840] [map_io]: Read map /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.pgm: 387 X 387 map @ 0.03 m/cell
+[lifecycle_manager-3] [INFO] [1790715545.005890010] [lifecycle_manager_offline]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1790715545.006175715] [map_server]: Activating
+[map_server-1] [INFO] [1790715545.007348072] [map_server]: Creating bond (map_server) to lifecycle manager.
+[dwb_closed_loop_sim-2] [INFO] [1790715545.007577807] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 387 X 387 at 0.030000 m/pix
+[lifecycle_manager-3] [INFO] [1790715545.111712512] [lifecycle_manager_offline]: Server map_server connected with bond.
+[lifecycle_manager-3] [INFO] [1790715545.111829827] [lifecycle_manager_offline]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-3] [INFO] [1790715545.111871237] [lifecycle_manager_offline]: [34m[1mCreating bond timer...[0m[0m
+[dwb_closed_loop_sim-2] [INFO] [1790715546.545891987] [local_costmap.local_costmap]: Activating
+[dwb_closed_loop_sim-2] [INFO] [1790715546.546010743] [local_costmap.local_costmap]: Checking transform
+[dwb_closed_loop_sim-2] [INFO] [1790715546.546521383] [local_costmap.local_costmap]: start
+[dwb_closed_loop_sim-2] [INFO] [1790715546.597433498] [dwb_closed_loop_sim]: sanity: celdas LETHAL con robot en (0.50, 5.00): 120
+[dwb_closed_loop_sim-2] [INFO] [1790715546.605515548] [dwb_closed_loop_sim]: Setting transform_tolerance to 0.200000
+[dwb_closed_loop_sim-2] [INFO] [1790715546.618874212] [dwb_closed_loop_sim]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[dwb_closed_loop_sim-2] [INFO] [1790715546.619722527] [dwb_closed_loop_sim]: Critic plugin initialized
+[dwb_closed_loop_sim-2] [INFO] [1790715546.619968487] [dwb_closed_loop_sim]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[dwb_closed_loop_sim-2] [INFO] [1790715546.620312146] [dwb_closed_loop_sim]: Critic plugin initialized
+[dwb_closed_loop_sim-2] [INFO] [1790715546.620573467] [dwb_closed_loop_sim]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[dwb_closed_loop_sim-2] [INFO] [1790715546.621131404] [dwb_closed_loop_sim]: Critic plugin initialized
+[dwb_closed_loop_sim-2] [INFO] [1790715546.621365172] [dwb_closed_loop_sim]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[dwb_closed_loop_sim-2] [INFO] [1790715546.621854339] [dwb_closed_loop_sim]: Critic plugin initialized
+[dwb_closed_loop_sim-2] [INFO] [1790715546.622116076] [dwb_closed_loop_sim]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[dwb_closed_loop_sim-2] [INFO] [1790715546.622540025] [dwb_closed_loop_sim]: Critic plugin initialized
+[dwb_closed_loop_sim-2] [INFO] [1790715546.622792065] [dwb_closed_loop_sim]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[dwb_closed_loop_sim-2] [INFO] [1790715546.623152301] [dwb_closed_loop_sim]: Critic plugin initialized
+[dwb_closed_loop_sim-2] [INFO] [1790715546.623229455] [dwb_closed_loop_sim]: R4B S1_nominal plugin=FollowPath runs=5 map=1 sxy=0.000 syaw=0.000 lat=0.00 kv=1.00 kw=1.00
+[dwb_closed_loop_sim-2] [INFO] [1790715548.241898864] [dwb_closed_loop_sim]: [1/5] T001 ABORT_PROGRESS t=35.8
+[dwb_closed_loop_sim-2] [INFO] [1790715552.835311643] [dwb_closed_loop_sim]: [2/5] T011 ABORT_PROGRESS t=87.9
+[dwb_closed_loop_sim-2] [INFO] [1790715555.002977820] [dwb_closed_loop_sim]: [3/5] T021 ABORT_PROGRESS t=43.7
+[dwb_closed_loop_sim-2] [INFO] [1790715556.411624011] [dwb_closed_loop_sim]: [4/5] T039 ABORT_PROGRESS t=25.2
+[dwb_closed_loop_sim-2] [INFO] [1790715560.633781031] [dwb_closed_loop_sim]: [5/5] T047 ABORT_PROGRESS t=83.0
+[dwb_closed_loop_sim-2] [INFO] [1790715560.636546431] [local_costmap.local_costmap]: Deactivating
+[dwb_closed_loop_sim-2] [INFO] [1790715560.636703748] [local_costmap.local_costmap]: Cleaning up
+[dwb_closed_loop_sim-2] [INFO] [1790715560.661374165] [dwb_closed_loop_sim]: Running Nav2 LifecycleNode rcl preshutdown (dwb_closed_loop_sim)
+[dwb_closed_loop_sim-2] [INFO] [1790715560.661485561] [dwb_closed_loop_sim]: Destroying bond (dwb_closed_loop_sim) to lifecycle manager.
+[dwb_closed_loop_sim-2] [INFO] [1790715560.664767489] [local_costmap.local_costmap]: Destroying
+[dwb_closed_loop_sim-2] [INFO] [1790715560.689647545] [dwb_closed_loop_sim]: Destroying
+[INFO] [dwb_closed_loop_sim-2]: process has finished cleanly [pid 28729]
+[map_server-1] [INFO] [1790715563.033087324] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-1] [INFO] [1790715563.033256034] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[lifecycle_manager-3] [INFO] [1790715563.033059451] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-3] [INFO] [1790715563.033283938] [lifecycle_manager_offline]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_offline)
+[lifecycle_manager-3] [INFO] [1790715563.033396806] [lifecycle_manager_offline]: [34m[1mTerminating bond timer...[0m[0m
+[map_server-1] [INFO] [1790715563.033446440] [map_server]: Deactivating
+[map_server-1] [INFO] [1790715563.033494089] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[map_server-1] [INFO] [1790715563.044024280] [map_server]: Cleaning up
+[map_server-1] [INFO] [1790715563.044244639] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[map_server-1] [INFO] [1790715563.212611884] [map_server]: Destroying
+[lifecycle_manager-3] [INFO] [1790715563.213992088] [lifecycle_manager_offline]: Destroying lifecycle_manager_offline
+[INFO] [lifecycle_manager-3]: process has finished cleanly [pid 28731]
+[INFO] [map_server-1]: process has finished cleanly [pid 28727]

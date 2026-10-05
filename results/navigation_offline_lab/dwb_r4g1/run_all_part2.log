@@ -1,0 +1,13 @@
+B_B S1_nominal: closedloop terminado en 327 s; líneas: 65
+B_B S2_ruido_xy: closedloop terminado en 257 s; líneas: 65
+B_B S3_ruido_yaw: closedloop terminado en 313 s; líneas: 65
+B_B S4_latencia_0p6: closedloop terminado en 293 s; líneas: 65
+B_B S5_combinado_medido: closedloop terminado en 267 s; líneas: 65
+B_B S6_combinado_lat0p6: closedloop terminado en 267 s; líneas: 65
+B_A S1_nominal: closedloop terminado en 141 s; líneas: 65
+B_A S2_ruido_xy: closedloop terminado en 111 s; líneas: 65
+B_A S3_ruido_yaw: closedloop terminado en 136 s; líneas: 65
+B_A S4_latencia_0p6: closedloop terminado en 121 s; líneas: 65
+B_A S5_combinado_medido: closedloop terminado en 116 s; líneas: 65
+B_A S6_combinado_lat0p6: closedloop terminado en 111 s; líneas: 65
+TODO_TERMINADO

@@ -1,0 +1,434 @@
+[
+ {
+  "yaml": "results/maps/arena_20260918_1900/map.yaml",
+  "image": "map.pgm",
+  "mode": "trinary",
+  "resolution": 0.03,
+  "origin": [
+   -3.32,
+   -4.88,
+   0
+  ],
+  "negate": 0,
+  "occupied_thresh": 0.65,
+  "free_thresh": 0.25,
+  "image_path": "results/maps/arena_20260918_1900/map.pgm",
+  "image_exists": true,
+  "pgm_sha256_12": "864e196a04be",
+  "size_px": [
+   382,
+   336
+  ],
+  "size_m": [
+   11.46,
+   10.08
+  ],
+  "pixel_hist": {
+   "0": 1908,
+   "205": 91768,
+   "254": 34676
+  },
+  "px205": 91768,
+  "nav2_yaml_thresh": {
+   "free": 126444,
+   "occupied": 1908,
+   "unknown": 0
+  },
+  "nav2_free_0.196": {
+   "free": 34676,
+   "occupied": 1908,
+   "unknown": 91768
+  },
+  "semantic": {
+   "free": 34676,
+   "occupied": 1908,
+   "unknown": 91768
+  },
+  "unknown_lost_pct": 71.5,
+  "affected": true
+ },
+ {
+  "yaml": "/home/limopro/limoatwork/mimap.yaml",
+  "image": "mimap.pgm",
+  "mode": "trinary",
+  "resolution": 0.05,
+  "origin": [
+   -2.5,
+   -5.1,
+   0
+  ],
+  "negate": 0,
+  "occupied_thresh": 0.65,
+  "free_thresh": 0.25,
+  "image_path": "/home/limopro/limoatwork/mimap.pgm",
+  "image_exists": true,
+  "pgm_sha256_12": "72aaa4ae047c",
+  "size_px": [
+   118,
+   190
+  ],
+  "size_m": [
+   5.9,
+   9.5
+  ],
+  "pixel_hist": {
+   "0": 482,
+   "205": 14775,
+   "254": 7163
+  },
+  "px205": 14775,
+  "nav2_yaml_thresh": {
+   "free": 21938,
+   "occupied": 482,
+   "unknown": 0
+  },
+  "nav2_free_0.196": {
+   "free": 7163,
+   "occupied": 482,
+   "unknown": 14775
+  },
+  "semantic": {
+   "free": 7163,
+   "occupied": 482,
+   "unknown": 14775
+  },
+  "unknown_lost_pct": 65.9,
+  "affected": true
+ },
+ {
+  "yaml": "/home/limopro/limoatwork/src/limo_ros2/limo_bringup/maps/map1.yaml",
+  "image": "map.pgm",
+  "mode": "trinary",
+  "resolution": 0.05,
+  "origin": [
+   -1.17,
+   -1.02,
+   0
+  ],
+  "negate": 0,
+  "occupied_thresh": 0.65,
+  "free_thresh": 0.25,
+  "image_path": "/home/limopro/limoatwork/src/limo_ros2/limo_bringup/maps/map.pgm",
+  "image_exists": true,
+  "pgm_sha256_12": "cc5c8a0e7d5f",
+  "size_px": [
+   129,
+   151
+  ],
+  "size_m": [
+   6.45,
+   7.55
+  ],
+  "pixel_hist": {
+   "0": 1552,
+   "205": 6761,
+   "254": 11166
+  },
+  "px205": 6761,
+  "nav2_yaml_thresh": {
+   "free": 17927,
+   "occupied": 1552,
+   "unknown": 0
+  },
+  "nav2_free_0.196": {
+   "free": 11166,
+   "occupied": 1552,
+   "unknown": 6761
+  },
+  "semantic": {
+   "free": 11166,
+   "occupied": 1552,
+   "unknown": 6761
+  },
+  "unknown_lost_pct": 34.71,
+  "affected": true
+ },
+ {
+  "yaml": "/home/limopro/limoatwork/src/limo_ros2/limo_bringup/maps/map_20260718_185606.yaml",
+  "image": "map.pgm",
+  "mode": "trinary",
+  "resolution": 0.05,
+  "origin": [
+   -1.11,
+   -1.57,
+   0
+  ],
+  "negate": 0,
+  "occupied_thresh": 0.65,
+  "free_thresh": 0.25,
+  "image_path": "/home/limopro/limoatwork/src/limo_ros2/limo_bringup/maps/map.pgm",
+  "image_exists": true,
+  "pgm_sha256_12": "cc5c8a0e7d5f",
+  "size_px": [
+   129,
+   151
+  ],
+  "size_m": [
+   6.45,
+   7.55
+  ],
+  "pixel_hist": {
+   "0": 1552,
+   "205": 6761,
+   "254": 11166
+  },
+  "px205": 6761,
+  "nav2_yaml_thresh": {
+   "free": 17927,
+   "occupied": 1552,
+   "unknown": 0
+  },
+  "nav2_free_0.196": {
+   "free": 11166,
+   "occupied": 1552,
+   "unknown": 6761
+  },
+  "semantic": {
+   "free": 11166,
+   "occupied": 1552,
+   "unknown": 6761
+  },
+  "unknown_lost_pct": 34.71,
+  "affected": true
+ },
+ {
+  "yaml": "/home/limopro/limoatwork/src/limo_ros2/limo_bringup/maps/map_20260720_160000.yaml",
+  "image": "map.pgm",
+  "mode": "trinary",
+  "resolution": 0.05,
+  "origin": [
+   -1.08,
+   -0.848,
+   0
+  ],
+  "negate": 0,
+  "occupied_thresh": 0.65,
+  "free_thresh": 0.25,
+  "image_path": "/home/limopro/limoatwork/src/limo_ros2/limo_bringup/maps/map.pgm",
+  "image_exists": true,
+  "pgm_sha256_12": "cc5c8a0e7d5f",
+  "size_px": [
+   129,
+   151
+  ],
+  "size_m": [
+   6.45,
+   7.55
+  ],
+  "pixel_hist": {
+   "0": 1552,
+   "205": 6761,
+   "254": 11166
+  },
+  "px205": 6761,
+  "nav2_yaml_thresh": {
+   "free": 17927,
+   "occupied": 1552,
+   "unknown": 0
+  },
+  "nav2_free_0.196": {
+   "free": 11166,
+   "occupied": 1552,
+   "unknown": 6761
+  },
+  "semantic": {
+   "free": 11166,
+   "occupied": 1552,
+   "unknown": 6761
+  },
+  "unknown_lost_pct": 34.71,
+  "affected": true
+ },
+ {
+  "yaml": "/home/limopro/limoatwork/src/limo_ros2/limo_bringup/maps/map_20260723_193027.yaml",
+  "image": "map_20260723_193027.pgm",
+  "mode": "trinary",
+  "resolution": 0.05,
+  "origin": [
+   -1.04,
+   -0.859,
+   0
+  ],
+  "negate": 0,
+  "occupied_thresh": 0.65,
+  "free_thresh": 0.25,
+  "image_path": "/home/limopro/limoatwork/src/limo_ros2/limo_bringup/maps/map_20260723_193027.pgm",
+  "image_exists": true,
+  "pgm_sha256_12": "61a95d374a13",
+  "size_px": [
+   86,
+   95
+  ],
+  "size_m": [
+   4.3,
+   4.75
+  ],
+  "pixel_hist": {
+   "0": 747,
+   "205": 3287,
+   "254": 4136
+  },
+  "px205": 3287,
+  "nav2_yaml_thresh": {
+   "free": 7423,
+   "occupied": 747,
+   "unknown": 0
+  },
+  "nav2_free_0.196": {
+   "free": 4136,
+   "occupied": 747,
+   "unknown": 3287
+  },
+  "semantic": {
+   "free": 4136,
+   "occupied": 747,
+   "unknown": 3287
+  },
+  "unknown_lost_pct": 40.23,
+  "affected": true
+ },
+ {
+  "yaml": "/home/limopro/limoatwork/src/limo_ros2/limo_bringup/maps/map_20260723_195338.yaml",
+  "image": "map_20260723_195338.pgm",
+  "mode": "trinary",
+  "resolution": 0.05,
+  "origin": [
+   -1.05,
+   -0.76,
+   0
+  ],
+  "negate": 0,
+  "occupied_thresh": 0.65,
+  "free_thresh": 0.25,
+  "image_path": "/home/limopro/limoatwork/src/limo_ros2/limo_bringup/maps/map_20260723_195338.pgm",
+  "image_exists": true,
+  "pgm_sha256_12": "41774bbf5027",
+  "size_px": [
+   85,
+   95
+  ],
+  "size_m": [
+   4.25,
+   4.75
+  ],
+  "pixel_hist": {
+   "0": 970,
+   "205": 3295,
+   "254": 3810
+  },
+  "px205": 3295,
+  "nav2_yaml_thresh": {
+   "free": 7105,
+   "occupied": 970,
+   "unknown": 0
+  },
+  "nav2_free_0.196": {
+   "free": 3810,
+   "occupied": 970,
+   "unknown": 3295
+  },
+  "semantic": {
+   "free": 3810,
+   "occupied": 970,
+   "unknown": 3295
+  },
+  "unknown_lost_pct": 40.8,
+  "affected": true
+ },
+ {
+  "yaml": "/home/limopro/limoatwork/src/limo_ros2/limo_bringup/maps/map.yaml",
+  "image": "map.pgm",
+  "mode": "trinary",
+  "resolution": 0.03,
+  "origin": [
+   -0.923,
+   -0.645,
+   0
+  ],
+  "negate": 0,
+  "occupied_thresh": 0.65,
+  "free_thresh": 0.25,
+  "image_path": "/home/limopro/limoatwork/src/limo_ros2/limo_bringup/maps/map.pgm",
+  "image_exists": true,
+  "pgm_sha256_12": "cc5c8a0e7d5f",
+  "size_px": [
+   129,
+   151
+  ],
+  "size_m": [
+   3.87,
+   4.53
+  ],
+  "pixel_hist": {
+   "0": 1552,
+   "205": 6761,
+   "254": 11166
+  },
+  "px205": 6761,
+  "nav2_yaml_thresh": {
+   "free": 17927,
+   "occupied": 1552,
+   "unknown": 0
+  },
+  "nav2_free_0.196": {
+   "free": 11166,
+   "occupied": 1552,
+   "unknown": 6761
+  },
+  "semantic": {
+   "free": 11166,
+   "occupied": 1552,
+   "unknown": 6761
+  },
+  "unknown_lost_pct": 34.71,
+  "affected": true
+ },
+ {
+  "yaml": "/home/limopro/limoatwork/src/limo_ros2/limo_bringup/maps/.yaml",
+  "image": ".pgm",
+  "mode": "trinary",
+  "resolution": 0.05,
+  "origin": [
+   -1.17,
+   -1.48,
+   0
+  ],
+  "negate": 0,
+  "occupied_thresh": 0.65,
+  "free_thresh": 0.25,
+  "image_path": "/home/limopro/limoatwork/src/limo_ros2/limo_bringup/maps/.pgm",
+  "image_exists": true,
+  "pgm_sha256_12": "11f84bfe6ec0",
+  "size_px": [
+   103,
+   107
+  ],
+  "size_m": [
+   5.15,
+   5.35
+  ],
+  "pixel_hist": {
+   "0": 812,
+   "205": 4552,
+   "254": 5657
+  },
+  "px205": 4552,
+  "nav2_yaml_thresh": {
+   "free": 10209,
+   "occupied": 812,
+   "unknown": 0
+  },
+  "nav2_free_0.196": {
+   "free": 5657,
+   "occupied": 812,
+   "unknown": 4552
+  },
+  "semantic": {
+   "free": 5657,
+   "occupied": 812,
+   "unknown": 4552
+  },
+  "unknown_lost_pct": 41.3,
+  "affected": true
+ }
+]

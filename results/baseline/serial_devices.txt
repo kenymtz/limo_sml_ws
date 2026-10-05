@@ -1,0 +1,17 @@
+LIMO SML - SERIAL DEVICES BASELINE
+
+Base LIMO:
+  device: /dev/ttyUSB0
+  adapter: FTDI FT232R USB UART
+  serial: A5069RR4
+  stable_id: /dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A5069RR4-if00-port0
+
+YDLIDAR:
+  device: /dev/ttyUSB1
+  adapter: Silicon Labs CP2102 USB to UART Bridge Controller
+  serial: 0001
+  stable_id: /dev/serial/by-id/usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_0001-if00-port0
+
+Confirmed from installed configuration:
+  limo_base default port_name: ttyUSB0
+  ydlidar_ros2_driver port: /dev/ttyUSB1

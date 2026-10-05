@@ -1,0 +1,148 @@
+{
+ "n_samples": 170274,
+ "bag_duration_s": 3408.8895461559296,
+ "first_motion_rel_s": 1413.6602613925934,
+ "last_motion_rel_s": 2898.238137960434,
+ "active_window_s": 1484.5778765678406,
+ "moving_time_s": 34.56792449951172,
+ "distance_odom_m": 3.053096920013428,
+ "distance_map_m": 45.462377593760145,
+ "mean_speed_active_window_mps": 0.002056542110860367,
+ "mean_speed_while_moving_mps": 0.08832167288656725,
+ "v_max_twist_mps": 0.267,
+ "v_p99_twist_mps": 0.037460000000006405,
+ "v_max_diff_0.2s_mps": 0.24833715960527006,
+ "vy_max_twist_mps": 0.0,
+ "w_max_twist_rps": 0.553,
+ "w_p99_twist_rps": 0.2947600000000384,
+ "yaw_accumulated_abs_rad": 10.02168056495152,
+ "yaw_accumulated_abs_turns": 1.5950000000000129,
+ "yaw_net_rad": 5.55189235059402,
+ "n_motion_segments": 56,
+ "n_stops_ge_1s_inside_active_window": 32,
+ "stop_durations_s_summary": [
+  1.1812684535980225,
+  3.7337533235549927,
+  1310.5368275642395
+ ],
+ "map_odom_samples": 307006,
+ "map_odom_age_s_median_max": [
+  0.005752682685852051,
+  168.32405519485474
+ ],
+ "odom_before_first_map_odom": 0,
+ "odom_start_pose": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "odom_end_pose": [
+  0.173882329890733,
+  -0.016970297842407528,
+  -0.7312929565855664
+ ],
+ "map_start_pose": [
+  0.0004840311372588834,
+  0.0012748503593750383,
+  -0.0005759140063982882
+ ],
+ "map_end_pose": [
+  0.32871635475847527,
+  -0.5568671048316836,
+  -0.7448499600655665
+ ],
+ "map_bbox": [
+  -0.0431172588569391,
+  1.0183318812775575,
+  -0.5705359962225077,
+  0.3814880551474023
+ ],
+ "map_odom_first": [
+  0.0004840311372588834,
+  0.0012748503593750383,
+  -0.0005760103732857745
+ ],
+ "map_odom_last": [
+  0.15508006308301078,
+  -0.5375411153283557,
+  -0.013557003480000078
+ ],
+ "map_odom_translation_range_m": 0.5919798636830076,
+ "map_odom_yaw_range_rad": 0.3566731957781815,
+ "cmd_vs_odom": {
+  "n_cmd": 125,
+  "cmd_window_rel_s": [
+   2110.442758321762,
+   2897.464586496353
+  ],
+  "cmd_distinct": [
+   [
+    0.0,
+    -0.478
+   ],
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.478
+   ],
+   [
+    0.239,
+    -0.478
+   ],
+   [
+    0.239,
+    0.0
+   ]
+  ],
+  "steady_samples": 63471,
+  "v_err_mean_median_p95": [
+   -0.10955099188448272,
+   0.0,
+   0.23914845000000007
+  ],
+  "w_err_mean_median_p95": [
+   -0.004984567556836982,
+   0.0,
+   0.46929690000000013
+  ],
+  "per_command": {
+   "v=0.0,w=-0.478": {
+    "samples": 554,
+    "dur_s": 11.08,
+    "odom_v_median": 0.0,
+    "odom_w_median": 0.0
+   },
+   "v=0.0,w=0.0": {
+    "samples": 31661,
+    "dur_s": 633.22,
+    "odom_v_median": 0.0,
+    "odom_w_median": 0.0
+   },
+   "v=0.0,w=0.478": {
+    "samples": 2034,
+    "dur_s": 40.68,
+    "odom_v_median": 0.0,
+    "odom_w_median": 0.0
+   },
+   "v=0.239,w=-0.478": {
+    "samples": 734,
+    "dur_s": 14.68,
+    "odom_v_median": 0.0,
+    "odom_w_median": 0.0
+   },
+   "v=0.239,w=0.0": {
+    "samples": 28488,
+    "dur_s": 569.76,
+    "odom_v_median": 0.0,
+    "odom_w_median": 0.0
+   }
+  },
+  "moving_before_first_cmd_s": 2.1252474784851074,
+  "moving_while_last_cmd_zero_s": 0.2998783588409424,
+  "first_nonzero_cmd_rel_s": 2746.5524966716766,
+  "latency_first_cmd_to_motion_s": 0.04722738265991211
+ }
+}

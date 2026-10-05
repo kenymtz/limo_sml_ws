@@ -1,0 +1,226 @@
+[INFO] [launch]: All log files can be found below /home/limopro/.ros/log/2026-09-29-16-09-03-171777-ubuntu-17513
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-1]: process started with pid [17515]
+[INFO] [static_transform_publisher-2]: process started with pid [17517]
+[INFO] [dwb_offline_eval-3]: process started with pid [17519]
+[INFO] [lifecycle_manager-4]: process started with pid [17521]
+[static_transform_publisher-2] 1790708943.345816 [99] static_tra: selected interface "lo" is not multicast-capable: disabling multicast
+[lifecycle_manager-4] 1790708943.349324 [99] lifecycle_: selected interface "lo" is not multicast-capable: disabling multicast
+[dwb_offline_eval-3] 1790708943.354768 [99] dwb_offlin: selected interface "lo" is not multicast-capable: disabling multicast
+[static_transform_publisher-2] [INFO] [1790708943.356800222] [static_tf_map_odom]: Spinning until stopped - publishing transform
+[static_transform_publisher-2] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-2] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-2] from 'map' to 'odom'
+[lifecycle_manager-4] [INFO] [1790708943.359203973] [lifecycle_manager_offline]: Creating
+[lifecycle_manager-4] [INFO] [1790708943.363747891] [lifecycle_manager_offline]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[map_server-1] 1790708943.376370 [99] map_server: selected interface "lo" is not multicast-capable: disabling multicast
+[dwb_offline_eval-3] [INFO] [1790708943.380113540] [dwb_offline_eval]: 
+[dwb_offline_eval-3] 	dwb_offline_eval lifecycle node launched. 
+[dwb_offline_eval-3] 	Waiting on external lifecycle transitions to activate
+[dwb_offline_eval-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-4] [INFO] [1790708943.399314046] [lifecycle_manager_offline]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-4] [INFO] [1790708943.400873475] [lifecycle_manager_offline]: [34m[1mConfiguring map_server[0m[0m
+[map_server-1] [INFO] [1790708943.402703464] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1790708943.402925225] [map_server]: Creating
+[map_server-1] [INFO] [1790708943.403720748] [map_server]: Configuring
+[map_server-1] [INFO] [1790708943.403823660] [map_io]: Loading yaml file: /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.yaml
+[map_server-1] [INFO] [1790708943.404316013] [map_io]: resolution: 0.03
+[map_server-1] [INFO] [1790708943.404337741] [map_io]: origin[0]: -0.81
+[map_server-1] [INFO] [1790708943.404346477] [map_io]: origin[1]: -0.81
+[map_server-1] [INFO] [1790708943.404353837] [map_io]: origin[2]: 0
+[map_server-1] [INFO] [1790708943.404361517] [map_io]: free_thresh: 0.1
+[map_server-1] [INFO] [1790708943.404368430] [map_io]: occupied_thresh: 0.65
+[map_server-1] [INFO] [1790708943.404376654] [map_io]: mode: trinary
+[map_server-1] [INFO] [1790708943.404385934] [map_io]: negate: 0
+[map_server-1] [INFO] [1790708943.404733551] [map_io]: Loading image_file: /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.pgm
+[map_server-1] [INFO] [1790708943.436197774] [map_io]: Read map /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.pgm: 387 X 387 map @ 0.03 m/cell
+[lifecycle_manager-4] [INFO] [1790708943.442627137] [lifecycle_manager_offline]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1790708943.442874050] [map_server]: Activating
+[map_server-1] [INFO] [1790708943.443126883] [map_server]: Creating bond (map_server) to lifecycle manager.
+[lifecycle_manager-4] [INFO] [1790708943.546992028] [lifecycle_manager_offline]: Server map_server connected with bond.
+[lifecycle_manager-4] [INFO] [1790708943.547094237] [lifecycle_manager_offline]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-4] [INFO] [1790708943.547122557] [lifecycle_manager_offline]: [34m[1mCreating bond timer...[0m[0m
+[dwb_offline_eval-3] [INFO] [1790708944.777374190] [dwb_offline_eval]: casos leídos: 3204
+[dwb_offline_eval-3] [INFO] [1790708944.787682285] [local_costmap.local_costmap]: 
+[dwb_offline_eval-3] 	local_costmap lifecycle node launched. 
+[dwb_offline_eval-3] 	Waiting on external lifecycle transitions to activate
+[dwb_offline_eval-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[dwb_offline_eval-3] [INFO] [1790708944.790521718] [local_costmap.local_costmap]: Creating Costmap
+[dwb_offline_eval-3] [INFO] [1790708944.792778493] [local_costmap.local_costmap]: Configuring
+[dwb_offline_eval-3] [INFO] [1790708944.795765478] [local_costmap.local_costmap]: Using plugin "static_layer"
+[dwb_offline_eval-3] [INFO] [1790708944.802806492] [local_costmap.local_costmap]: Subscribing to the map topic (/map) with transient local durability
+[dwb_offline_eval-3] [INFO] [1790708944.803861375] [local_costmap.local_costmap]: Initialized plugin "static_layer"
+[dwb_offline_eval-3] [INFO] [1790708944.803914463] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[dwb_offline_eval-3] [INFO] [1790708944.804605794] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[dwb_offline_eval-3] [INFO] [1790708944.807240490] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 387 X 387 at 0.030000 m/pix
+[dwb_offline_eval-3] [INFO] [1790708944.817826090] [dwb_offline_eval]: Setting transform_tolerance to 0.200000
+[dwb_offline_eval-3] [INFO] [1790708944.827046151] [dwb_offline_eval]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[dwb_offline_eval-3] [INFO] [1790708944.827549448] [dwb_offline_eval]: Critic plugin initialized
+[dwb_offline_eval-3] [INFO] [1790708944.827697161] [dwb_offline_eval]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[dwb_offline_eval-3] [INFO] [1790708944.827886537] [dwb_offline_eval]: Critic plugin initialized
+[dwb_offline_eval-3] [INFO] [1790708944.828034986] [dwb_offline_eval]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[dwb_offline_eval-3] [INFO] [1790708944.828369739] [dwb_offline_eval]: Critic plugin initialized
+[dwb_offline_eval-3] [INFO] [1790708944.828497419] [dwb_offline_eval]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[dwb_offline_eval-3] [INFO] [1790708944.828787916] [dwb_offline_eval]: Critic plugin initialized
+[dwb_offline_eval-3] [INFO] [1790708944.828918764] [dwb_offline_eval]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[dwb_offline_eval-3] [INFO] [1790708944.829139085] [dwb_offline_eval]: Critic plugin initialized
+[dwb_offline_eval-3] [INFO] [1790708944.829273166] [dwb_offline_eval]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[dwb_offline_eval-3] [INFO] [1790708944.829503790] [dwb_offline_eval]: Critic plugin initialized
+[dwb_offline_eval-3] [INFO] [1790708944.829562958] [local_costmap.local_costmap]: Activating
+[dwb_offline_eval-3] [INFO] [1790708944.829593614] [local_costmap.local_costmap]: Checking transform
+[dwb_offline_eval-3] [INFO] [1790708944.829635759] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "base_link" passed to canTransform argument source_frame - frame does not exist
+[dwb_offline_eval-3] [INFO] [1790708945.329967078] [local_costmap.local_costmap]: start
+[dwb_offline_eval-3] [INFO] [1790708945.580309815] [dwb_offline_eval]: DWB configurado (FollowPath), short_circuit(config)=1
+[dwb_offline_eval-3] [INFO] [1790708956.678262285] [dwb_offline_eval]: 25/3204
+[dwb_offline_eval-3] [INFO] [1790708968.890383515] [dwb_offline_eval]: 50/3204
+[dwb_offline_eval-3] [INFO] [1790708979.672911413] [dwb_offline_eval]: 75/3204
+[dwb_offline_eval-3] [INFO] [1790708990.038592530] [dwb_offline_eval]: 100/3204
+[dwb_offline_eval-3] [INFO] [1790709000.442307265] [dwb_offline_eval]: 125/3204
+[dwb_offline_eval-3] [INFO] [1790709011.485839004] [dwb_offline_eval]: 150/3204
+[dwb_offline_eval-3] [INFO] [1790709022.237706211] [dwb_offline_eval]: 175/3204
+[dwb_offline_eval-3] [INFO] [1790709033.489232126] [dwb_offline_eval]: 200/3204
+[dwb_offline_eval-3] [INFO] [1790709044.684825525] [dwb_offline_eval]: 225/3204
+[dwb_offline_eval-3] [INFO] [1790709055.876804218] [dwb_offline_eval]: 250/3204
+[dwb_offline_eval-3] [INFO] [1790709066.640317597] [dwb_offline_eval]: 275/3204
+[dwb_offline_eval-3] [INFO] [1790709077.889492152] [dwb_offline_eval]: 300/3204
+[dwb_offline_eval-3] [INFO] [1790709089.090862228] [dwb_offline_eval]: 325/3204
+[dwb_offline_eval-3] [INFO] [1790709100.279722994] [dwb_offline_eval]: 350/3204
+[dwb_offline_eval-3] [INFO] [1790709110.483076745] [dwb_offline_eval]: 375/3204
+[dwb_offline_eval-3] [INFO] [1790709121.089136625] [dwb_offline_eval]: 400/3204
+[dwb_offline_eval-3] [INFO] [1790709132.084885993] [dwb_offline_eval]: 425/3204
+[dwb_offline_eval-3] [INFO] [1790709142.779136863] [dwb_offline_eval]: 450/3204
+[dwb_offline_eval-3] [INFO] [1790709153.232632391] [dwb_offline_eval]: 475/3204
+[dwb_offline_eval-3] [INFO] [1790709163.833670777] [dwb_offline_eval]: 500/3204
+[dwb_offline_eval-3] [INFO] [1790709174.641488324] [dwb_offline_eval]: 525/3204
+[dwb_offline_eval-3] [INFO] [1790709185.076442998] [dwb_offline_eval]: 550/3204
+[dwb_offline_eval-3] [INFO] [1790709195.234320238] [dwb_offline_eval]: 575/3204
+[dwb_offline_eval-3] [INFO] [1790709205.885659603] [dwb_offline_eval]: 600/3204
+[dwb_offline_eval-3] [INFO] [1790709216.883906236] [dwb_offline_eval]: 625/3204
+[dwb_offline_eval-3] [INFO] [1790709227.488481792] [dwb_offline_eval]: 650/3204
+[dwb_offline_eval-3] [INFO] [1790709237.682995964] [dwb_offline_eval]: 675/3204
+[dwb_offline_eval-3] [INFO] [1790709248.276344560] [dwb_offline_eval]: 700/3204
+[dwb_offline_eval-3] [INFO] [1790709259.083168016] [dwb_offline_eval]: 725/3204
+[dwb_offline_eval-3] [INFO] [1790709269.683967467] [dwb_offline_eval]: 750/3204
+[dwb_offline_eval-3] [INFO] [1790709280.277928834] [dwb_offline_eval]: 775/3204
+[dwb_offline_eval-3] [INFO] [1790709290.490769984] [dwb_offline_eval]: 800/3204
+[dwb_offline_eval-3] [INFO] [1790709301.086422192] [dwb_offline_eval]: 825/3204
+[dwb_offline_eval-3] [INFO] [1790709312.077324762] [dwb_offline_eval]: 850/3204
+[dwb_offline_eval-3] [INFO] [1790709322.588705042] [dwb_offline_eval]: 875/3204
+[dwb_offline_eval-3] [INFO] [1790709333.388444211] [dwb_offline_eval]: 900/3204
+[dwb_offline_eval-3] [INFO] [1790709344.178015814] [dwb_offline_eval]: 925/3204
+[dwb_offline_eval-3] [INFO] [1790709354.377538538] [dwb_offline_eval]: 950/3204
+[dwb_offline_eval-3] [INFO] [1790709364.636413003] [dwb_offline_eval]: 975/3204
+[dwb_offline_eval-3] [INFO] [1790709375.274357771] [dwb_offline_eval]: 1000/3204
+[dwb_offline_eval-3] [INFO] [1790709385.632085752] [dwb_offline_eval]: 1025/3204
+[dwb_offline_eval-3] [INFO] [1790709396.384620750] [dwb_offline_eval]: 1050/3204
+[dwb_offline_eval-3] [INFO] [1790709406.975111861] [dwb_offline_eval]: 1075/3204
+[dwb_offline_eval-3] [INFO] [1790709417.239549432] [dwb_offline_eval]: 1100/3204
+[dwb_offline_eval-3] [INFO] [1790709428.275960853] [dwb_offline_eval]: 1125/3204
+[dwb_offline_eval-3] [INFO] [1790709438.879456067] [dwb_offline_eval]: 1150/3204
+[dwb_offline_eval-3] [INFO] [1790709449.283099127] [dwb_offline_eval]: 1175/3204
+[dwb_offline_eval-3] [INFO] [1790709459.709880005] [dwb_offline_eval]: 1200/3204
+[dwb_offline_eval-3] [INFO] [1790709469.981222241] [dwb_offline_eval]: 1225/3204
+[dwb_offline_eval-3] [INFO] [1790709479.976205941] [dwb_offline_eval]: 1250/3204
+[dwb_offline_eval-3] [INFO] [1790709490.483358852] [dwb_offline_eval]: 1275/3204
+[dwb_offline_eval-3] [INFO] [1790709501.085395826] [dwb_offline_eval]: 1300/3204
+[dwb_offline_eval-3] [INFO] [1790709511.175486490] [dwb_offline_eval]: 1325/3204
+[dwb_offline_eval-3] [INFO] [1790709521.871561078] [dwb_offline_eval]: 1350/3204
+[dwb_offline_eval-3] [INFO] [1790709532.286237904] [dwb_offline_eval]: 1375/3204
+[dwb_offline_eval-3] [INFO] [1790709542.565572516] [dwb_offline_eval]: 1400/3204
+[dwb_offline_eval-3] [INFO] [1790709552.835106619] [dwb_offline_eval]: 1425/3204
+[dwb_offline_eval-3] [INFO] [1790709563.274785237] [dwb_offline_eval]: 1450/3204
+[dwb_offline_eval-3] [INFO] [1790709573.525317957] [dwb_offline_eval]: 1475/3204
+[dwb_offline_eval-3] [INFO] [1790709583.836405026] [dwb_offline_eval]: 1500/3204
+[dwb_offline_eval-3] [INFO] [1790709594.077805856] [dwb_offline_eval]: 1525/3204
+[dwb_offline_eval-3] [INFO] [1790709604.086570522] [dwb_offline_eval]: 1550/3204
+[dwb_offline_eval-3] [INFO] [1790709614.074395917] [dwb_offline_eval]: 1575/3204
+[dwb_offline_eval-3] [INFO] [1790709624.072354613] [dwb_offline_eval]: 1600/3204
+[dwb_offline_eval-3] [INFO] [1790709634.073048958] [dwb_offline_eval]: 1625/3204
+[dwb_offline_eval-3] [INFO] [1790709644.282035457] [dwb_offline_eval]: 1650/3204
+[dwb_offline_eval-3] [INFO] [1790709654.284573146] [dwb_offline_eval]: 1675/3204
+[dwb_offline_eval-3] [INFO] [1790709664.287877518] [dwb_offline_eval]: 1700/3204
+[dwb_offline_eval-3] [INFO] [1790709674.290384248] [dwb_offline_eval]: 1725/3204
+[dwb_offline_eval-3] [INFO] [1790709684.279599228] [dwb_offline_eval]: 1750/3204
+[dwb_offline_eval-3] [INFO] [1790709694.479913348] [dwb_offline_eval]: 1775/3204
+[dwb_offline_eval-3] [INFO] [1790709704.481790708] [dwb_offline_eval]: 1800/3204
+[dwb_offline_eval-3] [INFO] [1790709714.488901548] [dwb_offline_eval]: 1825/3204
+[dwb_offline_eval-3] [INFO] [1790709724.472578724] [dwb_offline_eval]: 1850/3204
+[dwb_offline_eval-3] [INFO] [1790709734.485221057] [dwb_offline_eval]: 1875/3204
+[dwb_offline_eval-3] [INFO] [1790709744.505603010] [dwb_offline_eval]: 1900/3204
+[dwb_offline_eval-3] [INFO] [1790709754.578937190] [dwb_offline_eval]: 1925/3204
+[dwb_offline_eval-3] [INFO] [1790709764.589071942] [dwb_offline_eval]: 1950/3204
+[dwb_offline_eval-3] [INFO] [1790709774.596216582] [dwb_offline_eval]: 1975/3204
+[dwb_offline_eval-3] [INFO] [1790709784.593838141] [dwb_offline_eval]: 2000/3204
+[dwb_offline_eval-3] [INFO] [1790709794.586066083] [dwb_offline_eval]: 2025/3204
+[dwb_offline_eval-3] [INFO] [1790709804.843676929] [dwb_offline_eval]: 2050/3204
+[dwb_offline_eval-3] [INFO] [1790709814.852270847] [dwb_offline_eval]: 2075/3204
+[dwb_offline_eval-3] [INFO] [1790709824.838811491] [dwb_offline_eval]: 2100/3204
+[dwb_offline_eval-3] [INFO] [1790709834.841444298] [dwb_offline_eval]: 2125/3204
+[dwb_offline_eval-3] [INFO] [1790709844.848078489] [dwb_offline_eval]: 2150/3204
+[dwb_offline_eval-3] [INFO] [1790709855.078456932] [dwb_offline_eval]: 2175/3204
+[dwb_offline_eval-3] [INFO] [1790709865.089044494] [dwb_offline_eval]: 2200/3204
+[dwb_offline_eval-3] [INFO] [1790709875.085192709] [dwb_offline_eval]: 2225/3204
+[dwb_offline_eval-3] [INFO] [1790709885.086667675] [dwb_offline_eval]: 2250/3204
+[dwb_offline_eval-3] [INFO] [1790709895.072407665] [dwb_offline_eval]: 2275/3204
+[dwb_offline_eval-3] [INFO] [1790709905.271380067] [dwb_offline_eval]: 2300/3204
+[dwb_offline_eval-3] [INFO] [1790709915.281587767] [dwb_offline_eval]: 2325/3204
+[dwb_offline_eval-3] [INFO] [1790709925.279617591] [dwb_offline_eval]: 2350/3204
+[dwb_offline_eval-3] [INFO] [1790709935.255453619] [dwb_offline_eval]: 2375/3204
+[dwb_offline_eval-3] [INFO] [1790709945.274755013] [dwb_offline_eval]: 2400/3204
+[dwb_offline_eval-3] [INFO] [1790709955.473303283] [dwb_offline_eval]: 2425/3204
+[dwb_offline_eval-3] [INFO] [1790709965.487630624] [dwb_offline_eval]: 2450/3204
+[dwb_offline_eval-3] [INFO] [1790709975.479827846] [dwb_offline_eval]: 2475/3204
+[dwb_offline_eval-3] [INFO] [1790709985.478217505] [dwb_offline_eval]: 2500/3204
+[dwb_offline_eval-3] [INFO] [1790709995.478956597] [dwb_offline_eval]: 2525/3204
+[dwb_offline_eval-3] [INFO] [1790710005.490470823] [dwb_offline_eval]: 2550/3204
+[dwb_offline_eval-3] [INFO] [1790710015.852489914] [dwb_offline_eval]: 2575/3204
+[dwb_offline_eval-3] [INFO] [1790710025.859968884] [dwb_offline_eval]: 2600/3204
+[dwb_offline_eval-3] [INFO] [1790710035.852499830] [dwb_offline_eval]: 2625/3204
+[dwb_offline_eval-3] [INFO] [1790710045.853477244] [dwb_offline_eval]: 2650/3204
+[dwb_offline_eval-3] [INFO] [1790710055.862549136] [dwb_offline_eval]: 2675/3204
+[dwb_offline_eval-3] [INFO] [1790710066.090878087] [dwb_offline_eval]: 2700/3204
+[dwb_offline_eval-3] [INFO] [1790710076.090598610] [dwb_offline_eval]: 2725/3204
+[dwb_offline_eval-3] [INFO] [1790710086.056689526] [dwb_offline_eval]: 2750/3204
+[dwb_offline_eval-3] [INFO] [1790710096.286034928] [dwb_offline_eval]: 2775/3204
+[dwb_offline_eval-3] [INFO] [1790710106.283983900] [dwb_offline_eval]: 2800/3204
+[dwb_offline_eval-3] [INFO] [1790710116.275310904] [dwb_offline_eval]: 2825/3204
+[dwb_offline_eval-3] [INFO] [1790710126.276981809] [dwb_offline_eval]: 2850/3204
+[dwb_offline_eval-3] [INFO] [1790710136.479161412] [dwb_offline_eval]: 2875/3204
+[dwb_offline_eval-3] [INFO] [1790710146.478199660] [dwb_offline_eval]: 2900/3204
+[dwb_offline_eval-3] [INFO] [1790710156.474575917] [dwb_offline_eval]: 2925/3204
+[dwb_offline_eval-3] [INFO] [1790710166.607888437] [dwb_offline_eval]: 2950/3204
+[dwb_offline_eval-3] [INFO] [1790710176.596494276] [dwb_offline_eval]: 2975/3204
+[dwb_offline_eval-3] [INFO] [1790710186.654704009] [dwb_offline_eval]: 3000/3204
+[dwb_offline_eval-3] [INFO] [1790710196.886818604] [dwb_offline_eval]: 3025/3204
+[dwb_offline_eval-3] [INFO] [1790710206.890132127] [dwb_offline_eval]: 3050/3204
+[dwb_offline_eval-3] [INFO] [1790710217.063877024] [dwb_offline_eval]: 3075/3204
+[dwb_offline_eval-3] [INFO] [1790710227.082854210] [dwb_offline_eval]: 3100/3204
+[dwb_offline_eval-3] [INFO] [1790710237.281121470] [dwb_offline_eval]: 3125/3204
+[dwb_offline_eval-3] [INFO] [1790710247.276487525] [dwb_offline_eval]: 3150/3204
+[dwb_offline_eval-3] [INFO] [1790710257.275725736] [dwb_offline_eval]: 3175/3204
+[dwb_offline_eval-3] [INFO] [1790710267.279368845] [dwb_offline_eval]: 3200/3204
+[dwb_offline_eval-3] [INFO] [1790710268.801441567] [local_costmap.local_costmap]: Deactivating
+[dwb_offline_eval-3] [INFO] [1790710268.930432315] [local_costmap.local_costmap]: Cleaning up
+[dwb_offline_eval-3] [INFO] [1790710268.957072807] [dwb_offline_eval]: Running Nav2 LifecycleNode rcl preshutdown (dwb_offline_eval)
+[dwb_offline_eval-3] [INFO] [1790710268.958313644] [dwb_offline_eval]: Destroying bond (dwb_offline_eval) to lifecycle manager.
+[dwb_offline_eval-3] [INFO] [1790710268.962530861] [local_costmap.local_costmap]: Destroying
+[dwb_offline_eval-3] [INFO] [1790710268.992953772] [dwb_offline_eval]: Destroying
+[INFO] [dwb_offline_eval-3]: process has finished cleanly [pid 17519]
+[map_server-1] [INFO] [1790710272.279768921] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-1] [INFO] [1790710272.279939486] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[map_server-1] [INFO] [1790710272.280112516] [map_server]: Deactivating
+[map_server-1] [INFO] [1790710272.280155525] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[static_transform_publisher-2] [INFO] [1790710272.279757593] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-4] [INFO] [1790710272.279796026] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-4] [INFO] [1790710272.279968959] [lifecycle_manager_offline]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_offline)
+[lifecycle_manager-4] [INFO] [1790710272.280063682] [lifecycle_manager_offline]: [34m[1mTerminating bond timer...[0m[0m
+[map_server-1] [INFO] [1790710272.291138484] [map_server]: Cleaning up
+[map_server-1] [INFO] [1790710272.291390107] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[lifecycle_manager-4] [INFO] [1790710272.383345040] [lifecycle_manager_offline]: Destroying lifecycle_manager_offline
+[map_server-1] [INFO] [1790710272.384940352] [map_server]: Destroying
+[INFO] [static_transform_publisher-2]: process has finished cleanly [pid 17517]
+[INFO] [lifecycle_manager-4]: process has finished cleanly [pid 17521]
+[INFO] [map_server-1]: process has finished cleanly [pid 17515]

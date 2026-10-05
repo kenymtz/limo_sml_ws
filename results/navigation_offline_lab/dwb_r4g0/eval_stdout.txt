@@ -1,0 +1,90 @@
+{
+ "n_cases": 25,
+ "fixed_identical_to_R4F_all": true,
+ "agg": {
+  "fixed": {
+   "correct": 12,
+   "abort_progress": 8,
+   "abort_progress_near_goal": 3,
+   "goal_tolerance": 3,
+   "oscilacion": 5,
+   "timeout": 1,
+   "sin_trayect": 3,
+   "false_success": 1,
+   "contacts": 2,
+   "clear_min": -0.009466009754403593,
+   "classes": {
+    "OK": 12,
+    "OSCILACION": 5,
+    "TIMEOUT": 1,
+    "GOAL_TOLERANCE[ABORT_PROGRESS]": 3,
+    "OTRO_SIN_TRAYECT": 3,
+    "FALSE_XY": 1
+   },
+   "w_flips_total_sum": 336,
+   "n_setplan_sum": 25,
+   "n_plan_fail_sum": 0
+  },
+  "replan": {
+   "correct": 13,
+   "abort_progress": 6,
+   "abort_progress_near_goal": 1,
+   "goal_tolerance": 1,
+   "oscilacion": 5,
+   "timeout": 0,
+   "sin_trayect": 4,
+   "false_success": 1,
+   "contacts": 2,
+   "clear_min": -0.00782684509494741,
+   "classes": {
+    "OK": 13,
+    "OSCILACION": 5,
+    "GOAL_TOLERANCE[ABORT_PROGRESS]": 1,
+    "OTRO_SIN_TRAYECT": 4,
+    "TRACKING": 1,
+    "FALSE_XY": 1
+   },
+   "w_flips_total_sum": 553,
+   "n_setplan_sum": 676,
+   "n_plan_fail_sum": 0
+  },
+  "same": {
+   "correct": 14,
+   "abort_progress": 5,
+   "abort_progress_near_goal": 1,
+   "goal_tolerance": 1,
+   "oscilacion": 4,
+   "timeout": 1,
+   "sin_trayect": 4,
+   "false_success": 1,
+   "contacts": 2,
+   "clear_min": -0.009466009754403593,
+   "classes": {
+    "OK": 14,
+    "OSCILACION": 4,
+    "TIMEOUT": 1,
+    "GOAL_TOLERANCE[ABORT_PROGRESS]": 1,
+    "OTRO_SIN_TRAYECT": 4,
+    "FALSE_XY": 1
+   },
+   "w_flips_total_sum": 509,
+   "n_setplan_sum": 626,
+   "n_plan_fail_sum": 0
+  }
+ },
+ "replan_identical": 4,
+ "replan_same_class": 21,
+ "same_identical": 13,
+ "same_same_class": 22,
+ "changed_outcome_replan": [
+  "S1_nominal:T025 TIMEOUT->OSCILACION",
+  "S2_ruido_xy:T029 OSCILACION->TRACKING",
+  "S2_ruido_xy:T045 GOAL_TOLERANCE[ABORT_PROGRESS]->OTRO_SIN_TRAYECT",
+  "S5_combinado_medido:T041 GOAL_TOLERANCE[ABORT_PROGRESS]->OK"
+ ],
+ "changed_outcome_same": [
+  "S2_ruido_xy:T045 GOAL_TOLERANCE[ABORT_PROGRESS]->OTRO_SIN_TRAYECT",
+  "S5_combinado_medido:T023 OSCILACION->OK",
+  "S5_combinado_medido:T041 GOAL_TOLERANCE[ABORT_PROGRESS]->OK"
+ ]
+}

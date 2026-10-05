@@ -1,0 +1,74 @@
+{
+ "S1_nominal|A": {
+  "n1_runs": 8,
+  "entered": 0,
+  "contacts": 0,
+  "n1_reached_xy": 0
+ },
+ "S1_nominal|B": {
+  "n1_runs": 8,
+  "entered": 6,
+  "contacts": 0,
+  "n1_reached_xy": 6
+ },
+ "S2_ruido_xy|A": {
+  "n1_runs": 8,
+  "entered": 1,
+  "contacts": 1,
+  "n1_reached_xy": 1
+ },
+ "S2_ruido_xy|B": {
+  "n1_runs": 8,
+  "entered": 5,
+  "contacts": 0,
+  "n1_reached_xy": 5
+ },
+ "S3_ruido_yaw|A": {
+  "n1_runs": 8,
+  "entered": 0,
+  "contacts": 0,
+  "n1_reached_xy": 0
+ },
+ "S3_ruido_yaw|B": {
+  "n1_runs": 8,
+  "entered": 5,
+  "contacts": 0,
+  "n1_reached_xy": 5
+ },
+ "S4_latencia_0p6|A": {
+  "n1_runs": 8,
+  "entered": 0,
+  "contacts": 0,
+  "n1_reached_xy": 0
+ },
+ "S4_latencia_0p6|B": {
+  "n1_runs": 8,
+  "entered": 6,
+  "contacts": 2,
+  "n1_reached_xy": 6
+ },
+ "S5_combinado_medido|A": {
+  "n1_runs": 8,
+  "entered": 5,
+  "contacts": 3,
+  "n1_reached_xy": 5
+ },
+ "S5_combinado_medido|B": {
+  "n1_runs": 8,
+  "entered": 8,
+  "contacts": 0,
+  "n1_reached_xy": 8
+ },
+ "S6_combinado_lat0p6|A": {
+  "n1_runs": 8,
+  "entered": 2,
+  "contacts": 1,
+  "n1_reached_xy": 2
+ },
+ "S6_combinado_lat0p6|B": {
+  "n1_runs": 8,
+  "entered": 7,
+  "contacts": 0,
+  "n1_reached_xy": 7
+ }
+}

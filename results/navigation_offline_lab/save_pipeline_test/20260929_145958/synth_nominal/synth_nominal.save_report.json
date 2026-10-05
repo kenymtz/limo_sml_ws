@@ -1,0 +1,32 @@
+{
+ "name": "synth_nominal",
+ "dir": "/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_nominal",
+ "status": "OK",
+ "load_yaml": "synth_nominal.yaml",
+ "raw_yaml": "synth_nominal.saver_raw.yaml",
+ "load_validation": "PASS",
+ "load_nav2_pct": {
+  "FREE": 70.919,
+  "OCCUPIED": 5.793,
+  "UNKNOWN": 23.288,
+  "INTERMEDIATE": 0.0
+ },
+ "raw_validation": "FAIL",
+ "raw_critical": [
+  "34878 p\u00edxeles 205 (UNKNOWN de map_saver) se cargan como FREE con free_thresh=0.25 (usar free_thresh <= 0.196; ver MAP_THRESHOLD_PROVENANCE.md)"
+ ],
+ "snapshot_match": [
+  true,
+  true
+ ],
+ "size_m": [
+  11.61,
+  11.61
+ ],
+ "resolution": 0.03,
+ "origin": [
+  -0.81,
+  -0.81,
+  0
+ ]
+}

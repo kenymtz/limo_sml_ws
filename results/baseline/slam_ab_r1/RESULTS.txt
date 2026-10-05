@@ -1,0 +1,204 @@
+LIMO REAL - SLAM A/B R1
+=======================
+
+TEST A - ONLINE CORRELATIVE ON
+------------------------------
+ODOM final:
+  avance: 30.68 cm
+  lateral: +0.23 cm
+  yaw: +0.70 deg
+
+MAP final:
+  avance: 32.28 cm
+  lateral: +2.93 cm
+  yaw: +0.27 deg
+
+MAP - ODOM:
+  avance: +1.60 cm
+  lateral: +2.70 cm
+  yaw: -0.43 deg
+
+max TF step:
+  translation: 0.77 cm
+  rotation: 0.67 deg
+
+
+TEST B - ONLINE CORRELATIVE OFF
+-------------------------------
+ODOM final:
+  avance: 30.64 cm
+  lateral: -0.22 cm
+  yaw: -1.00 deg
+
+MAP final:
+  avance: 33.52 cm
+  lateral: +1.81 cm
+  yaw: -1.07 deg
+
+MAP - ODOM:
+  avance: +2.88 cm
+  lateral: +2.04 cm
+  yaw: -0.07 deg
+
+max TF step:
+  translation: 0.91 cm
+  rotation: 0.32 deg
+
+
+CONCLUSION
+----------
+Desactivar online correlative scan matching redujo
+parcialmente la discrepancia lateral, pero empeoro
+la discrepancia longitudinal.
+
+No adoptar SLAM-B como configuracion definitiva.
+
+El Ceres scan matcher permanece activo incluso con
+online correlative scan matching desactivado.
+
+Se necesitan repeticiones y/o auditoria del Ceres
+scan matcher antes de modificar pesos.
+
+Estado:
+SLAM-A PASS
+SLAM-B PASS
+HIPOTESIS CORRELATIVE COMO CAUSA UNICA: NO CONFIRMADA
+
+OBSERVACION FISICA
+------------------
+TEST A:
+avance fisico ~30 cm
+trayectoria practicamente recta
+
+TEST B:
+avance fisico ~30 cm
+trayectoria practicamente recta
+
+Esto refuerza que ODOM representa mejor el movimiento
+fisico observado que las correcciones laterales de MAP.
+
+TEST A2 - ONLINE CORRELATIVE ON
+-------------------------------
+ODOM final:
+  avance: 30.65 cm
+  lateral: +0.15 cm
+  yaw: +0.80 deg
+
+MAP final:
+  avance: 32.26 cm
+  lateral: +1.59 cm
+  yaw: +0.53 deg
+
+MAP - ODOM:
+  avance: +1.61 cm
+  lateral: +1.44 cm
+  yaw: -0.27 deg
+
+max TF step:
+  translation: 0.74 cm
+  rotation: 0.90 deg
+
+observacion fisica:
+  avance medido: ~31 cm
+  trayectoria: recta
+
+TEST B2 - ONLINE CORRELATIVE OFF
+--------------------------------
+ODOM final:
+  avance: 30.77 cm
+  lateral: -0.18 cm
+  yaw: -0.70 deg
+
+MAP final:
+  avance: 30.10 cm
+  lateral: +2.63 cm
+  yaw: -1.11 deg
+
+MAP - ODOM:
+  avance: -0.66 cm
+  lateral: +2.80 cm
+  yaw: -0.41 deg
+
+max TF step:
+  translation: 1.56 cm
+  rotation: 0.67 deg
+
+observacion fisica:
+  avance medido: 30 cm
+  trayectoria: muy recta
+
+CONCLUSION B1/B2:
+Desactivar online correlative scan matching NO elimina
+la correccion lateral de MAP.
+
+B presenta menor repetibilidad longitudinal que A.
+
+No adoptar configuracion B.
+
+TEST C1 - CORRELATIVE ON + RAW SCAN
+-----------------------------------
+ODOM final:
+  avance: 30.67 cm
+  lateral: +0.01 cm
+  yaw: +0.30 deg
+
+MAP final:
+  avance: 31.55 cm
+  lateral: +1.20 cm
+  yaw: +0.53 deg
+
+MAP - ODOM:
+  avance: +0.88 cm
+  lateral: +1.20 cm
+  yaw: +0.23 deg
+
+max TF step:
+  translation: 1.44 cm
+  rotation: 0.69 deg
+
+observacion fisica:
+  avance medido: 30 cm
+  trayectoria: recta
+
+NOTA:
+C1 mejora avance y lateral frente a A1/A2,
+pero requiere repeticion antes de concluir
+que el filtro sea la causa.
+
+TEST C2 - CORRELATIVE ON + RAW SCAN
+-----------------------------------
+ODOM final:
+  avance: 30.64 cm
+  lateral: +0.19 cm
+  yaw: +0.80 deg
+
+MAP final:
+  avance: 31.56 cm
+  lateral: +2.11 cm
+  yaw: +0.49 deg
+
+MAP - ODOM:
+  avance: +0.91 cm
+  lateral: +1.92 cm
+  yaw: -0.31 deg
+
+max TF step:
+  translation: 0.95 cm
+  rotation: 0.91 deg
+
+observacion fisica:
+  avance medido: 32 cm
+  trayectoria: recta
+
+RESUMEN A vs C
+--------------
+A / scan filtrado:
+  avance MAP-ODOM medio: +1.605 cm
+  lateral MAP-ODOM medio: +2.07 cm
+
+C / scan RAW:
+  avance MAP-ODOM medio: +0.895 cm
+  lateral MAP-ODOM medio: +1.56 cm
+
+RAW reduce la discrepancia media respecto al filtro
+completo, pero no elimina el sesgo lateral.

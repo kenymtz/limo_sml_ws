@@ -1,0 +1,6 @@
+PASS produccion navigation2_real.yaml sin cambios
+PASS solo se agregan GridBased.* y global_costmap.* (resto idéntico a R4-F 0.10)
+PASS ninguna clave existente de R4-F cambia
+PASS global_costmap == R3 salvo update/publish_frequency
+PASS GridBased == planner_server.GridBased de R3
+TODO PASS

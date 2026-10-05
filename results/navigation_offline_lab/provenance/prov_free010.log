@@ -1,0 +1,16 @@
+1790704364.606380 [99] map_saver_: selected interface "lo" is not multicast-capable: disabling multicast
+[INFO] [1790704364.619156248] [offline_prov_saver_free010]: 
+	offline_prov_saver_free010 lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1790704364.619388063] [offline_prov_saver_free010]: Creating
+[INFO] [1790704364.619529027] [offline_prov_saver_free010]: Configuring
+[INFO] [1790704364.622939273] [offline_prov_saver_free010]: Saving map from '/offline_prov/map' topic to '/home/limopro/limo_sml_ws/results/navigation_offline_lab/provenance/prov_free010' file
+[WARN] [1790704364.623015564] [offline_prov_saver_free010]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[WARN] [1790704364.625565176] [map_io]: Image format unspecified. Setting it to: pgm
+[INFO] [1790704364.625683516] [map_io]: Received a 102 X 4 map @ 0.05 m/pix
+[INFO] [1790704364.630262629] [map_io]: Writing map occupancy data to /home/limopro/limo_sml_ws/results/navigation_offline_lab/provenance/prov_free010.pgm
+[INFO] [1790704364.630966714] [map_io]: Writing map metadata to /home/limopro/limo_sml_ws/results/navigation_offline_lab/provenance/prov_free010.yaml
+[INFO] [1790704364.631206657] [map_io]: Map saved
+[INFO] [1790704364.631229026] [offline_prov_saver_free010]: Map saved successfully
+[INFO] [1790704364.631819636] [offline_prov_saver_free010]: Destroying

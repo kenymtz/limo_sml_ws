@@ -1,0 +1,25 @@
+LIMO SML - REAL ROBOT LIDAR TF CANDIDATE
+
+Reference:
+  parent: base_link
+  child: laser_frame
+
+Measured/calculated transform:
+  x: 0.180 m
+  y: 0.000 m
+  z: -0.090 m
+  roll: 0.0 rad
+  pitch: 0.0 rad
+  yaw: 0.0 rad
+
+Physical measurements:
+  wheelbase: 0.200 m
+  base_link to front axle: 0.100 m
+  front axle to LiDAR center: 0.080 m
+  LiDAR lateral offset: 0.000 m
+  LiDAR scan-plane height from floor: approximately 0.055 m
+
+Notes:
+  X and Y directly measured.
+  Z is a physical candidate derived from the robot geometry and manual LiDAR height measurement.
+  ~/limoatwork was not modified.

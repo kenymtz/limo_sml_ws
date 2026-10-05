@@ -1,0 +1,39 @@
+== lifecycle
+/map_server: 1790708626.692866 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast
+active [3]
+/controller_server: 1790708628.485768 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast
+active [3]
+/local_costmap/local_costmap: 1790708630.294878 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast
+active [3]
+== params FollowPath
+FollowPath.plugin = 1790708632.087957 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast String value is: dwb_core::DWBLocalPlanner 
+FollowPath.critics = 1790708633.832524 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast String values are: ['Oscillation', 'BaseObstacle', 'GoalAlign', 'PathAlign', 'PathDist', 'GoalDist'] 
+FollowPath.holonomic = 1790708635.577396 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Parameter not set 
+FollowPath.max_vel_x = 1790708637.364752 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Double value is: 0.25 
+FollowPath.max_vel_theta = 1790708639.128748 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Double value is: 1.0 
+FollowPath.acc_lim_x = 1790708640.888729 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Double value is: 1.0 
+FollowPath.acc_lim_theta = 1790708642.657524 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Double value is: 1.5 
+FollowPath.vx_samples = 1790708644.419298 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Integer value is: 20 
+FollowPath.vy_samples = 1790708646.179369 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Integer value is: 1 
+FollowPath.vtheta_samples = 1790708647.929559 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Integer value is: 20 
+FollowPath.sim_time = 1790708649.696758 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Double value is: 1.7 
+FollowPath.short_circuit_trajectory_evaluation = 1790708651.463473 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Boolean value is: True 
+FollowPath.BaseObstacle.scale = 1790708653.237089 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Double value is: 0.1 
+FollowPath.PathAlign.scale = 1790708654.994561 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Double value is: 32.0 
+FollowPath.GoalAlign.scale = 1790708656.769805 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Double value is: 24.0 
+FollowPath.PathDist.scale = 1790708658.529459 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Double value is: 32.0 
+FollowPath.GoalDist.scale = 1790708660.281139 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Double value is: 24.0 
+controller_frequency = 1790708662.051628 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Double value is: 10.0 
+== params local_costmap
+footprint = 1790708663.821740 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast String value is: [[-0.17, -0.16], [-0.17, 0.16], [0.22, 0.16], [0.22, -0.16]] 
+footprint_padding = 1790708665.629407 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Double value is: 0.02 
+plugins = 1790708667.385455 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast String values are: ['static_layer', 'inflation_layer'] 
+resolution = 1790708669.197233 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Double value is: 0.05 
+width = 1790708670.946958 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Integer value is: 3 
+height = 1790708672.698840 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Integer value is: 3 
+global_frame = 1790708674.450457 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast String value is: odom 
+rolling_window = 1790708676.206743 [99]       ros2: selected interface "lo" is not multicast-capable: disabling multicast Boolean value is: True 
+== sink
+Type: geometry_msgs/msg/Twist
+Publisher count: 1
+Subscription count: 0

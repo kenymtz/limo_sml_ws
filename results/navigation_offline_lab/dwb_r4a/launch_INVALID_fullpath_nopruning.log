@@ -1,0 +1,115 @@
+[INFO] [launch]: All log files can be found below /home/limopro/.ros/log/2026-09-29-16-06-20-815796-ubuntu-17126
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-1]: process started with pid [17128]
+[INFO] [static_transform_publisher-2]: process started with pid [17130]
+[INFO] [dwb_offline_eval-3]: process started with pid [17132]
+[INFO] [lifecycle_manager-4]: process started with pid [17134]
+[static_transform_publisher-2] 1790708780.990848 [99] static_tra: selected interface "lo" is not multicast-capable: disabling multicast
+[lifecycle_manager-4] 1790708780.996345 [99] lifecycle_: selected interface "lo" is not multicast-capable: disabling multicast
+[dwb_offline_eval-3] 1790708780.999226 [99] dwb_offlin: selected interface "lo" is not multicast-capable: disabling multicast
+[lifecycle_manager-4] [INFO] [1790708781.007210962] [lifecycle_manager_offline]: Creating
+[map_server-1] 1790708781.008348 [99] map_server: selected interface "lo" is not multicast-capable: disabling multicast
+[lifecycle_manager-4] [INFO] [1790708781.011445781] [lifecycle_manager_offline]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[static_transform_publisher-2] [INFO] [1790708781.031398291] [static_tf_map_odom]: Spinning until stopped - publishing transform
+[static_transform_publisher-2] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-2] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-2] from 'map' to 'odom'
+[dwb_offline_eval-3] [INFO] [1790708781.031490678] [dwb_offline_eval]: 
+[dwb_offline_eval-3] 	dwb_offline_eval lifecycle node launched. 
+[dwb_offline_eval-3] 	Waiting on external lifecycle transitions to activate
+[dwb_offline_eval-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-4] [INFO] [1790708781.041373009] [lifecycle_manager_offline]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-4] [INFO] [1790708781.041510295] [lifecycle_manager_offline]: [34m[1mConfiguring map_server[0m[0m
+[map_server-1] [INFO] [1790708781.043784750] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1790708781.044014903] [map_server]: Creating
+[map_server-1] [INFO] [1790708781.044920762] [map_server]: Configuring
+[map_server-1] [INFO] [1790708781.045023709] [map_io]: Loading yaml file: /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.yaml
+[map_server-1] [INFO] [1790708781.045519633] [map_io]: resolution: 0.03
+[map_server-1] [INFO] [1790708781.045541201] [map_io]: origin[0]: -0.81
+[map_server-1] [INFO] [1790708781.045550034] [map_io]: origin[1]: -0.81
+[map_server-1] [INFO] [1790708781.045557426] [map_io]: origin[2]: 0
+[map_server-1] [INFO] [1790708781.045565618] [map_io]: free_thresh: 0.1
+[map_server-1] [INFO] [1790708781.045572627] [map_io]: occupied_thresh: 0.65
+[map_server-1] [INFO] [1790708781.045580883] [map_io]: mode: trinary
+[map_server-1] [INFO] [1790708781.045589363] [map_io]: negate: 0
+[map_server-1] [INFO] [1790708781.045934240] [map_io]: Loading image_file: /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.pgm
+[map_server-1] [INFO] [1790708781.074464487] [map_io]: Read map /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.pgm: 387 X 387 map @ 0.03 m/cell
+[lifecycle_manager-4] [INFO] [1790708781.080775321] [lifecycle_manager_offline]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1790708781.081001538] [map_server]: Activating
+[map_server-1] [INFO] [1790708781.081253612] [map_server]: Creating bond (map_server) to lifecycle manager.
+[lifecycle_manager-4] [INFO] [1790708781.185295748] [lifecycle_manager_offline]: Server map_server connected with bond.
+[lifecycle_manager-4] [INFO] [1790708781.185417545] [lifecycle_manager_offline]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-4] [INFO] [1790708781.185448394] [lifecycle_manager_offline]: [34m[1mCreating bond timer...[0m[0m
+[dwb_offline_eval-3] [INFO] [1790708783.181720816] [dwb_offline_eval]: casos leídos: 3204
+[dwb_offline_eval-3] [INFO] [1790708783.192626554] [local_costmap.local_costmap]: 
+[dwb_offline_eval-3] 	local_costmap lifecycle node launched. 
+[dwb_offline_eval-3] 	Waiting on external lifecycle transitions to activate
+[dwb_offline_eval-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[dwb_offline_eval-3] [INFO] [1790708783.195464676] [local_costmap.local_costmap]: Creating Costmap
+[dwb_offline_eval-3] [INFO] [1790708783.197195990] [local_costmap.local_costmap]: Configuring
+[dwb_offline_eval-3] [INFO] [1790708783.200364829] [local_costmap.local_costmap]: Using plugin "static_layer"
+[dwb_offline_eval-3] [INFO] [1790708783.207245287] [local_costmap.local_costmap]: Subscribing to the map topic (/map) with transient local durability
+[dwb_offline_eval-3] [INFO] [1790708783.208238079] [local_costmap.local_costmap]: Initialized plugin "static_layer"
+[dwb_offline_eval-3] [INFO] [1790708783.208286143] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[dwb_offline_eval-3] [INFO] [1790708783.208939929] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[dwb_offline_eval-3] [INFO] [1790708783.211862594] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 387 X 387 at 0.030000 m/pix
+[dwb_offline_eval-3] [INFO] [1790708783.221062810] [dwb_offline_eval]: Setting transform_tolerance to 0.200000
+[dwb_offline_eval-3] [INFO] [1790708783.230216434] [dwb_offline_eval]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[dwb_offline_eval-3] [INFO] [1790708783.230686510] [dwb_offline_eval]: Critic plugin initialized
+[dwb_offline_eval-3] [INFO] [1790708783.230814285] [dwb_offline_eval]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[dwb_offline_eval-3] [INFO] [1790708783.231022923] [dwb_offline_eval]: Critic plugin initialized
+[dwb_offline_eval-3] [INFO] [1790708783.231146314] [dwb_offline_eval]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[dwb_offline_eval-3] [INFO] [1790708783.231488232] [dwb_offline_eval]: Critic plugin initialized
+[dwb_offline_eval-3] [INFO] [1790708783.231617831] [dwb_offline_eval]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[dwb_offline_eval-3] [INFO] [1790708783.231959140] [dwb_offline_eval]: Critic plugin initialized
+[dwb_offline_eval-3] [INFO] [1790708783.232081027] [dwb_offline_eval]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[dwb_offline_eval-3] [INFO] [1790708783.232321825] [dwb_offline_eval]: Critic plugin initialized
+[dwb_offline_eval-3] [INFO] [1790708783.232468576] [dwb_offline_eval]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[dwb_offline_eval-3] [INFO] [1790708783.232736990] [dwb_offline_eval]: Critic plugin initialized
+[dwb_offline_eval-3] [INFO] [1790708783.232801693] [local_costmap.local_costmap]: Activating
+[dwb_offline_eval-3] [INFO] [1790708783.232837021] [local_costmap.local_costmap]: Checking transform
+[dwb_offline_eval-3] [INFO] [1790708783.232884637] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "base_link" passed to canTransform argument source_frame - frame does not exist
+[dwb_offline_eval-3] [INFO] [1790708783.733224374] [local_costmap.local_costmap]: start
+[dwb_offline_eval-3] [INFO] [1790708783.983544065] [dwb_offline_eval]: DWB configurado (FollowPath), short_circuit(config)=1
+[dwb_offline_eval-3] [INFO] [1790708794.721227339] [dwb_offline_eval]: 25/3204
+[dwb_offline_eval-3] [INFO] [1790708806.088936092] [dwb_offline_eval]: 50/3204
+[dwb_offline_eval-3] [INFO] [1790708816.633390490] [dwb_offline_eval]: 75/3204
+[dwb_offline_eval-3] [INFO] [1790708826.595657098] [dwb_offline_eval]: 100/3204
+[dwb_offline_eval-3] [INFO] [1790708836.606981187] [dwb_offline_eval]: 125/3204
+[dwb_offline_eval-3] [INFO] [1790708846.596966591] [dwb_offline_eval]: 150/3204
+[dwb_offline_eval-3] [INFO] [1790708856.607842816] [dwb_offline_eval]: 175/3204
+[dwb_offline_eval-3] [INFO] [1790708867.695351721] [dwb_offline_eval]: 200/3204
+[dwb_offline_eval-3] [INFO] [1790708878.043327433] [dwb_offline_eval]: 225/3204
+[dwb_offline_eval-3] [INFO] [1790708888.047660963] [dwb_offline_eval]: 250/3204
+[dwb_offline_eval-3] [INFO] [1790708898.434988535] [dwb_offline_eval]: 275/3204
+[static_transform_publisher-2] [INFO] [1790708904.080265168] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-1] [INFO] [1790708904.080309937] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-1] [INFO] [1790708904.080504561] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[map_server-1] [INFO] [1790708904.080737457] [map_server]: Deactivating
+[map_server-1] [INFO] [1790708904.080796625] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[dwb_offline_eval-3] [INFO] [1790708904.080323089] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[dwb_offline_eval-3] [INFO] [1790708904.080498865] [dwb_offline_eval]: Running Nav2 LifecycleNode rcl preshutdown (dwb_offline_eval)
+[dwb_offline_eval-3] [INFO] [1790708904.080649073] [dwb_offline_eval]: Destroying bond (dwb_offline_eval) to lifecycle manager.
+[lifecycle_manager-4] [INFO] [1790708904.080627377] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-4] [INFO] [1790708904.080773041] [lifecycle_manager_offline]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_offline)
+[lifecycle_manager-4] [INFO] [1790708904.080874417] [lifecycle_manager_offline]: [34m[1mTerminating bond timer...[0m[0m
+[dwb_offline_eval-3] [INFO] [1790708904.083738099] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-2] [INFO] [1790708904.084724755] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-1] [INFO] [1790708904.091465944] [map_server]: Cleaning up
+[map_server-1] [INFO] [1790708904.091740216] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[map_server-1] [INFO] [1790708904.094630682] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-4] [INFO] [1790708904.096144475] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-1] [INFO] [1790708904.100000702] [map_server]: Destroying
+[lifecycle_manager-4] [INFO] [1790708904.101664191] [lifecycle_manager_offline]: Destroying lifecycle_manager_offline
+[dwb_offline_eval-3] [ERROR] [1790708904.145333884] [local_costmap.local_costmap]: Unable to start transition 4 from current state deactivating: Could not publish transition: publisher's context is invalid, at ./src/rcl/publisher.c:389, at ./src/rcl_lifecycle.c:368
+[dwb_offline_eval-3] [WARN] [1790708904.152090049] [rcl_lifecycle]: No transition matching 2 found for current state deactivating
+[dwb_offline_eval-3] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[dwb_offline_eval-3]          at line 127 in ./src/class_loader.cpp
+[dwb_offline_eval-3] terminate called without an active exception
+[ERROR] [dwb_offline_eval-3]: process has died [pid 17132, exit code -6, cmd '/home/limopro/limo_sml_ws/install/limo_nav_offline_lab/lib/limo_nav_offline_lab/dwb_offline_eval --ros-args -r __node:=dwb_offline_eval --params-file /tmp/dwb_eval_params_8qob7c6n.yaml --params-file /tmp/launch_params_39ok4p3t'].
+[INFO] [static_transform_publisher-2]: process has finished cleanly [pid 17130]
+[INFO] [lifecycle_manager-4]: process has finished cleanly [pid 17134]
+[INFO] [map_server-1]: process has finished cleanly [pid 17128]

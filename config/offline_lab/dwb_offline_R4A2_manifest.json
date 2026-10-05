@@ -1,0 +1,20 @@
+{
+ "source": "/home/limopro/limo_sml_ws/config/offline_lab/dwb_offline_R4A.yaml",
+ "source_sha256": "689fb21c7e684000740bec4d89a7bd0a91ce4c46b278fc2787a115c6b820e825",
+ "real_sha256": "dfb36e108d6872a5b500d3d6df33959203f054330aa2d74051360f41a74ddc62",
+ "outputs": {
+  "dwb_offline_R4A2_base.yaml": {
+   "sha256": "3453e1d5f9b2bd5417fd3c76ea94bb2a74aef8d4cac3cad8d70e11c2c321ee5f",
+   "note": "BASELINE: DWB id\u00e9ntico al real (BaseObstacle). Cambio vs R4A: local_costmap.update_frequency 5 -> 20 (velocidad del banco)."
+  },
+  "dwb_offline_R4A2_fp.yaml": {
+   "sha256": "b6804e46f16a0744bc59f5493d74c4d23475c9bec49e4dd188e437577b614ef9",
+   "note": "EXPERIMENTAL: critics BaseObstacle -> ObstacleFootprint (footprint completo con padding), ObstacleFootprint.scale 0.1 (= BaseObstacle.scale). Resto = BASELINE."
+  }
+ },
+ "dwb_param_diff_base_vs_fp": [
+  "BaseObstacle.scale",
+  "ObstacleFootprint.scale",
+  "critics"
+ ]
+}

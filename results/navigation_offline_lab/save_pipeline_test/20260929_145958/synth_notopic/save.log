@@ -1,0 +1,7 @@
+save_map_checked 2026-09-29T15:00:13-03:00
+name=synth_notopic topic=/offline_test/no_existe dest=/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_notopic
+ROS_DOMAIN_ID=99 ROS_LOCALHOST_ONLY=1
+save_free=0.25 save_occ=0.65 load_free=0.10 expect_res=none
+1790704813.728186 [99]    python3: selected interface "lo" is not multicast-capable: disabling multicast
+FAIL: no se recibió OccupancyGrid en /offline_test/no_existe en 15.0s
+FAIL: sin OccupancyGrid en /offline_test/no_existe (¿SLAM/map_server activo en este ROS_DOMAIN_ID?)

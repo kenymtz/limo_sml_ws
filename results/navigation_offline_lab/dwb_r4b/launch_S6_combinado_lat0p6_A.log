@@ -1,0 +1,153 @@
+[INFO] [launch]: All log files can be found below /home/limopro/.ros/log/2026-09-29-18-38-50-293634-ubuntu-33015
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-1]: process started with pid [33017]
+[INFO] [dwb_closed_loop_sim-2]: process started with pid [33019]
+[INFO] [lifecycle_manager-3]: process started with pid [33021]
+[lifecycle_manager-3] 1790717930.471197 [99] lifecycle_: selected interface "lo" is not multicast-capable: disabling multicast
+[dwb_closed_loop_sim-2] 1790717930.473831 [99] dwb_closed: selected interface "lo" is not multicast-capable: disabling multicast
+[lifecycle_manager-3] [INFO] [1790717930.483028130] [lifecycle_manager_offline]: Creating
+[dwb_closed_loop_sim-2] [INFO] [1790717930.485532531] [dwb_closed_loop_sim]: 
+[dwb_closed_loop_sim-2] 	dwb_closed_loop_sim lifecycle node launched. 
+[dwb_closed_loop_sim-2] 	Waiting on external lifecycle transitions to activate
+[dwb_closed_loop_sim-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] 1790717930.485990 [99] map_server: selected interface "lo" is not multicast-capable: disabling multicast
+[lifecycle_manager-3] [INFO] [1790717930.487091461] [lifecycle_manager_offline]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[lifecycle_manager-3] [INFO] [1790717930.507518613] [lifecycle_manager_offline]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-3] [INFO] [1790717930.507637976] [lifecycle_manager_offline]: [34m[1mConfiguring map_server[0m[0m
+[map_server-1] [INFO] [1790717930.511372400] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1790717930.511576631] [map_server]: Creating
+[map_server-1] [INFO] [1790717930.512294606] [map_server]: Configuring
+[map_server-1] [INFO] [1790717930.512392241] [map_io]: Loading yaml file: /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.yaml
+[map_server-1] [INFO] [1790717930.512931874] [map_io]: resolution: 0.03
+[map_server-1] [INFO] [1790717930.512956515] [map_io]: origin[0]: -0.81
+[map_server-1] [INFO] [1790717930.512965731] [map_io]: origin[1]: -0.81
+[map_server-1] [INFO] [1790717930.512972932] [map_io]: origin[2]: 0
+[map_server-1] [INFO] [1790717930.512980484] [map_io]: free_thresh: 0.1
+[map_server-1] [INFO] [1790717930.512987620] [map_io]: occupied_thresh: 0.65
+[map_server-1] [INFO] [1790717930.512996388] [map_io]: mode: trinary
+[map_server-1] [INFO] [1790717930.513005221] [map_io]: negate: 0
+[map_server-1] [INFO] [1790717930.513345488] [map_io]: Loading image_file: /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.pgm
+[dwb_closed_loop_sim-2] [INFO] [1790717930.525192044] [local_costmap.local_costmap]: 
+[dwb_closed_loop_sim-2] 	local_costmap lifecycle node launched. 
+[dwb_closed_loop_sim-2] 	Waiting on external lifecycle transitions to activate
+[dwb_closed_loop_sim-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[dwb_closed_loop_sim-2] [INFO] [1790717930.527923300] [local_costmap.local_costmap]: Creating Costmap
+[dwb_closed_loop_sim-2] [INFO] [1790717930.531221550] [local_costmap.local_costmap]: Configuring
+[dwb_closed_loop_sim-2] [INFO] [1790717930.535140011] [local_costmap.local_costmap]: Using plugin "static_layer"
+[dwb_closed_loop_sim-2] [INFO] [1790717930.541811650] [local_costmap.local_costmap]: Subscribing to the map topic (/map) with transient local durability
+[dwb_closed_loop_sim-2] [INFO] [1790717930.542310962] [local_costmap.local_costmap]: Initialized plugin "static_layer"
+[dwb_closed_loop_sim-2] [INFO] [1790717930.542353587] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[dwb_closed_loop_sim-2] [INFO] [1790717930.542974791] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[map_server-1] [INFO] [1790717930.545692734] [map_io]: Read map /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.pgm: 387 X 387 map @ 0.03 m/cell
+[lifecycle_manager-3] [INFO] [1790717930.552453719] [lifecycle_manager_offline]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1790717930.552683423] [map_server]: Activating
+[map_server-1] [INFO] [1790717930.553119149] [map_server]: Creating bond (map_server) to lifecycle manager.
+[dwb_closed_loop_sim-2] [INFO] [1790717930.553669374] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 387 X 387 at 0.030000 m/pix
+[lifecycle_manager-3] [INFO] [1790717930.656470979] [lifecycle_manager_offline]: Server map_server connected with bond.
+[lifecycle_manager-3] [INFO] [1790717930.656591303] [lifecycle_manager_offline]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-3] [INFO] [1790717930.656634664] [lifecycle_manager_offline]: [34m[1mCreating bond timer...[0m[0m
+[dwb_closed_loop_sim-2] [INFO] [1790717932.100921356] [local_costmap.local_costmap]: Activating
+[dwb_closed_loop_sim-2] [INFO] [1790717932.101116754] [local_costmap.local_costmap]: Checking transform
+[dwb_closed_loop_sim-2] [INFO] [1790717932.101318681] [local_costmap.local_costmap]: start
+[dwb_closed_loop_sim-2] [INFO] [1790717932.152134232] [dwb_closed_loop_sim]: sanity: celdas LETHAL con robot en (0.50, 5.00): 120
+[dwb_closed_loop_sim-2] [INFO] [1790717932.160250941] [dwb_closed_loop_sim]: Setting transform_tolerance to 0.200000
+[dwb_closed_loop_sim-2] [INFO] [1790717932.173661835] [dwb_closed_loop_sim]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[dwb_closed_loop_sim-2] [INFO] [1790717932.174737774] [dwb_closed_loop_sim]: Critic plugin initialized
+[dwb_closed_loop_sim-2] [INFO] [1790717932.174995990] [dwb_closed_loop_sim]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[dwb_closed_loop_sim-2] [INFO] [1790717932.175373922] [dwb_closed_loop_sim]: Critic plugin initialized
+[dwb_closed_loop_sim-2] [INFO] [1790717932.175624586] [dwb_closed_loop_sim]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[dwb_closed_loop_sim-2] [INFO] [1790717932.176221373] [dwb_closed_loop_sim]: Critic plugin initialized
+[dwb_closed_loop_sim-2] [INFO] [1790717932.176494662] [dwb_closed_loop_sim]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[dwb_closed_loop_sim-2] [INFO] [1790717932.177043512] [dwb_closed_loop_sim]: Critic plugin initialized
+[dwb_closed_loop_sim-2] [INFO] [1790717932.177266591] [dwb_closed_loop_sim]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[dwb_closed_loop_sim-2] [INFO] [1790717932.177713037] [dwb_closed_loop_sim]: Critic plugin initialized
+[dwb_closed_loop_sim-2] [INFO] [1790717932.177946357] [dwb_closed_loop_sim]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[dwb_closed_loop_sim-2] [INFO] [1790717932.178392355] [dwb_closed_loop_sim]: Critic plugin initialized
+[dwb_closed_loop_sim-2] [INFO] [1790717932.178475014] [dwb_closed_loop_sim]: R4B S6_combinado_lat0p6 plugin=FollowPath runs=64 map=1 sxy=0.030 syaw=0.050 lat=0.60 kv=0.95 kw=0.92
+[dwb_closed_loop_sim-2] [INFO] [1790717933.072510247] [dwb_closed_loop_sim]: [1/64] T001 SUCCEEDED t=22.0
+[dwb_closed_loop_sim-2] [INFO] [1790717933.695518121] [dwb_closed_loop_sim]: [2/64] T002 SUCCEEDED t=14.1
+[dwb_closed_loop_sim-2] [INFO] [1790717934.365989376] [dwb_closed_loop_sim]: [3/64] T003 SUCCEEDED t=16.1
+[dwb_closed_loop_sim-2] [INFO] [1790717935.630421653] [dwb_closed_loop_sim]: [4/64] T004 SUCCEEDED t=28.6
+[dwb_closed_loop_sim-2] [INFO] [1790717935.839125698] [dwb_closed_loop_sim]: [5/64] T005 SUCCEEDED t=5.4
+[dwb_closed_loop_sim-2] [INFO] [1790717936.211749598] [dwb_closed_loop_sim]: [6/64] T006 SUCCEEDED t=9.0
+[dwb_closed_loop_sim-2] [INFO] [1790717936.843292435] [dwb_closed_loop_sim]: [7/64] T007 SUCCEEDED t=15.6
+[dwb_closed_loop_sim-2] [INFO] [1790717937.162876392] [dwb_closed_loop_sim]: [8/64] T008 SUCCEEDED t=8.6
+[dwb_closed_loop_sim-2] [INFO] [1790717937.876276353] [dwb_closed_loop_sim]: [9/64] T009 SUCCEEDED t=16.3
+[dwb_closed_loop_sim-2] [INFO] [1790717938.418818860] [dwb_closed_loop_sim]: [10/64] T010 SUCCEEDED t=13.2
+[dwb_closed_loop_sim-2] [INFO] [1790717941.940570877] [dwb_closed_loop_sim]: [11/64] T011 SUCCEEDED t=70.1
+[dwb_closed_loop_sim-2] [INFO] [1790717944.304316722] [dwb_closed_loop_sim]: [12/64] T012 SUCCEEDED t=46.7
+[dwb_closed_loop_sim-2] [INFO] [1790717945.943176157] [dwb_closed_loop_sim]: [13/64] T013 SUCCEEDED t=33.2
+[dwb_closed_loop_sim-2] [INFO] [1790717948.389172706] [dwb_closed_loop_sim]: [14/64] T014 SUCCEEDED t=48.8
+[dwb_closed_loop_sim-2] [INFO] [1790717950.825498514] [dwb_closed_loop_sim]: [15/64] T015 SUCCEEDED t=49.2
+[dwb_closed_loop_sim-2] [INFO] [1790717953.102854545] [dwb_closed_loop_sim]: [16/64] T016 SUCCEEDED t=46.9
+[dwb_closed_loop_sim-2] [INFO] [1790717955.428904875] [dwb_closed_loop_sim]: [17/64] T017 SUCCEEDED t=48.6
+[dwb_closed_loop_sim-2] [INFO] [1790717958.723992559] [dwb_closed_loop_sim]: [18/64] T018 SUCCEEDED t=66.8
+[dwb_closed_loop_sim-2] [INFO] [1790717960.353430699] [dwb_closed_loop_sim]: [19/64] T019 SUCCEEDED t=33.9
+[dwb_closed_loop_sim-2] [INFO] [1790717962.737041342] [dwb_closed_loop_sim]: [20/64] T020 SUCCEEDED t=47.0
+[dwb_closed_loop_sim-2] [INFO] [1790717964.086587072] [dwb_closed_loop_sim]: [21/64] T021 SUCCEEDED t=28.1
+[dwb_closed_loop_sim-2] [INFO] [1790717964.991642307] [dwb_closed_loop_sim]: [22/64] T022 SUCCEEDED t=19.3
+[dwb_closed_loop_sim-2] [INFO] [1790717966.425983431] [dwb_closed_loop_sim]: [23/64] T023 ABORT_PROGRESS t=25.9
+[dwb_closed_loop_sim-2] [INFO] [1790717969.268004889] [dwb_closed_loop_sim]: [24/64] T024 ABORT_PROGRESS t=50.5
+[dwb_closed_loop_sim-2] [INFO] [1790717973.394868430] [dwb_closed_loop_sim]: [25/64] T025 TIMEOUT t=75.3
+[dwb_closed_loop_sim-2] [INFO] [1790717974.257310361] [dwb_closed_loop_sim]: [26/64] T026 SUCCEEDED t=18.1
+[dwb_closed_loop_sim-2] [INFO] [1790717977.093860315] [dwb_closed_loop_sim]: [27/64] T027 ABORT_PROGRESS t=49.9
+[dwb_closed_loop_sim-2] [INFO] [1790717978.529176638] [dwb_closed_loop_sim]: [28/64] T028 ABORT_PROGRESS t=25.7
+[dwb_closed_loop_sim-2] [INFO] [1790717980.026663631] [dwb_closed_loop_sim]: [29/64] T029 ABORT_PROGRESS t=25.8
+[dwb_closed_loop_sim-2] [INFO] [1790717981.397626912] [dwb_closed_loop_sim]: [30/64] T030 SUCCEEDED t=29.7
+[dwb_closed_loop_sim-2] [INFO] [1790717981.833654768] [dwb_closed_loop_sim]: [31/64] T031 SUCCEEDED t=9.9
+[dwb_closed_loop_sim-2] [INFO] [1790717982.396465702] [dwb_closed_loop_sim]: [32/64] T032 SUCCEEDED t=12.7
+[dwb_closed_loop_sim-2] [INFO] [1790717983.390621878] [dwb_closed_loop_sim]: [33/64] T033 SUCCEEDED t=22.1
+[dwb_closed_loop_sim-2] [INFO] [1790717984.618416595] [dwb_closed_loop_sim]: [34/64] T034 SUCCEEDED t=27.0
+[dwb_closed_loop_sim-2] [INFO] [1790717985.185976706] [dwb_closed_loop_sim]: [35/64] T035 SUCCEEDED t=13.0
+[dwb_closed_loop_sim-2] [INFO] [1790717986.020074110] [dwb_closed_loop_sim]: [36/64] T036 SUCCEEDED t=18.9
+[dwb_closed_loop_sim-2] [INFO] [1790717987.581204010] [dwb_closed_loop_sim]: [37/64] T037 SUCCEEDED t=33.4
+[dwb_closed_loop_sim-2] [INFO] [1790717988.536708448] [dwb_closed_loop_sim]: [38/64] T038 SUCCEEDED t=20.7
+[dwb_closed_loop_sim-2] [INFO] [1790717990.219973917] [dwb_closed_loop_sim]: [39/64] T039 ABORT_PROGRESS t=28.1
+[dwb_closed_loop_sim-2] [INFO] [1790717991.083397287] [dwb_closed_loop_sim]: [40/64] T040 SUCCEEDED t=15.0
+[dwb_closed_loop_sim-2] [INFO] [1790717992.709805923] [dwb_closed_loop_sim]: [41/64] T041 ABORT_PROGRESS t=28.1
+[dwb_closed_loop_sim-2] [INFO] [1790717994.367090494] [dwb_closed_loop_sim]: [42/64] T042 ABORT_PROGRESS t=28.8
+[dwb_closed_loop_sim-2] [INFO] [1790717995.830463623] [dwb_closed_loop_sim]: [43/64] T043 SUCCEEDED t=26.5
+[dwb_closed_loop_sim-2] [INFO] [1790717997.662831415] [dwb_closed_loop_sim]: [44/64] T044 ABORT_PROGRESS t=30.5
+[dwb_closed_loop_sim-2] [INFO] [1790717999.407023576] [dwb_closed_loop_sim]: [45/64] T045 ABORT_PROGRESS t=30.3
+[dwb_closed_loop_sim-2] [INFO] [1790718001.248304985] [dwb_closed_loop_sim]: [46/64] T046 ABORT_PROGRESS t=32.0
+[dwb_closed_loop_sim-2] [INFO] [1790718004.772478982] [dwb_closed_loop_sim]: [47/64] T047 SUCCEEDED t=70.9
+[dwb_closed_loop_sim-2] [INFO] [1790718008.393375230] [dwb_closed_loop_sim]: [48/64] T048 SUCCEEDED t=73.1
+[dwb_closed_loop_sim-2] [INFO] [1790718012.288721347] [dwb_closed_loop_sim]: [49/64] T049 SUCCEEDED t=80.0
+[dwb_closed_loop_sim-2] [INFO] [1790718015.529920634] [dwb_closed_loop_sim]: [50/64] T050 SUCCEEDED t=64.1
+[dwb_closed_loop_sim-2] [INFO] [1790718018.775165595] [dwb_closed_loop_sim]: [51/64] T051 SUCCEEDED t=65.5
+[dwb_closed_loop_sim-2] [INFO] [1790718022.226564085] [dwb_closed_loop_sim]: [52/64] T052 SUCCEEDED t=69.4
+[dwb_closed_loop_sim-2] [INFO] [1790718026.092651027] [dwb_closed_loop_sim]: [53/64] T053 SUCCEEDED t=78.5
+[dwb_closed_loop_sim-2] [INFO] [1790718029.722641934] [dwb_closed_loop_sim]: [54/64] T054 SUCCEEDED t=73.5
+[dwb_closed_loop_sim-2] [INFO] [1790718030.602135679] [dwb_closed_loop_sim]: [55/64] T055 SUCCEEDED t=20.0
+[dwb_closed_loop_sim-2] [INFO] [1790718033.666579017] [dwb_closed_loop_sim]: [56/64] T056 SUCCEEDED t=60.4
+[dwb_closed_loop_sim-2] [INFO] [1790718035.719587609] [dwb_closed_loop_sim]: [57/64] T057 SUCCEEDED t=40.6
+[dwb_closed_loop_sim-2] [INFO] [1790718038.253633988] [dwb_closed_loop_sim]: [58/64] T058 SUCCEEDED t=51.6
+[dwb_closed_loop_sim-2] [INFO] [1790718040.043503863] [dwb_closed_loop_sim]: [59/64] T059 SUCCEEDED t=36.4
+[dwb_closed_loop_sim-2] [INFO] [1790718041.680948291] [dwb_closed_loop_sim]: [60/64] T060 SUCCEEDED t=33.5
+[dwb_closed_loop_sim-2] [INFO] [1790718043.016255107] [dwb_closed_loop_sim]: [61/64] T061 SUCCEEDED t=29.5
+[dwb_closed_loop_sim-2] [INFO] [1790718044.442793660] [dwb_closed_loop_sim]: [62/64] T062 SUCCEEDED t=29.9
+[dwb_closed_loop_sim-2] [INFO] [1790718046.140147728] [dwb_closed_loop_sim]: [63/64] T063 SUCCEEDED t=36.1
+[dwb_closed_loop_sim-2] [INFO] [1790718049.188967105] [dwb_closed_loop_sim]: [64/64] T064 SUCCEEDED t=60.8
+[dwb_closed_loop_sim-2] [INFO] [1790718049.189237643] [local_costmap.local_costmap]: Deactivating
+[dwb_closed_loop_sim-2] [INFO] [1790718049.189368464] [local_costmap.local_costmap]: Cleaning up
+[dwb_closed_loop_sim-2] [INFO] [1790718049.214856233] [dwb_closed_loop_sim]: Running Nav2 LifecycleNode rcl preshutdown (dwb_closed_loop_sim)
+[dwb_closed_loop_sim-2] [INFO] [1790718049.214972653] [dwb_closed_loop_sim]: Destroying bond (dwb_closed_loop_sim) to lifecycle manager.
+[dwb_closed_loop_sim-2] [INFO] [1790718049.218303302] [local_costmap.local_costmap]: Destroying
+[dwb_closed_loop_sim-2] [INFO] [1790718049.248393318] [dwb_closed_loop_sim]: Destroying
+[INFO] [dwb_closed_loop_sim-2]: process has finished cleanly [pid 33019]
+[map_server-1] [INFO] [1790718054.401561858] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-1] [INFO] [1790718054.401728136] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[lifecycle_manager-3] [INFO] [1790718054.401565667] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-3] [INFO] [1790718054.401725416] [lifecycle_manager_offline]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_offline)
+[lifecycle_manager-3] [INFO] [1790718054.401840749] [lifecycle_manager_offline]: [34m[1mTerminating bond timer...[0m[0m
+[map_server-1] [INFO] [1790718054.401907535] [map_server]: Deactivating
+[map_server-1] [INFO] [1790718054.401948272] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[map_server-1] [INFO] [1790718054.412499854] [map_server]: Cleaning up
+[map_server-1] [INFO] [1790718054.412758583] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[map_server-1] [INFO] [1790718054.561656570] [map_server]: Destroying
+[lifecycle_manager-3] [INFO] [1790718054.562721153] [lifecycle_manager_offline]: Destroying lifecycle_manager_offline
+[INFO] [lifecycle_manager-3]: process has finished cleanly [pid 33021]
+[INFO] [map_server-1]: process has finished cleanly [pid 33017]

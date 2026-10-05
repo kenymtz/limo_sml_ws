@@ -1,0 +1,28 @@
+{
+ "pgm": "/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_changing/synth_changing.pgm",
+ "yaml": "/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_changing/synth_changing.yaml",
+ "snapshots": [
+  {
+   "snap": "/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_changing/synth_changing.snap_before.npz",
+   "dims_ok": true,
+   "res_ok": true,
+   "origin_ok": true,
+   "snap_unknown_cells": 34848,
+   "pixel_mismatch": 2,
+   "unknown_in_snapshot_saved_as_205": true,
+   "match": false
+  },
+  {
+   "snap": "/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_changing/synth_changing.snap_after.npz",
+   "dims_ok": true,
+   "res_ok": true,
+   "origin_ok": true,
+   "snap_unknown_cells": 34848,
+   "pixel_mismatch": 2,
+   "unknown_in_snapshot_saved_as_205": true,
+   "match": false
+  }
+ ],
+ "status": "FAIL",
+ "hint": "El PGM no coincide con ninguna instant\u00e1nea: el mapa pudo cambiar durante el guardado (SLAM activo) o resoluci\u00f3n/origin incoherentes. Detener actualizaciones del mapa y repetir."
+}

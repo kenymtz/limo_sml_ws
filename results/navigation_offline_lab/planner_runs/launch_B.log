@@ -1,0 +1,109 @@
+[INFO] [launch]: All log files can be found below /home/limopro/.ros/log/2026-09-29-15-08-00-175827-ubuntu-13176
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-1]: process started with pid [13178]
+[INFO] [planner_server-2]: process started with pid [13180]
+[INFO] [static_transform_publisher-3]: process started with pid [13182]
+[INFO] [static_transform_publisher-4]: process started with pid [13184]
+[INFO] [lifecycle_manager-5]: process started with pid [13186]
+[static_transform_publisher-4] 1790705280.336363 [99] static_tra: selected interface "lo" is not multicast-capable: disabling multicast
+[static_transform_publisher-3] 1790705280.337614 [99] static_tra: selected interface "lo" is not multicast-capable: disabling multicast
+[lifecycle_manager-5] 1790705280.342823 [99] lifecycle_: selected interface "lo" is not multicast-capable: disabling multicast
+[planner_server-2] 1790705280.344350 [99] planner_se: selected interface "lo" is not multicast-capable: disabling multicast
+[static_transform_publisher-3] [INFO] [1790705280.346568189] [static_tf_map_odom]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-3] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-3] from 'map' to 'odom'
+[static_transform_publisher-4] [INFO] [1790705280.346881097] [static_tf_odom_base]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-4] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-4] from 'odom' to 'base_link'
+[map_server-1] 1790705280.348647 [99] map_server: selected interface "lo" is not multicast-capable: disabling multicast
+[lifecycle_manager-5] [INFO] [1790705280.356288648] [lifecycle_manager_offline]: Creating
+[map_server-1] [INFO] [1790705280.364654240] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1790705280.364882792] [map_server]: Creating
+[lifecycle_manager-5] [INFO] [1790705280.364969292] [lifecycle_manager_offline]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[planner_server-2] [INFO] [1790705280.368702615] [planner_server]: 
+[planner_server-2] 	planner_server lifecycle node launched. 
+[planner_server-2] 	Waiting on external lifecycle transitions to activate
+[planner_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-5] [INFO] [1790705280.369694428] [lifecycle_manager_offline]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-5] [INFO] [1790705280.369858082] [lifecycle_manager_offline]: [34m[1mConfiguring map_server[0m[0m
+[planner_server-2] [INFO] [1790705280.377337657] [planner_server]: Creating
+[map_server-1] [INFO] [1790705280.381072644] [map_server]: Configuring
+[map_server-1] [INFO] [1790705280.381227434] [map_io]: Loading yaml file: /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.yaml
+[map_server-1] [INFO] [1790705280.381737629] [map_io]: resolution: 0.03
+[map_server-1] [INFO] [1790705280.381765726] [map_io]: origin[0]: -0.81
+[map_server-1] [INFO] [1790705280.381774366] [map_io]: origin[1]: -0.81
+[map_server-1] [INFO] [1790705280.381781598] [map_io]: origin[2]: 0
+[map_server-1] [INFO] [1790705280.381789823] [map_io]: free_thresh: 0.1
+[map_server-1] [INFO] [1790705280.381797183] [map_io]: occupied_thresh: 0.65
+[map_server-1] [INFO] [1790705280.381806911] [map_io]: mode: trinary
+[map_server-1] [INFO] [1790705280.381817088] [map_io]: negate: 0
+[map_server-1] [INFO] [1790705280.382296018] [map_io]: Loading image_file: /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.pgm
+[planner_server-2] [INFO] [1790705280.389881612] [global_costmap.global_costmap]: 
+[planner_server-2] 	global_costmap lifecycle node launched. 
+[planner_server-2] 	Waiting on external lifecycle transitions to activate
+[planner_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-2] [INFO] [1790705280.392300423] [global_costmap.global_costmap]: Creating Costmap
+[map_server-1] [INFO] [1790705280.410255524] [map_io]: Read map /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.pgm: 387 X 387 map @ 0.03 m/cell
+[lifecycle_manager-5] [INFO] [1790705280.416723669] [lifecycle_manager_offline]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-2] [INFO] [1790705280.417104612] [planner_server]: Configuring
+[planner_server-2] [INFO] [1790705280.417188071] [global_costmap.global_costmap]: Configuring
+[planner_server-2] [INFO] [1790705280.422216482] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-2] [INFO] [1790705280.429069346] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-2] [INFO] [1790705280.430102984] [global_costmap.global_costmap]: Subscribing to updates
+[planner_server-2] [INFO] [1790705280.431741861] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-2] [INFO] [1790705280.431798343] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-2] [INFO] [1790705280.432627334] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-2] [INFO] [1790705280.439997849] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-2] [INFO] [1790705280.440079900] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-2] [INFO] [1790705280.441036672] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-5] [INFO] [1790705280.447345931] [lifecycle_manager_offline]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1790705280.447706297] [map_server]: Activating
+[map_server-1] [INFO] [1790705280.448189771] [map_server]: Creating bond (map_server) to lifecycle manager.
+[planner_server-2] [INFO] [1790705280.449518044] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 387 X 387 at 0.030000 m/pix
+[lifecycle_manager-5] [INFO] [1790705280.553331195] [lifecycle_manager_offline]: Server map_server connected with bond.
+[lifecycle_manager-5] [INFO] [1790705280.553472192] [lifecycle_manager_offline]: [34m[1mActivating planner_server[0m[0m
+[planner_server-2] [INFO] [1790705280.554020373] [planner_server]: Activating
+[planner_server-2] [INFO] [1790705280.554191515] [global_costmap.global_costmap]: Activating
+[planner_server-2] [INFO] [1790705280.554245245] [global_costmap.global_costmap]: Checking transform
+[planner_server-2] [INFO] [1790705280.554527976] [global_costmap.global_costmap]: start
+[planner_server-2] [INFO] [1790705280.604755321] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-2] [INFO] [1790705280.606049801] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-5] [INFO] [1790705280.711390113] [lifecycle_manager_offline]: Server planner_server connected with bond.
+[lifecycle_manager-5] [INFO] [1790705280.711523910] [lifecycle_manager_offline]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-5] [INFO] [1790705280.711569096] [lifecycle_manager_offline]: [34m[1mCreating bond timer...[0m[0m
+[static_transform_publisher-4] [INFO] [1790705294.507490481] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[planner_server-2] [INFO] [1790705294.507510194] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[planner_server-2] [INFO] [1790705294.507692408] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[planner_server-2] [INFO] [1790705294.507901184] [planner_server]: Deactivating
+[planner_server-2] [INFO] [1790705294.508007332] [global_costmap.global_costmap]: Deactivating
+[lifecycle_manager-5] [INFO] [1790705294.507513778] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-5] [INFO] [1790705294.507842046] [lifecycle_manager_offline]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_offline)
+[lifecycle_manager-5] [INFO] [1790705294.507965603] [lifecycle_manager_offline]: [34m[1mTerminating bond timer...[0m[0m
+[static_transform_publisher-3] [INFO] [1790705294.507582772] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-1] [INFO] [1790705294.508120136] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-1] [INFO] [1790705294.508287278] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[map_server-1] [INFO] [1790705294.508468981] [map_server]: Deactivating
+[map_server-1] [INFO] [1790705294.508524471] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[map_server-1] [INFO] [1790705294.519097760] [map_server]: Cleaning up
+[map_server-1] [INFO] [1790705294.519365834] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[planner_server-2] [INFO] [1790705294.554883217] [planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[planner_server-2] [INFO] [1790705294.555027478] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[planner_server-2] [INFO] [1790705294.565326549] [planner_server]: Cleaning up
+[planner_server-2] [INFO] [1790705294.581910397] [global_costmap.global_costmap]: Cleaning up
+[planner_server-2] [INFO] [1790705294.586684366] [planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[planner_server-2] [INFO] [1790705294.587035355] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[planner_server-2] [INFO] [1790705294.598776783] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[map_server-1] [INFO] [1790705294.653303160] [map_server]: Destroying
+[planner_server-2] [INFO] [1790705294.714610972] [global_costmap.global_costmap]: Destroying
+[lifecycle_manager-5] [INFO] [1790705294.715596417] [lifecycle_manager_offline]: Destroying lifecycle_manager_offline
+[INFO] [static_transform_publisher-3]: process has finished cleanly [pid 13182]
+[INFO] [static_transform_publisher-4]: process has finished cleanly [pid 13184]
+[planner_server-2] [INFO] [1790705294.730550508] [planner_server]: Destroying
+[INFO] [map_server-1]: process has finished cleanly [pid 13178]
+[INFO] [lifecycle_manager-5]: process has finished cleanly [pid 13186]
+[INFO] [planner_server-2]: process has finished cleanly [pid 13180]

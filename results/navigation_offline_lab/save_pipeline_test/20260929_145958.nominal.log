@@ -1,0 +1,41 @@
+[1/7] instantánea previa de /offline_test/map
+[2/7] map_saver_cli (umbrales de guardado explícitos)
+[3/7] instantánea posterior
+[4/7] preservar yaml bruto + yaml de carga (free_thresh=0.10)
+[5/7] validate_ros_map.py
+[6/7] PGM vs instantáneas
+[7/7] nav2_map_server aislado (dominio 99)
+map_server == validador
+{
+ "name": "synth_nominal",
+ "dir": "/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_nominal",
+ "status": "OK",
+ "load_yaml": "synth_nominal.yaml",
+ "raw_yaml": "synth_nominal.saver_raw.yaml",
+ "load_validation": "PASS",
+ "load_nav2_pct": {
+  "FREE": 70.919,
+  "OCCUPIED": 5.793,
+  "UNKNOWN": 23.288,
+  "INTERMEDIATE": 0.0
+ },
+ "raw_validation": "FAIL",
+ "raw_critical": [
+  "34878 p\u00edxeles 205 (UNKNOWN de map_saver) se cargan como FREE con free_thresh=0.25 (usar free_thresh <= 0.196; ver MAP_THRESHOLD_PROVENANCE.md)"
+ ],
+ "snapshot_match": [
+  true,
+  true
+ ],
+ "size_m": [
+  11.61,
+  11.61
+ ],
+ "resolution": 0.03,
+ "origin": [
+  -0.81,
+  -0.81,
+  0
+ ]
+}
+OK: mapa guardado y verificado en /home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_nominal  (usar synth_nominal.yaml para cargar)

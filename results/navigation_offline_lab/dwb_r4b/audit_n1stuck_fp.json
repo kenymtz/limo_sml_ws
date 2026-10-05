@@ -1,0 +1,59 @@
+{
+ "mode": "eval",
+ "nodes": [
+  "/lifecycle_manager_offline",
+  "/map_server",
+  "/static_tf_map_odom"
+ ],
+ "actions": [],
+ "twist_topics": {},
+ "sink": null,
+ "per_node": {
+  "/lifecycle_manager_offline": {
+   "pub": [
+    "/bond",
+    "/diagnostics",
+    "/parameter_events",
+    "/rosout"
+   ],
+   "sub": [
+    "/bond",
+    "/parameter_events"
+   ]
+  },
+  "/map_server": {
+   "pub": [
+    "/bond",
+    "/map",
+    "/map_server/transition_event",
+    "/parameter_events",
+    "/rosout"
+   ],
+   "sub": [
+    "/bond",
+    "/parameter_events"
+   ]
+  },
+  "/static_tf_map_odom": {
+   "pub": [
+    "/parameter_events",
+    "/rosout",
+    "/tf_static"
+   ],
+   "sub": [
+    "/parameter_events"
+   ]
+  }
+ },
+ "topics": [
+  "/bond",
+  "/diagnostics",
+  "/map",
+  "/map_server/transition_event",
+  "/parameter_events",
+  "/rosout",
+  "/tf_static"
+ ],
+ "problems": [],
+ "PASS": true
+}

@@ -1,0 +1,107 @@
+{
+ "mode": "closedloop",
+ "nodes": [
+  "/dwb_closed_loop_sim",
+  "/lifecycle_manager_offline",
+  "/local_costmap/local_costmap",
+  "/map_server"
+ ],
+ "actions": [],
+ "twist_topics": {},
+ "sink": null,
+ "per_node": {
+  "/lifecycle_manager_offline": {
+   "pub": [
+    "/bond",
+    "/diagnostics",
+    "/parameter_events",
+    "/rosout"
+   ],
+   "sub": [
+    "/bond",
+    "/parameter_events"
+   ]
+  },
+  "/dwb_closed_loop_sim": {
+   "pub": [
+    "/cost_cloud",
+    "/dwb_closed_loop_sim/transition_event",
+    "/evaluation",
+    "/local_plan",
+    "/marker",
+    "/parameter_events",
+    "/received_global_plan",
+    "/rosout",
+    "/transformed_global_plan"
+   ],
+   "sub": [
+    "/map",
+    "/parameter_events"
+   ]
+  },
+  "/local_costmap/local_costmap": {
+   "pub": [
+    "/local_costmap/costmap",
+    "/local_costmap/costmap_raw",
+    "/local_costmap/costmap_updates",
+    "/local_costmap/local_costmap/transition_event",
+    "/local_costmap/published_footprint",
+    "/parameter_events",
+    "/rosout"
+   ],
+   "sub": [
+    "/local_costmap/footprint",
+    "/map",
+    "/parameter_events"
+   ]
+  },
+  "/transform_listener_impl_aaaaf64239d0": {
+   "pub": [
+    "/rosout"
+   ],
+   "sub": [
+    "/parameter_events",
+    "/tf",
+    "/tf_static"
+   ]
+  },
+  "/map_server": {
+   "pub": [
+    "/bond",
+    "/map",
+    "/map_server/transition_event",
+    "/parameter_events",
+    "/rosout"
+   ],
+   "sub": [
+    "/bond",
+    "/parameter_events"
+   ]
+  }
+ },
+ "topics": [
+  "/bond",
+  "/cost_cloud",
+  "/diagnostics",
+  "/dwb_closed_loop_sim/transition_event",
+  "/evaluation",
+  "/local_costmap/costmap",
+  "/local_costmap/costmap_raw",
+  "/local_costmap/costmap_updates",
+  "/local_costmap/footprint",
+  "/local_costmap/local_costmap/transition_event",
+  "/local_costmap/published_footprint",
+  "/local_plan",
+  "/map",
+  "/map_server/transition_event",
+  "/marker",
+  "/parameter_events",
+  "/received_global_plan",
+  "/rosout",
+  "/tf",
+  "/tf_static",
+  "/transformed_global_plan"
+ ],
+ "problems": [],
+ "PASS": true
+}

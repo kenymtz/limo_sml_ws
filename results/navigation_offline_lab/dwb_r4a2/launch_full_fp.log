@@ -1,0 +1,417 @@
+[INFO] [launch]: All log files can be found below /home/limopro/.ros/log/2026-09-29-16-58-05-442729-ubuntu-22457
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-1]: process started with pid [22460]
+[INFO] [static_transform_publisher-2]: process started with pid [22462]
+[INFO] [dwb_offline_eval-3]: process started with pid [22464]
+[INFO] [lifecycle_manager-4]: process started with pid [22466]
+[static_transform_publisher-2] 1790711885.613045 [99] static_tra: selected interface "lo" is not multicast-capable: disabling multicast
+[lifecycle_manager-4] 1790711885.617478 [99] lifecycle_: selected interface "lo" is not multicast-capable: disabling multicast
+[dwb_offline_eval-3] 1790711885.623108 [99] dwb_offlin: selected interface "lo" is not multicast-capable: disabling multicast
+[static_transform_publisher-2] [INFO] [1790711885.626237541] [static_tf_map_odom]: Spinning until stopped - publishing transform
+[static_transform_publisher-2] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-2] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-2] from 'map' to 'odom'
+[lifecycle_manager-4] [INFO] [1790711885.628695283] [lifecycle_manager_offline]: Creating
+[lifecycle_manager-4] [INFO] [1790711885.634543884] [lifecycle_manager_offline]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[dwb_offline_eval-3] [INFO] [1790711885.637737970] [dwb_offline_eval]: 
+[dwb_offline_eval-3] 	dwb_offline_eval lifecycle node launched. 
+[dwb_offline_eval-3] 	Waiting on external lifecycle transitions to activate
+[dwb_offline_eval-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] 1790711885.640497 [99] map_server: selected interface "lo" is not multicast-capable: disabling multicast
+[lifecycle_manager-4] [INFO] [1790711885.656625929] [lifecycle_manager_offline]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-4] [INFO] [1790711885.656759853] [lifecycle_manager_offline]: [34m[1mConfiguring map_server[0m[0m
+[map_server-1] [INFO] [1790711885.659543301] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1790711885.659763084] [map_server]: Creating
+[map_server-1] [INFO] [1790711885.660897328] [map_server]: Configuring
+[map_server-1] [INFO] [1790711885.660999028] [map_io]: Loading yaml file: /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.yaml
+[map_server-1] [INFO] [1790711885.661483491] [map_io]: resolution: 0.03
+[map_server-1] [INFO] [1790711885.661506020] [map_io]: origin[0]: -0.81
+[map_server-1] [INFO] [1790711885.661514436] [map_io]: origin[1]: -0.81
+[map_server-1] [INFO] [1790711885.661521412] [map_io]: origin[2]: 0
+[map_server-1] [INFO] [1790711885.661529156] [map_io]: free_thresh: 0.1
+[map_server-1] [INFO] [1790711885.661535813] [map_io]: occupied_thresh: 0.65
+[map_server-1] [INFO] [1790711885.661543653] [map_io]: mode: trinary
+[map_server-1] [INFO] [1790711885.661552421] [map_io]: negate: 0
+[map_server-1] [INFO] [1790711885.661898096] [map_io]: Loading image_file: /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.pgm
+[map_server-1] [INFO] [1790711885.690826406] [map_io]: Read map /home/limopro/limo_sml_ws/results/navigation_offline_lab/synthetic_arena/synthetic_arena.pgm: 387 X 387 map @ 0.03 m/cell
+[lifecycle_manager-4] [INFO] [1790711885.697012714] [lifecycle_manager_offline]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1790711885.697248113] [map_server]: Activating
+[map_server-1] [INFO] [1790711885.697515898] [map_server]: Creating bond (map_server) to lifecycle manager.
+[lifecycle_manager-4] [INFO] [1790711885.800866600] [lifecycle_manager_offline]: Server map_server connected with bond.
+[lifecycle_manager-4] [INFO] [1790711885.800957099] [lifecycle_manager_offline]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-4] [INFO] [1790711885.800981548] [lifecycle_manager_offline]: [34m[1mCreating bond timer...[0m[0m
+[dwb_offline_eval-3] [INFO] [1790711887.025344612] [dwb_offline_eval]: casos leídos: 3204
+[dwb_offline_eval-3] [INFO] [1790711887.038128025] [local_costmap.local_costmap]: 
+[dwb_offline_eval-3] 	local_costmap lifecycle node launched. 
+[dwb_offline_eval-3] 	Waiting on external lifecycle transitions to activate
+[dwb_offline_eval-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[dwb_offline_eval-3] [INFO] [1790711887.040930418] [local_costmap.local_costmap]: Creating Costmap
+[dwb_offline_eval-3] [INFO] [1790711887.043098711] [local_costmap.local_costmap]: Configuring
+[dwb_offline_eval-3] [INFO] [1790711887.046633703] [local_costmap.local_costmap]: Using plugin "static_layer"
+[dwb_offline_eval-3] [INFO] [1790711887.053432831] [local_costmap.local_costmap]: Subscribing to the map topic (/map) with transient local durability
+[dwb_offline_eval-3] [INFO] [1790711887.054699495] [local_costmap.local_costmap]: Initialized plugin "static_layer"
+[dwb_offline_eval-3] [INFO] [1790711887.054759945] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[dwb_offline_eval-3] [INFO] [1790711887.055525441] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[dwb_offline_eval-3] [INFO] [1790711887.057221143] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 387 X 387 at 0.030000 m/pix
+[dwb_offline_eval-3] [INFO] [1790711887.069532157] [dwb_offline_eval]: Setting transform_tolerance to 0.200000
+[dwb_offline_eval-3] [INFO] [1790711887.079910247] [dwb_offline_eval]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[dwb_offline_eval-3] [INFO] [1790711887.080425559] [dwb_offline_eval]: Critic plugin initialized
+[dwb_offline_eval-3] [INFO] [1790711887.080579516] [dwb_offline_eval]: Using critic "ObstacleFootprint" (dwb_critics::ObstacleFootprintCritic)
+[dwb_offline_eval-3] [INFO] [1790711887.080789187] [dwb_offline_eval]: Critic plugin initialized
+[dwb_offline_eval-3] [INFO] [1790711887.080922279] [dwb_offline_eval]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[dwb_offline_eval-3] [INFO] [1790711887.081260722] [dwb_offline_eval]: Critic plugin initialized
+[dwb_offline_eval-3] [INFO] [1790711887.081395574] [dwb_offline_eval]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[dwb_offline_eval-3] [INFO] [1790711887.081726880] [dwb_offline_eval]: Critic plugin initialized
+[dwb_offline_eval-3] [INFO] [1790711887.081872357] [dwb_offline_eval]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[dwb_offline_eval-3] [INFO] [1790711887.082105292] [dwb_offline_eval]: Critic plugin initialized
+[dwb_offline_eval-3] [INFO] [1790711887.082269298] [dwb_offline_eval]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[dwb_offline_eval-3] [INFO] [1790711887.082495065] [dwb_offline_eval]: Critic plugin initialized
+[dwb_offline_eval-3] [INFO] [1790711887.082558171] [local_costmap.local_costmap]: Activating
+[dwb_offline_eval-3] [INFO] [1790711887.082595292] [local_costmap.local_costmap]: Checking transform
+[dwb_offline_eval-3] [INFO] [1790711887.082780418] [local_costmap.local_costmap]: start
+[dwb_offline_eval-3] [INFO] [1790711887.133001883] [dwb_offline_eval]: DWB configurado (FollowPath), short_circuit(config)=1
+[dwb_offline_eval-3] [INFO] [1790711892.831378125] [dwb_offline_eval]: 25/3204
+[dwb_offline_eval-3] [INFO] [1790711898.780745051] [dwb_offline_eval]: 50/3204
+[dwb_offline_eval-3] [INFO] [1790711903.921243329] [dwb_offline_eval]: 75/3204
+[dwb_offline_eval-3] [INFO] [1790711908.851899738] [dwb_offline_eval]: 100/3204
+[dwb_offline_eval-3] [INFO] [1790711914.479921415] [dwb_offline_eval]: 125/3204
+[dwb_offline_eval-3] [INFO] [1790711919.988801225] [dwb_offline_eval]: 150/3204
+[dwb_offline_eval-3] [INFO] [1790711925.433488144] [dwb_offline_eval]: 175/3204
+[dwb_offline_eval-3] [INFO] [1790711931.038730845] [dwb_offline_eval]: 200/3204
+[dwb_offline_eval-3] [INFO] [1790711936.842359685] [dwb_offline_eval]: 225/3204
+[dwb_offline_eval-3] [INFO] [1790711942.536625144] [dwb_offline_eval]: 250/3204
+[dwb_offline_eval-3] [INFO] [1790711948.028264895] [dwb_offline_eval]: 275/3204
+[dwb_offline_eval-3] [INFO] [1790711953.532843355] [dwb_offline_eval]: 300/3204
+[dwb_offline_eval-3] [INFO] [1790711959.091264481] [dwb_offline_eval]: 325/3204
+[dwb_offline_eval-3] [INFO] [1790711964.885076636] [dwb_offline_eval]: 350/3204
+[dwb_offline_eval-3] [INFO] [1790711970.537042357] [dwb_offline_eval]: 375/3204
+[dwb_offline_eval-3] [INFO] [1790711976.239108513] [dwb_offline_eval]: 400/3204
+[dwb_offline_eval-3] [INFO] [1790711982.032054195] [dwb_offline_eval]: 425/3204
+[dwb_offline_eval-3] [INFO] [1790711987.675165664] [dwb_offline_eval]: 450/3204
+[dwb_offline_eval-3] [INFO] [1790711993.426379159] [dwb_offline_eval]: 475/3204
+[dwb_offline_eval-3] [INFO] [1790711999.125198852] [dwb_offline_eval]: 500/3204
+[dwb_offline_eval-3] [INFO] [1790712004.834242160] [dwb_offline_eval]: 525/3204
+[dwb_offline_eval-3] [INFO] [1790712010.633629936] [dwb_offline_eval]: 550/3204
+[dwb_offline_eval-3] [INFO] [1790712016.435767745] [dwb_offline_eval]: 575/3204
+[dwb_offline_eval-3] [INFO] [1790712022.284826562] [dwb_offline_eval]: 600/3204
+[dwb_offline_eval-3] [INFO] [1790712028.226357340] [dwb_offline_eval]: 625/3204
+[dwb_offline_eval-3] [INFO] [1790712033.976975792] [dwb_offline_eval]: 650/3204
+[dwb_offline_eval-3] [INFO] [1790712039.817920761] [dwb_offline_eval]: 675/3204
+[dwb_offline_eval-3] [INFO] [1790712045.725593161] [dwb_offline_eval]: 700/3204
+[dwb_offline_eval-3] [INFO] [1790712051.475675316] [dwb_offline_eval]: 725/3204
+[dwb_offline_eval-3] [INFO] [1790712057.175993125] [dwb_offline_eval]: 750/3204
+[dwb_offline_eval-3] [INFO] [1790712062.972764078] [dwb_offline_eval]: 775/3204
+[dwb_offline_eval-3] [INFO] [1790712068.788835125] [dwb_offline_eval]: 800/3204
+[dwb_offline_eval-3] [INFO] [1790712074.600903859] [dwb_offline_eval]: 825/3204
+[dwb_offline_eval-3] [INFO] [1790712080.434973478] [dwb_offline_eval]: 850/3204
+[dwb_offline_eval-3] [INFO] [1790712086.329569784] [dwb_offline_eval]: 875/3204
+[dwb_offline_eval-3] [INFO] [1790712092.126876836] [dwb_offline_eval]: 900/3204
+[dwb_offline_eval-3] [INFO] [1790712097.932932219] [dwb_offline_eval]: 925/3204
+[dwb_offline_eval-3] [INFO] [1790712103.674396957] [dwb_offline_eval]: 950/3204
+[dwb_offline_eval-3] [INFO] [1790712109.590749118] [dwb_offline_eval]: 975/3204
+[dwb_offline_eval-3] [INFO] [1790712115.377088513] [dwb_offline_eval]: 1000/3204
+[dwb_offline_eval-3] [INFO] [1790712121.080648424] [dwb_offline_eval]: 1025/3204
+[dwb_offline_eval-3] [INFO] [1790712127.228447137] [dwb_offline_eval]: 1050/3204
+[dwb_offline_eval-3] [INFO] [1790712133.072941730] [dwb_offline_eval]: 1075/3204
+[dwb_offline_eval-3] [INFO] [1790712138.937425462] [dwb_offline_eval]: 1100/3204
+[dwb_offline_eval-3] [INFO] [1790712144.872868119] [dwb_offline_eval]: 1125/3204
+[dwb_offline_eval-3] [INFO] [1790712150.832423630] [dwb_offline_eval]: 1150/3204
+[dwb_offline_eval-3] [INFO] [1790712156.674800541] [dwb_offline_eval]: 1175/3204
+[dwb_offline_eval-3] [INFO] [1790712162.543331042] [dwb_offline_eval]: 1200/3204
+[dwb_offline_eval-3] [INFO] [1790712168.324706203] [dwb_offline_eval]: 1225/3204
+[dwb_offline_eval-3] [INFO] [1790712173.971323064] [dwb_offline_eval]: 1250/3204
+[dwb_offline_eval-3] [INFO] [1790712179.981826540] [dwb_offline_eval]: 1275/3204
+[dwb_offline_eval-3] [INFO] [1790712185.988905446] [dwb_offline_eval]: 1300/3204
+[dwb_offline_eval-3] [INFO] [1790712191.926983384] [dwb_offline_eval]: 1325/3204
+[dwb_offline_eval-3] [INFO] [1790712197.927360899] [dwb_offline_eval]: 1350/3204
+[dwb_offline_eval-3] [INFO] [1790712203.826709764] [dwb_offline_eval]: 1375/3204
+[dwb_offline_eval-3] [ERROR] [1790712205.537881463] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712205.538054620] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712205.558797811] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712205.558885046] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712205.910352244] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712205.910471096] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712205.931091883] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712205.931181454] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712206.629292048] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712206.629423028] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712206.649864609] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712206.649961188] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712207.002242237] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712207.002362337] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712207.023075606] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712207.023170553] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712207.741043284] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712207.741168600] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712207.761570051] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712207.761658342] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712208.113158246] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712208.113299562] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712208.133902173] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712208.134046945] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712208.881873465] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712208.881995069] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712208.902981787] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712208.903078975] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712209.333050346] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712209.333177038] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712209.354578522] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712209.354667165] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [INFO] [1790712209.526054657] [dwb_offline_eval]: 1400/3204
+[dwb_offline_eval-3] [ERROR] [1790712209.980022251] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712209.980170416] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712210.001097869] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712210.001201264] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712210.430916019] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712210.431044695] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712210.452116665] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712210.452217788] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712211.076638573] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712211.076769777] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712211.097677581] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712211.097772176] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712211.547065990] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712211.547186058] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712211.568239594] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712211.568329549] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712212.790254804] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712212.790400345] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712212.810989099] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712212.811089806] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712213.162455754] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712213.162601071] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712213.183195681] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712213.183289956] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712213.882258724] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712213.882390473] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712213.902838806] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712213.902935801] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712214.254545597] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712214.254654529] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712214.275297493] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712214.275390167] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712214.991334583] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712214.991479675] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712215.011829254] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712215.011984747] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [INFO] [1790712215.222642583] [dwb_offline_eval]: 1425/3204
+[dwb_offline_eval-3] [ERROR] [1790712215.363951994] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712215.364071390] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712215.384742675] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712215.384832886] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712216.148982202] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712216.149106878] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712216.170177823] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712216.170264322] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712216.599691133] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712216.599810913] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712216.620832097] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712216.620924836] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712217.286615550] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712217.286750306] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712217.307798051] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712217.307896422] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712217.736947222] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712217.737053529] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712217.758136859] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712217.758235486] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712218.382351400] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712218.382483788] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712218.403480843] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712218.403574350] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712218.832625342] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712218.832728449] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712218.853737729] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712218.853827460] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712219.974072958] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712219.974224098] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712219.994788948] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712219.994881687] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712220.367049741] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712220.367166097] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712220.387823525] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712220.387933192] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [INFO] [1790712220.865242015] [dwb_offline_eval]: 1450/3204
+[dwb_offline_eval-3] [ERROR] [1790712221.087020015] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712221.087148211] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712221.107848041] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712221.107939500] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712221.459782425] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712221.459908733] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712221.480780728] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712221.480889179] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712222.179025796] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712222.179159944] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712222.199583093] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712222.199679416] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712222.551871920] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712222.552008085] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712222.572600135] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712222.572690570] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712223.300866547] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712223.301010007] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712223.321853105] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712223.321944596] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712223.731356754] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712223.731487798] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712223.752820512] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712223.752915651] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712224.377797767] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712224.377931275] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712224.398961227] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712224.399057070] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712224.849107967] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712224.849217730] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712224.870387207] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712224.870478570] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712225.535230121] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712225.535356461] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712225.556356588] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712225.556459183] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712225.985715943] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712225.985834155] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712226.006884876] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712226.006985551] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [INFO] [1790712226.487983421] [dwb_offline_eval]: 1475/3204
+[dwb_offline_eval-3] [ERROR] [1790712227.125555511] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712227.125682587] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712227.146460276] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712227.146557591] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712227.518543432] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712227.518674413] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712227.539292224] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712227.539380803] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712228.278687505] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712228.278875063] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712228.299572269] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712228.299663952] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712228.651570560] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712228.651678307] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712228.672300439] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712228.672395994] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712229.390471010] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712229.390593670] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712229.411012371] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712229.411107862] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712229.762794239] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712229.762912291] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712229.783634169] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712229.783736220] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712230.545838309] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712230.545982473] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712230.567028746] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712230.567128205] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712230.997012410] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712230.997151871] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712231.018410726] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712231.018539690] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712231.684051684] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712231.684181544] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712231.705232137] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712231.705346764] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712232.135540964] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712232.135671944] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712232.156722857] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712232.156809163] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [INFO] [1790712232.157094516] [dwb_offline_eval]: 1500/3204
+[dwb_offline_eval-3] [ERROR] [1790712232.781239844] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712232.781386536] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712232.802698706] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712232.802792885] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712233.243531645] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712233.243677122] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [ERROR] [1790712233.261196850] [DWBLocalPlanner]: No valid trajectories out of 411! 
+[dwb_offline_eval-3] [ERROR] [1790712233.261263636] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[dwb_offline_eval-3] [INFO] [1790712237.980546018] [dwb_offline_eval]: 1525/3204
+[dwb_offline_eval-3] [INFO] [1790712243.779993921] [dwb_offline_eval]: 1550/3204
+[dwb_offline_eval-3] [INFO] [1790712249.592063011] [dwb_offline_eval]: 1575/3204
+[dwb_offline_eval-3] [INFO] [1790712255.275854511] [dwb_offline_eval]: 1600/3204
+[dwb_offline_eval-3] [INFO] [1790712260.976426148] [dwb_offline_eval]: 1625/3204
+[dwb_offline_eval-3] [INFO] [1790712266.874974819] [dwb_offline_eval]: 1650/3204
+[dwb_offline_eval-3] [INFO] [1790712272.580727579] [dwb_offline_eval]: 1675/3204
+[dwb_offline_eval-3] [INFO] [1790712278.389895823] [dwb_offline_eval]: 1700/3204
+[dwb_offline_eval-3] [INFO] [1790712284.188225655] [dwb_offline_eval]: 1725/3204
+[dwb_offline_eval-3] [INFO] [1790712289.933171553] [dwb_offline_eval]: 1750/3204
+[dwb_offline_eval-3] [INFO] [1790712295.779082649] [dwb_offline_eval]: 1775/3204
+[dwb_offline_eval-3] [INFO] [1790712301.538510576] [dwb_offline_eval]: 1800/3204
+[dwb_offline_eval-3] [INFO] [1790712307.280816050] [dwb_offline_eval]: 1825/3204
+[dwb_offline_eval-3] [INFO] [1790712312.978559344] [dwb_offline_eval]: 1850/3204
+[dwb_offline_eval-3] [INFO] [1790712318.642218904] [dwb_offline_eval]: 1875/3204
+[dwb_offline_eval-3] [INFO] [1790712324.487207418] [dwb_offline_eval]: 1900/3204
+[dwb_offline_eval-3] [INFO] [1790712330.224224329] [dwb_offline_eval]: 1925/3204
+[dwb_offline_eval-3] [INFO] [1790712335.925974141] [dwb_offline_eval]: 1950/3204
+[dwb_offline_eval-3] [INFO] [1790712341.687323986] [dwb_offline_eval]: 1975/3204
+[dwb_offline_eval-3] [INFO] [1790712347.429689812] [dwb_offline_eval]: 2000/3204
+[dwb_offline_eval-3] [INFO] [1790712353.190902495] [dwb_offline_eval]: 2025/3204
+[dwb_offline_eval-3] [INFO] [1790712359.097190556] [dwb_offline_eval]: 2050/3204
+[dwb_offline_eval-3] [INFO] [1790712364.847888240] [dwb_offline_eval]: 2075/3204
+[dwb_offline_eval-3] [INFO] [1790712370.590885786] [dwb_offline_eval]: 2100/3204
+[dwb_offline_eval-3] [INFO] [1790712376.340310334] [dwb_offline_eval]: 2125/3204
+[dwb_offline_eval-3] [INFO] [1790712382.040717580] [dwb_offline_eval]: 2150/3204
+[dwb_offline_eval-3] [INFO] [1790712387.874033608] [dwb_offline_eval]: 2175/3204
+[dwb_offline_eval-3] [INFO] [1790712393.579092419] [dwb_offline_eval]: 2200/3204
+[dwb_offline_eval-3] [INFO] [1790712399.327422100] [dwb_offline_eval]: 2225/3204
+[dwb_offline_eval-3] [INFO] [1790712405.080621869] [dwb_offline_eval]: 2250/3204
+[dwb_offline_eval-3] [INFO] [1790712410.889439432] [dwb_offline_eval]: 2275/3204
+[dwb_offline_eval-3] [INFO] [1790712416.631942593] [dwb_offline_eval]: 2300/3204
+[dwb_offline_eval-3] [INFO] [1790712422.377801938] [dwb_offline_eval]: 2325/3204
+[dwb_offline_eval-3] [INFO] [1790712428.122836179] [dwb_offline_eval]: 2350/3204
+[dwb_offline_eval-3] [INFO] [1790712433.851670936] [dwb_offline_eval]: 2375/3204
+[dwb_offline_eval-3] [INFO] [1790712439.589222143] [dwb_offline_eval]: 2400/3204
+[dwb_offline_eval-3] [INFO] [1790712445.339367685] [dwb_offline_eval]: 2425/3204
+[dwb_offline_eval-3] [INFO] [1790712451.079393233] [dwb_offline_eval]: 2450/3204
+[dwb_offline_eval-3] [INFO] [1790712456.826385191] [dwb_offline_eval]: 2475/3204
+[dwb_offline_eval-3] [INFO] [1790712462.692458800] [dwb_offline_eval]: 2500/3204
+[dwb_offline_eval-3] [INFO] [1790712468.427204883] [dwb_offline_eval]: 2525/3204
+[dwb_offline_eval-3] [INFO] [1790712474.226353040] [dwb_offline_eval]: 2550/3204
+[dwb_offline_eval-3] [INFO] [1790712480.195294012] [dwb_offline_eval]: 2575/3204
+[dwb_offline_eval-3] [INFO] [1790712485.748952687] [dwb_offline_eval]: 2600/3204
+[dwb_offline_eval-3] [INFO] [1790712491.459704024] [dwb_offline_eval]: 2625/3204
+[dwb_offline_eval-3] [INFO] [1790712497.238102916] [dwb_offline_eval]: 2650/3204
+[dwb_offline_eval-3] [INFO] [1790712502.953982533] [dwb_offline_eval]: 2675/3204
+[dwb_offline_eval-3] [INFO] [1790712508.625433055] [dwb_offline_eval]: 2700/3204
+[dwb_offline_eval-3] [INFO] [1790712514.475350141] [dwb_offline_eval]: 2725/3204
+[dwb_offline_eval-3] [INFO] [1790712520.335498190] [dwb_offline_eval]: 2750/3204
+[dwb_offline_eval-3] [INFO] [1790712526.126174612] [dwb_offline_eval]: 2775/3204
+[dwb_offline_eval-3] [INFO] [1790712531.879004037] [dwb_offline_eval]: 2800/3204
+[dwb_offline_eval-3] [INFO] [1790712537.624428721] [dwb_offline_eval]: 2825/3204
+[dwb_offline_eval-3] [INFO] [1790712543.424295065] [dwb_offline_eval]: 2850/3204
+[dwb_offline_eval-3] [INFO] [1790712549.227942404] [dwb_offline_eval]: 2875/3204
+[dwb_offline_eval-3] [INFO] [1790712554.988229544] [dwb_offline_eval]: 2900/3204
+[dwb_offline_eval-3] [INFO] [1790712560.630678704] [dwb_offline_eval]: 2925/3204
+[dwb_offline_eval-3] [INFO] [1790712566.443144879] [dwb_offline_eval]: 2950/3204
+[dwb_offline_eval-3] [INFO] [1790712572.181016798] [dwb_offline_eval]: 2975/3204
+[dwb_offline_eval-3] [INFO] [1790712578.106353812] [dwb_offline_eval]: 3000/3204
+[dwb_offline_eval-3] [INFO] [1790712583.923466211] [dwb_offline_eval]: 3025/3204
+[dwb_offline_eval-3] [INFO] [1790712589.739462037] [dwb_offline_eval]: 3050/3204
+[dwb_offline_eval-3] [INFO] [1790712595.343163923] [dwb_offline_eval]: 3075/3204
+[dwb_offline_eval-3] [INFO] [1790712600.988732728] [dwb_offline_eval]: 3100/3204
+[dwb_offline_eval-3] [INFO] [1790712606.773657374] [dwb_offline_eval]: 3125/3204
+[dwb_offline_eval-3] [INFO] [1790712612.584570381] [dwb_offline_eval]: 3150/3204
+[dwb_offline_eval-3] [INFO] [1790712618.373790797] [dwb_offline_eval]: 3175/3204
+[dwb_offline_eval-3] [INFO] [1790712624.182967060] [dwb_offline_eval]: 3200/3204
+[dwb_offline_eval-3] [INFO] [1790712625.099013681] [local_costmap.local_costmap]: Deactivating
+[dwb_offline_eval-3] [INFO] [1790712625.133203739] [local_costmap.local_costmap]: Cleaning up
+[dwb_offline_eval-3] [INFO] [1790712625.155394531] [dwb_offline_eval]: Running Nav2 LifecycleNode rcl preshutdown (dwb_offline_eval)
+[dwb_offline_eval-3] [INFO] [1790712625.155538824] [dwb_offline_eval]: Destroying bond (dwb_offline_eval) to lifecycle manager.
+[dwb_offline_eval-3] [INFO] [1790712625.159281376] [local_costmap.local_costmap]: Destroying
+[dwb_offline_eval-3] [INFO] [1790712625.182724529] [dwb_offline_eval]: Destroying
+[INFO] [dwb_offline_eval-3]: process has finished cleanly [pid 22464]
+[static_transform_publisher-2] [INFO] [1790712629.700268746] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-1] [INFO] [1790712629.700294891] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-1] [INFO] [1790712629.700455728] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[lifecycle_manager-4] [INFO] [1790712629.700278954] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-4] [INFO] [1790712629.700489489] [lifecycle_manager_offline]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_offline)
+[lifecycle_manager-4] [INFO] [1790712629.700610869] [lifecycle_manager_offline]: [34m[1mTerminating bond timer...[0m[0m
+[map_server-1] [INFO] [1790712629.700643222] [map_server]: Deactivating
+[map_server-1] [INFO] [1790712629.700692375] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[map_server-1] [INFO] [1790712629.711163656] [map_server]: Cleaning up
+[map_server-1] [INFO] [1790712629.711387311] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[lifecycle_manager-4] [INFO] [1790712629.804021740] [lifecycle_manager_offline]: Destroying lifecycle_manager_offline
+[map_server-1] [INFO] [1790712629.806739172] [map_server]: Destroying
+[INFO] [static_transform_publisher-2]: process has finished cleanly [pid 22462]
+[INFO] [lifecycle_manager-4]: process has finished cleanly [pid 22466]
+[INFO] [map_server-1]: process has finished cleanly [pid 22460]

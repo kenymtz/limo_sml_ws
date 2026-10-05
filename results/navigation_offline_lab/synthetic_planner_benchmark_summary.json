@@ -1,0 +1,275 @@
+{
+ "n_routes": 64,
+ "n_plans": 128,
+ "margin_loc_m": 0.05,
+ "by_config": {
+  "A": {
+   "plans": 64,
+   "found": 64,
+   "success_pct": 100.0,
+   "planning_time_s_median_p95_max": [
+    0.0037,
+    0.0094,
+    0.0125
+   ],
+   "goal_err_max_m": 0.0,
+   "center_min_clearance_min_m": 0.125,
+   "path_ratio_median": 1.0230000000000001,
+   "fpA_class": {
+    "PASS": 55,
+    "MARGINAL": 9
+   },
+   "fpA_class_translation_only": {
+    "PASS": 55,
+    "MARGINAL": 9
+   },
+   "fpB_class": {
+    "PASS": 46,
+    "MARGINAL": 10,
+    "COLLISION": 8
+   },
+   "fpB_class_translation_only": {
+    "PASS": 47,
+    "MARGINAL": 9,
+    "COLLISION": 8
+   },
+   "by_category": {
+    "around_obstacle": {
+     "n": 10,
+     "passages": {
+      "none": 10
+     },
+     "A": {
+      "PASS": 10
+     },
+     "B": {
+      "PASS": 10
+     },
+     "path_len_median": 3.454,
+     "center_min_clear_min": 0.343
+    },
+    "corridor_N1": {
+     "n": 8,
+     "passages": {
+      "N1": 8
+     },
+     "A": {
+      "PASS": 8
+     },
+     "B": {
+      "MARGINAL": 8
+     },
+     "path_len_median": 2.23,
+     "center_min_clear_min": 0.205
+    },
+    "corridor_N2": {
+     "n": 8,
+     "passages": {
+      "N2": 8
+     },
+     "A": {
+      "MARGINAL": 8
+     },
+     "B": {
+      "COLLISION": 8
+     },
+     "path_len_median": 2.244,
+     "center_min_clear_min": 0.125
+    },
+    "corridor_WIDE": {
+     "n": 8,
+     "passages": {
+      "WIDE": 8
+     },
+     "A": {
+      "PASS": 8
+     },
+     "B": {
+      "PASS": 8
+     },
+     "path_len_median": 2.225,
+     "center_min_clear_min": 0.365
+    },
+    "long": {
+     "n": 10,
+     "passages": {
+      "WIDE": 10
+     },
+     "A": {
+      "PASS": 10
+     },
+     "B": {
+      "PASS": 10
+     },
+     "path_len_median": 9.29,
+     "center_min_clear_min": 0.345
+    },
+    "random": {
+     "n": 10,
+     "passages": {
+      "none": 3,
+      "WIDE": 7
+     },
+     "A": {
+      "PASS": 9,
+      "MARGINAL": 1
+     },
+     "B": {
+      "PASS": 9,
+      "MARGINAL": 1
+     },
+     "path_len_median": 6.747,
+     "center_min_clear_min": 0.285
+    },
+    "short": {
+     "n": 10,
+     "passages": {
+      "none": 10
+     },
+     "A": {
+      "PASS": 10
+     },
+     "B": {
+      "PASS": 9,
+      "MARGINAL": 1
+     },
+     "path_len_median": 1.042,
+     "center_min_clear_min": 0.304
+    }
+   }
+  },
+  "B": {
+   "plans": 64,
+   "found": 64,
+   "success_pct": 100.0,
+   "planning_time_s_median_p95_max": [
+    0.0044,
+    0.0094,
+    0.0101
+   ],
+   "goal_err_max_m": 0.0,
+   "center_min_clearance_min_m": 0.205,
+   "path_ratio_median": 1.0379999999999998,
+   "fpA_class": {
+    "PASS": 63,
+    "MARGINAL": 1
+   },
+   "fpA_class_translation_only": {
+    "PASS": 63,
+    "MARGINAL": 1
+   },
+   "fpB_class": {
+    "PASS": 54,
+    "MARGINAL": 10
+   },
+   "fpB_class_translation_only": {
+    "PASS": 55,
+    "MARGINAL": 9
+   },
+   "by_category": {
+    "around_obstacle": {
+     "n": 10,
+     "passages": {
+      "none": 10
+     },
+     "A": {
+      "PASS": 10
+     },
+     "B": {
+      "PASS": 10
+     },
+     "path_len_median": 3.459,
+     "center_min_clear_min": 0.343
+    },
+    "corridor_N1": {
+     "n": 8,
+     "passages": {
+      "N1": 8
+     },
+     "A": {
+      "PASS": 8
+     },
+     "B": {
+      "MARGINAL": 8
+     },
+     "path_len_median": 2.23,
+     "center_min_clear_min": 0.205
+    },
+    "corridor_N2": {
+     "n": 8,
+     "passages": {
+      "WIDE": 8
+     },
+     "A": {
+      "PASS": 8
+     },
+     "B": {
+      "PASS": 8
+     },
+     "path_len_median": 13.668,
+     "center_min_clear_min": 0.356
+    },
+    "corridor_WIDE": {
+     "n": 8,
+     "passages": {
+      "WIDE": 8
+     },
+     "A": {
+      "PASS": 8
+     },
+     "B": {
+      "PASS": 8
+     },
+     "path_len_median": 2.225,
+     "center_min_clear_min": 0.366
+    },
+    "long": {
+     "n": 10,
+     "passages": {
+      "WIDE": 10
+     },
+     "A": {
+      "PASS": 10
+     },
+     "B": {
+      "PASS": 10
+     },
+     "path_len_median": 9.29,
+     "center_min_clear_min": 0.345
+    },
+    "random": {
+     "n": 10,
+     "passages": {
+      "none": 3,
+      "WIDE": 7
+     },
+     "A": {
+      "PASS": 9,
+      "MARGINAL": 1
+     },
+     "B": {
+      "PASS": 9,
+      "MARGINAL": 1
+     },
+     "path_len_median": 6.751,
+     "center_min_clear_min": 0.285
+    },
+    "short": {
+     "n": 10,
+     "passages": {
+      "none": 10
+     },
+     "A": {
+      "PASS": 10
+     },
+     "B": {
+      "PASS": 9,
+      "MARGINAL": 1
+     },
+     "path_len_median": 1.046,
+     "center_min_clear_min": 0.304
+    }
+   }
+  }
+ }
+}

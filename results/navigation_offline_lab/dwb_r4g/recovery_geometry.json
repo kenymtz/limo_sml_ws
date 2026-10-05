@@ -1,0 +1,68 @@
+{
+ "S1_nominal:T041": {
+  "pose": [
+   5.97922,
+   5.0133,
+   2.85477
+  ],
+  "yaw_err_vs_goal": -0.28683000000000014,
+  "clear_now": 0.05744723124562933,
+  "spin_ccw(+1.57, BT)": {
+   "rad_until_padding": null,
+   "rad_until_contact": null
+  },
+  "spin_cw(-1.57)": {
+   "rad_until_padding": null,
+   "rad_until_contact": null
+  },
+  "backup_0.30": {
+   "min_clear": 0.05744723124562933,
+   "m_until_padding": null,
+   "m_until_contact": null
+  }
+ },
+ "S2_ruido_xy:T045": {
+  "pose": [
+   5.96033,
+   4.99795,
+   -1.29082
+  ],
+  "yaw_err_vs_goal": 0.2799799999999999,
+  "clear_now": 0.08722964351209792,
+  "spin_ccw(+1.57, BT)": {
+   "rad_until_padding": null,
+   "rad_until_contact": null
+  },
+  "spin_cw(-1.57)": {
+   "rad_until_padding": 0.38,
+   "rad_until_contact": null
+  },
+  "backup_0.30": {
+   "min_clear": -0.061990120988954636,
+   "m_until_padding": 0.11,
+   "m_until_contact": 0.13
+  }
+ },
+ "S5_combinado_medido:T041": {
+  "pose": [
+   5.97453,
+   5.01071,
+   -1.3731
+  ],
+  "yaw_err_vs_goal": 1.768485307179587,
+  "clear_now": 0.09173708161142394,
+  "spin_ccw(+1.57, BT)": {
+   "rad_until_padding": null,
+   "rad_until_contact": null
+  },
+  "spin_cw(-1.57)": {
+   "rad_until_padding": null,
+   "rad_until_contact": null
+  },
+  "backup_0.30": {
+   "min_clear": -0.01432488674802615,
+   "m_until_padding": 0.09,
+   "m_until_contact": 0.14
+  }
+ }
+}

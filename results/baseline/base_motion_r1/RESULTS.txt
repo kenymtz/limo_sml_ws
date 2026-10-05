@@ -1,0 +1,100 @@
+LIMO REAL - BASE MOTION R1
+==========================
+
+CINEMATICA
+----------
+motion_mode: 0 = MODE_FOUR_DIFF
+linear.x: soportado
+linear.y: no soportado
+angular.z: soportado
+
+NAV2
+----
+holonomic: False
+min_vel_y: 0.0
+max_vel_y: 0.0
+vy_samples: 1
+
+GEOMETRIA REAL
+--------------
+base_link -> laser_frame:
+x = +0.180 m
+y =  0.000 m
+z = -0.090 m
+
+Footprint:
+x_min = -0.16 m
+x_max = +0.20 m
+y_min = -0.10 m
+y_max = +0.10 m
+
+polygon:
+[[-0.16,-0.10],[-0.16,0.10],[0.20,0.10],[0.20,-0.10]]
+
+YAW DRIVER
+----------
+Driver original:
+FAIL - deadband 0.1 deg por muestra e inicializacion defectuosa.
+
+Driver overlay corregido:
+PASS
+
+Correcciones:
+- inicializacion determinista
+- eliminacion del deadband 0.1 deg
+- eliminacion de variables locales shadowing
+- manejo wrap +/-180 deg
+
+PRUEBAS ANGULARES
+-----------------
+MOTION-06:
++90 deg
+IMU final: 89.90 deg
+ODOM final: 89.90 deg
+fisicamente: correcto
+PASS
+
+MOTION-07:
+-90 deg
+IMU final: -90.00 deg
+ODOM final: -90.00 deg
+fisicamente: correcto
+PASS
+
+PRUEBAS LINEALES
+----------------
+MOTION-08:
+objetivo: 50 cm
+ODOM final: 50.88 cm
+fisicamente: ~50 cm
+deriva: minima derecha
+PASS
+
+MOTION-09:
+objetivo: 50 cm
+ODOM STOP: 50.04 cm
+ODOM final: 50.84 cm
+post-STOP: +0.80 cm
+deriva: izquierda
+yaw final: +2.50 deg
+fisicamente: ~50 cm
+PASS
+
+MOTION-10:
+objetivo: 50 cm
+ODOM STOP: 50.15 cm
+ODOM final: 51.00 cm
+post-STOP: +0.85 cm
+deriva: minima izquierda
+yaw final: +0.10 deg
+fisicamente: ~50 cm
+PASS
+
+CONCLUSION
+----------
+Escala lineal suficientemente correcta y altamente repetible.
+No se detecta sesgo lateral fijo.
+No aplicar factor de calibracion lineal por ahora.
+Driver yaw corregido validado en ambos sentidos.
+
+Estado: BASE-MOTION-R1 PASS

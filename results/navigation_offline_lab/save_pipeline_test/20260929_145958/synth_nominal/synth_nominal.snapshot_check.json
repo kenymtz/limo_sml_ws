@@ -1,0 +1,27 @@
+{
+ "pgm": "/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_nominal/synth_nominal.pgm",
+ "yaml": "/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_nominal/synth_nominal.yaml",
+ "snapshots": [
+  {
+   "snap": "/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_nominal/synth_nominal.snap_before.npz",
+   "dims_ok": true,
+   "res_ok": true,
+   "origin_ok": true,
+   "snap_unknown_cells": 34848,
+   "pixel_mismatch": 0,
+   "unknown_in_snapshot_saved_as_205": true,
+   "match": true
+  },
+  {
+   "snap": "/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_nominal/synth_nominal.snap_after.npz",
+   "dims_ok": true,
+   "res_ok": true,
+   "origin_ok": true,
+   "snap_unknown_cells": 34848,
+   "pixel_mismatch": 0,
+   "unknown_in_snapshot_saved_as_205": true,
+   "match": true
+  }
+ ],
+ "status": "OK"
+}

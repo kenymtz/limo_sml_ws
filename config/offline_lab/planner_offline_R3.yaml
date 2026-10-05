@@ -1,0 +1,53 @@
+# NAV-OFFLINE-R3 — CONFIG EXPERIMENTAL OFFLINE. Derivada de planner_offline_B.yaml, que deriva de
+#   config/navigation/navigation2_real.yaml (NINGUNO modificado).
+# Cambio vs planner_offline_B.yaml: SOLO global_costmap.track_unknown_space: true.
+# Footprint B [[-0.17,-0.16],[-0.17,0.16],[0.22,0.16],[0.22,-0.16]] padding 0.02 (sin cambios).
+# planner NavFn, inflación, resolución: sin cambios. Sin obstacle_layer (offline, sin sensores).
+# Mapa: usar SOLO yaml validado (validate_ros_map.py) con free_thresh <= 0.196 (lab: 0.10).
+# Solo para ROS_DOMAIN_ID=99 / ROS_LOCALHOST_ONLY=1. NO usar en el robot.
+map_server:
+  ros__parameters:
+    use_sim_time: false
+    yaml_filename: ''
+    topic_name: map
+    frame_id: map
+planner_server:
+  ros__parameters:
+    expected_planner_frequency: 20.0
+    use_sim_time: false
+    planner_plugins:
+    - GridBased
+    GridBased:
+      plugin: nav2_navfn_planner/NavfnPlanner
+      tolerance: 0.2
+      use_astar: false
+      allow_unknown: false
+global_costmap:
+  global_costmap:
+    ros__parameters:
+      footprint_padding: 0.02
+      track_unknown_space: true
+      update_frequency: 1.0
+      publish_frequency: 1.0
+      global_frame: map
+      robot_base_frame: base_link
+      footprint: '[[-0.17, -0.16], [-0.17, 0.16], [0.22, 0.16], [0.22, -0.16]]'
+      resolution: 0.03
+      plugins:
+      - static_layer
+      - inflation_layer
+      static_layer:
+        plugin: nav2_costmap_2d::StaticLayer
+        map_subscribe_transient_local: true
+        enabled: true
+        subscribe_to_updates: true
+        transform_tolerance: 0.1
+      inflation_layer:
+        plugin: nav2_costmap_2d::InflationLayer
+        enabled: true
+        inflation_radius: 0.35
+        cost_scaling_factor: 2.0
+        inflate_unknown: false
+        inflate_around_unknown: true
+      always_send_full_costmap: true
+      introspection_mode: disabled

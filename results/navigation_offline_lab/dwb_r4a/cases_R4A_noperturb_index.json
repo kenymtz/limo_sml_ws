@@ -1,0 +1,6177 @@
+{
+"source": "results/navigation_offline_lab/planner_runs/paths_R3.json",
+"params": {
+"BEHIND": 1.4,
+"STEP": 0.5,
+"END_MARGIN": 0.3,
+"V_CRUISE": 0.25,
+"LAT": 0.05,
+"YAW": 0.15
+},
+"cases": [
+{
+"case": "T001_S",
+"test": "T001",
+"kind": "START",
+"category": "short",
+"path_len_m": 0.6551018092838629,
+"start_heading_err_rad": -2.085584388099532
+},
+{
+"case": "T002_S",
+"test": "T002",
+"kind": "START",
+"category": "short",
+"path_len_m": 1.4923957557863246,
+"start_heading_err_rad": -2.7421312787872867
+},
+{
+"case": "T002_A01",
+"test": "T002",
+"kind": "ALONG",
+"category": "short",
+"s_m": 0.5091990370232966,
+"path_len_m": 1.4923957557863246,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T002_A02",
+"test": "T002",
+"kind": "ALONG",
+"category": "short",
+"s_m": 1.0041990538065926,
+"path_len_m": 1.4923957557863246,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T003_S",
+"test": "T003",
+"kind": "START",
+"category": "short",
+"path_len_m": 1.1022626452999909,
+"start_heading_err_rad": -0.4799589775458755
+},
+{
+"case": "T003_A01",
+"test": "T003",
+"kind": "ALONG",
+"category": "short",
+"s_m": 0.5110273165236865,
+"path_len_m": 1.1022626452999909,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T004_S",
+"test": "T004",
+"kind": "START",
+"category": "short",
+"path_len_m": 1.0621740727935898,
+"start_heading_err_rad": -2.029995285983014
+},
+{
+"case": "T004_A01",
+"test": "T004",
+"kind": "ALONG",
+"category": "short",
+"s_m": 0.5083331891743167,
+"path_len_m": 1.0621740727935898,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T005_S",
+"test": "T005",
+"kind": "START",
+"category": "short",
+"path_len_m": 0.7114359869110616,
+"start_heading_err_rad": -2.0212693334786787
+},
+{
+"case": "T006_S",
+"test": "T006",
+"kind": "START",
+"category": "short",
+"path_len_m": 1.0714302998514111,
+"start_heading_err_rad": 0.4691330213320559
+},
+{
+"case": "T006_A01",
+"test": "T006",
+"kind": "ALONG",
+"category": "short",
+"s_m": 0.5088029137986755,
+"path_len_m": 1.0714302998514111,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T007_S",
+"test": "T007",
+"kind": "START",
+"category": "short",
+"path_len_m": 0.6448293320134073,
+"start_heading_err_rad": 0.6119228078877818
+},
+{
+"case": "T008_S",
+"test": "T008",
+"kind": "START",
+"category": "short",
+"path_len_m": 0.7324952336797398,
+"start_heading_err_rad": -0.5978178049519496
+},
+{
+"case": "T009_S",
+"test": "T009",
+"kind": "START",
+"category": "short",
+"path_len_m": 1.1848241590655308,
+"start_heading_err_rad": -1.1377508645775611
+},
+{
+"case": "T009_A01",
+"test": "T009",
+"kind": "ALONG",
+"category": "short",
+"s_m": 0.5040467805959491,
+"path_len_m": 1.1848241590655308,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T010_S",
+"test": "T010",
+"kind": "START",
+"category": "short",
+"path_len_m": 1.0306985717419916,
+"start_heading_err_rad": 1.3477544049004404
+},
+{
+"case": "T010_A01",
+"test": "T010",
+"kind": "ALONG",
+"category": "short",
+"s_m": 0.500193591466201,
+"path_len_m": 1.0306985717419916,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T011_S",
+"test": "T011",
+"kind": "START",
+"category": "long",
+"path_len_m": 13.669376653833154,
+"start_heading_err_rad": 1.8076720484726314
+},
+{
+"case": "T011_A01",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 0.507462646486663,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T011_A02",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.0024627788404075,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T011_A03",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.5124623895892912,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 0.11746266394300257
+},
+{
+"case": "T011_A04",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.0074626140075575,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 0.6124627360834778
+},
+{
+"case": "T011_A05",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.502462389215588,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 1.10746245875899
+},
+{
+"case": "T011_A06",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.012462628114867,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 1.6174625405963858
+},
+{
+"case": "T011_A07",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.5074625988580537,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 2.1124624909440484
+},
+{
+"case": "T011_A08",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.002462568011552,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 2.607462497169757
+},
+{
+"case": "T011_A09",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.512462865144023,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 3.1174625553472604
+},
+{
+"case": "T011_A10",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.007462745138495,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 3.6124625673707484
+},
+{
+"case": "T011_A11",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.5024625795881,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 4.10746265075034
+},
+{
+"case": "T011_A12",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.01246300234314,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 4.617462551482981
+},
+{
+"case": "T011_A13",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.507463216671772,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 5.112462779853537
+},
+{
+"case": "T011_A14",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 7.002463198390253,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 5.607462845808146
+},
+{
+"case": "T011_A15",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 7.512463353431422,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 6.117463257889772
+},
+{
+"case": "T011_A16",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 8.007463187057999,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 6.612463378689722
+},
+{
+"case": "T011_A17",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 8.502463019249667,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 7.107463104153466
+},
+{
+"case": "T011_A18",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 9.012463369178006,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 7.617463440113776
+},
+{
+"case": "T011_A19",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 9.507463380840997,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 8.112463163488083
+},
+{
+"case": "T011_A20",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 10.002463158891931,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 8.60746314225079
+},
+{
+"case": "T011_A21",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 10.512463217948563,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 9.117463167268017
+},
+{
+"case": "T011_A22",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 11.007463465255759,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 9.612463371594826
+},
+{
+"case": "T011_A23",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 11.502463410576157,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 10.107463086741411
+},
+{
+"case": "T011_A24",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 12.012463515163025,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 10.617463416716543
+},
+{
+"case": "T011_A25",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 12.507463231139708,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 11.112463016402502
+},
+{
+"case": "T011_A26",
+"test": "T011",
+"kind": "ALONG",
+"category": "long",
+"s_m": 13.002462947315133,
+"path_len_m": 13.669376653833154,
+"path_trim_from_s": 11.607462968570216
+},
+{
+"case": "T012_S",
+"test": "T012",
+"kind": "START",
+"category": "long",
+"path_len_m": 9.510117730000369,
+"start_heading_err_rad": 0.5320788806081916
+},
+{
+"case": "T012_A01",
+"test": "T012",
+"kind": "ALONG",
+"category": "long",
+"s_m": 0.5033478583532495,
+"path_len_m": 9.510117730000369,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T012_A02",
+"test": "T012",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.0133484130770292,
+"path_len_m": 9.510117730000369,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T012_A03",
+"test": "T012",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.5083479638858206,
+"path_len_m": 9.510117730000369,
+"path_trim_from_s": 0.11334781864694422
+},
+{
+"case": "T012_A04",
+"test": "T012",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.003348138515734,
+"path_len_m": 9.510117730000369,
+"path_trim_from_s": 0.6083477249191322
+},
+{
+"case": "T012_A05",
+"test": "T012",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.5133482689796054,
+"path_len_m": 9.510117730000369,
+"path_trim_from_s": 1.1183481829419932
+},
+{
+"case": "T012_A06",
+"test": "T012",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.0083479891290525,
+"path_len_m": 9.510117730000369,
+"path_trim_from_s": 1.6133480446297062
+},
+{
+"case": "T012_A07",
+"test": "T012",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.50334797821337,
+"path_len_m": 9.510117730000369,
+"path_trim_from_s": 2.1083481639565513
+},
+{
+"case": "T012_A08",
+"test": "T012",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.0133479668157275,
+"path_len_m": 9.510117730000369,
+"path_trim_from_s": 2.6183483201080247
+},
+{
+"case": "T012_A09",
+"test": "T012",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.508348124349041,
+"path_len_m": 9.510117730000369,
+"path_trim_from_s": 3.1133479869305494
+},
+{
+"case": "T012_A10",
+"test": "T012",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.003348106535303,
+"path_len_m": 9.510117730000369,
+"path_trim_from_s": 3.608347975866437
+},
+{
+"case": "T012_A11",
+"test": "T012",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.513347962600576,
+"path_len_m": 9.510117730000369,
+"path_trim_from_s": 4.118347964515942
+},
+{
+"case": "T012_A12",
+"test": "T012",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.008348319865303,
+"path_len_m": 9.510117730000369,
+"path_trim_from_s": 4.6133481198025805
+},
+{
+"case": "T012_A13",
+"test": "T012",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.503348037668521,
+"path_len_m": 9.510117730000369,
+"path_trim_from_s": 5.108348045858929
+},
+{
+"case": "T012_A14",
+"test": "T012",
+"kind": "ALONG",
+"category": "long",
+"s_m": 7.01334790221117,
+"path_len_m": 9.510117730000369,
+"path_trim_from_s": 5.618348134824039
+},
+{
+"case": "T012_A15",
+"test": "T012",
+"kind": "ALONG",
+"category": "long",
+"s_m": 7.508348010885459,
+"path_len_m": 9.510117730000369,
+"path_trim_from_s": 6.113348027068452
+},
+{
+"case": "T012_A16",
+"test": "T012",
+"kind": "ALONG",
+"category": "long",
+"s_m": 8.003348216286113,
+"path_len_m": 9.510117730000369,
+"path_trim_from_s": 6.608348115425933
+},
+{
+"case": "T012_A17",
+"test": "T012",
+"kind": "ALONG",
+"category": "long",
+"s_m": 8.51334825301001,
+"path_len_m": 9.510117730000369,
+"path_trim_from_s": 7.118347986791843
+},
+{
+"case": "T012_A18",
+"test": "T012",
+"kind": "ALONG",
+"category": "long",
+"s_m": 9.008348230352023,
+"path_len_m": 9.510117730000369,
+"path_trim_from_s": 7.613348243156524
+},
+{
+"case": "T013_S",
+"test": "T013",
+"kind": "START",
+"category": "long",
+"path_len_m": 7.492053635818372,
+"start_heading_err_rad": -0.6635504536629813
+},
+{
+"case": "T013_A01",
+"test": "T013",
+"kind": "ALONG",
+"category": "long",
+"s_m": 0.5045939996804945,
+"path_len_m": 7.492053635818372,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T013_A02",
+"test": "T013",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.0145942002614077,
+"path_len_m": 7.492053635818372,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T013_A03",
+"test": "T013",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.5095940950634332,
+"path_len_m": 7.492053635818372,
+"path_trim_from_s": 0.1145942556106717
+},
+{
+"case": "T013_A04",
+"test": "T013",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.004593928745047,
+"path_len_m": 7.492053635818372,
+"path_trim_from_s": 0.6095943202221493
+},
+{
+"case": "T013_A05",
+"test": "T013",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.51459423112534,
+"path_len_m": 7.492053635818372,
+"path_trim_from_s": 1.1195940582682684
+},
+{
+"case": "T013_A06",
+"test": "T013",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.009593941623015,
+"path_len_m": 7.492053635818372,
+"path_trim_from_s": 1.6145940005137953
+},
+{
+"case": "T013_A07",
+"test": "T013",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.5045939846439365,
+"path_len_m": 7.492053635818372,
+"path_trim_from_s": 2.10959403398503
+},
+{
+"case": "T013_A08",
+"test": "T013",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.014594214116218,
+"path_len_m": 7.492053635818372,
+"path_trim_from_s": 2.6195938934853285
+},
+{
+"case": "T013_A09",
+"test": "T013",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.509593834707657,
+"path_len_m": 7.492053635818372,
+"path_trim_from_s": 3.11459437666515
+},
+{
+"case": "T013_A10",
+"test": "T013",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.004594225690522,
+"path_len_m": 7.492053635818372,
+"path_trim_from_s": 3.6095945185682945
+},
+{
+"case": "T013_A11",
+"test": "T013",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.514594172067762,
+"path_len_m": 7.492053635818372,
+"path_trim_from_s": 4.119593891780138
+},
+{
+"case": "T013_A12",
+"test": "T013",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.0095938313223405,
+"path_len_m": 7.492053635818372,
+"path_trim_from_s": 4.614594039080606
+},
+{
+"case": "T013_A13",
+"test": "T013",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.504594195529264,
+"path_len_m": 7.492053635818372,
+"path_trim_from_s": 5.109593864252794
+},
+{
+"case": "T013_A14",
+"test": "T013",
+"kind": "ALONG",
+"category": "long",
+"s_m": 7.014593921067747,
+"path_len_m": 7.492053635818372,
+"path_trim_from_s": 5.619594128153742
+},
+{
+"case": "T014_S",
+"test": "T014",
+"kind": "START",
+"category": "long",
+"path_len_m": 10.579856097358833,
+"start_heading_err_rad": 2.168606718799384
+},
+{
+"case": "T014_A01",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 0.5110267197638123,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T014_A02",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.0060265666543975,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T014_A03",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.501026489163325,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 0.10602684988087668
+},
+{
+"case": "T014_A04",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.011026682360617,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 0.6160266206110212
+},
+{
+"case": "T014_A05",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.5060266212618405,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 1.1110265247147242
+},
+{
+"case": "T014_A06",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.001026399878081,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 1.6060267650783782
+},
+{
+"case": "T014_A07",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.5110268150817983,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 2.11602669532519
+},
+{
+"case": "T014_A08",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.006026452057296,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 2.6110266347596314
+},
+{
+"case": "T014_A09",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.501026602347111,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 3.1060264724889293
+},
+{
+"case": "T014_A10",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.011026496943166,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 3.6160266448986103
+},
+{
+"case": "T014_A11",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.506026668007794,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 4.111026550474763
+},
+{
+"case": "T014_A12",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.001026642396108,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 4.606026357380179
+},
+{
+"case": "T014_A13",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.511026607417503,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 5.116026404485678
+},
+{
+"case": "T014_A14",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 7.006026502047352,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 5.611026648738587
+},
+{
+"case": "T014_A15",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 7.501026580259484,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 6.106026624518801
+},
+{
+"case": "T014_A16",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 8.011026680378453,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 6.6160267206317585
+},
+{
+"case": "T014_A17",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 8.506026701340964,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 7.111026581244265
+},
+{
+"case": "T014_A18",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 9.001026626911756,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 7.606026622810214
+},
+{
+"case": "T014_A19",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 9.51102655713874,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 8.11602646207923
+},
+{
+"case": "T014_A20",
+"test": "T014",
+"kind": "ALONG",
+"category": "long",
+"s_m": 10.006026642935621,
+"path_len_m": 10.579856097358833,
+"path_trim_from_s": 8.611026362997613
+},
+{
+"case": "T015_S",
+"test": "T015",
+"kind": "START",
+"category": "long",
+"path_len_m": 8.721522965637359,
+"start_heading_err_rad": 1.4944785341130944
+},
+{
+"case": "T015_A01",
+"test": "T015",
+"kind": "ALONG",
+"category": "long",
+"s_m": 0.5074349332454328,
+"path_len_m": 8.721522965637359,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T015_A02",
+"test": "T015",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.0024351920124663,
+"path_len_m": 8.721522965637359,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T015_A03",
+"test": "T015",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.5124351470516935,
+"path_len_m": 8.721522965637359,
+"path_trim_from_s": 0.1174352998827431
+},
+{
+"case": "T015_A04",
+"test": "T015",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.007434808987104,
+"path_len_m": 8.721522965637359,
+"path_trim_from_s": 0.6124350597960153
+},
+{
+"case": "T015_A05",
+"test": "T015",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.502434677136774,
+"path_len_m": 8.721522965637359,
+"path_trim_from_s": 1.107434644265978
+},
+{
+"case": "T015_A06",
+"test": "T015",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.0124349860692,
+"path_len_m": 8.721522965637359,
+"path_trim_from_s": 1.6174352463817814
+},
+{
+"case": "T015_A07",
+"test": "T015",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.50743499865041,
+"path_len_m": 8.721522965637359,
+"path_trim_from_s": 2.112434729350452
+},
+{
+"case": "T015_A08",
+"test": "T015",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.002434680808232,
+"path_len_m": 8.721522965637359,
+"path_trim_from_s": 2.607434655309316
+},
+{
+"case": "T015_A09",
+"test": "T015",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.512434670025261,
+"path_len_m": 8.721522965637359,
+"path_trim_from_s": 3.1174346681751817
+},
+{
+"case": "T015_A10",
+"test": "T015",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.007434809617666,
+"path_len_m": 8.721522965637359,
+"path_trim_from_s": 3.6124347389044384
+},
+{
+"case": "T015_A11",
+"test": "T015",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.502434550942073,
+"path_len_m": 8.721522965637359,
+"path_trim_from_s": 4.107434678812291
+},
+{
+"case": "T015_A12",
+"test": "T015",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.012434679175504,
+"path_len_m": 8.721522965637359,
+"path_trim_from_s": 4.617434667688805
+},
+{
+"case": "T015_A13",
+"test": "T015",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.507434756740574,
+"path_len_m": 8.721522965637359,
+"path_trim_from_s": 5.112434565468485
+},
+{
+"case": "T015_A14",
+"test": "T015",
+"kind": "ALONG",
+"category": "long",
+"s_m": 7.00243469795525,
+"path_len_m": 8.721522965637359,
+"path_trim_from_s": 5.60743489651791
+},
+{
+"case": "T015_A15",
+"test": "T015",
+"kind": "ALONG",
+"category": "long",
+"s_m": 7.512434740473446,
+"path_len_m": 8.721522965637359,
+"path_trim_from_s": 6.117434539091097
+},
+{
+"case": "T015_A16",
+"test": "T015",
+"kind": "ALONG",
+"category": "long",
+"s_m": 8.007434713411914,
+"path_len_m": 8.721522965637359,
+"path_trim_from_s": 6.612434824298009
+},
+{
+"case": "T016_S",
+"test": "T016",
+"kind": "START",
+"category": "long",
+"path_len_m": 8.429587846676178,
+"start_heading_err_rad": 2.09544232565279
+},
+{
+"case": "T016_A01",
+"test": "T016",
+"kind": "ALONG",
+"category": "long",
+"s_m": 0.5113505785172661,
+"path_len_m": 8.429587846676178,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T016_A02",
+"test": "T016",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.0063507340652442,
+"path_len_m": 8.429587846676178,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T016_A03",
+"test": "T016",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.5013506130095042,
+"path_len_m": 8.429587846676178,
+"path_trim_from_s": 0.10635058988740324
+},
+{
+"case": "T016_A04",
+"test": "T016",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.011350663225535,
+"path_len_m": 8.429587846676178,
+"path_trim_from_s": 0.6163503215643118
+},
+{
+"case": "T016_A05",
+"test": "T016",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.506350453552531,
+"path_len_m": 8.429587846676178,
+"path_trim_from_s": 1.1113506170229828
+},
+{
+"case": "T016_A06",
+"test": "T016",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.001350464660072,
+"path_len_m": 8.429587846676178,
+"path_trim_from_s": 1.6063506743130695
+},
+{
+"case": "T016_A07",
+"test": "T016",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.511350395112466,
+"path_len_m": 8.429587846676178,
+"path_trim_from_s": 2.1163504178893353
+},
+{
+"case": "T016_A08",
+"test": "T016",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.006349986407083,
+"path_len_m": 8.429587846676178,
+"path_trim_from_s": 2.611350622403263
+},
+{
+"case": "T016_A09",
+"test": "T016",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.501349925892309,
+"path_len_m": 8.429587846676178,
+"path_trim_from_s": 3.106350495187686
+},
+{
+"case": "T016_A10",
+"test": "T016",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.011350230798306,
+"path_len_m": 8.429587846676178,
+"path_trim_from_s": 3.616350375573537
+},
+{
+"case": "T016_A11",
+"test": "T016",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.506350314224501,
+"path_len_m": 8.429587846676178,
+"path_trim_from_s": 4.111350195719217
+},
+{
+"case": "T016_A12",
+"test": "T016",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.0013501215469764,
+"path_len_m": 8.429587846676178,
+"path_trim_from_s": 4.606349954124618
+},
+{
+"case": "T016_A13",
+"test": "T016",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.511350057206779,
+"path_len_m": 8.429587846676178,
+"path_trim_from_s": 5.116349934234357
+},
+{
+"case": "T016_A14",
+"test": "T016",
+"kind": "ALONG",
+"category": "long",
+"s_m": 7.006350043605804,
+"path_len_m": 8.429587846676178,
+"path_trim_from_s": 5.611350204952931
+},
+{
+"case": "T016_A15",
+"test": "T016",
+"kind": "ALONG",
+"category": "long",
+"s_m": 7.501350085888134,
+"path_len_m": 8.429587846676178,
+"path_trim_from_s": 6.106350029101084
+},
+{
+"case": "T016_A16",
+"test": "T016",
+"kind": "ALONG",
+"category": "long",
+"s_m": 8.011349797772962,
+"path_len_m": 8.429587846676178,
+"path_trim_from_s": 6.616350076705909
+},
+{
+"case": "T017_S",
+"test": "T017",
+"kind": "START",
+"category": "long",
+"path_len_m": 9.070676122211355,
+"start_heading_err_rad": -2.727540579381609
+},
+{
+"case": "T017_A01",
+"test": "T017",
+"kind": "ALONG",
+"category": "long",
+"s_m": 0.5137627237027687,
+"path_len_m": 9.070676122211355,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T017_A02",
+"test": "T017",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.0087627185710866,
+"path_len_m": 9.070676122211355,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T017_A03",
+"test": "T017",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.5037627463178076,
+"path_len_m": 9.070676122211355,
+"path_trim_from_s": 0.10876271338518828
+},
+{
+"case": "T017_A04",
+"test": "T017",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.013762756796896,
+"path_len_m": 9.070676122211355,
+"path_trim_from_s": 0.6187628818736767
+},
+{
+"case": "T017_A05",
+"test": "T017",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.508762656797612,
+"path_len_m": 9.070676122211355,
+"path_trim_from_s": 1.1137628666117005
+},
+{
+"case": "T017_A06",
+"test": "T017",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.003762562615292,
+"path_len_m": 9.070676122211355,
+"path_trim_from_s": 1.6087627320970288
+},
+{
+"case": "T017_A07",
+"test": "T017",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.513762832119442,
+"path_len_m": 9.070676122211355,
+"path_trim_from_s": 2.1187627389571286
+},
+{
+"case": "T017_A08",
+"test": "T017",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.008762812161272,
+"path_len_m": 9.070676122211355,
+"path_trim_from_s": 2.613762769907536
+},
+{
+"case": "T017_A09",
+"test": "T017",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.50376294837838,
+"path_len_m": 9.070676122211355,
+"path_trim_from_s": 3.108762664903476
+},
+{
+"case": "T017_A10",
+"test": "T017",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.013762793846312,
+"path_len_m": 9.070676122211355,
+"path_trim_from_s": 3.6187625739321105
+},
+{
+"case": "T017_A11",
+"test": "T017",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.508762580781203,
+"path_len_m": 9.070676122211355,
+"path_trim_from_s": 4.11376275873193
+},
+{
+"case": "T017_A12",
+"test": "T017",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.003762547489963,
+"path_len_m": 9.070676122211355,
+"path_trim_from_s": 4.6087626353795015
+},
+{
+"case": "T017_A13",
+"test": "T017",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.513762510839548,
+"path_len_m": 9.070676122211355,
+"path_trim_from_s": 5.1187628004662695
+},
+{
+"case": "T017_A14",
+"test": "T017",
+"kind": "ALONG",
+"category": "long",
+"s_m": 7.008763063747027,
+"path_len_m": 9.070676122211355,
+"path_trim_from_s": 5.613762792596651
+},
+{
+"case": "T017_A15",
+"test": "T017",
+"kind": "ALONG",
+"category": "long",
+"s_m": 7.5037622822806656,
+"path_len_m": 9.070676122211355,
+"path_trim_from_s": 6.108762643088295
+},
+{
+"case": "T017_A16",
+"test": "T017",
+"kind": "ALONG",
+"category": "long",
+"s_m": 8.013762643720215,
+"path_len_m": 9.070676122211355,
+"path_trim_from_s": 6.61876308113753
+},
+{
+"case": "T017_A17",
+"test": "T017",
+"kind": "ALONG",
+"category": "long",
+"s_m": 8.508762328589665,
+"path_len_m": 9.070676122211355,
+"path_trim_from_s": 7.113762802772157
+},
+{
+"case": "T018_S",
+"test": "T018",
+"kind": "START",
+"category": "long",
+"path_len_m": 10.032217314494122,
+"start_heading_err_rad": -1.1323428528917245
+},
+{
+"case": "T018_A01",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 0.5043645370448337,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T018_A02",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.0143643175083419,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T018_A03",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.5093642784411139,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 0.11436463757900212
+},
+{
+"case": "T018_A04",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.0043643219565093,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 0.6093643021461214
+},
+{
+"case": "T018_A05",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.5143646438696603,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 1.1193645675963508
+},
+{
+"case": "T018_A06",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.0093644146969663,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 1.6143643809207282
+},
+{
+"case": "T018_A07",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.504364473601492,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 2.109364562549961
+},
+{
+"case": "T018_A08",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.014364796289902,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 2.6193642711128415
+},
+{
+"case": "T018_A09",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.509364749946741,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 3.1143642417914807
+},
+{
+"case": "T018_A10",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.004364493870869,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 3.609364408171774
+},
+{
+"case": "T018_A11",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.51436470734689,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 4.119364652504052
+},
+{
+"case": "T018_A12",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.009364295804541,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 4.614364453853865
+},
+{
+"case": "T018_A13",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.504364618971074,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 5.109364686193083
+},
+{
+"case": "T018_A14",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 7.014364281217122,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 5.619364391015599
+},
+{
+"case": "T018_A15",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 7.509364143504833,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 6.114364456289966
+},
+{
+"case": "T018_A16",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 8.00436433870978,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 6.609364389177192
+},
+{
+"case": "T018_A17",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 8.514364089016361,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 7.119364266798496
+},
+{
+"case": "T018_A18",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 9.009364211120623,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 7.614364240093956
+},
+{
+"case": "T018_A19",
+"test": "T018",
+"kind": "ALONG",
+"category": "long",
+"s_m": 9.50436443774742,
+"path_len_m": 10.032217314494122,
+"path_trim_from_s": 8.109364098258453
+},
+{
+"case": "T019_S",
+"test": "T019",
+"kind": "START",
+"category": "long",
+"path_len_m": 7.395308267815766,
+"start_heading_err_rad": 1.19315275269184
+},
+{
+"case": "T019_A01",
+"test": "T019",
+"kind": "ALONG",
+"category": "long",
+"s_m": 0.5149970335496327,
+"path_len_m": 7.395308267815766,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T019_A02",
+"test": "T019",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.0099970038087216,
+"path_len_m": 7.395308267815766,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T019_A03",
+"test": "T019",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.5049968817744348,
+"path_len_m": 7.395308267815766,
+"path_trim_from_s": 0.10999692825901489
+},
+{
+"case": "T019_A04",
+"test": "T019",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.0149968878143976,
+"path_len_m": 7.395308267815766,
+"path_trim_from_s": 0.6199970364334119
+},
+{
+"case": "T019_A05",
+"test": "T019",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.509996903404111,
+"path_len_m": 7.395308267815766,
+"path_trim_from_s": 1.1149969876343095
+},
+{
+"case": "T019_A06",
+"test": "T019",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.004997139797137,
+"path_len_m": 7.395308267815766,
+"path_trim_from_s": 1.6099968402174234
+},
+{
+"case": "T019_A07",
+"test": "T019",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.514996767193803,
+"path_len_m": 7.395308267815766,
+"path_trim_from_s": 2.119996956435236
+},
+{
+"case": "T019_A08",
+"test": "T019",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.009996999831707,
+"path_len_m": 7.395308267815766,
+"path_trim_from_s": 2.614996887777936
+},
+{
+"case": "T019_A09",
+"test": "T019",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.504996925117312,
+"path_len_m": 7.395308267815766,
+"path_trim_from_s": 3.1099971273600473
+},
+{
+"case": "T019_A10",
+"test": "T019",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.014996913759831,
+"path_len_m": 7.395308267815766,
+"path_trim_from_s": 3.6199969269943986
+},
+{
+"case": "T019_A11",
+"test": "T019",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.509996902695719,
+"path_len_m": 7.395308267815766,
+"path_trim_from_s": 4.1149966797342366
+},
+{
+"case": "T019_A12",
+"test": "T019",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.004996891631607,
+"path_len_m": 7.395308267815766,
+"path_trim_from_s": 4.609996922793079
+},
+{
+"case": "T019_A13",
+"test": "T019",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.514997001748754,
+"path_len_m": 7.395308267815766,
+"path_trim_from_s": 5.1199969114128985
+},
+{
+"case": "T019_A14",
+"test": "T019",
+"kind": "ALONG",
+"category": "long",
+"s_m": 7.00999659763009,
+"path_len_m": 7.395308267815766,
+"path_trim_from_s": 5.614996900348786
+},
+{
+"case": "T020_S",
+"test": "T020",
+"kind": "START",
+"category": "long",
+"path_len_m": 10.052509791156925,
+"start_heading_err_rad": -2.7367093909743785
+},
+{
+"case": "T020_A01",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 0.5040556529490823,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T020_A02",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.0140557371818428,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T020_A03",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 1.509055325383311,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 0.11405513634033698
+},
+{
+"case": "T020_A04",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.0040552652489905,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 0.609055671717192
+},
+{
+"case": "T020_A05",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 2.51405520799186,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 1.1190553736193731
+},
+{
+"case": "T020_A06",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.009055664786654,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 1.614055315877166
+},
+{
+"case": "T020_A07",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 3.5040556711414643,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 2.1090552248945724
+},
+{
+"case": "T020_A08",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.014055606210294,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 2.6190554201415357
+},
+{
+"case": "T020_A09",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 4.509055236627254,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 3.11405550433691
+},
+{
+"case": "T020_A10",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.004055544256821,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 3.6090555998763705
+},
+{
+"case": "T020_A11",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 5.51405553307047,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 4.1190553518429995
+},
+{
+"case": "T020_A12",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.009055627680888,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 4.614055548075825
+},
+{
+"case": "T020_A13",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 6.5040553027415084,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 5.109055542023394
+},
+{
+"case": "T020_A14",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 7.014055278836848,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 5.619055530728776
+},
+{
+"case": "T020_A15",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 7.5090553731555,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 6.114055490725356
+},
+{
+"case": "T020_A16",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 8.004055555647051,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 6.609055574065307
+},
+{
+"case": "T020_A17",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 8.514055294271529,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 7.119055448995095
+},
+{
+"case": "T020_A18",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 9.009055461571487,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 7.614055398278109
+},
+{
+"case": "T020_A19",
+"test": "T020",
+"kind": "ALONG",
+"category": "long",
+"s_m": 9.504055261799714,
+"path_len_m": 10.052509791156925,
+"path_trim_from_s": 8.10905547393319
+},
+{
+"case": "T021_S",
+"test": "T021",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 3.5804585890701346,
+"start_heading_err_rad": 1.9929771388787132
+},
+{
+"case": "T021_A01",
+"test": "T021",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 0.5063168690905315,
+"path_len_m": 3.5804585890701346,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T021_A02",
+"test": "T021",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.0013166801302793,
+"path_len_m": 3.5804585890701346,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T021_A03",
+"test": "T021",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.5113163793691702,
+"path_len_m": 3.5804585890701346,
+"path_trim_from_s": 0.11631676706962896
+},
+{
+"case": "T021_A04",
+"test": "T021",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 2.0063165745027662,
+"path_len_m": 3.5804585890701346,
+"path_trim_from_s": 0.6113167974335584
+},
+{
+"case": "T021_A05",
+"test": "T021",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 2.501316182243389,
+"path_len_m": 3.5804585890701346,
+"path_trim_from_s": 1.1063164860878
+},
+{
+"case": "T021_A06",
+"test": "T021",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 3.0113165327072844,
+"path_len_m": 3.5804585890701346,
+"path_trim_from_s": 1.6163164805119294
+},
+{
+"case": "T022_S",
+"test": "T022",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 3.313943095837553,
+"start_heading_err_rad": 2.500568017933054
+},
+{
+"case": "T022_A01",
+"test": "T022",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 0.5123750151126079,
+"path_len_m": 3.313943095837553,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T022_A02",
+"test": "T022",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.007374473604141,
+"path_len_m": 3.313943095837553,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T022_A03",
+"test": "T022",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.5023743062364041,
+"path_len_m": 3.313943095837553,
+"path_trim_from_s": 0.10737506248683666
+},
+{
+"case": "T022_A04",
+"test": "T022",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 2.012374531194433,
+"path_len_m": 3.313943095837553,
+"path_trim_from_s": 0.617375139971452
+},
+{
+"case": "T022_A05",
+"test": "T022",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 2.5073741067967332,
+"path_len_m": 3.313943095837553,
+"path_trim_from_s": 1.1123744402172486
+},
+{
+"case": "T022_A06",
+"test": "T022",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 3.0023746833365146,
+"path_len_m": 3.313943095837553,
+"path_trim_from_s": 1.6073739531716147
+},
+{
+"case": "T023_S",
+"test": "T023",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 2.2426666309638335,
+"start_heading_err_rad": -2.7436742027359777
+},
+{
+"case": "T023_A01",
+"test": "T023",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 0.5043821776816466,
+"path_len_m": 2.2426666309638335,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T023_A02",
+"test": "T023",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.0143822948674972,
+"path_len_m": 2.2426666309638335,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T023_A03",
+"test": "T023",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.5093824941037872,
+"path_len_m": 2.2426666309638335,
+"path_trim_from_s": 0.11438229747755964
+},
+{
+"case": "T024_S",
+"test": "T024",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 2.2808926206802984,
+"start_heading_err_rad": -0.5835035490301561
+},
+{
+"case": "T024_A01",
+"test": "T024",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 0.5048368455287628,
+"path_len_m": 2.2808926206802984,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T024_A02",
+"test": "T024",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.01483713307094,
+"path_len_m": 2.2808926206802984,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T024_A03",
+"test": "T024",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.5098369319087754,
+"path_len_m": 2.2808926206802984,
+"path_trim_from_s": 0.1148370374855711
+},
+{
+"case": "T025_S",
+"test": "T025",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 3.668770153115511,
+"start_heading_err_rad": -2.375075511008357
+},
+{
+"case": "T025_A01",
+"test": "T025",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 0.5127145400614449,
+"path_len_m": 3.668770153115511,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T025_A02",
+"test": "T025",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.0077149389652014,
+"path_len_m": 3.668770153115511,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T025_A03",
+"test": "T025",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.5027138189384832,
+"path_len_m": 3.668770153115511,
+"path_trim_from_s": 0.10771482098874109
+},
+{
+"case": "T025_A04",
+"test": "T025",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 2.012714255224618,
+"path_len_m": 3.668770153115511,
+"path_trim_from_s": 0.6177147254778564
+},
+{
+"case": "T025_A05",
+"test": "T025",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 2.507713627588715,
+"path_len_m": 3.668770153115511,
+"path_trim_from_s": 1.112714726574697
+},
+{
+"case": "T025_A06",
+"test": "T025",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 3.0027147299027837,
+"path_len_m": 3.668770153115511,
+"path_trim_from_s": 1.607713976002959
+},
+{
+"case": "T026_S",
+"test": "T026",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 3.6671113190571596,
+"start_heading_err_rad": 2.291250681459324
+},
+{
+"case": "T026_A01",
+"test": "T026",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 0.5110576322517395,
+"path_len_m": 3.6671113190571596,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T026_A02",
+"test": "T026",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.0060560832623826,
+"path_len_m": 3.6671113190571596,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T026_A03",
+"test": "T026",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.5010558924295494,
+"path_len_m": 3.6671113190571596,
+"path_trim_from_s": 0.10605769626744674
+},
+{
+"case": "T026_A04",
+"test": "T026",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 2.011055839962274,
+"path_len_m": 3.6671113190571596,
+"path_trim_from_s": 0.6160577765871259
+},
+{
+"case": "T026_A05",
+"test": "T026",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 2.506055904335281,
+"path_len_m": 3.6671113190571596,
+"path_trim_from_s": 1.111055766246663
+},
+{
+"case": "T026_A06",
+"test": "T026",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 3.00105599243527,
+"path_len_m": 3.6671113190571596,
+"path_trim_from_s": 1.6060560637571748
+},
+{
+"case": "T027_S",
+"test": "T027",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 3.336906427200256,
+"start_heading_err_rad": 0.3899893777307213
+},
+{
+"case": "T027_A01",
+"test": "T027",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 0.5108521467482579,
+"path_len_m": 3.336906427200256,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T027_A02",
+"test": "T027",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.0058516739201946,
+"path_len_m": 3.336906427200256,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T027_A03",
+"test": "T027",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.5008511641065412,
+"path_len_m": 3.336906427200256,
+"path_trim_from_s": 0.10585232525674759
+},
+{
+"case": "T027_A04",
+"test": "T027",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 2.010850383405136,
+"path_len_m": 3.336906427200256,
+"path_trim_from_s": 0.6158521402583295
+},
+{
+"case": "T027_A05",
+"test": "T027",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 2.5058508034949907,
+"path_len_m": 3.336906427200256,
+"path_trim_from_s": 1.1108513272579073
+},
+{
+"case": "T027_A06",
+"test": "T027",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 3.000850928096393,
+"path_len_m": 3.336906427200256,
+"path_trim_from_s": 1.605850515748817
+},
+{
+"case": "T028_S",
+"test": "T028",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 2.470795253394851,
+"start_heading_err_rad": -1.6022926535897932
+},
+{
+"case": "T028_A01",
+"test": "T028",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 0.5083674413168832,
+"path_len_m": 2.470795253394851,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T028_A02",
+"test": "T028",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.0033675891055576,
+"path_len_m": 2.470795253394851,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T028_A03",
+"test": "T028",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.5133674788630926,
+"path_len_m": 2.470795253394851,
+"path_trim_from_s": 0.11836761210037139
+},
+{
+"case": "T028_A04",
+"test": "T028",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 2.0083683418907623,
+"path_len_m": 2.470795253394851,
+"path_trim_from_s": 0.613367360985182
+},
+{
+"case": "T029_S",
+"test": "T029",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 4.362828433833399,
+"start_heading_err_rad": -0.11278322806893137
+},
+{
+"case": "T029_A01",
+"test": "T029",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 0.5104009696029526,
+"path_len_m": 4.362828433833399,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T029_A02",
+"test": "T029",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.0054012140039388,
+"path_len_m": 4.362828433833399,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T029_A03",
+"test": "T029",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.5004010312184672,
+"path_len_m": 4.362828433833399,
+"path_trim_from_s": 0.10540155575789406
+},
+{
+"case": "T029_A04",
+"test": "T029",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 2.010401475366575,
+"path_len_m": 4.362828433833399,
+"path_trim_from_s": 0.6154012357869957
+},
+{
+"case": "T029_A05",
+"test": "T029",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 2.505401671615667,
+"path_len_m": 4.362828433833399,
+"path_trim_from_s": 1.1104016532420644
+},
+{
+"case": "T029_A06",
+"test": "T029",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 3.000401317322831,
+"path_len_m": 4.362828433833399,
+"path_trim_from_s": 1.6054013734270096
+},
+{
+"case": "T029_A07",
+"test": "T029",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 3.510401891249352,
+"path_len_m": 4.362828433833399,
+"path_trim_from_s": 2.1154014623257114
+},
+{
+"case": "T029_A08",
+"test": "T029",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 4.005401722222618,
+"path_len_m": 4.362828433833399,
+"path_trim_from_s": 2.6104016845578997
+},
+{
+"case": "T030_S",
+"test": "T030",
+"kind": "START",
+"category": "around_obstacle",
+"path_len_m": 5.667939680780932,
+"start_heading_err_rad": 1.3014129057767656
+},
+{
+"case": "T030_A01",
+"test": "T030",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 0.5096549082547639,
+"path_len_m": 5.667939680780932,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T030_A02",
+"test": "T030",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.004655300614329,
+"path_len_m": 5.667939680780932,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T030_A03",
+"test": "T030",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 1.5146553625440045,
+"path_len_m": 5.667939680780932,
+"path_trim_from_s": 0.11965545536692875
+},
+{
+"case": "T030_A04",
+"test": "T030",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 2.00965480335435,
+"path_len_m": 5.667939680780932,
+"path_trim_from_s": 0.6146552127778483
+},
+{
+"case": "T030_A05",
+"test": "T030",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 2.5046551075632753,
+"path_len_m": 5.667939680780932,
+"path_trim_from_s": 1.1096551473517338
+},
+{
+"case": "T030_A06",
+"test": "T030",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 3.014654711608389,
+"path_len_m": 5.667939680780932,
+"path_trim_from_s": 1.6196548078811908
+},
+{
+"case": "T030_A07",
+"test": "T030",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 3.509655211197156,
+"path_len_m": 5.667939680780932,
+"path_trim_from_s": 2.114655007036572
+},
+{
+"case": "T030_A08",
+"test": "T030",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 4.004655277635378,
+"path_len_m": 5.667939680780932,
+"path_trim_from_s": 2.6096548346868733
+},
+{
+"case": "T030_A09",
+"test": "T030",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 4.514655674243078,
+"path_len_m": 5.667939680780932,
+"path_trim_from_s": 3.1196548311566032
+},
+{
+"case": "T030_A10",
+"test": "T030",
+"kind": "ALONG",
+"category": "around_obstacle",
+"s_m": 5.009654951836584,
+"path_len_m": 5.667939680780932,
+"path_trim_from_s": 3.614655113732237
+},
+{
+"case": "T031_S",
+"test": "T031",
+"kind": "START",
+"category": "corridor_WIDE",
+"path_len_m": 2.2200001176103483,
+"start_heading_err_rad": 0.0
+},
+{
+"case": "T031_A01",
+"test": "T031",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 0.5099999886006112,
+"path_len_m": 2.2200001176103483,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T031_A02",
+"test": "T031",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 1.004999977536499,
+"path_len_m": 2.2200001176103483,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T031_A03",
+"test": "T031",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 1.5149999661371107,
+"path_len_m": 2.2200001176103483,
+"path_trim_from_s": 0.11999999731779054
+},
+{
+"case": "T032_S",
+"test": "T032",
+"kind": "START",
+"category": "corridor_WIDE",
+"path_len_m": 2.268560593245973,
+"start_heading_err_rad": -0.18302945815472185
+},
+{
+"case": "T032_A01",
+"test": "T032",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 0.5011343171164978,
+"path_len_m": 2.268560593245973,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T032_A02",
+"test": "T032",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 1.0111344248244243,
+"path_len_m": 2.268560593245973,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T032_A03",
+"test": "T032",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 1.5061341273276676,
+"path_len_m": 2.268560593245973,
+"path_trim_from_s": 0.11113406814378075
+},
+{
+"case": "T033_S",
+"test": "T033",
+"kind": "START",
+"category": "corridor_WIDE",
+"path_len_m": 2.262096474324814,
+"start_heading_err_rad": -0.010178335258606574
+},
+{
+"case": "T033_A01",
+"test": "T033",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 0.5122434835002324,
+"path_len_m": 2.262096474324814,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T033_A02",
+"test": "T033",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 1.0072436148178905,
+"path_len_m": 2.262096474324814,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T033_A03",
+"test": "T033",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 1.502243604510473,
+"path_len_m": 2.262096474324814,
+"path_trim_from_s": 0.10724352380462365
+},
+{
+"case": "T034_S",
+"test": "T034",
+"kind": "START",
+"category": "corridor_WIDE",
+"path_len_m": 2.219999845102495,
+"start_heading_err_rad": -1.5707926535897931
+},
+{
+"case": "T034_A01",
+"test": "T034",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 0.5099999886006117,
+"path_len_m": 2.219999845102495,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T034_A02",
+"test": "T034",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 1.0049999775364995,
+"path_len_m": 2.219999845102495,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T034_A03",
+"test": "T034",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 1.5149999661371112,
+"path_len_m": 2.219999845102495,
+"path_trim_from_s": 0.11999999731779099
+},
+{
+"case": "T035_S",
+"test": "T035",
+"kind": "START",
+"category": "corridor_WIDE",
+"path_len_m": 2.241730033813018,
+"start_heading_err_rad": -0.7687385506497053
+},
+{
+"case": "T035_A01",
+"test": "T035",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 0.5067302192715128,
+"path_len_m": 2.241730033813018,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T035_A02",
+"test": "T035",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 1.0017303407427034,
+"path_len_m": 2.241730033813018,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T035_A03",
+"test": "T035",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 1.5117300685303163,
+"path_len_m": 2.241730033813018,
+"path_trim_from_s": 0.11673008795821714
+},
+{
+"case": "T036_S",
+"test": "T036",
+"kind": "START",
+"category": "corridor_WIDE",
+"path_len_m": 2.230000008717733,
+"start_heading_err_rad": 7.346410206832132e-06
+},
+{
+"case": "T036_A01",
+"test": "T036",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 0.5099999886006117,
+"path_len_m": 2.230000008717733,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T036_A02",
+"test": "T036",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 1.0049999775364995,
+"path_len_m": 2.230000008717733,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T036_A03",
+"test": "T036",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 1.5149999661371112,
+"path_len_m": 2.230000008717733,
+"path_trim_from_s": 0.11999999731779099
+},
+{
+"case": "T037_S",
+"test": "T037",
+"kind": "START",
+"category": "corridor_WIDE",
+"path_len_m": 2.2200001176103483,
+"start_heading_err_rad": 2.3562
+},
+{
+"case": "T037_A01",
+"test": "T037",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 0.5099999886006112,
+"path_len_m": 2.2200001176103483,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T037_A02",
+"test": "T037",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 1.004999977536499,
+"path_len_m": 2.2200001176103483,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T037_A03",
+"test": "T037",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 1.5149999661371107,
+"path_len_m": 2.2200001176103483,
+"path_trim_from_s": 0.11999999731779054
+},
+{
+"case": "T038_S",
+"test": "T038",
+"kind": "START",
+"category": "corridor_WIDE",
+"path_len_m": 2.219999845102495,
+"start_heading_err_rad": -3.141592653589793
+},
+{
+"case": "T038_A01",
+"test": "T038",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 0.5099999886006117,
+"path_len_m": 2.219999845102495,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T038_A02",
+"test": "T038",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 1.0049999775364995,
+"path_len_m": 2.219999845102495,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T038_A03",
+"test": "T038",
+"kind": "ALONG",
+"category": "corridor_WIDE",
+"s_m": 1.5149999661371112,
+"path_len_m": 2.219999845102495,
+"path_trim_from_s": 0.11999999731779099
+},
+{
+"case": "T039_S",
+"test": "T039",
+"kind": "START",
+"category": "corridor_N1",
+"path_len_m": 2.2329627425692857,
+"start_heading_err_rad": 0.2695871816942498
+},
+{
+"case": "T039_A01",
+"test": "T039",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 0.5044214892151001,
+"path_len_m": 2.2329627425692857,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T039_A02",
+"test": "T039",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 1.0144214850518032,
+"path_len_m": 2.2329627425692857,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T039_A03",
+"test": "T039",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 1.509421474099449,
+"path_len_m": 2.2329627425692857,
+"path_trim_from_s": 0.11442163214155225
+},
+{
+"case": "T040_S",
+"test": "T040",
+"kind": "START",
+"category": "corridor_N1",
+"path_len_m": 2.227867786330908,
+"start_heading_err_rad": -0.2733272182311571
+},
+{
+"case": "T040_A01",
+"test": "T040",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 0.5143270589977399,
+"path_len_m": 2.227867786330908,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T040_A02",
+"test": "T040",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 1.009326829670348,
+"path_len_m": 2.227867786330908,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T040_A03",
+"test": "T040",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 1.5043268186760843,
+"path_len_m": 2.227867786330908,
+"path_trim_from_s": 0.10932678725759358
+},
+{
+"case": "T041_S",
+"test": "T041",
+"kind": "START",
+"category": "corridor_N1",
+"path_len_m": 2.2329627425692857,
+"start_heading_err_rad": 0.2695871816942498
+},
+{
+"case": "T041_A01",
+"test": "T041",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 0.5044214892151001,
+"path_len_m": 2.2329627425692857,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T041_A02",
+"test": "T041",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 1.0144214850518032,
+"path_len_m": 2.2329627425692857,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T041_A03",
+"test": "T041",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 1.509421474099449,
+"path_len_m": 2.2329627425692857,
+"path_trim_from_s": 0.11442163214155225
+},
+{
+"case": "T042_S",
+"test": "T042",
+"kind": "START",
+"category": "corridor_N1",
+"path_len_m": 2.227867786330908,
+"start_heading_err_rad": -1.8441272182311572
+},
+{
+"case": "T042_A01",
+"test": "T042",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 0.5143270589977399,
+"path_len_m": 2.227867786330908,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T042_A02",
+"test": "T042",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 1.009326829670348,
+"path_len_m": 2.227867786330908,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T042_A03",
+"test": "T042",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 1.5043268186760843,
+"path_len_m": 2.227867786330908,
+"path_trim_from_s": 0.10932678725759358
+},
+{
+"case": "T043_S",
+"test": "T043",
+"kind": "START",
+"category": "corridor_N1",
+"path_len_m": 2.2329627425692857,
+"start_heading_err_rad": -0.5158128183057502
+},
+{
+"case": "T043_A01",
+"test": "T043",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 0.5044214892151001,
+"path_len_m": 2.2329627425692857,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T043_A02",
+"test": "T043",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 1.0144214850518032,
+"path_len_m": 2.2329627425692857,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T043_A03",
+"test": "T043",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 1.509421474099449,
+"path_len_m": 2.2329627425692857,
+"path_trim_from_s": 0.11442163214155225
+},
+{
+"case": "T044_S",
+"test": "T044",
+"kind": "START",
+"category": "corridor_N1",
+"path_len_m": 2.227867786330908,
+"start_heading_err_rad": -0.2733272182311571
+},
+{
+"case": "T044_A01",
+"test": "T044",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 0.5143270589977399,
+"path_len_m": 2.227867786330908,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T044_A02",
+"test": "T044",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 1.009326829670348,
+"path_len_m": 2.227867786330908,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T044_A03",
+"test": "T044",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 1.5043268186760843,
+"path_len_m": 2.227867786330908,
+"path_trim_from_s": 0.10932678725759358
+},
+{
+"case": "T045_S",
+"test": "T045",
+"kind": "START",
+"category": "corridor_N1",
+"path_len_m": 2.2329627425692857,
+"start_heading_err_rad": 2.6257871816942497
+},
+{
+"case": "T045_A01",
+"test": "T045",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 0.5044214892151001,
+"path_len_m": 2.2329627425692857,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T045_A02",
+"test": "T045",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 1.0144214850518032,
+"path_len_m": 2.2329627425692857,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T045_A03",
+"test": "T045",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 1.509421474099449,
+"path_len_m": 2.2329627425692857,
+"path_trim_from_s": 0.11442163214155225
+},
+{
+"case": "T046_S",
+"test": "T046",
+"kind": "START",
+"category": "corridor_N1",
+"path_len_m": 2.227867786330908,
+"start_heading_err_rad": 2.8682580889484295
+},
+{
+"case": "T046_A01",
+"test": "T046",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 0.5143270589977399,
+"path_len_m": 2.227867786330908,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T046_A02",
+"test": "T046",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 1.009326829670348,
+"path_len_m": 2.227867786330908,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T046_A03",
+"test": "T046",
+"kind": "ALONG",
+"category": "corridor_N1",
+"s_m": 1.5043268186760843,
+"path_len_m": 2.227867786330908,
+"path_trim_from_s": 0.10932678725759358
+},
+{
+"case": "T047_S",
+"test": "T047",
+"kind": "START",
+"category": "corridor_N2",
+"path_len_m": 13.688266308929515,
+"start_heading_err_rad": 1.7561636930627693
+},
+{
+"case": "T047_A01",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 0.5032669852123619,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T047_A02",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 1.0132662310588063,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T047_A03",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 1.508266600901917,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 0.11326632708813264
+},
+{
+"case": "T047_A04",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 2.0032664089726215,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 0.6082663447520493
+},
+{
+"case": "T047_A05",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 2.513266417187069,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 1.1182662459366808
+},
+{
+"case": "T047_A06",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 3.008266724447713,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 1.613266454199867
+},
+{
+"case": "T047_A07",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 3.5032664183050732,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 2.1082667606374192
+},
+{
+"case": "T047_A08",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 4.013266495479792,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 2.6182667231337535
+},
+{
+"case": "T047_A09",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 4.508266590410802,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 3.113266511971719
+},
+{
+"case": "T047_A10",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 5.0032663215992565,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 3.6082663932493646
+},
+{
+"case": "T047_A11",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 5.5132663799891946,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 4.118266396057421
+},
+{
+"case": "T047_A12",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 6.008266167847189,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 4.6132664963627
+},
+{
+"case": "T047_A13",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 6.503266085174015,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 5.108266544896996
+},
+{
+"case": "T047_A14",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 7.013266406359061,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 5.618266367150726
+},
+{
+"case": "T047_A15",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 7.508266097941711,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 6.1132662679055105
+},
+{
+"case": "T047_A16",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 8.003265839400665,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 6.608266357485362
+},
+{
+"case": "T047_A17",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 8.513266259118502,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 7.11826608914072
+},
+{
+"case": "T047_A18",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 9.008266387796525,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 7.61326656401845
+},
+{
+"case": "T047_A19",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 9.503266157983447,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 8.108265912420329
+},
+{
+"case": "T047_A20",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 10.013266279876596,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 8.618266095795315
+},
+{
+"case": "T047_A21",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 10.508266124322702,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 9.113266092055095
+},
+{
+"case": "T047_A22",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 11.003266195637451,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 9.608265966368887
+},
+{
+"case": "T047_A23",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 11.513266364952438,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 10.1182663518602
+},
+{
+"case": "T047_A24",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 12.008266231964303,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 10.613266144980681
+},
+{
+"case": "T047_A25",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 12.503266059361758,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 11.108266108556334
+},
+{
+"case": "T047_A26",
+"test": "T047",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 13.013266465692206,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 11.618266261469833
+},
+{
+"case": "T048_S",
+"test": "T048",
+"kind": "START",
+"category": "corridor_N2",
+"path_len_m": 13.647545756228373,
+"start_heading_err_rad": -1.6366258558043791
+},
+{
+"case": "T048_A01",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 0.5040045611730586,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T048_A02",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 1.01400471741128,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T048_A03",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 1.509004481027955,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 0.1140047217784491
+},
+{
+"case": "T048_A04",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 2.0040044846863716,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 0.6090041910966215
+},
+{
+"case": "T048_A05",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 2.514004793313554,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 1.119004777209142
+},
+{
+"case": "T048_A06",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 3.009004457665846,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 1.6140047570453313
+},
+{
+"case": "T048_A07",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 3.504004646777101,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 2.1090046325102443
+},
+{
+"case": "T048_A08",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 4.01400437681716,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 2.6190044551581395
+},
+{
+"case": "T048_A09",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 4.509004639572993,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 3.1140047644851747
+},
+{
+"case": "T048_A10",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 5.004004675673357,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 3.6090044419925458
+},
+{
+"case": "T048_A11",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 5.514004518081585,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 4.119004721438221
+},
+{
+"case": "T048_A12",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 6.00900461552568,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 4.614004709646708
+},
+{
+"case": "T048_A13",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 6.504004528069082,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 5.109004439706039
+},
+{
+"case": "T048_A14",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 7.0140043866528945,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 5.619004659990349
+},
+{
+"case": "T048_A15",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 7.509004346536505,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 6.114004669058234
+},
+{
+"case": "T048_A16",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 8.004004795097721,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 6.6090046625600385
+},
+{
+"case": "T048_A17",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 8.514004729827674,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 7.119004419789338
+},
+{
+"case": "T048_A18",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 9.009004698971186,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 7.614004364499322
+},
+{
+"case": "T048_A19",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 9.504004795019544,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 8.109004542366849
+},
+{
+"case": "T048_A20",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 10.014004682340659,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 8.619004667491579
+},
+{
+"case": "T048_A21",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 10.509004785389546,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 9.1140047459944
+},
+{
+"case": "T048_A22",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 11.004004567105277,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 9.609004478909032
+},
+{
+"case": "T048_A23",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 11.514004505017382,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 10.119004417106925
+},
+{
+"case": "T048_A24",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 12.009004364026115,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 10.614004343888492
+},
+{
+"case": "T048_A25",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 12.504004759870528,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 11.109004492384866
+},
+{
+"case": "T048_A26",
+"test": "T048",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 13.014004316690276,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 11.619004539028374
+},
+{
+"case": "T049_S",
+"test": "T049",
+"kind": "START",
+"category": "corridor_N2",
+"path_len_m": 13.688266308929515,
+"start_heading_err_rad": 1.7561636930627693
+},
+{
+"case": "T049_A01",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 0.5032669852123619,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T049_A02",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 1.0132662310588063,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T049_A03",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 1.508266600901917,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 0.11326632708813264
+},
+{
+"case": "T049_A04",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 2.0032664089726215,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 0.6082663447520493
+},
+{
+"case": "T049_A05",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 2.513266417187069,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 1.1182662459366808
+},
+{
+"case": "T049_A06",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 3.008266724447713,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 1.613266454199867
+},
+{
+"case": "T049_A07",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 3.5032664183050732,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 2.1082667606374192
+},
+{
+"case": "T049_A08",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 4.013266495479792,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 2.6182667231337535
+},
+{
+"case": "T049_A09",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 4.508266590410802,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 3.113266511971719
+},
+{
+"case": "T049_A10",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 5.0032663215992565,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 3.6082663932493646
+},
+{
+"case": "T049_A11",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 5.5132663799891946,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 4.118266396057421
+},
+{
+"case": "T049_A12",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 6.008266167847189,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 4.6132664963627
+},
+{
+"case": "T049_A13",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 6.503266085174015,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 5.108266544896996
+},
+{
+"case": "T049_A14",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 7.013266406359061,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 5.618266367150726
+},
+{
+"case": "T049_A15",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 7.508266097941711,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 6.1132662679055105
+},
+{
+"case": "T049_A16",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 8.003265839400665,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 6.608266357485362
+},
+{
+"case": "T049_A17",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 8.513266259118502,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 7.11826608914072
+},
+{
+"case": "T049_A18",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 9.008266387796525,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 7.61326656401845
+},
+{
+"case": "T049_A19",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 9.503266157983447,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 8.108265912420329
+},
+{
+"case": "T049_A20",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 10.013266279876596,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 8.618266095795315
+},
+{
+"case": "T049_A21",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 10.508266124322702,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 9.113266092055095
+},
+{
+"case": "T049_A22",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 11.003266195637451,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 9.608265966368887
+},
+{
+"case": "T049_A23",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 11.513266364952438,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 10.1182663518602
+},
+{
+"case": "T049_A24",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 12.008266231964303,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 10.613266144980681
+},
+{
+"case": "T049_A25",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 12.503266059361758,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 11.108266108556334
+},
+{
+"case": "T049_A26",
+"test": "T049",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 13.013266465692206,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 11.618266261469833
+},
+{
+"case": "T050_S",
+"test": "T050",
+"kind": "START",
+"category": "corridor_N2",
+"path_len_m": 13.647545756228373,
+"start_heading_err_rad": 3.075759451375207
+},
+{
+"case": "T050_A01",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 0.5040045611730586,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T050_A02",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 1.01400471741128,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T050_A03",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 1.509004481027955,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 0.1140047217784491
+},
+{
+"case": "T050_A04",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 2.0040044846863716,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 0.6090041910966215
+},
+{
+"case": "T050_A05",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 2.514004793313554,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 1.119004777209142
+},
+{
+"case": "T050_A06",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 3.009004457665846,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 1.6140047570453313
+},
+{
+"case": "T050_A07",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 3.504004646777101,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 2.1090046325102443
+},
+{
+"case": "T050_A08",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 4.01400437681716,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 2.6190044551581395
+},
+{
+"case": "T050_A09",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 4.509004639572993,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 3.1140047644851747
+},
+{
+"case": "T050_A10",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 5.004004675673357,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 3.6090044419925458
+},
+{
+"case": "T050_A11",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 5.514004518081585,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 4.119004721438221
+},
+{
+"case": "T050_A12",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 6.00900461552568,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 4.614004709646708
+},
+{
+"case": "T050_A13",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 6.504004528069082,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 5.109004439706039
+},
+{
+"case": "T050_A14",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 7.0140043866528945,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 5.619004659990349
+},
+{
+"case": "T050_A15",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 7.509004346536505,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 6.114004669058234
+},
+{
+"case": "T050_A16",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 8.004004795097721,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 6.6090046625600385
+},
+{
+"case": "T050_A17",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 8.514004729827674,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 7.119004419789338
+},
+{
+"case": "T050_A18",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 9.009004698971186,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 7.614004364499322
+},
+{
+"case": "T050_A19",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 9.504004795019544,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 8.109004542366849
+},
+{
+"case": "T050_A20",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 10.014004682340659,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 8.619004667491579
+},
+{
+"case": "T050_A21",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 10.509004785389546,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 9.1140047459944
+},
+{
+"case": "T050_A22",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 11.004004567105277,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 9.609004478909032
+},
+{
+"case": "T050_A23",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 11.514004505017382,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 10.119004417106925
+},
+{
+"case": "T050_A24",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 12.009004364026115,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 10.614004343888492
+},
+{
+"case": "T050_A25",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 12.504004759870528,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 11.109004492384866
+},
+{
+"case": "T050_A26",
+"test": "T050",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 13.014004316690276,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 11.619004539028374
+},
+{
+"case": "T051_S",
+"test": "T051",
+"kind": "START",
+"category": "corridor_N2",
+"path_len_m": 13.688266308929515,
+"start_heading_err_rad": 0.9707636930627693
+},
+{
+"case": "T051_A01",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 0.5032669852123619,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T051_A02",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 1.0132662310588063,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T051_A03",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 1.508266600901917,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 0.11326632708813264
+},
+{
+"case": "T051_A04",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 2.0032664089726215,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 0.6082663447520493
+},
+{
+"case": "T051_A05",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 2.513266417187069,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 1.1182662459366808
+},
+{
+"case": "T051_A06",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 3.008266724447713,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 1.613266454199867
+},
+{
+"case": "T051_A07",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 3.5032664183050732,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 2.1082667606374192
+},
+{
+"case": "T051_A08",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 4.013266495479792,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 2.6182667231337535
+},
+{
+"case": "T051_A09",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 4.508266590410802,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 3.113266511971719
+},
+{
+"case": "T051_A10",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 5.0032663215992565,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 3.6082663932493646
+},
+{
+"case": "T051_A11",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 5.5132663799891946,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 4.118266396057421
+},
+{
+"case": "T051_A12",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 6.008266167847189,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 4.6132664963627
+},
+{
+"case": "T051_A13",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 6.503266085174015,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 5.108266544896996
+},
+{
+"case": "T051_A14",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 7.013266406359061,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 5.618266367150726
+},
+{
+"case": "T051_A15",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 7.508266097941711,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 6.1132662679055105
+},
+{
+"case": "T051_A16",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 8.003265839400665,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 6.608266357485362
+},
+{
+"case": "T051_A17",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 8.513266259118502,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 7.11826608914072
+},
+{
+"case": "T051_A18",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 9.008266387796525,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 7.61326656401845
+},
+{
+"case": "T051_A19",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 9.503266157983447,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 8.108265912420329
+},
+{
+"case": "T051_A20",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 10.013266279876596,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 8.618266095795315
+},
+{
+"case": "T051_A21",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 10.508266124322702,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 9.113266092055095
+},
+{
+"case": "T051_A22",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 11.003266195637451,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 9.608265966368887
+},
+{
+"case": "T051_A23",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 11.513266364952438,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 10.1182663518602
+},
+{
+"case": "T051_A24",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 12.008266231964303,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 10.613266144980681
+},
+{
+"case": "T051_A25",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 12.503266059361758,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 11.108266108556334
+},
+{
+"case": "T051_A26",
+"test": "T051",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 13.013266465692206,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 11.618266261469833
+},
+{
+"case": "T052_S",
+"test": "T052",
+"kind": "START",
+"category": "corridor_N2",
+"path_len_m": 13.647545756228373,
+"start_heading_err_rad": -1.6366258558043791
+},
+{
+"case": "T052_A01",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 0.5040045611730586,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T052_A02",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 1.01400471741128,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T052_A03",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 1.509004481027955,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 0.1140047217784491
+},
+{
+"case": "T052_A04",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 2.0040044846863716,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 0.6090041910966215
+},
+{
+"case": "T052_A05",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 2.514004793313554,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 1.119004777209142
+},
+{
+"case": "T052_A06",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 3.009004457665846,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 1.6140047570453313
+},
+{
+"case": "T052_A07",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 3.504004646777101,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 2.1090046325102443
+},
+{
+"case": "T052_A08",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 4.01400437681716,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 2.6190044551581395
+},
+{
+"case": "T052_A09",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 4.509004639572993,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 3.1140047644851747
+},
+{
+"case": "T052_A10",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 5.004004675673357,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 3.6090044419925458
+},
+{
+"case": "T052_A11",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 5.514004518081585,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 4.119004721438221
+},
+{
+"case": "T052_A12",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 6.00900461552568,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 4.614004709646708
+},
+{
+"case": "T052_A13",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 6.504004528069082,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 5.109004439706039
+},
+{
+"case": "T052_A14",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 7.0140043866528945,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 5.619004659990349
+},
+{
+"case": "T052_A15",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 7.509004346536505,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 6.114004669058234
+},
+{
+"case": "T052_A16",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 8.004004795097721,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 6.6090046625600385
+},
+{
+"case": "T052_A17",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 8.514004729827674,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 7.119004419789338
+},
+{
+"case": "T052_A18",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 9.009004698971186,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 7.614004364499322
+},
+{
+"case": "T052_A19",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 9.504004795019544,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 8.109004542366849
+},
+{
+"case": "T052_A20",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 10.014004682340659,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 8.619004667491579
+},
+{
+"case": "T052_A21",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 10.509004785389546,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 9.1140047459944
+},
+{
+"case": "T052_A22",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 11.004004567105277,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 9.609004478909032
+},
+{
+"case": "T052_A23",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 11.514004505017382,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 10.119004417106925
+},
+{
+"case": "T052_A24",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 12.009004364026115,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 10.614004343888492
+},
+{
+"case": "T052_A25",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 12.504004759870528,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 11.109004492384866
+},
+{
+"case": "T052_A26",
+"test": "T052",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 13.014004316690276,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 11.619004539028374
+},
+{
+"case": "T053_S",
+"test": "T053",
+"kind": "START",
+"category": "corridor_N2",
+"path_len_m": 13.688266308929515,
+"start_heading_err_rad": -2.170821614116817
+},
+{
+"case": "T053_A01",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 0.5032669852123619,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T053_A02",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 1.0132662310588063,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T053_A03",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 1.508266600901917,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 0.11326632708813264
+},
+{
+"case": "T053_A04",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 2.0032664089726215,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 0.6082663447520493
+},
+{
+"case": "T053_A05",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 2.513266417187069,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 1.1182662459366808
+},
+{
+"case": "T053_A06",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 3.008266724447713,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 1.613266454199867
+},
+{
+"case": "T053_A07",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 3.5032664183050732,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 2.1082667606374192
+},
+{
+"case": "T053_A08",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 4.013266495479792,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 2.6182667231337535
+},
+{
+"case": "T053_A09",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 4.508266590410802,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 3.113266511971719
+},
+{
+"case": "T053_A10",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 5.0032663215992565,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 3.6082663932493646
+},
+{
+"case": "T053_A11",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 5.5132663799891946,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 4.118266396057421
+},
+{
+"case": "T053_A12",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 6.008266167847189,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 4.6132664963627
+},
+{
+"case": "T053_A13",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 6.503266085174015,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 5.108266544896996
+},
+{
+"case": "T053_A14",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 7.013266406359061,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 5.618266367150726
+},
+{
+"case": "T053_A15",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 7.508266097941711,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 6.1132662679055105
+},
+{
+"case": "T053_A16",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 8.003265839400665,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 6.608266357485362
+},
+{
+"case": "T053_A17",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 8.513266259118502,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 7.11826608914072
+},
+{
+"case": "T053_A18",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 9.008266387796525,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 7.61326656401845
+},
+{
+"case": "T053_A19",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 9.503266157983447,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 8.108265912420329
+},
+{
+"case": "T053_A20",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 10.013266279876596,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 8.618266095795315
+},
+{
+"case": "T053_A21",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 10.508266124322702,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 9.113266092055095
+},
+{
+"case": "T053_A22",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 11.003266195637451,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 9.608265966368887
+},
+{
+"case": "T053_A23",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 11.513266364952438,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 10.1182663518602
+},
+{
+"case": "T053_A24",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 12.008266231964303,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 10.613266144980681
+},
+{
+"case": "T053_A25",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 12.503266059361758,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 11.108266108556334
+},
+{
+"case": "T053_A26",
+"test": "T053",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 13.013266465692206,
+"path_len_m": 13.688266308929515,
+"path_trim_from_s": 11.618266261469833
+},
+{
+"case": "T054_S",
+"test": "T054",
+"kind": "START",
+"category": "corridor_N2",
+"path_len_m": 13.647545756228373,
+"start_heading_err_rad": 1.5049594513752074
+},
+{
+"case": "T054_A01",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 0.5040045611730586,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T054_A02",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 1.01400471741128,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T054_A03",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 1.509004481027955,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 0.1140047217784491
+},
+{
+"case": "T054_A04",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 2.0040044846863716,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 0.6090041910966215
+},
+{
+"case": "T054_A05",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 2.514004793313554,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 1.119004777209142
+},
+{
+"case": "T054_A06",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 3.009004457665846,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 1.6140047570453313
+},
+{
+"case": "T054_A07",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 3.504004646777101,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 2.1090046325102443
+},
+{
+"case": "T054_A08",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 4.01400437681716,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 2.6190044551581395
+},
+{
+"case": "T054_A09",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 4.509004639572993,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 3.1140047644851747
+},
+{
+"case": "T054_A10",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 5.004004675673357,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 3.6090044419925458
+},
+{
+"case": "T054_A11",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 5.514004518081585,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 4.119004721438221
+},
+{
+"case": "T054_A12",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 6.00900461552568,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 4.614004709646708
+},
+{
+"case": "T054_A13",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 6.504004528069082,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 5.109004439706039
+},
+{
+"case": "T054_A14",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 7.0140043866528945,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 5.619004659990349
+},
+{
+"case": "T054_A15",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 7.509004346536505,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 6.114004669058234
+},
+{
+"case": "T054_A16",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 8.004004795097721,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 6.6090046625600385
+},
+{
+"case": "T054_A17",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 8.514004729827674,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 7.119004419789338
+},
+{
+"case": "T054_A18",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 9.009004698971186,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 7.614004364499322
+},
+{
+"case": "T054_A19",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 9.504004795019544,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 8.109004542366849
+},
+{
+"case": "T054_A20",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 10.014004682340659,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 8.619004667491579
+},
+{
+"case": "T054_A21",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 10.509004785389546,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 9.1140047459944
+},
+{
+"case": "T054_A22",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 11.004004567105277,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 9.609004478909032
+},
+{
+"case": "T054_A23",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 11.514004505017382,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 10.119004417106925
+},
+{
+"case": "T054_A24",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 12.009004364026115,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 10.614004343888492
+},
+{
+"case": "T054_A25",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 12.504004759870528,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 11.109004492384866
+},
+{
+"case": "T054_A26",
+"test": "T054",
+"kind": "ALONG",
+"category": "corridor_N2",
+"s_m": 13.014004316690276,
+"path_len_m": 13.647545756228373,
+"path_trim_from_s": 11.619004539028374
+},
+{
+"case": "T055_S",
+"test": "T055",
+"kind": "START",
+"category": "random",
+"path_len_m": 1.2599885117167309,
+"start_heading_err_rad": 3.0234114094543965
+},
+{
+"case": "T055_A01",
+"test": "T055",
+"kind": "ALONG",
+"category": "random",
+"s_m": 0.5091229242557924,
+"path_len_m": 1.2599885117167309,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T056_S",
+"test": "T056",
+"kind": "START",
+"category": "random",
+"path_len_m": 12.587560538836298,
+"start_heading_err_rad": 0.12639910105571106
+},
+{
+"case": "T056_A01",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 0.5002685555921533,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T056_A02",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 1.0102685330893992,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T056_A03",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 1.5052684950839181,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 0.11026864757522002
+},
+{
+"case": "T056_A04",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 2.0002684336639636,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 0.6052685863605717
+},
+{
+"case": "T056_A05",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 2.5102682842650603,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 1.1152686762213246
+},
+{
+"case": "T056_A06",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 3.005268110442275,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 1.6102681769433311
+},
+{
+"case": "T056_A07",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 3.50026832170339,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 2.1052682317828073
+},
+{
+"case": "T056_A08",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 4.0102682286055735,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 2.615268359029392
+},
+{
+"case": "T056_A09",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 4.505268105971899,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 3.1102680566779717
+},
+{
+"case": "T056_A10",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 5.000268115480338,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 3.605267936124809
+},
+{
+"case": "T056_A11",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 5.510268004389314,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 4.115267972163
+},
+{
+"case": "T056_A12",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 6.005268113940927,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 4.610268354829911
+},
+{
+"case": "T056_A13",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 6.500268164649091,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 5.105268114330209
+},
+{
+"case": "T056_A14",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 7.010268196168609,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 5.615268121703457
+},
+{
+"case": "T056_A15",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 7.505267965322379,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 6.110268268567876
+},
+{
+"case": "T056_A16",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 8.000267855577432,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 6.605268162055583
+},
+{
+"case": "T056_A17",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 8.510268252574987,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 7.11526812091603
+},
+{
+"case": "T056_A18",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 9.00526810105771,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 7.610267895403872
+},
+{
+"case": "T056_A19",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 9.500268150202386,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 8.10526787738435
+},
+{
+"case": "T056_A20",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 10.010268146375028,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 8.61526800553409
+},
+{
+"case": "T056_A21",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 10.505268100978721,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 9.110268295431126
+},
+{
+"case": "T056_A22",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 11.00026790133349,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 9.605268161523972
+},
+{
+"case": "T056_A23",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 11.510268071784342,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 10.115267973944494
+},
+{
+"case": "T056_A24",
+"test": "T056",
+"kind": "ALONG",
+"category": "random",
+"s_m": 12.005267972198123,
+"path_len_m": 12.587560538836298,
+"path_trim_from_s": 10.610268003776813
+},
+{
+"case": "T057_S",
+"test": "T057",
+"kind": "START",
+"category": "random",
+"path_len_m": 7.453309695700482,
+"start_heading_err_rad": -1.3365811063257347
+},
+{
+"case": "T057_A01",
+"test": "T057",
+"kind": "ALONG",
+"category": "random",
+"s_m": 0.5002529428375198,
+"path_len_m": 7.453309695700482,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T057_A02",
+"test": "T057",
+"kind": "ALONG",
+"category": "random",
+"s_m": 1.0102530652102515,
+"path_len_m": 7.453309695700482,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T057_A03",
+"test": "T057",
+"kind": "ALONG",
+"category": "random",
+"s_m": 1.5052529539687547,
+"path_len_m": 7.453309695700482,
+"path_trim_from_s": 0.11025289733714363
+},
+{
+"case": "T057_A04",
+"test": "T057",
+"kind": "ALONG",
+"category": "random",
+"s_m": 2.0002531067539726,
+"path_len_m": 7.453309695700482,
+"path_trim_from_s": 0.6052528803415971
+},
+{
+"case": "T057_A05",
+"test": "T057",
+"kind": "ALONG",
+"category": "random",
+"s_m": 2.5102529921646357,
+"path_len_m": 7.453309695700482,
+"path_trim_from_s": 1.1152529445017665
+},
+{
+"case": "T057_A06",
+"test": "T057",
+"kind": "ALONG",
+"category": "random",
+"s_m": 3.00525304707265,
+"path_len_m": 7.453309695700482,
+"path_trim_from_s": 1.6102532511920569
+},
+{
+"case": "T057_A07",
+"test": "T057",
+"kind": "ALONG",
+"category": "random",
+"s_m": 3.5002530360487,
+"path_len_m": 7.453309695700482,
+"path_trim_from_s": 2.1052531815161504
+},
+{
+"case": "T057_A08",
+"test": "T057",
+"kind": "ALONG",
+"category": "random",
+"s_m": 4.010253149804037,
+"path_len_m": 7.453309695700482,
+"path_trim_from_s": 2.615253052152432
+},
+{
+"case": "T057_A09",
+"test": "T057",
+"kind": "ALONG",
+"category": "random",
+"s_m": 4.505253306257635,
+"path_len_m": 7.453309695700482,
+"path_trim_from_s": 3.110253044743179
+},
+{
+"case": "T057_A10",
+"test": "T057",
+"kind": "ALONG",
+"category": "random",
+"s_m": 5.00025307135872,
+"path_len_m": 7.453309695700482,
+"path_trim_from_s": 3.605253033958463
+},
+{
+"case": "T057_A11",
+"test": "T057",
+"kind": "ALONG",
+"category": "random",
+"s_m": 5.510253048647409,
+"path_len_m": 7.453309695700482,
+"path_trim_from_s": 4.11525326474119
+},
+{
+"case": "T057_A12",
+"test": "T057",
+"kind": "ALONG",
+"category": "random",
+"s_m": 6.005252908893962,
+"path_len_m": 7.453309695700482,
+"path_trim_from_s": 4.6102529599221
+},
+{
+"case": "T057_A13",
+"test": "T057",
+"kind": "ALONG",
+"category": "random",
+"s_m": 6.500253062988857,
+"path_len_m": 7.453309695700482,
+"path_trim_from_s": 5.1052532818959415
+},
+{
+"case": "T057_A14",
+"test": "T057",
+"kind": "ALONG",
+"category": "random",
+"s_m": 7.010253004596601,
+"path_len_m": 7.453309695700482,
+"path_trim_from_s": 5.6152531371577155
+},
+{
+"case": "T058_S",
+"test": "T058",
+"kind": "START",
+"category": "random",
+"path_len_m": 10.862681949334256,
+"start_heading_err_rad": -0.5992990481905752
+},
+{
+"case": "T058_A01",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 0.5023863174817547,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T058_A02",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 1.0123864473782973,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T058_A03",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 1.5073861998429967,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 0.11238623311468289
+},
+{
+"case": "T058_A04",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 2.0023862523253633,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 0.6073863430272949
+},
+{
+"case": "T058_A05",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 2.512386495243125,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 1.1173861038665016
+},
+{
+"case": "T058_A06",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 3.007386242522942,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 1.612386228385645
+},
+{
+"case": "T058_A07",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 3.5023863863020743,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 2.10738644193046
+},
+{
+"case": "T058_A08",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 4.0123860911565865,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 2.6173863028077995
+},
+{
+"case": "T058_A09",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 4.507386222701509,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 3.112386108813046
+},
+{
+"case": "T058_A10",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 5.0023860441450845,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 3.6073862857253194
+},
+{
+"case": "T058_A11",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 5.512386134608899,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 4.117386154706438
+},
+{
+"case": "T058_A12",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 6.007386159016482,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 4.6123860390160285
+},
+{
+"case": "T058_A13",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 6.502386135338911,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 5.107386192581416
+},
+{
+"case": "T058_A14",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 7.012386180144051,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 5.617386145336961
+},
+{
+"case": "T058_A15",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 7.507386086875144,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 6.112385965068918
+},
+{
+"case": "T058_A16",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 8.00238630218564,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 6.607386039017494
+},
+{
+"case": "T058_A17",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 8.512386129898793,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 7.117386356104159
+},
+{
+"case": "T058_A18",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 9.007386309572617,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 7.612386350277906
+},
+{
+"case": "T058_A19",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 9.502386169498317,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 8.107386317803916
+},
+{
+"case": "T058_A20",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 10.012386107245888,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 8.617386095657846
+},
+{
+"case": "T058_A21",
+"test": "T058",
+"kind": "ALONG",
+"category": "random",
+"s_m": 10.507385855327897,
+"path_len_m": 10.862681949334256,
+"path_trim_from_s": 9.11238647731943
+},
+{
+"case": "T059_S",
+"test": "T059",
+"kind": "START",
+"category": "random",
+"path_len_m": 7.468313627269808,
+"start_heading_err_rad": 0.24600392395815196
+},
+{
+"case": "T059_A01",
+"test": "T059",
+"kind": "ALONG",
+"category": "random",
+"s_m": 0.5008871020229818,
+"path_len_m": 7.468313627269808,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T059_A02",
+"test": "T059",
+"kind": "ALONG",
+"category": "random",
+"s_m": 1.0108871238160686,
+"path_len_m": 7.468313627269808,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T059_A03",
+"test": "T059",
+"kind": "ALONG",
+"category": "random",
+"s_m": 1.5058872700202128,
+"path_len_m": 7.468313627269808,
+"path_trim_from_s": 0.11088712793896122
+},
+{
+"case": "T059_A04",
+"test": "T059",
+"kind": "ALONG",
+"category": "random",
+"s_m": 2.0008868913730233,
+"path_len_m": 7.468313627269808,
+"path_trim_from_s": 0.6058871368500099
+},
+{
+"case": "T059_A05",
+"test": "T059",
+"kind": "ALONG",
+"category": "random",
+"s_m": 2.5108870030696506,
+"path_len_m": 7.468313627269808,
+"path_trim_from_s": 1.115887049178982
+},
+{
+"case": "T059_A06",
+"test": "T059",
+"kind": "ALONG",
+"category": "random",
+"s_m": 3.0058869852247323,
+"path_len_m": 7.468313627269808,
+"path_trim_from_s": 1.6108870341411865
+},
+{
+"case": "T059_A07",
+"test": "T059",
+"kind": "ALONG",
+"category": "random",
+"s_m": 3.5008871214414405,
+"path_len_m": 7.468313627269808,
+"path_trim_from_s": 2.1058869406983316
+},
+{
+"case": "T059_A08",
+"test": "T059",
+"kind": "ALONG",
+"category": "random",
+"s_m": 4.010886821777603,
+"path_len_m": 7.468313627269808,
+"path_trim_from_s": 2.615887070230357
+},
+{
+"case": "T059_A09",
+"test": "T059",
+"kind": "ALONG",
+"category": "random",
+"s_m": 4.505886905573038,
+"path_len_m": 7.468313627269808,
+"path_trim_from_s": 3.1108869092688507
+},
+{
+"case": "T059_A10",
+"test": "T059",
+"kind": "ALONG",
+"category": "random",
+"s_m": 5.000887105268711,
+"path_len_m": 7.468313627269808,
+"path_trim_from_s": 3.6058871024583787
+},
+{
+"case": "T059_A11",
+"test": "T059",
+"kind": "ALONG",
+"category": "random",
+"s_m": 5.510887129513566,
+"path_len_m": 7.468313627269808,
+"path_trim_from_s": 4.115887020487555
+},
+{
+"case": "T059_A12",
+"test": "T059",
+"kind": "ALONG",
+"category": "random",
+"s_m": 6.005886731568783,
+"path_len_m": 7.468313627269808,
+"path_trim_from_s": 4.610886938258878
+},
+{
+"case": "T059_A13",
+"test": "T059",
+"kind": "ALONG",
+"category": "random",
+"s_m": 6.500887511408438,
+"path_len_m": 7.468313627269808,
+"path_trim_from_s": 5.1058869786118555
+},
+{
+"case": "T059_A14",
+"test": "T059",
+"kind": "ALONG",
+"category": "random",
+"s_m": 7.010887495557561,
+"path_len_m": 7.468313627269808,
+"path_trim_from_s": 5.615887369017984
+},
+{
+"case": "T060_S",
+"test": "T060",
+"kind": "START",
+"category": "random",
+"path_len_m": 6.0488168203175805,
+"start_heading_err_rad": -2.020337736057439
+},
+{
+"case": "T060_A01",
+"test": "T060",
+"kind": "ALONG",
+"category": "random",
+"s_m": 0.5003914112904593,
+"path_len_m": 6.0488168203175805,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T060_A02",
+"test": "T060",
+"kind": "ALONG",
+"category": "random",
+"s_m": 1.0103913898137225,
+"path_len_m": 6.0488168203175805,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T060_A03",
+"test": "T060",
+"kind": "ALONG",
+"category": "random",
+"s_m": 1.5053914694041342,
+"path_len_m": 6.0488168203175805,
+"path_trim_from_s": 0.11039135428919206
+},
+{
+"case": "T060_A04",
+"test": "T060",
+"kind": "ALONG",
+"category": "random",
+"s_m": 2.0003911352102444,
+"path_len_m": 6.0488168203175805,
+"path_trim_from_s": 0.6053912821770709
+},
+{
+"case": "T060_A05",
+"test": "T060",
+"kind": "ALONG",
+"category": "random",
+"s_m": 2.510391614107584,
+"path_len_m": 6.0488168203175805,
+"path_trim_from_s": 1.1153914454029459
+},
+{
+"case": "T060_A06",
+"test": "T060",
+"kind": "ALONG",
+"category": "random",
+"s_m": 3.005391349588293,
+"path_len_m": 6.0488168203175805,
+"path_trim_from_s": 1.6103918059459124
+},
+{
+"case": "T060_A07",
+"test": "T060",
+"kind": "ALONG",
+"category": "random",
+"s_m": 3.500391424154356,
+"path_len_m": 6.0488168203175805,
+"path_trim_from_s": 2.105391788570797
+},
+{
+"case": "T060_A08",
+"test": "T060",
+"kind": "ALONG",
+"category": "random",
+"s_m": 4.010391369794033,
+"path_len_m": 6.0488168203175805,
+"path_trim_from_s": 2.615391316118765
+},
+{
+"case": "T060_A09",
+"test": "T060",
+"kind": "ALONG",
+"category": "random",
+"s_m": 4.505391638685445,
+"path_len_m": 6.0488168203175805,
+"path_trim_from_s": 3.1103914397759707
+},
+{
+"case": "T060_A10",
+"test": "T060",
+"kind": "ALONG",
+"category": "random",
+"s_m": 5.000391441039369,
+"path_len_m": 6.0488168203175805,
+"path_trim_from_s": 3.605391391874785
+},
+{
+"case": "T060_A11",
+"test": "T060",
+"kind": "ALONG",
+"category": "random",
+"s_m": 5.510391244612965,
+"path_len_m": 6.0488168203175805,
+"path_trim_from_s": 4.115391526147427
+},
+{
+"case": "T061_S",
+"test": "T061",
+"kind": "START",
+"category": "random",
+"path_len_m": 3.6562917852530927,
+"start_heading_err_rad": -2.019918686850937
+},
+{
+"case": "T061_A01",
+"test": "T061",
+"kind": "ALONG",
+"category": "random",
+"s_m": 0.5142676948531,
+"path_len_m": 3.6562917852530927,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T061_A02",
+"test": "T061",
+"kind": "ALONG",
+"category": "random",
+"s_m": 1.009267549502187,
+"path_len_m": 3.6562917852530927,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T061_A03",
+"test": "T061",
+"kind": "ALONG",
+"category": "random",
+"s_m": 1.5042674910673401,
+"path_len_m": 3.6562917852530927,
+"path_trim_from_s": 0.10926746347094202
+},
+{
+"case": "T061_A04",
+"test": "T061",
+"kind": "ALONG",
+"category": "random",
+"s_m": 2.014267424160325,
+"path_len_m": 3.6562917852530927,
+"path_trim_from_s": 0.6192674164748483
+},
+{
+"case": "T061_A05",
+"test": "T061",
+"kind": "ALONG",
+"category": "random",
+"s_m": 2.5092677455483097,
+"path_len_m": 3.6562917852530927,
+"path_trim_from_s": 1.1142673585391338
+},
+{
+"case": "T061_A06",
+"test": "T061",
+"kind": "ALONG",
+"category": "random",
+"s_m": 3.0042674420103443,
+"path_len_m": 3.6562917852530927,
+"path_trim_from_s": 1.609267433943182
+},
+{
+"case": "T062_S",
+"test": "T062",
+"kind": "START",
+"category": "random",
+"path_len_m": 4.689880632004088,
+"start_heading_err_rad": -2.5926347413176187
+},
+{
+"case": "T062_A01",
+"test": "T062",
+"kind": "ALONG",
+"category": "random",
+"s_m": 0.5047629033150771,
+"path_len_m": 4.689880632004088,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T062_A02",
+"test": "T062",
+"kind": "ALONG",
+"category": "random",
+"s_m": 1.0147630861371602,
+"path_len_m": 4.689880632004088,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T062_A03",
+"test": "T062",
+"kind": "ALONG",
+"category": "random",
+"s_m": 1.5097629149027834,
+"path_len_m": 4.689880632004088,
+"path_trim_from_s": 0.11476305335204771
+},
+{
+"case": "T062_A04",
+"test": "T062",
+"kind": "ALONG",
+"category": "random",
+"s_m": 2.0047630121419755,
+"path_len_m": 4.689880632004088,
+"path_trim_from_s": 0.6097631444927686
+},
+{
+"case": "T062_A05",
+"test": "T062",
+"kind": "ALONG",
+"category": "random",
+"s_m": 2.514762825934853,
+"path_len_m": 4.689880632004088,
+"path_trim_from_s": 1.1197628449814772
+},
+{
+"case": "T062_A06",
+"test": "T062",
+"kind": "ALONG",
+"category": "random",
+"s_m": 3.009762615091042,
+"path_len_m": 4.689880632004088,
+"path_trim_from_s": 1.6147627165524223
+},
+{
+"case": "T062_A07",
+"test": "T062",
+"kind": "ALONG",
+"category": "random",
+"s_m": 3.504762546321102,
+"path_len_m": 4.689880632004088,
+"path_trim_from_s": 2.109762686173262
+},
+{
+"case": "T062_A08",
+"test": "T062",
+"kind": "ALONG",
+"category": "random",
+"s_m": 4.0147622397276495,
+"path_len_m": 4.689880632004088,
+"path_trim_from_s": 2.619762934681617
+},
+{
+"case": "T063_S",
+"test": "T063",
+"kind": "START",
+"category": "random",
+"path_len_m": 5.559669706807376,
+"start_heading_err_rad": -1.1586610980023093
+},
+{
+"case": "T063_A01",
+"test": "T063",
+"kind": "ALONG",
+"category": "random",
+"s_m": 0.5054568905427204,
+"path_len_m": 5.559669706807376,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T063_A02",
+"test": "T063",
+"kind": "ALONG",
+"category": "random",
+"s_m": 1.0004569630436986,
+"path_len_m": 5.559669706807376,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T063_A03",
+"test": "T063",
+"kind": "ALONG",
+"category": "random",
+"s_m": 1.5104569669687213,
+"path_len_m": 5.559669706807376,
+"path_trim_from_s": 0.11545699449660149
+},
+{
+"case": "T063_A04",
+"test": "T063",
+"kind": "ALONG",
+"category": "random",
+"s_m": 2.005456905164668,
+"path_len_m": 5.559669706807376,
+"path_trim_from_s": 0.6104569213617307
+},
+{
+"case": "T063_A05",
+"test": "T063",
+"kind": "ALONG",
+"category": "random",
+"s_m": 2.500457136191326,
+"path_len_m": 5.559669706807376,
+"path_trim_from_s": 1.105456919737293
+},
+{
+"case": "T063_A06",
+"test": "T063",
+"kind": "ALONG",
+"category": "random",
+"s_m": 3.0104570917617677,
+"path_len_m": 5.559669706807376,
+"path_trim_from_s": 1.615456854889992
+},
+{
+"case": "T063_A07",
+"test": "T063",
+"kind": "ALONG",
+"category": "random",
+"s_m": 3.5054571305313824,
+"path_len_m": 5.559669706807376,
+"path_trim_from_s": 2.110457033197401
+},
+{
+"case": "T063_A08",
+"test": "T063",
+"kind": "ALONG",
+"category": "random",
+"s_m": 4.00045687559507,
+"path_len_m": 5.559669706807376,
+"path_trim_from_s": 2.6054568756271754
+},
+{
+"case": "T063_A09",
+"test": "T063",
+"kind": "ALONG",
+"category": "random",
+"s_m": 4.510456737353148,
+"path_len_m": 5.559669706807376,
+"path_trim_from_s": 3.115456854761078
+},
+{
+"case": "T063_A10",
+"test": "T063",
+"kind": "ALONG",
+"category": "random",
+"s_m": 5.005456800088188,
+"path_len_m": 5.559669706807376,
+"path_trim_from_s": 3.6104569688438874
+},
+{
+"case": "T064_S",
+"test": "T064",
+"kind": "START",
+"category": "random",
+"path_len_m": 9.969266945784836,
+"start_heading_err_rad": 0.9140137341728798
+},
+{
+"case": "T064_A01",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 0.5011841481595818,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T064_A02",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 1.0111834375084334,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 0.0
+},
+{
+"case": "T064_A03",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 1.5061833836283558,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 0.11118347841930425
+},
+{
+"case": "T064_A04",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 2.001183767744105,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 0.6061840693630264
+},
+{
+"case": "T064_A05",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 2.5111836165548747,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 1.1161839431016687
+},
+{
+"case": "T064_A06",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 3.0061838139601114,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 1.6111833236553368
+},
+{
+"case": "T064_A07",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 3.501183506021292,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 2.1061837529708334
+},
+{
+"case": "T064_A08",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 4.011183523760541,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 2.616183577324869
+},
+{
+"case": "T064_A09",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 4.506183617106977,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 3.111183480342396
+},
+{
+"case": "T064_A10",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 5.00118370162945,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 3.60618369513022
+},
+{
+"case": "T064_A11",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 5.511183558175239,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 4.116183581124171
+},
+{
+"case": "T064_A12",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 6.006183504786056,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 4.611183615826991
+},
+{
+"case": "T064_A13",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 6.501183312719881,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 5.106183635562098
+},
+{
+"case": "T064_A14",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 7.01118385379713,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 5.616183507612997
+},
+{
+"case": "T064_A15",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 7.506183753263221,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 6.111183712548053
+},
+{
+"case": "T064_A16",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 8.001183581406364,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 6.606183516978897
+},
+{
+"case": "T064_A17",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 8.511183508172977,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 7.116183606394834
+},
+{
+"case": "T064_A18",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 9.006183541985324,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 7.611183250218155
+},
+{
+"case": "T064_A19",
+"test": "T064",
+"kind": "ALONG",
+"category": "random",
+"s_m": 9.50118361816029,
+"path_len_m": 9.969266945784836,
+"path_trim_from_s": 8.106183504089946
+}
+]
+}

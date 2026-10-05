@@ -1,0 +1,75 @@
+{
+ "yaml": "/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_nominal/synth_nominal.yaml",
+ "critical": [],
+ "warnings": [],
+ "info": [
+  "la imagen tambi\u00e9n la usa /home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_nominal/synth_nominal.saver_raw.yaml (misma resoluci\u00f3n)"
+ ],
+ "yaml_fields": {
+  "image": "synth_nominal.pgm",
+  "mode": "trinary",
+  "resolution": 0.03,
+  "origin": [
+   -0.81,
+   -0.81,
+   0
+  ],
+  "negate": 0,
+  "occupied_thresh": 0.65,
+  "free_thresh": 0.1
+ },
+ "image_path": "/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_nominal/synth_nominal.pgm",
+ "image_format": {
+  "format": "P5",
+  "maxval": 255,
+  "trailing_bytes": 0
+ },
+ "size_px": [
+  387,
+  387
+ ],
+ "size_m": [
+  11.61,
+  11.61
+ ],
+ "extent_m": {
+  "x": [
+   -0.81,
+   10.8
+  ],
+  "y": [
+   -0.81,
+   10.8
+  ]
+ },
+ "pixel_hist": {
+  "0": 8676,
+  "205": 34878,
+  "254": 106215
+ },
+ "nav2_counts": {
+  "FREE": 106215,
+  "OCCUPIED": 8676,
+  "UNKNOWN": 34878,
+  "INTERMEDIATE": 0
+ },
+ "nav2_pct": {
+  "FREE": 70.919,
+  "OCCUPIED": 5.793,
+  "UNKNOWN": 23.288,
+  "INTERMEDIATE": 0.0
+ },
+ "level_classification": {
+  "0": "OCCUPIED",
+  "205": "UNKNOWN",
+  "254": "FREE"
+ },
+ "shared_image_yamls": [
+  {
+   "yaml": "/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_nominal/synth_nominal.saver_raw.yaml",
+   "resolution": 0.03,
+   "different_resolution": false
+  }
+ ],
+ "status": "PASS"
+}

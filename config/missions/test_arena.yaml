@@ -1,0 +1,19 @@
+arena: test_arena
+
+map:
+  name: test_map
+  frame: map
+
+
+start:
+  x: 0.0
+  y: 0.0
+  yaw_deg: 0.0
+
+
+stations:
+
+  WS01:
+    x: 0.0
+    y: 0.0
+    yaw_deg: 0.0

@@ -1,0 +1,4 @@
+python=/usr/bin/python3
+limo_sml_tools=/home/limopro/limo_sml_ws/install/limo_sml_tools
+limo_bringup=/home/limopro/limoatwork/install/limo_bringup
+limo_base=/home/limopro/limoatwork/install/limo_base

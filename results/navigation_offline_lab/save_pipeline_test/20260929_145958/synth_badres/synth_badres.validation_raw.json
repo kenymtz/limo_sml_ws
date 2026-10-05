@@ -1,0 +1,78 @@
+{
+ "yaml": "/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_badres/synth_badres.saver_raw.yaml",
+ "critical": [
+  "34878 p\u00edxeles 205 (UNKNOWN de map_saver) se cargan como FREE con free_thresh=0.25 (usar free_thresh <= 0.196; ver MAP_THRESHOLD_PROVENANCE.md)"
+ ],
+ "warnings": [],
+ "info": [
+  "nombre de imagen (synth_badres) distinto del yaml (synth_badres.saver_raw); sin hom\u00f3nima conflictiva",
+  "la imagen tambi\u00e9n la usa /home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_badres/synth_badres.yaml (misma resoluci\u00f3n)"
+ ],
+ "yaml_fields": {
+  "image": "synth_badres.pgm",
+  "mode": "trinary",
+  "resolution": 0.03,
+  "origin": [
+   -0.81,
+   -0.81,
+   0
+  ],
+  "negate": 0,
+  "occupied_thresh": 0.65,
+  "free_thresh": 0.25
+ },
+ "image_path": "/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_badres/synth_badres.pgm",
+ "image_format": {
+  "format": "P5",
+  "maxval": 255,
+  "trailing_bytes": 0
+ },
+ "size_px": [
+  387,
+  387
+ ],
+ "size_m": [
+  11.61,
+  11.61
+ ],
+ "extent_m": {
+  "x": [
+   -0.81,
+   10.8
+  ],
+  "y": [
+   -0.81,
+   10.8
+  ]
+ },
+ "pixel_hist": {
+  "0": 8676,
+  "205": 34878,
+  "254": 106215
+ },
+ "nav2_counts": {
+  "FREE": 141093,
+  "OCCUPIED": 8676,
+  "UNKNOWN": 0,
+  "INTERMEDIATE": 0
+ },
+ "nav2_pct": {
+  "FREE": 94.207,
+  "OCCUPIED": 5.793,
+  "UNKNOWN": 0.0,
+  "INTERMEDIATE": 0.0
+ },
+ "level_classification": {
+  "0": "OCCUPIED",
+  "205": "FREE",
+  "254": "FREE"
+ },
+ "shared_image_yamls": [
+  {
+   "yaml": "/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_badres/synth_badres.yaml",
+   "resolution": 0.03,
+   "different_resolution": false
+  }
+ ],
+ "status": "FAIL"
+}

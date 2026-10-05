@@ -1,0 +1,22 @@
+{
+ "yaml": "/home/limopro/limo_sml_ws/results/navigation_offline_lab/save_pipeline_test/20260929_145958/synth_badres/synth_badres.yaml",
+ "critical": [
+  "resoluci\u00f3n 0.03 != esperada 0.05"
+ ],
+ "warnings": [],
+ "info": [],
+ "yaml_fields": {
+  "image": "synth_badres.pgm",
+  "mode": "trinary",
+  "resolution": 0.03,
+  "origin": [
+   -0.81,
+   -0.81,
+   0
+  ],
+  "negate": 0,
+  "occupied_thresh": 0.65,
+  "free_thresh": 0.1
+ },
+ "status": "FAIL"
+}

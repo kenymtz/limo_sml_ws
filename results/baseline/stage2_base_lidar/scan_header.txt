@@ -1,0 +1,5 @@
+stamp:
+  sec: 1789495045
+  nanosec: 916581000
+frame_id: laser_frame
+---
